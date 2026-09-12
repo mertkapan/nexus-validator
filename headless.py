@@ -79,6 +79,7 @@ class HeadlessOrchestrator:
         # Metrics
         self.total_lines = 0
         self.checked_count = 0
+        self.max_processed_index = 0
         self.target_hit_count = 0
         self.hit_count = 0
         self.two_fa_count = 0
@@ -94,6 +95,7 @@ class HeadlessOrchestrator:
                 with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     self.skip_to_index = data.get("checked", 0)
+                    self.max_processed_index = self.skip_to_index
                     self.target_hit_count = data.get("target_hits", 0)
                     self.hit_count = data.get("hits", 0)
                     self.two_fa_count = data.get("two_fa", 0)
@@ -105,8 +107,9 @@ class HeadlessOrchestrator:
         """Persists progress atomically to checkpoint.json."""
         try:
             RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+            saved_index = max(self.max_processed_index, self.skip_to_index + self.checked_count)
             data = {
-                "checked": self.checked_count,
+                "checked": saved_index,
                 "total": self.total_lines,
                 "target_hits": self.target_hit_count,
                 "hits": self.hit_count,
@@ -350,7 +353,9 @@ class HeadlessOrchestrator:
                         relay = await self.relay_pool.get_next_relay()
 
                     if not relay:
-                        await asyncio.sleep(0.3)
+                        if self.auto_scrape and not getattr(self, "_is_scraping", False):
+                            asyncio.create_task(self._replenish_relays())
+                        await asyncio.sleep(0.5)
 
                     try:
                         session = await self.transport_pool.get_session(relay)
@@ -402,6 +407,9 @@ class HeadlessOrchestrator:
                     relay.mark_success(result.get("ping_ms", 100))
 
                 self.checked_count += 1
+                task_idx = task_data.get("index", 0)
+                if task_idx > self.max_processed_index:
+                    self.max_processed_index = task_idx
 
                 is_target, matched_targets = evaluate_target_account(result)
                 if is_target:

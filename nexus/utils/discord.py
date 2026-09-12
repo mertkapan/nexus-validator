@@ -213,10 +213,11 @@ class DiscordWebhookDispatcher:
                 "embeds": [embed]
             }
 
-            # Check if any matched game is from FIFA, FC, or PES franchise
+            # Check if any matched game or library game is from FIFA, FC, or PES franchise
             matched_targets = item.get("matched_targets", [])
+            all_games = item.get("games", [])
             is_football_target = False
-            for tg in matched_targets:
+            for tg in list(matched_targets) + list(all_games):
                 g_name = (tg.get("name") if isinstance(tg, dict) else str(tg)).lower()
                 if any(k in g_name for k in ("fifa", "fc 24", "fc 25", "fc 26", "ea sports fc", "pes", "pro evolution soccer", "efootball")):
                     is_football_target = True

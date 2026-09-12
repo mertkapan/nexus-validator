@@ -16,9 +16,9 @@ on:
         type: boolean
         required: false
         default: true
-#  schedule:
-#    # Optional scheduled execution to keep processing large 900k queues
-#    - cron: '*/30 * * * *'
+  schedule:
+    # Auto-kick watchdog every 6 hours to maintain 24/7 persistent execution
+    - cron: '0 */6 * * *'
 
 jobs:
   validate:
@@ -67,12 +67,31 @@ jobs:
           COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"
           THREADS="${{ github.event.inputs.threads || '50' }}"
           
-          echo "Starting NEXUS Cloud Runner with ${THREADS} threads on ${COMBO_FILE}..."
-          timeout 21000 python headless.py \
-            --combos "${COMBO_FILE}" \
-            --threads "${THREADS}" \
-            --auto-scrape \
-            ${RESUME_FLAG} || true
+          echo "Starting NEXUS Continuous Cloud Runner with auto-reboot on ${COMBO_FILE}..."
+          START_TIME=$(date +%s)
+          MAX_RUNTIME=20400  # Run for ~5.6 hours before letting workflow gracefully upload artifacts
+          
+          while true; do
+            NOW=$(date +%s)
+            ELAPSED=$((NOW - START_TIME))
+            if [ $ELAPSED -ge $MAX_RUNTIME ]; then
+              echo "Reaching maximum runner window. Gracefully exiting to commit artifacts..."
+              break
+            fi
+            
+            REMAINING=$((MAX_RUNTIME - ELAPSED))
+            echo "Spawning validator instance (Runtime remaining: ${REMAINING}s)..."
+            
+            timeout "${REMAINING}" python headless.py \
+              --combos "${COMBO_FILE}" \
+              --threads "${THREADS}" \
+              --auto-scrape \
+              --resume || true
+              
+            echo "Validator process cycle ended. Cooling down for 5 seconds and auto-restarting from checkpoint..."
+            sleep 5
+          done
+
 
       - name: Upload Results Artifacts
         if: always()

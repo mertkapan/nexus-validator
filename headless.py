@@ -453,41 +453,62 @@ def main():
     parser.add_argument("--no-scrape", dest="auto_scrape", action="store_false", help="Disable proxy auto-scraping")
     parser.add_argument("--resume", action="store_true", default=False, help="Resume from last checkpoint.json")
 
-    args = parser.parse_args()
+    parser.add_argument("--auto-restart", action="store_true", default=True, help="Automatically reboot process on unexpected crash/hang")
+    parser.add_argument("--no-auto-restart", dest="auto_restart", action="store_false", help="Disable auto-restart")
 
-    orchestrator = HeadlessOrchestrator(
-        combo_path=Path(args.combos),
-        proxy_path=Path(args.proxies),
-        concurrency=args.threads,
-        timeout=args.timeout,
-        max_retries=args.retries,
-        webhook_url=args.webhook,
-        auto_scrape=args.auto_scrape,
-        resume=args.resume
-    )
+    args = parser.parse_args()
 
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
 
+    orchestrator = None
+
     def _sig_handler():
+        nonlocal orchestrator
         print("\n\033[93m[SHUTDOWN] Terminating gracefully... Saving progress.\033[0m")
-        orchestrator._is_running = False
+        if orchestrator:
+            orchestrator._is_running = False
 
     for sig in (signal.SIGINT, signal.SIGTERM):
         try:
             loop.add_signal_handler(sig, _sig_handler)
         except (NotImplementedError, AttributeError):
-            # Windows signal handler fallback
             pass
 
+    crash_count = 0
+    while True:
+        orchestrator = HeadlessOrchestrator(
+            combo_path=Path(args.combos),
+            proxy_path=Path(args.proxies),
+            concurrency=args.threads,
+            timeout=args.timeout,
+            max_retries=args.retries,
+            webhook_url=args.webhook,
+            auto_scrape=args.auto_scrape,
+            resume=True if crash_count > 0 else args.resume
+        )
+
+        try:
+            loop.run_until_complete(orchestrator.run())
+            # If completed successfully (not killed by SIGINT), break loop
+            break
+        except KeyboardInterrupt:
+            _sig_handler()
+            loop.run_until_complete(asyncio.sleep(0.5))
+            break
+        except Exception as exc:
+            crash_count += 1
+            print(f"\n\033[91m[AUTO-RECOVERY] Orchestrator halted ({exc}). Re-spawning in 5 seconds (Reboot #{crash_count})...\033[0m")
+            if not args.auto_restart:
+                break
+            time.sleep(5)
+
     try:
-        loop.run_until_complete(orchestrator.run())
-    except KeyboardInterrupt:
-        _sig_handler()
-        loop.run_until_complete(asyncio.sleep(0.5))
-    finally:
         loop.close()
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":
     main()
+

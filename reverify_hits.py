@@ -91,8 +91,12 @@ class DeepRevalidator:
         self.relay_pool.append_relays(valid_relays)
         print(f"[RE-VERIFY] Relay pool active with {self.relay_pool.active_count} operational nodes.")
 
+        if self.dispatcher:
+            await self.dispatcher.start()
+
         queue = asyncio.Queue()
         for u, p in candidates:
+
             await queue.put((u, p, 0))
 
         confirmed_hits = []
@@ -186,6 +190,8 @@ class DeepRevalidator:
 
         tasks = [asyncio.create_task(worker(i)) for i in range(self.concurrency)]
         await asyncio.gather(*tasks, return_exceptions=True)
+        if self.dispatcher:
+            await self.dispatcher.stop()
         await self.transport_pool.close_all()
 
         print(f"\n\033[1;32m[RE-VERIFY COMPLETE] Confirmed {len(confirmed_hits)} genuine hits with verified games written to {self.output_file}\033[0m")

@@ -422,7 +422,10 @@ class HeadlessOrchestrator:
                         if self.dispatcher:
                             await self.dispatcher.dispatch_hit(result)
                     else:
-                        print(f"\n\033[1;34m[PAID HIT] {username} | Paid Games: {result.get('paid_games', 0)} (No Wishlist Target)\033[0m")
+                        print(f"\n\033[1;34m[PAID HIT] {username} | Paid Games: {result.get('paid_games', 0)} (Dispatched to Discord)\033[0m")
+                        if self.dispatcher and result.get("paid_games", 0) > 0:
+                            await self.dispatcher.dispatch_hit(result)
+
 
                 elif status == "2FA_HIT":
                     self.two_fa_count += 1

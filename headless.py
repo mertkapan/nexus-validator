@@ -1,11 +1,16 @@
 import sys
 import os
 
-if sys.platform == "win32":
-    if hasattr(sys.stdout, "reconfigure"):
+if hasattr(sys.stdout, "reconfigure"):
+    try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    if hasattr(sys.stderr, "reconfigure"):
+    except Exception:
+        pass
+if hasattr(sys.stderr, "reconfigure"):
+    try:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 import time
 import json
@@ -324,7 +329,7 @@ class HeadlessOrchestrator:
                         relay = await self.relay_pool.get_next_relay()
 
                     if not relay:
-                        await asyncio.sleep(0.8)
+                        await asyncio.sleep(0.3)
 
                     try:
                         session = await self.transport_pool.get_session(relay)
@@ -344,7 +349,7 @@ class HeadlessOrchestrator:
                     status = result.get("status", "ERROR")
                     if relay:
                         if status == "RATE_LIMIT":
-                            relay.mark_rate_limited(cooldown_seconds=180)
+                            relay.mark_rate_limited(cooldown_seconds=45)
                             continue
                         elif status in ("PROXY_ERROR", "TIMEOUT", "ERROR"):
                             relay.mark_failure(severe=False)

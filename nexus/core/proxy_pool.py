@@ -95,14 +95,14 @@ class NetworkRelay:
         # Recover health score with positive telemetry
         self.health_score = min(100, self.health_score + 15)
 
-    def mark_rate_limited(self, cooldown_seconds: int = 180):
+    def mark_rate_limited(self, cooldown_seconds: int = 45):
         """
         Places relay into temporary quarantine/cooldown without permanently killing it.
         Allows the IP address to rest and recover from Steam rate limits.
         """
         self.cooldown_until = time.time() + cooldown_seconds
         self.consecutive_fails += 1
-        self.health_score = max(20, self.health_score - 15)
+        self.health_score = max(20, self.health_score - 10)
         # Keep is_alive True so it returns to rotation once cooldown elapses
 
     def mark_failure(self, severe: bool = False):
@@ -126,7 +126,7 @@ class NetworkRelayPool:
         self._index: int = 0
         self._lock = asyncio.Lock()
         self.auto_replenish_enabled: bool = True
-        self.min_active_threshold: int = 15
+        self.min_active_threshold: int = 35
 
     def load_from_lines(self, lines: List[str], default_scheme: str = "http") -> int:
         self.relays.clear()

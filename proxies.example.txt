@@ -1,0 +1,5 @@
+# Example Relay / Proxy Endpoints (HTTP / SOCKS4 / SOCKS5)
+# Format: ip:port or ip:port:user:pass or scheme://user:pass@ip:port
+127.0.0.1:8080
+127.0.0.1:9050
+127.0.0.1:1080

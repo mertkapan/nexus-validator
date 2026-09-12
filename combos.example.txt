@@ -1,0 +1,5 @@
+test_user_alpha:AlphaPass123!
+test_user_beta:SecureBeta2026#
+sample_player_gamma:GammaKey987$
+demo_account_delta:DeltaTest321@
+synthetic_probe_echo:EchoSecret456%

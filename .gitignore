@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.spec
+.cache/
+cache/
+results/*.json
+results/checkpoint.json
+.vscode/
+.idea/
+*.log
+1_combined.txt
+steam checker.txt
+test_combos.txt
+*.tmp

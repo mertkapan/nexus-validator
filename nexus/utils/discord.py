@@ -212,9 +212,24 @@ class DiscordWebhookDispatcher:
                 "avatar_url": DEFAULT_STEAM_ICON,
                 "embeds": [embed]
             }
+
+            # Check if any matched game is from FIFA, FC, or PES franchise
+            matched_targets = item.get("matched_targets", [])
+            is_football_target = False
+            for tg in matched_targets:
+                g_name = (tg.get("name") if isinstance(tg, dict) else str(tg)).lower()
+                if any(k in g_name for k in ("fifa", "fc 24", "fc 25", "fc 26", "ea sports fc", "pes", "pro evolution soccer", "efootball")):
+                    is_football_target = True
+                    break
+
+            if is_football_target:
+                payload["content"] = "@everyone 🚨 **HIGH VALUE FOOTBALL TARGET HIT (FIFA / FC / PES)** 🚨"
+
             if self._queue:
                 await self._queue.put(payload)
+                print(f"[DISCORD DISPATCH] Enqueued hit: {item.get('username')} (Football Target: {is_football_target})")
         except Exception as e:
+            print(f"[DISCORD ERROR] Failed to enqueue Discord hit: {e}")
             logger.debug(f"Failed to enqueue Discord hit: {e}")
 
     async def _dispatch_loop(self):
@@ -240,6 +255,7 @@ class DiscordWebhookDispatcher:
                     ) as resp:
                         if resp.status in (200, 204):
                             success = True
+                            print(f"[DISCORD DISPATCH] Successfully delivered payload to webhook (HTTP {resp.status})")
                             # Pacing delay to prevent triggering Discord rate limits (max 30 req/min)
                             await asyncio.sleep(1.2)
                             break
@@ -250,14 +266,18 @@ class DiscordWebhookDispatcher:
                                 retry_after = float(rate_data.get("retry_after", 2.0))
                             except Exception:
                                 retry_after = 2.5
+                            print(f"[DISCORD RATE LIMIT] Backing off for {retry_after:.2f}s...")
                             logger.info(f"Discord rate limit triggered. Backing off for {retry_after:.2f}s...")
                             await asyncio.sleep(retry_after + 0.5)
                         else:
-                            logger.debug(f"Discord webhook error {resp.status}")
+                            resp_txt = await resp.text()
+                            print(f"[DISCORD HTTP ERROR] Status {resp.status}: {resp_txt}")
+                            logger.debug(f"Discord webhook error {resp.status}: {resp_txt}")
                             await asyncio.sleep(1.0)
                 except asyncio.CancelledError:
                     break
                 except Exception as net_err:
+                    print(f"[DISCORD NET ERROR] {net_err}")
                     logger.debug(f"Discord dispatch network failure: {net_err}")
                     await asyncio.sleep(2.0)
 

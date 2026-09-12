@@ -304,6 +304,23 @@ class HeadlessOrchestrator:
         print(f"\033[1;36m[OUTPUT] Summary Report  : {summary_path}\033[0m")
         print("\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m\n")
 
+        # AUTOMATED PASS 2: Re-verify all confirmed hits for real, owned games
+        hits_file_to_reverify = self.exporter.hits_file if self.exporter.hits_file.exists() else None
+        if hits_file_to_reverify and hits_file_to_reverify.stat().st_size > 0:
+            print("\033[1;33m[AUTO-PIPELINE] Launching Automated Pass 2: Deep Re-Verification & Library Extraction...\033[0m")
+            try:
+                from reverify_hits import DeepRevalidator
+                reverifier = DeepRevalidator(
+                    hits_file=hits_file_to_reverify,
+                    output_file=RESULTS_DIR / "REVERIFIED_CONFIRMED_HITS.txt",
+                    concurrency=min(20, self.concurrency),
+                    webhook_url=self.webhook_url
+                )
+                await reverifier.run()
+            except Exception as e:
+                print(f"[AUTO-PIPELINE] Pass 2 Re-verification notice: {e}")
+
+
     async def _worker(self, queue: asyncio.Queue, semaphore: asyncio.Semaphore):
         """Worker task executing individual account authentication handshakes with persistent connection pooling."""
         while self._is_running:

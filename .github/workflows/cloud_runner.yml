@@ -52,8 +52,11 @@ jobs:
 
       - name: Run NEXUS Headless Cloud Runner
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL || 'https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb' }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
+          fi
           RESUME_FLAG=""
           if [ "${{ github.event.inputs.resume }}" = "true" ] || [ -z "${{ github.event.inputs.resume }}" ]; then
             RESUME_FLAG="--resume"

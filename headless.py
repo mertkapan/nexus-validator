@@ -149,16 +149,18 @@ class HeadlessOrchestrator:
 
     async def _replenish_relays(self):
         """Continuous auto-replenishment callback triggered by pool watchdog."""
-        if not self._is_running:
+        if not self._is_running or getattr(self, "_is_scraping", False):
             return
+        self._is_scraping = True
         try:
-            print("\n\033[93m[PROXY SHIELD] Active nodes low. Re-scraping fresh proxy nodes in background...\033[0m")
-            raw = await scrape_fresh_proxies(max_relays=2500)
+            cur_active = self.relay_pool.active_count if self.relay_pool else 0
+            print(f"\n\033[93m[PROXY SHIELD] Active nodes ({cur_active}) low. Re-scraping 60+ feeds...\033[0m")
+            raw = await scrape_fresh_proxies(max_relays=3000)
             if raw:
                 tested = await filter_operational_proxies(
                     raw,
-                    concurrency=75,
-                    timeout_sec=4,
+                    concurrency=90,
+                    timeout_sec=3,
                     save_to_file=True
                 )
                 if tested:
@@ -166,6 +168,8 @@ class HeadlessOrchestrator:
                     print(f"\033[92m[PROXY SHIELD] Injected +{added} live proxies. Total Pool: {self.relay_pool.active_count}\033[0m")
         except Exception as e:
             print(f"[PROXY SHIELD NOTICE] Replenishment: {e}")
+        finally:
+            self._is_scraping = False
 
     def _render_telemetry(self):
         """Prints live real-time console status line."""

@@ -233,6 +233,48 @@ class DiscordWebhookDispatcher:
             print(f"[DISCORD ERROR] Failed to enqueue Discord hit: {e}")
             logger.debug(f"Failed to enqueue Discord hit: {e}")
 
+    async def dispatch_system_message(
+        self,
+        title: str,
+        description: str,
+        color: int = 0x00B0FF,
+        fields: Optional[List[Dict[str, Any]]] = None,
+        mention_everyone: bool = False
+    ):
+        """
+        Sends a system-level notification embed to Discord (e.g. cycle complete, restarting).
+        Non-blocking — queued like hit dispatches.
+        """
+        if not self.webhook_url:
+            return
+        if not self._is_running or not self._queue:
+            await self.start()
+
+        try:
+            embed = {
+                "title": title,
+                "description": description,
+                "color": color,
+                "fields": fields or [],
+                "footer": {
+                    "text": "NEXUS Platform Authentication State Validator",
+                    "icon_url": DEFAULT_STEAM_ICON
+                },
+                "timestamp": datetime.utcnow().isoformat() + "Z"
+            }
+            payload = {
+                "username": "NEXUS State Validator",
+                "avatar_url": DEFAULT_STEAM_ICON,
+                "embeds": [embed]
+            }
+            if mention_everyone:
+                payload["content"] = "@everyone"
+            if self._queue:
+                await self._queue.put(payload)
+        except Exception as e:
+            logger.debug(f"dispatch_system_message error: {e}")
+
+
     async def _dispatch_loop(self):
         """Continuous worker loop transmitting payloads with HTTP 429 rate limit respect."""
         connector = aiohttp.TCPConnector(ssl=False)

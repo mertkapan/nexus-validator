@@ -173,7 +173,7 @@ class NetworkRelayPool:
         now = time.time()
         return [r for r in self.relays if r.is_alive and r.health_score >= 40 and now >= r.cooldown_until]
 
-    async def get_next_relay(self, max_in_flight: int = 3) -> Optional[NetworkRelay]:
+    async def get_next_relay(self, max_in_flight: int = 6) -> Optional[NetworkRelay]:
         """
         Returns the optimal operational relay in weighted round-robin fashion,
         enforcing cooldown periods and concurrency limits per relay to prevent dogpiling.
@@ -282,7 +282,7 @@ async def audit_relays_concurrently(
 async def continuous_watchdog_loop(
     pool: NetworkRelayPool,
     stop_event: asyncio.Event,
-    interval_seconds: int = 15,
+    interval_seconds: int = 8,
     on_pool_depleted_callback=None
 ):
     """
@@ -307,10 +307,10 @@ async def continuous_watchdog_loop(
             candidates = [
                 r for r in pool.relays 
                 if (now - r.last_tested > interval_seconds * 2) or (r.consecutive_fails > 0 and r.is_alive)
-            ][:30]
+            ][:50]
 
             if candidates:
-                await audit_relays_concurrently(candidates, target_url=target_probe, concurrency=15, timeout=5)
+                await audit_relays_concurrently(candidates, target_url=target_probe, concurrency=25, timeout=4)
 
             # Scrub dead proxies periodically
             pool.prune_dead()

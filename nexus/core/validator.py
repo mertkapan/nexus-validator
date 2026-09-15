@@ -138,6 +138,58 @@ def parse_credential_line(raw: str) -> Tuple[Optional[str], Optional[str]]:
     return None, None
 
 
+def parse_line_metadata(raw: str) -> Dict[str, Any]:
+    """
+    Extracts pre-existing metadata embedded in combos.txt lines by Turkish/foreign checkers.
+    Format: user:pass | SteamID: 765xxx | Oyunlar: N | VAC: 0 | Games: Game1, Game2 | ...
+    Returns a metadata dict that can seed library data without extra API calls.
+    """
+    meta: Dict[str, Any] = {}
+    if not raw or " | " not in raw:
+        return meta
+
+    parts = raw.split(" | ")
+    for part in parts[1:]:
+        part = part.strip()
+        lower = part.lower()
+
+        if lower.startswith("steamid:"):
+            val = part.split(":", 1)[1].strip()
+            if val and val.isdigit() and len(val) >= 10:
+                meta["steamid"] = val
+
+        elif lower.startswith("vac:"):
+            val = part.split(":", 1)[1].strip()
+            meta["vac_banned"] = (val == "1")
+
+        elif lower.startswith("game ban:"):
+            val = part.split(":", 1)[1].strip()
+            meta["trade_banned"] = (val == "1")
+
+        elif lower.startswith("oyunlar:") or lower.startswith("games count:"):
+            try:
+                val = int(part.split(":", 1)[1].strip())
+                meta["game_count_hint"] = val
+            except Exception:
+                pass
+
+        elif lower.startswith("games:"):
+            games_str = part[6:].strip()
+            if games_str and games_str.lower() not in ("", "none", "-", "n/a"):
+                # Parse "GameName (Nhrs), GameName2, ..." format
+                raw_names = [g.strip() for g in games_str.split(",") if g.strip()]
+                game_names = []
+                for gn in raw_names:
+                    # Strip trailing hours e.g. "Counter-Strike 2 (194h)"
+                    clean_gn = re.sub(r'\s*\(\d+h?\w*\)\s*$', '', gn).strip()
+                    if clean_gn:
+                        game_names.append(clean_gn)
+                if game_names:
+                    meta["prefetched_games"] = game_names
+
+    return meta
+
+
 # Pre-compiled high-speed regexes for multi-line dossiers (e.g. Kullanici : xxx \n Sifre : yyy)
 RE_USER_BLOCK = re.compile(r"^(?:kullanici|username|login|account|hesap|user)\s*[:=]\s*([^\s:|]+)", re.IGNORECASE)
 RE_PASS_BLOCK = re.compile(r"^(?:sifre|password|pass|şifre)\s*[:=]\s*([^\s:|]+)", re.IGNORECASE)
@@ -147,6 +199,7 @@ def stream_credential_tuples(source, deduplicate: bool = True):
     """
     High-throughput streaming generator engineered for massive (1,000,000+) datasets.
     Parses single-line combos AND multi-line checker dossiers without memory overhead.
+    Yields (user, pwd) for backward compatibility — metadata is parsed separately in headless.
     Uses lightweight integer hashes for instant deduplication with minimal RAM consumption.
     """
     from pathlib import Path

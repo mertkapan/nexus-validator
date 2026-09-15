@@ -13,21 +13,95 @@ from bs4 import BeautifulSoup
 
 from nexus.utils.geo import resolve_country_display
 
-# Common free-to-play titles
+# Common free-to-play titles (definitive list - only add if confirmed F2P on Steam)
 COMMON_FREE_TITLES = {
     "counter-strike 2", "cs:go", "dota 2", "team fortress 2", "pubg: battlegrounds",
-    "apex legends", "warframe", "destiny 2", "unturned", "brawlhalla", "path of exile",
+    "pubg: battlegrounds - test server", "apex legends", "warframe", "destiny 2",
+    "unturned", "brawlhalla", "path of exile", "path of exile 2",
     "yu-gi-oh! master duel", "fall guys", "overwatch 2", "the sims 4", "lost ark",
     "halo infinite", "smite", "paladins", "world of tanks blitz", "crusader kings ii",
-    "trackmania", "brawl stars", "roblox", "war thunder", "stumble guys", "dead frontier 2",
-    "closers", "resident evil 6 benchmark tool", "naraka: bladepoint"
+    "brawl stars", "war thunder", "stumble guys", "dead frontier 2",
+    "naraka: bladepoint", "naraka bladepoint", "dark and darker", "once human",
+    "delta force", "marvel rivals", "arena breakout: infinite", "arena breakout infinite",
+    "deadlock", "once human", "super people", "ring of elysium", "combat master",
+    "enlisted", "cuisine royale", "crsed: cuisine royale", "battlebit remastered",
+    "conqueror's blade", "rogue company", "realm royale reforged",
+    "eve online", "star trek online", "dc universe online", "champions online",
+    "global agenda: free agent", "tribes: ascend", "bloodline champions",
+    "grand theft auto v legacy", "grand theft auto v enhanced",
+    "metin2", "genshin impact", "honkai: star rail", "zenless zone zero",
+    "black desert", "aion", "tera", "neverwinter", "dungeons dragons online",
+    "world of warships", "world of warplanes", "world of tanks",
+    "krunker", "fortnite", "valorant",
+    # Valve free tools and non-games
+    "steam linux runtime", "proton", "steamvr", "steam vr", "are you ready for valve index",
 }
 
 COMMON_FREE_APPIDS = {
     730, 570, 440, 578080, 1172470, 230410, 1085660, 304930, 291550, 238960,
-    1449850, 1097150, 2357570, 1222670, 1599340, 1240440, 386360, 444090, 444200,
-    203770, 11020, 236390, 1675200, 744900, 216170, 221100, 1203220
+    1449850, 1097150, 2357570, 1222670, 1599340, 1240440, 444090, 444200,
+    203770, 236390, 1675200, 216170, 221100, 1203220,
+    # PUBG test server
+    622590, 624822,
+    # Grand Theft Auto V Legacy and Enhanced (these are confirmed F2P re-releases)
+    2905829, 2905830,
 }
+
+# These paid games are sometimes falsely detected as free via keyword matching - protect them
+PAID_GAME_EXCEPTIONS = {
+    "efootball pes 2021 season update", "efootball pes 2021", "pro evolution soccer 2021",
+    "pro evolution soccer 2020", "pro evolution soccer 2019", "pro evolution soccer 2018",
+    "pro evolution soccer 2017", "pro evolution soccer 2016",
+    "the sims 4 cats & dogs", "the sims 4 get famous",  # DLCs are paid
+    "battlefield 4", "battlefield 1", "battlefield v", "battlefield 2042",
+    "pes 2021", "pes 2020", "pes 2019",
+}
+
+def clean_title(raw: str) -> str:
+    """Cleans title string from Unicode replacement and encoding artifacts."""
+    if not raw:
+        return ""
+    t = raw.replace("\ufffd", "").replace("&quot;", '"').replace("&amp;", "&").replace("&#39;", "'")
+    t = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", t)
+    return t.strip()
+
+def is_item_free(appid: int, name: str) -> bool:
+    """Accurately classifies free games, demos, prologues, betas, and servers."""
+    if appid in COMMON_FREE_APPIDS:
+        return True
+    if not name:
+        return False
+    nl = name.lower().strip()
+    
+    # Protect known paid titles that could match free keywords
+    if nl in PAID_GAME_EXCEPTIONS:
+        return False
+    
+    # Exact match against known free titles
+    if nl in COMMON_FREE_TITLES:
+        return True
+    
+    # Strict keyword matching - only at word boundaries or in specific positions
+    # to avoid marking paid games like "PUBG: BATTLEGROUNDS" as free when checking for "beta"
+    free_exact_suffixes = [
+        " demo", " prologue", " beta", " playtest", " test server",
+        " public test", " experimental server", " dedicated server",
+        " trial edition", " trial", " teaser", " bonus content",
+        " free to play edition", " free edition",
+    ]
+    for kw in free_exact_suffixes:
+        if nl.endswith(kw):
+            return True
+    
+    # Must be at start or contain in specific positions
+    if nl.startswith("demo ") or nl.startswith("prologue ") or nl.startswith("beta "):
+        return True
+    if ": prologue" in nl or ": demo" in nl or ": beta" in nl or "- prologue" in nl or "- demo" in nl:
+        return True
+    if "playtest" in nl:
+        return True
+    
+    return False
 
 # Preloaded popular game cache to instantly resolve names without API latency
 APP_NAME_CACHE: Dict[int, str] = {
@@ -400,32 +474,6 @@ APP_NAME_CACHE: Dict[int, str] = {
     1444440: "The Coffin of Andy and Leyley",
 }
 
-def clean_title(raw: str) -> str:
-    """Cleans title string from Unicode replacement and encoding artifacts."""
-    if not raw:
-        return ""
-    t = raw.replace("\ufffd", "").replace("&quot;", '"').replace("&amp;", "&").replace("&#39;", "'")
-    t = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", t)
-    return t.strip()
-
-def is_item_free(appid: int, name: str) -> bool:
-    """Accurately classifies free games, demos, prologues, betas, and servers."""
-    if appid in COMMON_FREE_APPIDS:
-        return True
-    if not name:
-        return False
-    nl = name.lower()
-    if nl in COMMON_FREE_TITLES:
-        return True
-    free_keywords = [
-        "demo", "prologue", "beta", "playtest", "test server",
-        "public test", "experimental server", "dedicated server",
-        "trial", "teaser", "bonus content"
-    ]
-    for kw in free_keywords:
-        if kw in nl:
-            return True
-    return False
 
 
 async def resolve_app_name(session: aiohttp.ClientSession, appid: int, proxy: Optional[str] = None) -> Dict[str, Any]:

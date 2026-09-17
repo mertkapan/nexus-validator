@@ -598,9 +598,10 @@ class HeadlessOrchestrator:
 
             async with semaphore:
                 result = None
-                max_tries = 8 if (self.relay_pool and self.relay_pool.total > 0) else 2
+                max_tries = 12 if (self.relay_pool and self.relay_pool.total > 0) else 3
 
                 for _ in range(max_tries):
+
                     if not self._is_running:
                         break
 
@@ -763,7 +764,8 @@ def main():
     parser.add_argument("-p", "--proxies", default="proxies.txt", help="Path to custom proxies file")
     parser.add_argument("-t", "--threads", "--concurrency", dest="threads", type=int, default=30, help="Concurrency / Thread count")
     parser.add_argument("--timeout", type=int, default=12, help="HTTP timeout in seconds")
-    parser.add_argument("--retries", type=int, default=2, help="Max retry count for rate-limited queries")
+    parser.add_argument("--retries", type=int, default=3, help="Max retry count for rate-limited queries")
+
     parser.add_argument("-w", "--webhook", default=None, help="Discord Webhook URL for instant hit dispatch")
     parser.add_argument("--auto-scrape", action="store_true", default=True, help="Auto-scrape proxies continuously")
     parser.add_argument("--no-scrape", dest="auto_scrape", action="store_false", help="Disable proxy auto-scraping")

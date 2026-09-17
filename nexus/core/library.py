@@ -604,14 +604,16 @@ async def extract_library_inventory(
     except Exception:
         pass
 
-    # Layer 1: Community Games Tab (Has full human-readable titles)
-    if len(games_map) < 5:
+    # Layer 1: Community Games Tab (Has full human-readable titles and playtime)
+    has_unnamed = any(not g.get("name") or g["name"].startswith("AppID ") for g in games_map.values())
+    if not games_map or has_unnamed or len(games_map) < 3:
         try:
             for tab_url in [
                 f"https://steamcommunity.com/profiles/{steamid}/games/?tab=all",
                 f"https://steamcommunity.com/profiles/{steamid}/games/",
                 "https://steamcommunity.com/my/games/?tab=all"
             ]:
+
                 try:
                     async with session.get(tab_url, proxy=proxy, timeout=client_timeout) as resp:
                         if resp.status == 200:

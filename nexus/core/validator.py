@@ -489,7 +489,8 @@ async def validate_credential_tuple(
     # Step 5: Check immediate refresh_token or poll Auth Session Status
     refresh_token = res_data.get("refresh_token") or res_data.get("access_token")
     if not refresh_token and client_id and request_id:
-        for _ in range(2):
+        # Precision poll loop: give Steam time to finalize session and hand over refresh token
+        for poll_idx in range(4):
             try:
                 poll_payload = {
                     "client_id": str(client_id),
@@ -500,7 +501,7 @@ async def validate_credential_tuple(
                     data=poll_payload,
                     headers=HTTP_HEADERS,
                     proxy=proxy_url,
-                    timeout=aiohttp.ClientTimeout(total=7)
+                    timeout=aiohttp.ClientTimeout(total=8)
                 ) as r_poll:
                     if r_poll.status == 200:
                         poll_json = await r_poll.json(content_type=None)
@@ -508,10 +509,14 @@ async def validate_credential_tuple(
                         refresh_token = p_body.get("refresh_token") or p_body.get("access_token")
                         if refresh_token:
                             break
+                        # If Steam confirmed login without 2FA, wait a moment for token generation
                         if p_body.get("eresult") == 1 and not conf_types:
-                            await asyncio.sleep(0.5)
+                            await asyncio.sleep(0.8)
+                        else:
+                            await asyncio.sleep(0.4)
             except Exception:
-                pass
+                await asyncio.sleep(0.3)
+
 
     # Step 6: Case Analysis
     # Case A: Full Authentication Granted (refresh_token received)

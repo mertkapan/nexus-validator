@@ -148,6 +148,13 @@ class ResultExporter:
             )
             with open(self.hits_all_paid_file, "a", encoding="utf-8") as f:
                 f.write(line)
+            # Also append to hits_combos_only.txt if not already recorded as target hit
+            try:
+                with open(self.hits_combos_file, "a", encoding="utf-8") as f:
+                    f.write(f"{account}\n")
+            except Exception:
+                pass
+
 
         elif status == "2FA_HIT":
             line = (

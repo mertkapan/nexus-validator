@@ -118,22 +118,29 @@ class TargetGameMatcher:
         if norm_name in self.titles_set:
             return True
 
-        # 2. Fast check for core franchise keywords
+        # 2. Precise word-boundary or exact check for core franchise keywords
+        game_tokens = set(norm_name.split())
         for cf in self.core_franchises:
-            if cf in norm_name or norm_name in cf:
+            if cf == norm_name:
+                return True
+            # Multi-word franchise (e.g. 'grand theft auto', 'call of duty')
+            if " " in cf and cf in norm_name:
+                return True
+            # Single-word franchise (e.g. 'fifa', 'pes', 'gta', 'rdr', 'rust', 'witcher')
+            if " " not in cf and cf in game_tokens:
                 return True
 
-        # 3. Word intersection quick-filter before substring scan
-        game_words = set(norm_name.split())
-        if not game_words.intersection(self.words_index):
+        # 3. Word intersection quick-filter before full titles scan
+        if not game_tokens.intersection(self.words_index):
             return False
 
-        # 4. Substring containment check against full target list
+        # 4. Substring containment check against full target list (only for meaningful length tokens)
         for t in self.sorted_targets:
-            if len(t) >= 4 and (t in norm_name or norm_name in t):
+            if len(t) >= 4 and t in norm_name:
                 return True
 
         return False
+
 
     def evaluate_account(self, record: Dict[str, Any]) -> Tuple[bool, List[Dict[str, Any]]]:
         """

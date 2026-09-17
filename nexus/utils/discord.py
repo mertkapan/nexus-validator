@@ -100,6 +100,8 @@ if HITSDC_FILE.exists():
 def _save_to_hitsdc(item: Dict[str, Any], paid_games: List[str]) -> None:
     """Appends a dispatched hit record to hitsdc.txt on disk with deduplication."""
     try:
+        if not paid_games:
+            return  # Strict filter: Never save accounts with empty or fake games
         username = item.get("username", "").strip()
         if not username:
             return

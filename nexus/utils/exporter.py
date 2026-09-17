@@ -48,6 +48,14 @@ class ResultExporter:
 
         self.recorded_target_hits = 0
         self.recorded_total_hits = 0
+        self._saved_dc_users = set()
+        if self.hitsdc_file.exists():
+            try:
+                for _l in self.hitsdc_file.open("r", encoding="utf-8", errors="ignore"):
+                    if _l.strip() and ":" in _l:
+                        self._saved_dc_users.add(_l.split(":", 1)[0].strip().lower())
+            except Exception:
+                pass
 
     def record_target_hit(self, item: Dict[str, Any], matched_targets: List[Dict[str, Any]]):
         """
@@ -156,7 +164,9 @@ class ResultExporter:
             except Exception:
                 pass
             # Bulletproof local persistence for hitsdc.txt whenever account has paid games
-            if paid_games > 0:
+            username_clean = item.get("username", "").strip()
+            if paid_games > 0 and username_clean and username_clean.lower() not in self._saved_dc_users:
+                self._saved_dc_users.add(username_clean.lower())
                 try:
                     steamid = item.get("steamid", "")
                     dc_line = (
@@ -168,6 +178,7 @@ class ResultExporter:
                         f.write(dc_line)
                 except Exception:
                     pass
+
 
 
 

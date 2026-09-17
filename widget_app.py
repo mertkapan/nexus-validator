@@ -164,11 +164,15 @@ class App(tk.Tk):
         self.badge_text.pack(side="left")
 
         # Action Buttons
+        btn_refresh = tk.Button(right_box, text="🔄 Yenile", font=("Segoe UI", 9, "bold"), bg=C_CARD_BG, fg=C_GREEN, activebackground=C_CARD_ALT, activeforeground=C_GREEN, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=10, pady=4, cursor="hand2", command=self._force_manual_refresh)
+        btn_refresh.pack(side="left", padx=4)
+
         btn_github = tk.Button(right_box, text="🌐 GitHub Aç", font=("Segoe UI", 9, "bold"), bg=C_CARD_BG, fg=C_TEXT_PRI, activebackground=C_CARD_ALT, activeforeground=C_TEXT_PRI, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=10, pady=4, cursor="hand2", command=self._open_github)
         btn_github.pack(side="left", padx=4)
 
         btn_folder = tk.Button(right_box, text="📂 Sonuç Klasörü", font=("Segoe UI", 9, "bold"), bg=C_CARD_BG, fg=C_TEXT_PRI, activebackground=C_CARD_ALT, activeforeground=C_TEXT_PRI, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=10, pady=4, cursor="hand2", command=self._open_results_folder)
         btn_folder.pack(side="left", padx=4)
+
 
     def _create_metrics_grid(self):
         grid_container = tk.Frame(self, bg=C_BG_DARK, padx=20, pady=2)
@@ -512,7 +516,32 @@ class App(tk.Tk):
         except Exception as e:
             messagebox.showinfo("Bilgi", f"Klasör yolu: {RESULTS_DIR}")
 
+    def _force_manual_refresh(self):
+        def _bg_run():
+            try:
+                cp_data = {}
+                if CHECKPOINT_FILE.exists():
+                    try:
+                        with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
+                            cp_data = json.load(f)
+                    except Exception:
+                        pass
+                recent_hits = []
+                if HITSDC_FILE.exists():
+                    try:
+                        with open(HITSDC_FILE, "r", encoding="utf-8", errors="ignore") as f:
+                            lines = [l.strip() for l in f if l.strip()]
+                            recent_hits = lines[-50:]
+                    except Exception:
+                        pass
+                cloud_data = self._fetch_github_status()
+                self.after(0, self._apply_update, cp_data, recent_hits, cloud_data)
+            except Exception:
+                pass
+        threading.Thread(target=_bg_run, daemon=True).start()
+
     def _open_file(self, path: Path):
+
         try:
             if path.exists():
                 os.startfile(str(path))

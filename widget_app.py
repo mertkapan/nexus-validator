@@ -20,12 +20,16 @@ from tkinter import ttk, messagebox
 
 # ── Paths & Config ──────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).resolve().parent
-# If compiled with PyInstaller, use sys.executable parent or working dir
 APP_DIR = Path(sys.executable).parent if getattr(sys, "frozen", False) else SCRIPT_DIR
 
-RESULTS_DIR = SCRIPT_DIR / "results"
-if not RESULTS_DIR.exists():
-    RESULTS_DIR = APP_DIR / "results"
+# Check standard installation path first so running from Desktop works seamlessly
+POTENTIAL_DIRS = [
+    Path(r"D:\Steam Checker\results"),
+    APP_DIR / "results",
+    SCRIPT_DIR / "results",
+    Path.cwd() / "results"
+]
+RESULTS_DIR = next((d for d in POTENTIAL_DIRS if d.exists()), Path(r"D:\Steam Checker\results"))
 
 CHECKPOINT_FILE = RESULTS_DIR / "checkpoint.json"
 HITSDC_FILE     = RESULTS_DIR / "hitsdc.txt"

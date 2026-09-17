@@ -149,10 +149,11 @@ def fetch_github_actions_status() -> dict:
 
 # ── Bot Client Initialization ───────────────────────────────────────────────
 intents = discord.Intents.default()
-intents.message_content = True
-intents.members = True
+# Do NOT enable message_content, members, or presences unless turned on in Dev Portal
+intents.message_content = False
 
 bot = commands.Bot(command_prefix=["!", "."], intents=intents, application_id=APPLICATION_ID, help_command=None)
+
 
 
 # ────────────────────────────────────────────────────────────────────────────

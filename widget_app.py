@@ -235,13 +235,20 @@ class App(tk.Tk):
         top_bar = tk.Frame(self.tab_hits, bg=C_CARD_BG)
         top_bar.pack(fill="x", pady=(0, 6))
 
-        tk.Label(top_bar, text="Bulunan son geçerli hesaplar ve oyun kütüphaneleri:", font=("Segoe UI", 9), fg=C_TEXT_SEC, bg=C_CARD_BG).pack(side="left")
+        # Search & Filter bar
+        filter_box = tk.Frame(top_bar, bg=C_CARD_BG)
+        filter_box.pack(side="left", padx=(15, 0))
+        tk.Label(filter_box, text="Filtrele:", font=("Segoe UI", 9, "bold"), fg=C_ACCENT, bg=C_CARD_BG).pack(side="left")
+        self.entry_filter = tk.Entry(filter_box, font=("Segoe UI", 9), bg=C_CARD_ALT, fg=C_TEXT_PRI, insertbackground=C_TEXT_PRI, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, width=18)
+        self.entry_filter.pack(side="left", padx=4)
+        self.entry_filter.bind("<KeyRelease>", lambda e: self._filter_hits_table())
 
         btn_copy = tk.Button(top_bar, text="📋 Seçili Hesabı Kopyala", font=("Segoe UI", 8, "bold"), bg=C_CARD_ALT, fg=C_TEXT_PRI, activebackground=C_BORDER, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=8, pady=2, cursor="hand2", command=self._copy_selected_hit)
         btn_copy.pack(side="right", padx=4)
 
         btn_open_txt = tk.Button(top_bar, text="📄 hitsdc.txt Aç", font=("Segoe UI", 8, "bold"), bg=C_CARD_ALT, fg=C_TEXT_PRI, activebackground=C_BORDER, relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=8, pady=2, cursor="hand2", command=lambda: self._open_file(HITSDC_FILE))
         btn_open_txt.pack(side="right", padx=4)
+
 
         # Treeview
         columns = ("time", "account", "status", "country", "wallet", "paid_count", "games")
@@ -451,7 +458,7 @@ class App(tk.Tk):
         if recent_hits:
             existing_count = len(self.tree.get_children())
             if len(recent_hits) != existing_count:
-                self.tree.delete(*self.tree.get_children())
+                new_rows = []
                 for i, line in enumerate(reversed(recent_hits)):
                     # Line format: user:pass | SteamID:... | Status:HIT | VAC:... | Country:... | Wallet:... | PaidGames(N):[...]
                     parts = [p.strip() for p in line.split("|")]
@@ -476,7 +483,7 @@ class App(tk.Tk):
                             except Exception:
                                 pass
 
-                    self.tree.insert("", "end", values=(
+                    new_rows.append((
                         f"#{len(recent_hits)-i}",
                         acct,
                         status,
@@ -485,6 +492,9 @@ class App(tk.Tk):
                         paid_str,
                         games_str
                     ))
+                self._cached_rows = new_rows
+                self._filter_hits_table()
+
 
         self.lbl_last_update.configure(text=f"Son Senkronizasyon: {now_str}")
         self.lbl_status.configure(text=f"Checklenen: {checked:,} | Hit: {hits:,} | Bad: {bad_count:,} | Kalan: {remaining:,}")
@@ -523,9 +533,19 @@ class App(tk.Tk):
             self.clipboard_append(acct)
             messagebox.showinfo("Kopyalandı", f"Hesap panoya kopyalandı:\n{acct}")
 
+    def _filter_hits_table(self):
+        query = self.entry_filter.get().strip().lower() if hasattr(self, "entry_filter") else ""
+        if not hasattr(self, "_cached_rows"):
+            return
+        self.tree.delete(*self.tree.get_children())
+        for row in self._cached_rows:
+            if not query or any(query in str(v).lower() for v in row):
+                self.tree.insert("", "end", values=row)
+
     def _on_close(self):
         self.running = False
         self.destroy()
+
 
 
 if __name__ == "__main__":

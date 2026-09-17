@@ -41,6 +41,7 @@ class ResultExporter:
         
         # Auxiliary files
         self.hits_all_paid_file = self.output_dir / "hits_all_paid.txt"
+        self.hitsdc_file = self.output_dir / "hitsdc.txt"
         self.free_file = self.output_dir / "free.txt"
         self.guarded_file = self.output_dir / "guarded_2fa.txt"
         self.invalid_file = self.output_dir / "invalid.txt"
@@ -148,12 +149,26 @@ class ResultExporter:
             )
             with open(self.hits_all_paid_file, "a", encoding="utf-8") as f:
                 f.write(line)
-            # Also append to hits_combos_only.txt if not already recorded as target hit
+            # Also append to hits_combos_only.txt
             try:
                 with open(self.hits_combos_file, "a", encoding="utf-8") as f:
                     f.write(f"{account}\n")
             except Exception:
                 pass
+            # Bulletproof local persistence for hitsdc.txt whenever account has paid games
+            if paid_games > 0:
+                try:
+                    steamid = item.get("steamid", "")
+                    dc_line = (
+                        f"{account} | SteamID:{steamid} | Status:HIT"
+                        f" | VAC:{vac} | Country:{country} | Wallet:{wallet}"
+                        f" | PaidGames({len(paid_game_names)}):[{' | '.join(paid_game_names)}]\n"
+                    )
+                    with open(self.hitsdc_file, "a", encoding="utf-8") as f:
+                        f.write(dc_line)
+                except Exception:
+                    pass
+
 
 
         elif status == "2FA_HIT":

@@ -112,41 +112,53 @@ class ResultExporter:
 
     def record_item_live(self, item: Dict[str, Any]):
         """
-        Logs secondary and categorized outcomes (general paid hits, 2FA, Free, Invalid).
-        Note: hits.txt is reserved exclusively for record_target_hit.
+        Logs HIT and 2FA_HIT outcomes to disk.
+        FREE accounts are silently discarded — not written anywhere.
         """
         status = item.get("status", "")
-        account = item.get("account", "")
+        # Only record direct logins and 2FA hits — free accounts are discarded
+        if status not in ("HIT", "2FA_HIT"):
+            return
+
+        account    = item.get("account", "")
         total_games = item.get("total_games", 0)
-        paid_games = item.get("paid_games", 0)
-        vac = "BANNED" if item.get("vac_banned") else "CLEAN"
-        country = item.get("country", "🌐 Global")
-        location = item.get("location", "")
-        wallet = item.get("wallet", "")
+        paid_games  = item.get("paid_games", 0)
+        vac        = "BANNED" if item.get("vac_banned") else "CLEAN"
+        country    = item.get("country", "Global")
+        location   = item.get("location", "")
+        wallet     = item.get("wallet", "")
         wallet_tag = f" | Wallet: {wallet}" if wallet else ""
-        loc_tag = f" ({location})" if location else ""
+        loc_tag    = f" ({location})" if location else ""
 
         games = item.get("games", [])
-        games_list_str = extract_clean_game_names(games)
+        # Only list paid games in txt output
+        paid_game_names = [
+            g.get("name", "").strip() for g in games
+            if g.get("name") and not g.get("is_free", False) and not g.get("name","").startswith("AppID ")
+        ]
+        games_str = ", ".join(paid_game_names) if paid_game_names else "—"
 
         if status == "HIT":
             self.recorded_total_hits += 1
-            # Record into hits_all_paid.txt
-            line = f"{account} | Total Games: {total_games} (Paid: {paid_games}) | Games: [{games_list_str}] | Country: {country}{loc_tag} | VAC: {vac}{wallet_tag}\n"
+            line = (
+                f"{account} | Paid Games: {paid_games}/{total_games}"
+                f" | Games: [{games_str}]"
+                f" | Country: {country}{loc_tag}"
+                f" | VAC: {vac}{wallet_tag}\n"
+            )
             with open(self.hits_all_paid_file, "a", encoding="utf-8") as f:
                 f.write(line)
 
         elif status == "2FA_HIT":
-            # Record into guarded_2fa.txt only - DO NOT pollute hits.txt
-            line = f"{account} | Status: 2FA / Steam Guard | Total Games: {total_games} (Paid: {paid_games}) | Games: [{games_list_str}] | Country: {country}{loc_tag} | VAC: {vac}{wallet_tag}\n"
+            line = (
+                f"{account} | 2FA/SteamGuard | Paid Games: {paid_games}/{total_games}"
+                f" | Games: [{games_str}]"
+                f" | Country: {country}{loc_tag}"
+                f" | VAC: {vac}{wallet_tag}\n"
+            )
             with open(self.guarded_file, "a", encoding="utf-8") as f:
                 f.write(line)
 
-        elif status == "FREE":
-            # Record into free.txt only - DO NOT pollute hits.txt
-            line = f"{account} | Status: Free Tier / 0 Games | Total Games: {total_games} | Games: [{games_list_str}] | Country: {country}{loc_tag}{wallet_tag}\n"
-            with open(self.free_file, "a", encoding="utf-8") as f:
-                f.write(line)
 
     def finalize_validation_batch(
         self,

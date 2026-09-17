@@ -229,10 +229,16 @@ class App(tk.Tk):
         self.notebook.add(self.tab_hits, text="  🎯 Canlı Hit Akışı (Discord & TXT)  ")
         self._build_hits_tab()
 
-        # Tab 2: Cloud / GitHub Actions
+        # Tab 2: Analytics & Taxonomy
+        self.tab_analytics = tk.Frame(self.notebook, bg=C_CARD_BG, padx=14, pady=12)
+        self.notebook.add(self.tab_analytics, text="  📈 Oyun & Seri Analizi  ")
+        self._build_analytics_tab()
+
+        # Tab 3: Cloud / GitHub Actions
         self.tab_cloud = tk.Frame(self.notebook, bg=C_CARD_BG, padx=14, pady=12)
         self.notebook.add(self.tab_cloud, text="  ☁️ GitHub Actions 24/7 Bulut Durumu  ")
         self._build_cloud_tab()
+
 
     def _build_hits_tab(self):
         # Action bar above tree
@@ -281,7 +287,19 @@ class App(tk.Tk):
         sb.pack(side="right", fill="y")
         self.tree.pack(side="left", fill="both", expand=True)
 
+    def _build_analytics_tab(self):
+        # Container for analytics
+        top_box = tk.Frame(self.tab_analytics, bg=C_CARD_BG)
+        top_box.pack(fill="x", pady=(0, 10))
+
+        tk.Label(top_box, text="DÜŞEN HİT HESAPLARININ OYUN VE SERİ DAĞILIMI", font=("Segoe UI", 10, "bold"), fg=C_ACCENT, bg=C_CARD_BG).pack(anchor="w")
+        tk.Label(top_box, text="hitsdc.txt kütüğünde tespit edilen oyun serilerinin canlı adetleri:", font=("Segoe UI", 8), fg=C_TEXT_SEC, bg=C_CARD_BG).pack(anchor="w")
+
+        self.txt_analytics = tk.Text(self.tab_analytics, bg=C_CARD_ALT, fg=C_GREEN, font=("Consolas", 9), relief="flat", highlightbackground=C_BORDER, highlightthickness=1, padx=12, pady=10)
+        self.txt_analytics.pack(fill="both", expand=True)
+
     def _build_cloud_tab(self):
+
         # Cloud status card
         cloud_card = tk.Frame(self.tab_cloud, bg=C_CARD_ALT, highlightbackground=C_BORDER, highlightthickness=1, padx=16, pady=12)
         cloud_card.pack(fill="x", pady=(0, 12))
@@ -499,9 +517,29 @@ class App(tk.Tk):
                 self._cached_rows = new_rows
                 self._filter_hits_table()
 
+        # Update Analytics tab
+        if hasattr(self, "txt_analytics") and recent_hits:
+            series_counts = {}
+            for line in recent_hits:
+                low = line.lower()
+                for sk in ["fc", "fifa", "pes", "gta", "witcher", "cyberpunk", "rust", "elden", "rdr", "cod", "god of war", "resident evil", "fallout", "skyrim", "batman"]:
+                    if sk in low:
+                        series_counts[sk.upper()] = series_counts.get(sk.upper(), 0) + 1
+
+            self.txt_analytics.delete("1.0", "end")
+            self.txt_analytics.insert("end", f"=== HİT HESAPLARDA EN ÇOK BULUNAN POPÜLER OYUN SERİLERİ ===\n\n")
+            if series_counts:
+                sorted_series = sorted(series_counts.items(), key=lambda x: -x[1])
+                for sname, scnt in sorted_series:
+                    bar = "█" * min(30, scnt * 2)
+                    self.txt_analytics.insert("end", f"  {sname:<16} : {scnt:>3} hesap  {bar}\n")
+            else:
+                self.txt_analytics.insert("end", "  Henüz yeterli oyun kütüğü birikmedi.\n")
+            self.txt_analytics.insert("end", f"\nToplam Analiz Edilen Kayıt : {len(recent_hits)} adet\n")
 
         self.lbl_last_update.configure(text=f"Son Senkronizasyon: {now_str}")
         self.lbl_status.configure(text=f"Checklenen: {checked:,} | Hit: {hits:,} | Bad: {bad_count:,} | Kalan: {remaining:,}")
+
 
     # ── Helpers ─────────────────────────────────────────────────────────────
     def _open_github(self):

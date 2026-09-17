@@ -124,6 +124,7 @@ jobs:
             timeout "${REMAINING}" python headless.py \
               --combos "${COMBO_FILE}" \
               --threads "${THREADS}" \
+              --webhook "${DISCORD_WEBHOOK_URL}" \
               --auto-scrape \
               --resume || true
               

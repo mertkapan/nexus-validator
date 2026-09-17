@@ -140,17 +140,26 @@ class ResultExporter:
         loc_tag    = f" ({location})" if location else ""
 
         games = item.get("games", [])
-        # Only list paid games in txt output
+        # Only list genuinely paid and valid real game titles (no None, 0, or raw AppID)
         paid_game_names = [
             g.get("name", "").strip() for g in games
-            if g.get("name") and not g.get("is_free", False) and not g.get("name","").startswith("AppID ")
+            if g.get("name") 
+            and not g.get("is_free", False) 
+            and not g.get("name", "").startswith("AppID ")
+            and g.get("name", "").strip().lower() != "none"
+            and not g.get("name", "").strip().isdigit()
+            and "(paid: " not in g.get("name", "").lower()
+            and len(g.get("name", "").strip()) > 2
         ]
-        games_str = ", ".join(paid_game_names) if paid_game_names else "—"
+        if not paid_game_names:
+            return  # Discard accounts with no verified real paid games
+
+        games_str = ", ".join(paid_game_names)
 
         if status == "HIT":
             self.recorded_total_hits += 1
             line = (
-                f"{account} | Paid Games: {paid_games}/{total_games}"
+                f"{account} | Paid Games: {len(paid_game_names)}/{total_games}"
                 f" | Games: [{games_str}]"
                 f" | Country: {country}{loc_tag}"
                 f" | VAC: {vac}{wallet_tag}\n"
@@ -163,9 +172,9 @@ class ResultExporter:
                     f.write(f"{account}\n")
             except Exception:
                 pass
-            # Bulletproof local persistence for hitsdc.txt whenever account has paid games
+            # Bulletproof local persistence for hitsdc.txt whenever account has real paid games
             username_clean = item.get("username", "").strip()
-            if paid_games > 0 and username_clean and username_clean.lower() not in self._saved_dc_users:
+            if username_clean and username_clean.lower() not in self._saved_dc_users:
                 self._saved_dc_users.add(username_clean.lower())
                 try:
                     steamid = item.get("steamid", "")

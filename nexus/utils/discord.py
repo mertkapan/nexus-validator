@@ -158,7 +158,9 @@ def build_discord_embed(item: Dict[str, Any]) -> tuple:
     football_ping   = False
     for g in games:
         name = (g.get("name") or "").strip()
-        if not name or name.startswith("AppID "):
+        if not name or name.startswith("AppID ") or name.lower() == "none" or name.isdigit():
+            continue
+        if "(paid: " in name.lower() or len(name) <= 2:
             continue
         if g.get("is_free", False) or _is_free_game(name):
             continue

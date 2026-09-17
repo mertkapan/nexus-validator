@@ -1,1 +1,2 @@
 fc25player_test:TestPass123! | SteamID:76561198000001337 | Status:HIT | VAC:CLEAN | Country:Turkey (TR) | Wallet:24.90 TRY | PaidGames(6):[EA SPORTS FC 25 | Cyberpunk 2077 | Rust | Elden Ring | Red Dead Redemption 2 | GTA V]
+topplayer_fc25:GoalScore!99 | SteamID:76561199000001337 | Status:HIT | VAC:CLEAN | Country:Turkey (TR) | Wallet:149.90 TRY | PaidGames(5):[EA SPORTS FC 25 | FIFA 22 | Red Dead Redemption 2 | Cyberpunk 2077 | ELDEN RING]

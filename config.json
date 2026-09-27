@@ -1,7 +1,7 @@
 {
   "webhook_url": "https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb",
   "notify_hits": true,
-  "notify_2fa": true,
+  "notify_2fa": false,
   "threads": 25,
   "timeout": 12,
   "retries": 2,

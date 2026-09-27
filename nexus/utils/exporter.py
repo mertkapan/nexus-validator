@@ -5,6 +5,7 @@ and multi-format final reports (TXT, JSON, CSV).
 """
 
 import os
+import re
 import csv
 import json
 import shutil
@@ -139,18 +140,26 @@ class ResultExporter:
         wallet_tag = f" | Wallet: {wallet}" if wallet else ""
         loc_tag    = f" ({location})" if location else ""
 
+        from nexus.core.library import is_item_free
         games = item.get("games", [])
-        # Only list genuinely paid and valid real game titles (no None, 0, or raw AppID)
-        paid_game_names = [
-            g.get("name", "").strip() for g in games
-            if g.get("name") 
-            and not g.get("is_free", False) 
-            and not g.get("name", "").startswith("AppID ")
-            and g.get("name", "").strip().lower() != "none"
-            and not g.get("name", "").strip().isdigit()
-            and "(paid: " not in g.get("name", "").lower()
-            and len(g.get("name", "").strip()) > 2
-        ]
+        # Only list genuinely paid and valid real game titles (no None, 0, version strings, or raw AppID)
+        paid_game_names = []
+        for g in games:
+            name = g.get("name", "").strip()
+            if not name or name.lower() in ("none", "null", "undefined", "unknown"):
+                continue
+            if name.startswith("AppID ") or name.isdigit() or len(name) <= 2:
+                continue
+            if "(paid: " in name.lower():
+                continue
+            # Filter pure version numbers e.g. "6.0", "1.0.2"
+            if re.match(r"^\d+(\.\d+)*$", name):
+                continue
+            appid_int = int(g.get("appid")) if str(g.get("appid", "")).isdigit() else 0
+            if g.get("is_free", False) or is_item_free(appid_int, name):
+                continue
+            paid_game_names.append(name)
+
         if not paid_game_names:
             return  # Discard accounts with no verified real paid games
 
@@ -166,6 +175,14 @@ class ResultExporter:
             )
             with open(self.hits_all_paid_file, "a", encoding="utf-8") as f:
                 f.write(line)
+            
+            # Root hit.txt log as requested
+            try:
+                with open("hit.txt", "a", encoding="utf-8") as f:
+                    f.write(line)
+            except Exception:
+                pass
+
             # Also append to hits_combos_only.txt
             try:
                 with open(self.hits_combos_file, "a", encoding="utf-8") as f:

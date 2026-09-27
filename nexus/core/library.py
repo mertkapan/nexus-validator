@@ -33,6 +33,20 @@ COMMON_FREE_TITLES = {
     "black desert", "aion", "tera", "neverwinter", "dungeons dragons online",
     "world of warships", "world of warplanes", "world of tanks",
     "krunker", "fortnite", "valorant",
+    # Free popular utilities, idle/meme clickers & non-paid titles
+    "banana", "bloodstrike", "blood strike", "3d aim trainer", "aimlabs",
+    "obs studio", "blender", "wallpaper alive", "live wallpaper",
+    "crosshair v2", "simple sight - crosshair overlay", "simple sight",
+    "soundpad demo", "poppy playtime", "vrchat", "rec room", "goose goose duck",
+    "crab game", "supermarket together", "cry of fear", "farlight 84",
+    "black squad", "warface: clutch", "warface", "scp: secret laboratory",
+    "ddnet", "stay out", "project: playtime", "project playtime",
+    "stalzone", "battlerite", "idle skilling", "my singing monsters",
+    "school of dragons", "accident: the pilot", "booty calls", "closers",
+    "femdom waifu", "bloons td battles", "easy™ esports", "ylands",
+    "z1 battle royale", "flow:the sliding", "tdp4: team battle",
+    "animaze by facerig", "banana clicker", "egg", "cats",
+    "deathtrap dungeon", "codename gordon", "line of sight",
     # Valve free tools and non-games
     "steam linux runtime", "proton", "steamvr", "steam vr", "are you ready for valve index",
 }
@@ -49,12 +63,83 @@ COMMON_FREE_APPIDS = {
 
 # These paid games are sometimes falsely detected as free via keyword matching - protect them
 PAID_GAME_EXCEPTIONS = {
-    "efootball pes 2021 season update", "efootball pes 2021", "pro evolution soccer 2021",
-    "pro evolution soccer 2020", "pro evolution soccer 2019", "pro evolution soccer 2018",
-    "pro evolution soccer 2017", "pro evolution soccer 2016",
-    "the sims 4 cats & dogs", "the sims 4 get famous",  # DLCs are paid
+    # FIFA / EA FC series (all paid editions)
+    "ea sports fc 24", "ea sports fc 25", "ea sports fc 26",
+    "fc 24", "fc 25", "fc 26",
+    "fifa 22", "fifa 23", "fifa 21", "fifa 20", "fifa 19", "fifa 18", "fifa 17",
+    "fifa 16", "fifa 15", "fifa 14", "fifa 13", "fifa 12", "fifa 11", "fifa 10",
+    "fifa 09", "fifa 08", "fifa 07", "fifa 06",
+    "fifa football 2002", "fifa football 2003", "fifa football 2004", "fifa football 2005",
+    "fifa street", "fifa street 2", "fifa street 3",
+    "fifa manager 06", "fifa manager 07", "fifa manager 08", "fifa manager 09",
+    "fifa manager 10", "fifa manager 11", "fifa manager 12", "fifa manager 13",
+    # PES (all paid)
+    "efootball pes 2021 season update", "efootball pes 2021", "efootball pes 2020",
+    "pro evolution soccer 2021", "pro evolution soccer 2020", "pro evolution soccer 2019",
+    "pro evolution soccer 2018", "pro evolution soccer 2017", "pro evolution soccer 2016",
+    "pro evolution soccer 2015", "pro evolution soccer 2014",
+    "pes 2021", "pes 2020", "pes 2019", "pes 2018", "pes 2017", "pes 2016",
+    # Football Manager (all paid)
+    "football manager 2020", "football manager 2021", "football manager 2022",
+    "football manager 2023", "football manager 2024", "football manager 2025",
+    # Battlefield (all paid)
     "battlefield 4", "battlefield 1", "battlefield v", "battlefield 2042",
-    "pes 2021", "pes 2020", "pes 2019",
+    "battlefield 3", "battlefield: bad company 2",
+    # God of War (all paid)
+    "god of war", "god of war (2018)", "god of war ragnarok",
+    # Mortal Kombat (all paid)
+    "mortal kombat x", "mortal kombat 11", "mortal kombat 1",
+    # GTA (the paid originals — NOT the free legacy/enhanced)
+    "grand theft auto iv", "grand theft auto v",
+    # Forza (all paid)
+    "forza horizon 4", "forza horizon 5", "forza motorsport",
+    # NBA 2K (all paid)
+    "nba 2k21", "nba 2k22", "nba 2k23", "nba 2k24", "nba 2k25",
+    # WWE 2K (all paid)
+    "wwe 2k22", "wwe 2k23", "wwe 2k24", "wwe 2k25",
+    # The Sims paid DLCs
+    "the sims 4 cats & dogs", "the sims 4 get famous", "the sims 3",
+    # Wallpaper Engine (paid app)
+    "wallpaper engine",
+    # F1 (all paid)
+    "f1 22", "f1 23", "f1 24", "f1 25", "f1 2021", "f1 2020", "f1 2019",
+    # Sniper Elite (all paid)
+    "sniper elite 4", "sniper elite 5", "sniper elite v2 remastered",
+    # Dead Space (paid)
+    "dead space", "dead space 2", "dead space 3", "dead space (2023)",
+    # Back 4 Blood (paid)
+    "back 4 blood",
+    # Elden Ring (paid)
+    "elden ring",
+    # Other commonly false-flagged
+    "rust",  # Not free — standalone paid game
+    "planet zoo", "planet coaster",
+    "manor lords", "dwarf fortress",
+    "kerbal space program", "kerbal space program 2",
+    "no man's sky",
+    "valheim", "satisfactory",
+    "metal gear solid v: the phantom pain",
+    "star wars jedi: fallen order", "star wars jedi: survivor",
+    "baldur's gate 3",
+    "cyberpunk 2077",
+    "the witcher 3: wild hunt",
+    "red dead redemption 2",
+    "call of duty: modern warfare",
+    "call of duty: black ops cold war",
+    "call of duty: vanguard",
+    "call of duty: modern warfare ii",
+    "call of duty: modern warfare iii",
+    "call of duty: black ops 6",
+    "assassin's creed valhalla",
+    "assassin's creed odyssey",
+    "ghost of tsushima",
+    "horizon zero dawn",
+    "horizon forbidden west",
+    "dying light 2 stay human",
+    "monster hunter: world",
+    "monster hunter wilds",
+    "hogwarts legacy",
+    "black myth: wukong",
 }
 
 def clean_title(raw: str) -> str:
@@ -80,20 +165,37 @@ def is_item_free(appid: int, name: str) -> bool:
     # Exact match against known free titles
     if nl in COMMON_FREE_TITLES:
         return True
+
+    # Software / SDK / Workshop tool / Benchmark / Demo patterns
+    # IMPORTANT: Use full specific phrases only — short keywords like "server"
+    # or "ost" alone match real paid game names and cause false positives.
+    junk_indicators = (
+        " sdk", "software development kit",
+        "dedicated server", " ds standalone",
+        " benchmark tool", ": benchmark",
+        " soundtrack", " - ost", ": ost", "(ost)", "official soundtrack",
+        " artbook", "- artbook", ": artbook", "digital artbook",
+        "wallpaper pack", "wallpaper collection", "wallpapers pack",
+        " mod tool", "modding tool", "workshop tool",
+        "open beta", "closed beta", "public test realm", "public test server",
+        "playtest", "pre-alpha", " alpha 1", " alpha 2", " alpha 3", " alpha 4",
+        "staging branch", "test branch", "experimental branch",
+    )
+    for ji in junk_indicators:
+        if ji in nl:
+            return True
     
     # Strict keyword matching - only at word boundaries or in specific positions
-    # to avoid marking paid games like "PUBG: BATTLEGROUNDS" as free when checking for "beta"
     free_exact_suffixes = [
         " demo", " prologue", " beta", " playtest", " test server",
         " public test", " experimental server", " dedicated server",
         " trial edition", " trial", " teaser", " bonus content",
-        " free to play edition", " free edition",
+        " free to play edition", " free edition", " free",
     ]
     for kw in free_exact_suffixes:
         if nl.endswith(kw):
             return True
     
-    # Must be at start or contain in specific positions
     if nl.startswith("demo ") or nl.startswith("prologue ") or nl.startswith("beta "):
         return True
     if ": prologue" in nl or ": demo" in nl or ": beta" in nl or "- prologue" in nl or "- demo" in nl:

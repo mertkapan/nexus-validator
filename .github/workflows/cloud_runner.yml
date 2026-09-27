@@ -38,6 +38,7 @@ jobs:
 
       - name: Install Headless Dependencies
         run: |
+          unzip -o combos.zip
           python -m pip install --upgrade pip
           pip install -r requirements-headless.txt
 

@@ -739,9 +739,7 @@ class HeadlessOrchestrator:
                     self.two_fa_count += 1
                     print(f"\n\033[1;33m[2FA] {username} | Games:{result.get('total_games',0)}\033[0m")
                     self.exporter.record_item_live(result)
-                    # 2FA: also dispatch (may have paid games from metadata seed)
-                    if self.dispatcher:
-                        await self.dispatcher.dispatch_hit(result)
+                    # 2FA: logged locally to guarded_2fa.txt, strictly excluded from Discord dispatch
 
                 elif status == "INVALID":
                     self.invalid_count += 1

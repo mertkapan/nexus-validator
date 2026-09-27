@@ -100,7 +100,8 @@ jobs:
           COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"
           THREADS="${{ github.event.inputs.threads || '50' }}"
           
-          echo "=== NEXUS Continuous Cloud Runner starting ==="
+          python -c "import requests, os; w=os.environ.get('DISCORD_WEBHOOK_URL'); requests.post(w, json={'content':'? **GitHub Actions Cloud Validator Aktif! Bulut sistemi kesintisiz taramaya basladi.**'}, timeout=10) if w else None" || true
+            echo "=== NEXUS Continuous Cloud Runner starting ==="
           echo "Combo file: ${COMBO_FILE}"
           echo "Threads: ${THREADS}"
           

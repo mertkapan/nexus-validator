@@ -610,6 +610,26 @@
       padding: 3px 7px;
     }
 
+    .btn-header-action {
+      background: rgba(14, 165, 233, 0.15);
+      border: 1px solid rgba(14, 165, 233, 0.4);
+      color: #38bdf8;
+      border-radius: 8px;
+      padding: 5px 12px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-header-action:hover {
+      background: rgba(14, 165, 233, 0.3);
+      color: #fff;
+    }
+
     .modal-empty {
       text-align: center;
       padding: 30px 10px;
@@ -754,7 +774,10 @@
         <div class="modal-title">
           <span id="modal-game-title">Oyun Adı</span>
         </div>
-        <button class="modal-close" onclick="closeModal()">✕</button>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <button id="btn-modal-copy-all" class="btn-header-action" onclick="copyAllModalAccounts()" style="display: none;">📋 Tümünü Kopyala</button>
+          <button class="modal-close" onclick="closeModal()">✕</button>
+        </div>
       </div>
       <div class="modal-accounts-list" id="modal-accounts-container">
         <!-- Injected via JS -->
@@ -767,7 +790,10 @@
     <div class="dev-signature">
       <span>104Society</span> &bull; Developed by Mr. Profesör
     </div>
-    <span id="text-updated">Canlı Senkron</span>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <button class="btn-header-action" onclick="downloadAllHitsTxt()" style="padding: 4px 10px; font-size: 0.72rem;">💾 Hitleri İndir (.txt)</button>
+      <span id="text-updated">Canlı Senkron</span>
+    </div>
   </footer>
 
   <script>
@@ -1128,7 +1154,11 @@
         });
       });
 
+      activeModalMatches = matches;
+      const btnCopyAll = document.getElementById("btn-modal-copy-all");
+
       if (matches.length === 0) {
+        if (btnCopyAll) btnCopyAll.style.display = "none";
         modalAccounts.innerHTML = `
           <div class="modal-empty">
             <div style="font-size: 2.5rem; margin-bottom: 10px;">❌</div>
@@ -1140,6 +1170,10 @@
           </div>
         `;
       } else {
+        if (btnCopyAll) {
+          btnCopyAll.style.display = "inline-flex";
+          btnCopyAll.innerText = `📋 Tümünü Kopyala (${matches.length})`;
+        }
         let cards = "";
         matches.forEach(acc => {
           const cred = `${acc.user}:${acc.pass}`;
@@ -1232,13 +1266,36 @@
       }, 2500);
     }
 
-    function copyCred(val) {
-      copySingle(val, "Hesap (User:Pass)");
+    let activeModalMatches = [];
+
+    function copyAllModalAccounts() {
+      if (!activeModalMatches || activeModalMatches.length === 0) return;
+      const text = activeModalMatches.map(acc => `${acc.user}:${acc.pass}`).join("\n");
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`✅ ${activeModalMatches.length} Hesap Toplu Kopyalandı!`);
+      }).catch(() => {
+        prompt("Hesapları kopyalamak için Ctrl+C yapın:", text);
+      });
     }
 
-    function escapeHtml(str) {
-      if (!str) return "";
-      return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    function downloadAllHitsTxt() {
+      if (!storedAccounts || storedAccounts.length === 0) {
+        showToast("⚠️ İndirilecek doğrulanmış hesap henüz yok!");
+        return;
+      }
+      const lines = storedAccounts.map(acc => {
+        const gamesStr = (acc.games || []).join(", ");
+        return `${acc.user}:${acc.pass} | Oyunlar: [${gamesStr}] | VAC: ${acc.vac || 'CLEAN'} | Ülke: ${acc.country || 'Global'}`;
+      }).join("\n");
+
+      const blob = new Blob([lines], { type: "text/plain;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `104Society_Steam_Hits_${Date.now()}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      showToast(`💾 ${storedAccounts.length} Doğrulanmış Hesap TXT Olarak İndirildi!`);
     }
 
     startLiveTicker();

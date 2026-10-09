@@ -2,7 +2,7 @@
   "checked": 32344,
   "total": 1358142,
   "target_hits": 125,
-  "hits": 592,
+  "hits": 425,
   "two_fa": 46,
   "speed_cpm": 240,
   "updated_at": "2026-10-09T21:31:40Z",
@@ -767,18 +767,6 @@
       ]
     },
     {
-      "user": "Beata19275",
-      "pass": "antoniotest1",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "Global",
-      "games": [
-        "Metin2",
-        "Metin2 Steam Pack",
-        "Counter-Strike 2"
-      ]
-    },
-    {
       "user": "tlmvcl0769",
       "pass": "17Love32",
       "steamid": "",
@@ -1202,16 +1190,6 @@
       ]
     },
     {
-      "user": "sipirx",
-      "pass": "Sosa123456",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "Global",
-      "games": [
-        "Counter-Strike 2"
-      ]
-    },
-    {
       "user": "exqgy03440",
       "pass": "2eZ9C3s9",
       "steamid": "",
@@ -1412,24 +1390,6 @@
       ]
     },
     {
-      "user": "Simplethepayn",
-      "pass": "123456_Xav1z.Ms.Remax",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "🇮🇳 IN (India)",
-      "games": [
-        "BLOODSTRIKE",
-        "Backrooms: Found Footage",
-        "Grand Theft Auto IV: The Complete Edition",
-        "Max Payne 3",
-        "Metin2",
-        "Metin2 Steam Pack",
-        "Counter-Strike 2",
-        "Nomad Drive Demo",
-        "Stumble Guys"
-      ]
-    },
-    {
       "user": "xdboogsterdx",
       "pass": "Boogster123",
       "steamid": "",
@@ -1491,16 +1451,6 @@
       "pass": "Loudrice63SHWUQ92",
       "steamid": "",
       "vac": "BANNED",
-      "country": "Global",
-      "games": [
-        "Counter-Strike 2"
-      ]
-    },
-    {
-      "user": "lgamestest03",
-      "pass": "lgames1!",
-      "steamid": "",
-      "vac": "CLEAN",
       "country": "Global",
       "games": [
         "Counter-Strike 2"
@@ -1981,17 +1931,6 @@
       "country": "Global",
       "games": [
         "Realm of the Mad God Exalt",
-        "Counter-Strike 2",
-        "War Thunder"
-      ]
-    },
-    {
-      "user": "lgamestest10",
-      "pass": "lgames1!a",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "Global",
-      "games": [
         "Counter-Strike 2",
         "War Thunder"
       ]
@@ -3226,17 +3165,6 @@
       ]
     },
     {
-      "user": "6bpntgtc2",
-      "pass": "kratos123456789L",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "Global",
-      "games": [
-        "Counter-Strike 2",
-        "PUBG: BATTLEGROUNDS"
-      ]
-    },
-    {
       "user": "ojbrb01622",
       "pass": "fz3kZki8",
       "steamid": "",
@@ -4020,17 +3948,6 @@
         "Dungeon Defenders II",
         "Planet Coaster",
         "Counter-Strike 2"
-      ]
-    },
-    {
-      "user": "andrew63pfeiffer",
-      "pass": "Muddytest83XBW2P33",
-      "steamid": "",
-      "vac": "CLEAN",
-      "country": "Global",
-      "games": [
-        "Grand Theft Auto V",
-        "Mortal Kombat 11 Kombat Pack 1"
       ]
     },
     {

@@ -956,10 +956,35 @@
     function normalizeGameTitle(rawTitle) {
       if (!rawTitle) return "";
       let title = rawTitle.trim();
-      // Strip editions, DLC tags, soundtracks, test servers
-      title = title.replace(/\s*-\s*(Test Server|Experimental|Dedicated Server|Soundtrack|Digital Soundtrack|Demo|Public Test Branch)/gi, "");
-      title = title.replace(/\s+(Steam Pack|Deluxe Edition|Ultimate Edition|Special Edition|Legacy Edition|Collector's Edition|Enhanced Edition)/gi, "");
+      // Clean special non-standard characters
+      title = title.replace(/[\u2122\u00ae\ufffd]/g, "").replace(/\s+/g, " ");
+
+      // MK11 franchise grouping
+      if (/^mortal kombat 11/i.test(title)) {
+        return "Mortal Kombat 11";
+      }
+      if (/^mortal kombat x/i.test(title)) {
+        return "Mortal Kombat X";
+      }
+      if (/^ea sports fc/i.test(title) || /^fc 25/i.test(title)) {
+        return "EA SPORTS FC 25";
+      }
+      if (/^welcome to the game/i.test(title)) {
+        return "Welcome to the Game";
+      }
+      if (/^metin2/i.test(title)) {
+        return "Metin2";
+      }
+      if (/^counter-strike 2|^cs2|^cs:go/i.test(title)) {
+        return "Counter-Strike 2";
+      }
+
+      // Strip skin packs, kombat packs, character packs, soundtracks, servers
+      title = title.replace(/\s+(Skin Pack|Kombat Pack|Fighter Pack|Character Pack|Bonus Pack|Soundtrack|Digital Soundtrack|DLC|Season Pass|Expansion Pass).*$/gi, "");
+      title = title.replace(/\s*-\s*(Test Server|Experimental|Dedicated Server|Soundtrack|Digital Soundtrack|Demo|Public Test Branch).*$/gi, "");
+      title = title.replace(/\s+(Steam Pack|Deluxe Edition|Ultimate Edition|Special Edition|Legacy Edition|Collector's Edition|Enhanced Edition|Standard Edition).*$/gi, "");
       title = title.replace(/\s*\(.*\)$/g, ""); // strip trailing parentheses
+
       return title.trim();
     }
 
@@ -1036,8 +1061,12 @@
       }
 
       gamesList.forEach(game => {
+        const normTarget = normalizeGameTitle(game.name).toLowerCase();
         const matches = storedAccounts.filter(acc => {
-          return (acc.games || []).some(g => g.toLowerCase().includes(game.query));
+          return (acc.games || []).some(g => {
+            const normG = normalizeGameTitle(g).toLowerCase();
+            return normG === normTarget || normG.includes(game.query) || g.toLowerCase().includes(game.query);
+          });
         });
 
         const hasHit = matches.length > 0;
@@ -1061,8 +1090,12 @@
       document.getElementById("modal-game-title").innerText = gameName;
       const modalAccounts = document.getElementById("modal-accounts-container");
 
+      const normTarget = normalizeGameTitle(gameName).toLowerCase();
       const matches = storedAccounts.filter(acc => {
-        return (acc.games || []).some(g => g.toLowerCase().includes(query.toLowerCase()));
+        return (acc.games || []).some(g => {
+          const normG = normalizeGameTitle(g).toLowerCase();
+          return normG === normTarget || normG.includes(query.toLowerCase()) || g.toLowerCase().includes(query.toLowerCase());
+        });
       });
 
       if (matches.length === 0) {

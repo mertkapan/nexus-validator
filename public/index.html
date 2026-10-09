@@ -593,6 +593,23 @@
       width: fit-content;
     }
 
+    .modal-games-tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .modal-game-badge {
+      background: rgba(14, 165, 233, 0.12);
+      border: 1px solid rgba(14, 165, 233, 0.25);
+      color: #7dd3fc;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 3px 7px;
+    }
+
     .modal-empty {
       text-align: center;
       padding: 30px 10px;
@@ -1143,6 +1160,15 @@
                 <span>VAC: ${escapeHtml(acc.vac || 'CLEAN')}</span>
                 ${acc.wallet ? ` &bull; <span>💰 ${escapeHtml(acc.wallet)}</span>` : ''}
               </div>
+              ${acc.games && acc.games.length > 0 ? `
+                <div style="margin-top: 4px;">
+                  <span style="font-size: 0.7rem; color: #64748b; font-weight: 700;">Kütüphanedeki Oyunlar (${acc.games.length}):</span>
+                  <div class="modal-games-tag-list">
+                    ${acc.games.slice(0, 8).map(g => `<span class="modal-game-badge">${escapeHtml(normalizeGameTitle(g))}</span>`).join("")}
+                    ${acc.games.length > 8 ? `<span class="modal-game-badge">+${acc.games.length - 8} daha</span>` : ""}
+                  </div>
+                </div>
+              ` : ''}
             </div>
           `;
         });

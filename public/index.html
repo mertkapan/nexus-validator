@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>104Society — Steam Telemetry & Live Hit Station</title>
+  <title>104Society — Steam Storefront & Live Telemetry Station</title>
   <link rel="icon" href="https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +12,8 @@
   <style>
     :root {
       --bg: #07090e;
-      --card-bg: rgba(15, 23, 42, 0.72);
-      --card-hover: rgba(30, 41, 59, 0.85);
+      --card-bg: rgba(15, 23, 42, 0.75);
+      --card-hover: rgba(30, 41, 59, 0.9);
       --card-border: rgba(255, 255, 255, 0.08);
       --accent-cyan: #06b6d4;
       --accent-purple: #8b5cf6;
@@ -37,10 +37,9 @@
       color: var(--text);
       min-height: 100vh;
       padding: 14px;
-      padding-bottom: 75px;
+      padding-bottom: 80px;
     }
 
-    /* Top Navigation / Brand */
     header {
       display: flex;
       align-items: center;
@@ -61,8 +60,8 @@
     }
 
     .brand-icon {
-      width: 42px;
-      height: 42px;
+      width: 44px;
+      height: 44px;
       border-radius: 12px;
       background: linear-gradient(135deg, #1e293b, #0f172a);
       display: flex;
@@ -70,12 +69,12 @@
       justify-content: center;
       border: 1px solid rgba(255, 255, 255, 0.12);
       overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.5);
     }
 
     .brand-icon img {
-      width: 28px;
-      height: 28px;
+      width: 30px;
+      height: 30px;
       object-fit: contain;
     }
 
@@ -89,13 +88,13 @@
     }
 
     .developer-tag {
-      font-size: 0.7rem;
+      font-size: 0.72rem;
       font-weight: 700;
       color: var(--accent-cyan);
       display: flex;
       align-items: center;
-      gap: 5px;
-      letter-spacing: 0.3px;
+      gap: 6px;
+      margin-top: 2px;
     }
 
     .dev-badge {
@@ -157,7 +156,6 @@
       background: rgba(255, 255, 255, 0.07);
       border-radius: 8px;
       overflow: hidden;
-      position: relative;
     }
 
     .progress-bar-fill {
@@ -186,7 +184,7 @@
 
     @media (min-width: 640px) {
       .grid-stats {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
       }
     }
 
@@ -221,247 +219,225 @@
       margin-top: 2px;
     }
 
-    /* Live Search Header */
-    .search-wrapper {
-      position: relative;
-      margin-bottom: 18px;
+    /* Steam Store Grid Showcase */
+    .steam-store-section {
+      margin-bottom: 24px;
     }
 
-    .search-input {
-      width: 100%;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 15px 18px 15px 48px;
-      color: #fff;
+    .section-headline {
       font-size: 1rem;
-      outline: none;
-      backdrop-filter: blur(12px);
-      transition: all 0.25s ease;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .search-input:focus {
-      border-color: var(--accent-cyan);
-      box-shadow: 0 0 20px rgba(6, 182, 212, 0.25);
-    }
-
-    .search-icon-svg {
-      position: absolute;
-      left: 16px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--text-muted);
-      pointer-events: none;
-    }
-
-    /* Section Bar */
-    .feed-bar {
+      font-weight: 800;
+      color: #fff;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       padding: 0 4px;
     }
 
-    .feed-bar-title {
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: var(--text);
-      display: flex;
-      align-items: center;
-      gap: 8px;
+    .store-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 12px;
     }
 
-    .badge-count {
-      background: rgba(255, 255, 255, 0.1);
-      color: var(--accent-cyan);
-      padding: 2px 8px;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 700;
-    }
-
-    /* Account Feed */
-    .accounts-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .card-acc {
+    .store-card {
+      position: relative;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 18px;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      backdrop-filter: blur(12px);
-      transition: all 0.2s ease;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    }
-
-    .card-acc:hover {
-      border-color: rgba(6, 182, 212, 0.4);
-      background: var(--card-hover);
-    }
-
-    .acc-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 10px;
-    }
-
-    .user-block {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .user-name-line {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 1.05rem;
-      font-weight: 800;
-      color: #fff;
-    }
-
-    .btn-copy {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 6px;
-      color: #cbd5e1;
-      padding: 4px 10px;
-      font-size: 0.72rem;
-      font-weight: 700;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      transition: all 0.2s;
-    }
-
-    .btn-copy:hover {
-      background: var(--accent-cyan);
-      color: #000;
-      border-color: var(--accent-cyan);
-    }
-
-    .pass-toggle-pill {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.85rem;
-      background: rgba(0, 0, 0, 0.35);
-      border: 1px dashed rgba(255, 255, 255, 0.15);
-      color: #94a3b8;
-      padding: 4px 10px;
-      border-radius: 8px;
-      cursor: pointer;
-      display: inline-block;
-      width: fit-content;
-      transition: all 0.2s;
-    }
-
-    .acc-tags-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .tag-badge {
-      font-size: 0.7rem;
-      font-weight: 700;
-      padding: 4px 8px;
-      border-radius: 6px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      color: #cbd5e1;
-    }
-
-    .tag-vac-clean {
-      background: rgba(16, 185, 129, 0.15);
-      color: var(--accent-green);
-      border-color: rgba(16, 185, 129, 0.3);
-    }
-
-    .tag-wallet {
-      background: rgba(245, 158, 11, 0.15);
-      color: var(--accent-amber);
-      border-color: rgba(245, 158, 11, 0.3);
-    }
-
-    /* Games Showcase with Real Game Images */
-    .games-tray {
-      background: rgba(0, 0, 0, 0.25);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 12px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .tray-title {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: var(--text-muted);
-      letter-spacing: 0.5px;
-    }
-
-    .games-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 8px;
-    }
-
-    .game-banner-card {
-      position: relative;
-      background: rgba(15, 23, 42, 0.8);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 10px;
+      border-radius: 14px;
       overflow: hidden;
+      cursor: pointer;
       display: flex;
       flex-direction: column;
-      transition: all 0.2s;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
     }
 
-    .game-banner-card.highlight {
+    .store-card:hover {
+      transform: translateY(-3px);
       border-color: var(--accent-cyan);
-      box-shadow: 0 0 12px rgba(6, 182, 212, 0.4);
+      box-shadow: 0 8px 24px rgba(6, 182, 212, 0.3);
     }
 
-    .game-thumb {
+    .store-card.selected {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 16px rgba(6, 182, 212, 0.5);
+    }
+
+    .store-card-img {
       width: 100%;
-      height: 60px;
+      height: 72px;
       object-fit: cover;
       background: #1e293b;
     }
 
-    .game-title-text {
-      padding: 6px 8px;
-      font-size: 0.72rem;
+    .store-card-info {
+      padding: 8px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .store-card-title {
+      font-size: 0.78rem;
       font-weight: 700;
-      color: #f1f5f9;
+      color: #fff;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
-    .game-banner-card.highlight .game-title-text {
-      color: var(--accent-cyan);
+    .store-card-badge {
+      align-self: flex-start;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #94a3b8;
     }
 
-    .empty-placeholder {
+    .store-card.has-hit .store-card-badge {
+      background: rgba(16, 185, 129, 0.2);
+      color: var(--accent-green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    /* Modal / Popup for Account Details */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 999;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-content {
+      background: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 500px;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8);
+      animation: modalIn 0.25s ease-out;
+    }
+
+    @keyframes modalIn {
+      from { transform: scale(0.94); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 12px;
+    }
+
+    .modal-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-close {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-accounts-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .modal-acc-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .modal-acc-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-acc-user {
+      font-weight: 800;
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    .btn-copy-acc {
+      background: var(--accent-cyan);
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: opacity 0.2s;
+    }
+
+    .btn-copy-acc:hover {
+      opacity: 0.9;
+    }
+
+    .modal-pass-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+      color: #94a3b8;
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-block;
+      width: fit-content;
+    }
+
+    .modal-empty {
       text-align: center;
-      padding: 40px 20px;
-      color: var(--text-muted);
+      padding: 30px 10px;
+      color: #94a3b8;
       font-size: 0.9rem;
-      background: var(--card-bg);
-      border-radius: 16px;
-      border: 1px solid var(--card-border);
     }
 
     /* Fixed Bottom Footer */
@@ -470,7 +446,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(7, 9, 14, 0.88);
+      background: rgba(7, 9, 14, 0.92);
       border-top: 1px solid var(--card-border);
       backdrop-filter: blur(14px);
       padding: 10px 18px;
@@ -507,7 +483,7 @@
         <img src="https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" alt="Steam Icon">
       </div>
       <div class="brand-text">
-        <h1>104Society Cloud</h1>
+        <h1>104Society Steam Station</h1>
         <div class="developer-tag">
           <span class="dev-badge">PRO</span>
           <span>Developed by Mr. Profesör</span>
@@ -516,7 +492,7 @@
     </div>
     <div class="status-pill">
       <div class="pulse-dot"></div>
-      <span id="label-sync">7/24 AKTİF</span>
+      <span id="label-sync">7/24 CANLI</span>
     </div>
   </header>
 
@@ -524,7 +500,7 @@
   <div class="progress-section">
     <div class="progress-meta">
       <span style="font-weight: 700;">Bulut Tarama İlerlemesi</span>
-      <span id="text-progress-pct" style="font-weight: 800; color: var(--accent-cyan);">%0.0</span>
+      <span id="text-progress-pct" style="font-weight: 800; color: var(--accent-cyan);">%0.00</span>
     </div>
     <div class="progress-bar-wrap">
       <div class="progress-bar-fill" id="fill-progress"></div>
@@ -564,27 +540,30 @@
     </div>
   </div>
 
-  <!-- Realtime Search Box -->
-  <div class="search-wrapper">
-    <svg class="search-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="11" cy="11" r="8"></circle>
-      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-    </svg>
-    <input type="text" id="input-search" class="search-input" placeholder="Oyun ara (örn: FC 25, GTA, Rust, Cyberpunk, Witcher, Elden Ring...)" autocomplete="off">
-  </div>
-
-  <!-- Feed Header -->
-  <div class="feed-bar">
-    <div class="feed-bar-title">
-      <span>Doğrulanmış Ücretli Hit Hesaplar</span>
-      <span class="badge-count" id="count-results">0</span>
+  <!-- Steam Store Showcase (Click to View Accounts) -->
+  <div class="steam-store-section">
+    <div class="section-headline">
+      <span>🎮 Steam Vitrini — Tıkla ve Hesabı Al</span>
+      <span style="font-size: 0.75rem; color: var(--accent-cyan); font-weight: 700; cursor: pointer;" onclick="loadData()">🔄 Yenile</span>
     </div>
-    <span style="font-size: 0.75rem; color: var(--accent-cyan); cursor: pointer; font-weight: 700;" onclick="loadData()">🔄 Yenile</span>
+    <div class="store-grid" id="store-grid-container">
+      <!-- Generated via JS -->
+    </div>
   </div>
 
-  <!-- Account Cards Stack -->
-  <div class="accounts-stack" id="stack-accounts">
-    <div class="empty-placeholder">Canlı veriler GitLab bulutundan çekiliyor...</div>
+  <!-- Account Modal -->
+  <div class="modal-overlay" id="account-modal" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span id="modal-game-title">Oyun Adı</span>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-accounts-list" id="modal-accounts-container">
+        <!-- Injected via JS -->
+      </div>
+    </div>
   </div>
 
   <!-- Persistent Footer -->
@@ -596,51 +575,34 @@
   </footer>
 
   <script>
-    const TELEMETRY_URL = "https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json";
-    
-    // Steam appID banner dictionary for popular real games
-    const GAME_BANNERS = {
-      "ea sports fc 25": "https://cdn.akamai.steamstatic.com/steam/apps/2669320/header.jpg",
-      "ea sports fc 24": "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg",
-      "fifa 23": "https://cdn.akamai.steamstatic.com/steam/apps/1811260/header.jpg",
-      "fifa 22": "https://cdn.akamai.steamstatic.com/steam/apps/1506830/header.jpg",
-      "rust": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
-      "cyberpunk 2077": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
-      "elden ring": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
-      "gta v": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
-      "grand theft auto v": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
-      "red dead redemption 2": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
-      "the witcher 3: wild hunt": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
-      "baldur's gate 3": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
-      "the forest": "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg",
-      "sons of the forest": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/header.jpg",
-      "helldivers 2": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
-      "forza horizon 5": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg",
-      "sea of thieves": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
-      "god of war": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg"
-    };
-
-    const DEFAULT_BANNER = "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png";
-
-    let storedAccounts = [];
-
-    function getGameBanner(gameName) {
-      const lower = (gameName || "").toLowerCase().trim();
-      for (const [k, url] of Object.entries(GAME_BANNERS)) {
-        if (lower.includes(k) || k.includes(lower)) {
-          return url;
-        }
-      }
-      return DEFAULT_BANNER;
-    }
-
     const GITLAB_SNIPPET_API = "https://gitlab.com/api/v4/snippets/6066556";
     const GITHUB_BACKUP_URL  = "https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json";
+
+    // Curated catalog of the most popular real paid Steam games with official CDN banners
+    const CATALOG_GAMES = [
+      { name: "EA SPORTS FC 25", banner: "https://cdn.akamai.steamstatic.com/steam/apps/2669320/header.jpg", query: "fc 25" },
+      { name: "EA SPORTS FC 24", banner: "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg", query: "fc 24" },
+      { name: "FIFA 23", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1811260/header.jpg", query: "fifa 23" },
+      { name: "FIFA 22", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1506830/header.jpg", query: "fifa 22" },
+      { name: "Rust", banner: "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg", query: "rust" },
+      { name: "Cyberpunk 2077", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg", query: "cyberpunk" },
+      { name: "ELDEN RING", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg", query: "elden ring" },
+      { name: "Grand Theft Auto V", banner: "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg", query: "gta" },
+      { name: "Red Dead Redemption 2", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg", query: "red dead" },
+      { name: "The Witcher 3: Wild Hunt", banner: "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg", query: "witcher" },
+      { name: "Baldur's Gate 3", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg", query: "baldur" },
+      { name: "HELLDIVERS 2", banner: "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg", query: "helldivers" },
+      { name: "The Forest", banner: "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg", query: "the forest" },
+      { name: "Sons Of The Forest", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1326470/header.jpg", query: "sons of the forest" },
+      { name: "Forza Horizon 5", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg", query: "forza" },
+      { name: "Sea of Thieves", banner: "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg", query: "sea of thieves" }
+    ];
+
+    let storedAccounts = [];
 
     async function loadData() {
       let data = null;
       try {
-        // 1. Direct fetch from GitLab Snippet API (Access-Control-Allow-Origin: *)
         const resp = await fetch(GITLAB_SNIPPET_API + "?t=" + Date.now());
         if (resp.ok) {
           const snipObj = await resp.json();
@@ -648,9 +610,7 @@
             data = JSON.parse(snipObj.description);
           }
         }
-      } catch (e1) {
-        // Fallback
-      }
+      } catch (e1) {}
 
       if (!data) {
         try {
@@ -705,67 +665,28 @@
       }
 
       storedAccounts = data.accounts || [];
-      renderFilteredAccounts();
+      renderStorefront();
     }
 
-    function renderFilteredAccounts() {
-      const query = document.getElementById("input-search").value.trim().toLowerCase();
-      const container = document.getElementById("stack-accounts");
-
-      let filtered = storedAccounts;
-      if (query) {
-        filtered = storedAccounts.filter(acc => {
-          const matchGame = (acc.games || []).some(g => g.toLowerCase().includes(query));
-          const matchUser = (acc.user || "").toLowerCase().includes(query);
-          return matchGame || matchUser;
-        });
-      }
-
-      document.getElementById("count-results").innerText = filtered.length;
-
-      if (filtered.length === 0) {
-        container.innerHTML = `<div class="empty-placeholder">${query ? `"${query}" oyununa sahip hesap bulunamadı.` : 'Henüz kütüğe düşen ücretli hit hesap yok.'}</div>`;
-        return;
-      }
-
+    function renderStorefront() {
+      const container = document.getElementById("store-grid-container");
       let html = "";
-      filtered.forEach(acc => {
-        const fullCred = `${acc.user}:${acc.pass}`;
-        const gamesList = acc.games || [];
 
-        const gamesHtml = gamesList.map(g => {
-          const isMatch = query && g.toLowerCase().includes(query);
-          const bannerUrl = getGameBanner(g);
-          return `
-            <div class="game-banner-card ${isMatch ? 'highlight' : ''}">
-              <img class="game-thumb" src="${bannerUrl}" alt="${escapeHtml(g)}" onerror="this.src='${DEFAULT_BANNER}'">
-              <span class="game-title-text" title="${escapeHtml(g)}">${escapeHtml(g)}</span>
-            </div>
-          `;
-        }).join("");
+      CATALOG_GAMES.forEach(game => {
+        // Count how many verified accounts have this game
+        const matches = storedAccounts.filter(acc => {
+          return (acc.games || []).some(g => g.toLowerCase().includes(game.query));
+        });
+
+        const hasHit = matches.length > 0;
+        const badgeText = hasHit ? `🔥 ${matches.length} Hesap Mevcut` : "Hesap Yok";
 
         html += `
-          <div class="card-acc">
-            <div class="acc-header">
-              <div class="user-block">
-                <div class="user-name-line">
-                  <span>👤 ${escapeHtml(acc.user)}</span>
-                  <button class="btn-copy" onclick="copyText('${escapeHtml(fullCred)}')">📋 Kopyala</button>
-                </div>
-                <div class="pass-toggle-pill" onclick="toggleSecret(this, '${escapeHtml(acc.pass)}')">•••••••• (Şifreyi Göster)</div>
-              </div>
-              <div class="acc-tags-row">
-                <span class="tag-badge tag-vac-clean">VAC: ${escapeHtml(acc.vac || 'CLEAN')}</span>
-                ${acc.wallet ? `<span class="tag-badge tag-wallet">💰 ${escapeHtml(acc.wallet)}</span>` : ''}
-                <span class="tag-badge">🌍 ${escapeHtml(acc.country || 'Global')}</span>
-              </div>
-            </div>
-
-            <div class="games-tray">
-              <span class="tray-title">Hesaptaki Gerçek Ücretli Oyunlar (${gamesList.length})</span>
-              <div class="games-grid">
-                ${gamesHtml || '<span style="font-size:0.75rem; color:#64748b;">Kayıtlı ücretli oyun yok</span>'}
-              </div>
+          <div class="store-card ${hasHit ? 'has-hit' : ''}" onclick="openGameModal('${escapeHtml(game.name)}', '${game.query}')">
+            <img class="store-card-img" src="${game.banner}" alt="${escapeHtml(game.name)}" loading="lazy">
+            <div class="store-card-info">
+              <span class="store-card-title">${escapeHtml(game.name)}</span>
+              <span class="store-card-badge">${badgeText}</span>
             </div>
           </div>
         `;
@@ -774,19 +695,62 @@
       container.innerHTML = html;
     }
 
-    function toggleSecret(el, pass) {
+    function openGameModal(gameName, query) {
+      document.getElementById("modal-game-title").innerText = gameName;
+      const modalAccounts = document.getElementById("modal-accounts-container");
+
+      const matches = storedAccounts.filter(acc => {
+        return (acc.games || []).some(g => g.toLowerCase().includes(query));
+      });
+
+      if (matches.length === 0) {
+        modalAccounts.innerHTML = `
+          <div class="modal-empty">
+            <div style="font-size: 2rem; margin-bottom: 8px;">❌</div>
+            <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">Hesap Bulunamadı</div>
+            <div>Şu anki doğrulamalarda <b>${escapeHtml(gameName)}</b> oyununa sahip bir hesap henüz düşmedi. 7/24 tarama devam ediyor, düştüğünde anında buraya gelecektir.</div>
+          </div>
+        `;
+      } else {
+        let cards = "";
+        matches.forEach(acc => {
+          const cred = `${acc.user}:${acc.pass}`;
+          cards += `
+            <div class="modal-acc-card">
+              <div class="modal-acc-top">
+                <span class="modal-acc-user">👤 ${escapeHtml(acc.user)}</span>
+                <button class="btn-copy-acc" onclick="copyCred('${escapeHtml(cred)}')">📋 Kopyala</button>
+              </div>
+              <div class="modal-pass-pill" onclick="togglePass(this, '${escapeHtml(acc.pass)}')">•••••••• (Şifreyi Göster)</div>
+              <div style="font-size: 0.72rem; color: #94a3b8;">
+                <span>🌍 ${escapeHtml(acc.country || 'Global')}</span> &bull; 
+                <span>VAC: ${escapeHtml(acc.vac || 'CLEAN')}</span>
+                ${acc.wallet ? ` &bull; <span>💰 ${escapeHtml(acc.wallet)}</span>` : ''}
+              </div>
+            </div>
+          `;
+        });
+        modalAccounts.innerHTML = cards;
+      }
+
+      document.getElementById("account-modal").classList.add("active");
+    }
+
+    function closeModal(e) {
+      document.getElementById("account-modal").classList.remove("active");
+    }
+
+    function togglePass(el, pass) {
       if (el.innerText.includes("••••")) {
         el.innerText = pass;
-        el.style.background = "rgba(6, 182, 212, 0.2)";
         el.style.color = "var(--accent-cyan)";
       } else {
         el.innerText = "•••••••• (Şifreyi Göster)";
-        el.style.background = "rgba(0, 0, 0, 0.35)";
         el.style.color = "#94a3b8";
       }
     }
 
-    function copyText(val) {
+    function copyCred(val) {
       navigator.clipboard.writeText(val).then(() => {
         alert("Hesap kopyalandı:\n" + val);
       }).catch(() => {});
@@ -796,8 +760,6 @@
       if (!str) return "";
       return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
     }
-
-    document.getElementById("input-search").addEventListener("input", renderFilteredAccounts);
 
     loadData();
     setInterval(loadData, 5000);

@@ -814,33 +814,33 @@
     async function loadData() {
       let data = null;
 
-      // 1. First try GitHub Contents API (always freshly updated from git commits)
+      // 1. First try relative / local telemetry.json (fastest and updated directly on GitHub Pages root)
       try {
-        const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
-        if (respGH.ok) {
-          const ghJson = await respGH.json();
-          if (ghJson.content) {
-            const cleanB64 = ghJson.content.replace(/\s+/g, '');
-            const decoded = decodeURIComponent(escape(atob(cleanB64)));
-            data = JSON.parse(decoded);
-          }
+        const respLocal = await fetch("telemetry.json?t=" + Date.now(), { cache: "no-store" });
+        if (respLocal.ok) {
+          data = await respLocal.json();
         }
-      } catch (eGH) {}
+      } catch (e0) {}
 
-      // 2. Try relative / local telemetry.json
+      // 2. Try GitHub Contents API with fallback
       if (!data) {
         try {
-          const respLocal = await fetch("telemetry.json?t=" + Date.now());
-          if (respLocal.ok) {
-            data = await respLocal.json();
+          const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
+          if (respGH.ok) {
+            const ghJson = await respGH.json();
+            if (ghJson.content) {
+              const cleanB64 = ghJson.content.replace(/\s+/g, '');
+              const decoded = decodeURIComponent(escape(atob(cleanB64)));
+              data = JSON.parse(decoded);
+            }
           }
-        } catch (e0) {}
+        } catch (eGH) {}
       }
 
       // 3. Try GitHub Raw backup URL
       if (!data) {
         try {
-          const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now());
+          const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now(), { cache: "no-store" });
           if (resp2.ok) {
             data = await resp2.json();
           }
@@ -894,27 +894,39 @@
       renderStorefront();
     }
 
+    function normalizeGameTitle(rawTitle) {
+      if (!rawTitle) return "";
+      let title = rawTitle.trim();
+      // Strip editions, DLC tags, soundtracks, test servers
+      title = title.replace(/\s*-\s*(Test Server|Experimental|Dedicated Server|Soundtrack|Digital Soundtrack|Demo|Public Test Branch)/gi, "");
+      title = title.replace(/\s+(Steam Pack|Deluxe Edition|Ultimate Edition|Special Edition|Legacy Edition|Collector's Edition|Enhanced Edition)/gi, "");
+      title = title.replace(/\s*\(.*\)$/g, ""); // strip trailing parentheses
+      return title.trim();
+    }
+
     function renderStorefront() {
       const container = document.getElementById("store-grid-container");
       let html = "";
 
       const allGamesMap = new Map();
       CATALOG_GAMES.forEach(g => {
-        allGamesMap.set(g.name.toLowerCase(), {
-          name: g.name,
+        const norm = normalizeGameTitle(g.name);
+        allGamesMap.set(norm.toLowerCase(), {
+          name: norm,
           banner: g.banner,
-          query: g.query
+          query: g.query || norm.toLowerCase()
         });
       });
 
       // Extract unique games owned by checked accounts with auto-resolved banners
       storedAccounts.forEach(acc => {
         (acc.games || []).forEach(gName => {
-          const lower = gName.toLowerCase().trim();
-          if (!allGamesMap.has(lower) && gName.length > 2) {
+          const norm = normalizeGameTitle(gName);
+          const lower = norm.toLowerCase().trim();
+          if (lower.length > 2 && !allGamesMap.has(lower)) {
             allGamesMap.set(lower, {
-              name: gName,
-              banner: getBannerForGame(gName),
+              name: norm,
+              banner: getBannerForGame(norm) || getBannerForGame(gName),
               query: lower
             });
           }
@@ -922,12 +934,15 @@
       });
 
       // If user searched for a custom game not yet in catalog, add a dynamic search card for it
-      if (searchQuery && !allGamesMap.has(searchQuery)) {
-        allGamesMap.set(searchQuery, {
-          name: searchQuery.toUpperCase(),
-          banner: getBannerForGame(searchQuery),
-          query: searchQuery
-        });
+      if (searchQuery) {
+        const normSearch = normalizeGameTitle(searchQuery).toLowerCase();
+        if (!allGamesMap.has(normSearch)) {
+          allGamesMap.set(normSearch, {
+            name: searchQuery.toUpperCase(),
+            banner: getBannerForGame(searchQuery),
+            query: normSearch
+          });
+        }
       }
 
       let gamesList = Array.from(allGamesMap.values());

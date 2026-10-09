@@ -69,8 +69,8 @@
   "assassin's creed origins": "582160",
   "assassin's creed mirage": "2208920",
   "the sims 4": "1222670",
-  "ea sports fc 24": "2195250",
-  "ea sports fc 25": "2669320",
+  "ea sports fc 24": 2195250,
+  "ea sports fc 25": 2669320,
   "lost ark": "1599340",
   "bloons td 6": "960090",
   "final fantasy xiv online": "39210",
@@ -131,7 +131,7 @@
   "project zomboid": "108600",
   "dave the diver": "1868140",
   "black myth: wukong": "2358720",
-  "mortal kombat 11": "976310",
+  "mortal kombat 11": 976310,
   "mortal kombat 11 kombat pack 1": "362003",
   "mortal kombat x": "307780",
   "simple sight - crosshair overlay": "700580",
@@ -5042,5 +5042,7 @@
   "fast food simulator": 2916430,
   "ultimate general: gettysburg": 306660,
   "grimoire: manastorm": 335430,
-  "wrc 10 fia world rally championship": 1462810
+  "wrc 10 fia world rally championship": 1462810,
+  "welcome to the game": 485380,
+  "welcome to the game ii": 720250
 }

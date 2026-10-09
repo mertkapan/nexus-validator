@@ -799,7 +799,6 @@
   </footer>
 
   <script>
-    const GITLAB_SNIPPET_API = "https://gitlab.com/api/v4/snippets/6066556";
     const GITHUB_BACKUP_URL  = "https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json";
 
     // Curated catalog of the most popular real paid Steam games with official CDN banners
@@ -970,8 +969,15 @@
     }
 
     function renderDashboard(data) {
-      document.getElementById("label-sync").innerText = "7/24 CANLI";
-      document.getElementById("label-sync").style.color = "var(--accent-green)";
+      const checked = data.checked || 0;
+      const statusLabel = document.getElementById("label-sync");
+      if (checked > 0) {
+        statusLabel.innerText = "DOĞRULAMA AKTİF";
+        statusLabel.style.color = "var(--accent-green)";
+      } else {
+        statusLabel.innerText = "YENİ TARAMA BAŞLADI";
+        statusLabel.style.color = "var(--accent-cyan)";
+      }
 
       updateLiveUI(data);
 

@@ -553,6 +553,11 @@
       <span class="card-stat-sub">Korumalı Hesap</span>
     </div>
     <div class="card-stat">
+      <span class="card-stat-title">Geçersiz / Bad</span>
+      <span class="card-stat-num" id="stat-bad" style="color: var(--accent-red);">0</span>
+      <span class="card-stat-sub">Yanlış / Kapalı</span>
+    </div>
+    <div class="card-stat">
       <span class="card-stat-title">Hedef Oyunlu</span>
       <span class="card-stat-num" id="stat-targets" style="color: var(--accent-purple);">0</span>
       <span class="card-stat-sub">Yüksek Değer</span>
@@ -591,7 +596,7 @@
   </footer>
 
   <script>
-    const TELEMETRY_URL = "https://gitlab.com/-/snippets/6066556/raw/main/telemetry.json";
+    const TELEMETRY_URL = "https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json";
     
     // Steam appID banner dictionary for popular real games
     const GAME_BANNERS = {
@@ -651,11 +656,13 @@
       const twoFa = data.two_fa || 0;
       const targets = data.target_hits || 0;
       const cpm = data.speed_cpm || 0;
+      const bad = Math.max(0, checked - (hits + twoFa));
       const remaining = Math.max(0, total - checked);
 
       document.getElementById("stat-checked").innerText = checked.toLocaleString();
       document.getElementById("stat-hits").innerText = hits.toLocaleString();
       document.getElementById("stat-2fa").innerText = twoFa.toLocaleString();
+      document.getElementById("stat-bad").innerText = bad.toLocaleString();
       document.getElementById("stat-targets").innerText = targets.toLocaleString();
       document.getElementById("stat-cpm").innerText = cpm + " CPM Hız";
 

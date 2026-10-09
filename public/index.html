@@ -634,13 +634,36 @@
       return DEFAULT_BANNER;
     }
 
+    const GITLAB_SNIPPET_API = "https://gitlab.com/api/v4/snippets/6066556";
+    const GITHUB_BACKUP_URL  = "https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json";
+
     async function loadData() {
+      let data = null;
       try {
-        const resp = await fetch(TELEMETRY_URL + "?nocache=" + Date.now());
-        if (!resp.ok) throw new Error("HTTP " + resp.status);
-        const data = await resp.json();
+        // 1. Direct fetch from GitLab Snippet API (Access-Control-Allow-Origin: *)
+        const resp = await fetch(GITLAB_SNIPPET_API + "?t=" + Date.now());
+        if (resp.ok) {
+          const snipObj = await resp.json();
+          if (snipObj.description) {
+            data = JSON.parse(snipObj.description);
+          }
+        }
+      } catch (e1) {
+        // Fallback
+      }
+
+      if (!data) {
+        try {
+          const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now());
+          if (resp2.ok) {
+            data = await resp2.json();
+          }
+        } catch (e2) {}
+      }
+
+      if (data) {
         renderDashboard(data);
-      } catch (err) {
+      } else {
         document.getElementById("label-sync").innerText = "SENKRON BEKLENİYOR";
         document.getElementById("label-sync").style.color = "var(--accent-amber)";
       }

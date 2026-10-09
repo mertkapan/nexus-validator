@@ -110,6 +110,26 @@ PUBLIC_PROXY_SOURCES = [
     {"url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt", "scheme": "socks5"},
 ]
 
+def load_extended_sources() -> List[Dict[str, str]]:
+    """Loads additional vetted proxy feeds from nexus/data/sources.json if present."""
+    from pathlib import Path
+    import json
+    sources_path = Path(__file__).resolve().parent.parent / "data" / "sources.json"
+    extra_sources = []
+    if sources_path.exists():
+        try:
+            with open(sources_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for item in data:
+                    if item.get("enabled", True) and "url" in item:
+                        proto = item.get("protocol", "http").lower()
+                        if proto == "mixed":
+                            proto = "http"
+                        extra_sources.append({"url": item["url"], "scheme": proto})
+        except Exception:
+            pass
+    return extra_sources
+
 
 IP_PORT_PATTERN = re.compile(r"(?:(?:https?|socks[45])://)?\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}:[0-9]{2,5}\b")
 
@@ -153,7 +173,7 @@ async def scrape_fresh_proxies(
     Scrapes fresh proxies across all configured open-source repositories concurrently.
     Deduplicates nodes based on host:port tuple and returns top fresh nodes.
     """
-    active_sources = PUBLIC_PROXY_SOURCES
+    active_sources = list(PUBLIC_PROXY_SOURCES) + load_extended_sources()
     if schemes:
         schemes_lower = [s.lower() for s in schemes]
         active_sources = [s for s in active_sources if s["scheme"] in schemes_lower]

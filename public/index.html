@@ -235,6 +235,94 @@
       padding: 0 4px;
     }
 
+    /* Live Search & Filter Bar */
+    .store-search-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .store-search-input-wrap {
+      flex: 1;
+      position: relative;
+    }
+
+    .store-search-input-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      fill: #64748b;
+      pointer-events: none;
+    }
+
+    .store-search-input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 12px 14px 12px 42px;
+      color: #fff;
+      font-size: 0.88rem;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .store-search-input:focus {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 16px rgba(6, 182, 212, 0.25);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    .store-search-btn {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 0 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: transform 0.15s, opacity 0.15s;
+    }
+
+    .store-search-btn:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    .store-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .store-tab {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .store-tab.active, .store-tab:hover {
+      background: rgba(6, 182, 212, 0.15);
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+    }
+
     .store-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -546,6 +634,25 @@
       <span>🎮 Steam Vitrini — Tıkla ve Hesabı Al</span>
       <span style="font-size: 0.75rem; color: var(--accent-cyan); font-weight: 700; cursor: pointer;" onclick="loadData()">🔄 Yenile</span>
     </div>
+
+    <!-- Live Steam Search Bar -->
+    <div class="store-search-bar">
+      <div class="store-search-input-wrap">
+        <svg viewBox="0 0 24 24"><path d="M21.71 20.29l-5.4-5.4A8.95 8.95 0 0 0 18 9a9 9 0 1 0-9 9 8.95 8.95 0 0 0 5.89-1.69l5.4 5.4a1 1 0 0 0 1.42-1.42zM4 9a7 7 0 1 1 7 7 7 7 0 0 1-7-7z"/></svg>
+        <input type="text" id="store-search-box" class="store-search-input" placeholder="Herhangi bir Steam oyunu ara (örn: Rust, GTA, FC 25, Cyberpunk, Forest)..." onkeyup="handleSearchKey(event)">
+      </div>
+      <button class="store-search-btn" onclick="executeSearch()">🔍 Ara</button>
+    </div>
+
+    <!-- Quick Filter Tabs -->
+    <div class="store-tabs">
+      <button class="store-tab active" onclick="setTab('all', this)">Tüm Oyunlar</button>
+      <button class="store-tab" onclick="setTab('hits', this)">🔥 Sadece Hesabı Olanlar</button>
+      <button class="store-tab" onclick="setTab('popular', this)">⭐ Popüler AAA</button>
+      <button class="store-tab" onclick="setTab('survival', this)">🏕️ Hayatta Kalma</button>
+      <button class="store-tab" onclick="setTab('sports', this)">⚽ Spor / Futbol</button>
+    </div>
+
     <div class="store-grid" id="store-grid-container">
       <!-- Generated via JS -->
     </div>
@@ -599,19 +706,62 @@
     ];
 
     let storedAccounts = [];
+    let currentTab = "all";
+    let searchQuery = "";
+
+    // Popular tags / genres for categorization
+    const POPULAR_QUERY_LIST = ["fc", "fifa", "rust", "cyberpunk", "elden ring", "gta", "red dead", "witcher", "baldur", "helldivers"];
+    const SURVIVAL_LIST = ["rust", "forest", "sons of the forest", "dayz", "ark", "raft", "palworld", "project zomboid"];
+    const SPORTS_LIST = ["fc", "fifa", "pes", "efootball", "nba", "f1", "forza", "rocket league"];
+
+    function handleSearchKey(e) {
+      if (e.key === "Enter") {
+        executeSearch();
+      } else {
+        searchQuery = document.getElementById("store-search-box").value.trim().toLowerCase();
+        renderStorefront();
+      }
+    }
+
+    function executeSearch() {
+      searchQuery = document.getElementById("store-search-box").value.trim().toLowerCase();
+      renderStorefront();
+    }
+
+    function setTab(tab, btn) {
+      currentTab = tab;
+      document.querySelectorAll(".store-tab").forEach(b => b.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      renderStorefront();
+    }
 
     async function loadData() {
       let data = null;
-      try {
-        const resp = await fetch(GITLAB_SNIPPET_API + "?t=" + Date.now());
-        if (resp.ok) {
-          const snipObj = await resp.json();
-          if (snipObj.description) {
-            data = JSON.parse(snipObj.description);
-          }
-        }
-      } catch (e1) {}
 
+      // 1. First try relative / local telemetry.json (GitLab Pages deploy / local root)
+      try {
+        const respLocal = await fetch("telemetry.json?t=" + Date.now());
+        if (respLocal.ok) {
+          data = await respLocal.json();
+        }
+      } catch (e0) {}
+
+      // 2. Try GitHub Contents API with base64 decode (always freshest, zero CDN caching lag)
+      if (!data) {
+        try {
+          const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
+          if (respGH.ok) {
+            const ghJson = await respGH.json();
+            if (ghJson.content) {
+              const cleanB64 = ghJson.content.replace(/\s+/g, '');
+              const decoded = decodeURIComponent(escape(atob(cleanB64)));
+              data = JSON.parse(decoded);
+            }
+          }
+        } catch (eGH) {}
+      }
+
+      // 3. Try GitHub Raw backup URL
       if (!data) {
         try {
           const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now());
@@ -619,6 +769,19 @@
             data = await resp2.json();
           }
         } catch (e2) {}
+      }
+
+      // 4. Try GitLab Snippet API
+      if (!data) {
+        try {
+          const resp = await fetch(GITLAB_SNIPPET_API + "?t=" + Date.now());
+          if (resp.ok) {
+            const snipObj = await resp.json();
+            if (snipObj.description) {
+              data = JSON.parse(snipObj.description);
+            }
+          }
+        } catch (e1) {}
       }
 
       if (data) {
@@ -635,7 +798,7 @@
 
       const checked = data.checked || 0;
       const total = data.total || 1358142;
-      const hits = data.hits || 0;
+      const hits = data.hits || (data.accounts ? data.accounts.length : 0);
       const twoFa = data.two_fa || 0;
       const targets = data.target_hits || 0;
       const cpm = data.speed_cpm || 0;
@@ -672,18 +835,81 @@
       const container = document.getElementById("store-grid-container");
       let html = "";
 
-      CATALOG_GAMES.forEach(game => {
-        // Count how many verified accounts have this game
+      // Build comprehensive list of games by combining catalog with any games present in storedAccounts
+      const allGamesMap = new Map();
+      CATALOG_GAMES.forEach(g => {
+        allGamesMap.set(g.name.toLowerCase(), {
+          name: g.name,
+          banner: g.banner,
+          query: g.query
+        });
+      });
+
+      // Extract unique games owned by checked accounts
+      storedAccounts.forEach(acc => {
+        (acc.games || []).forEach(gName => {
+          const lower = gName.toLowerCase();
+          if (!allGamesMap.has(lower) && gName.length > 2) {
+            allGamesMap.set(lower, {
+              name: gName,
+              banner: "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png",
+              query: lower
+            });
+          }
+        });
+      });
+
+      // If user searched for a custom game not yet in catalog, add a dynamic search card for it
+      if (searchQuery && !allGamesMap.has(searchQuery)) {
+        allGamesMap.set(searchQuery, {
+          name: searchQuery.toUpperCase(),
+          banner: "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png",
+          query: searchQuery
+        });
+      }
+
+      let gamesList = Array.from(allGamesMap.values());
+
+      // Filter by Search Query
+      if (searchQuery) {
+        gamesList = gamesList.filter(g => g.name.toLowerCase().includes(searchQuery) || g.query.includes(searchQuery));
+      }
+
+      // Filter by Tab
+      if (currentTab === "hits") {
+        gamesList = gamesList.filter(game => {
+          return storedAccounts.some(acc => (acc.games || []).some(g => g.toLowerCase().includes(game.query)));
+        });
+      } else if (currentTab === "popular") {
+        gamesList = gamesList.filter(game => POPULAR_QUERY_LIST.some(p => game.query.includes(p)));
+      } else if (currentTab === "survival") {
+        gamesList = gamesList.filter(game => SURVIVAL_LIST.some(p => game.query.includes(p)));
+      } else if (currentTab === "sports") {
+        gamesList = gamesList.filter(game => SPORTS_LIST.some(p => game.query.includes(p)));
+      }
+
+      if (gamesList.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 40px 10px; color: var(--text-muted);">
+            <div style="font-size: 2.2rem; margin-bottom: 8px;">🔍</div>
+            <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">Sonuç Bulunamadı</div>
+            <div>"${escapeHtml(searchQuery)}" aramasına uygun oyun listelenemedi.</div>
+          </div>
+        `;
+        return;
+      }
+
+      gamesList.forEach(game => {
         const matches = storedAccounts.filter(acc => {
           return (acc.games || []).some(g => g.toLowerCase().includes(game.query));
         });
 
         const hasHit = matches.length > 0;
-        const badgeText = hasHit ? `🔥 ${matches.length} Hesap Mevcut` : "Hesap Yok";
+        const badgeText = hasHit ? `🔥 ${matches.length} Hesap` : "Hesap Yok";
 
         html += `
-          <div class="store-card ${hasHit ? 'has-hit' : ''}" onclick="openGameModal('${escapeHtml(game.name)}', '${game.query}')">
-            <img class="store-card-img" src="${game.banner}" alt="${escapeHtml(game.name)}" loading="lazy">
+          <div class="store-card ${hasHit ? 'has-hit' : ''}" onclick="openGameModal('${escapeHtml(game.name)}', '${escapeHtml(game.query)}')">
+            <img class="store-card-img" src="${game.banner}" alt="${escapeHtml(game.name)}" loading="lazy" onerror="this.src='https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png'">
             <div class="store-card-info">
               <span class="store-card-title">${escapeHtml(game.name)}</span>
               <span class="store-card-badge">${badgeText}</span>
@@ -700,15 +926,18 @@
       const modalAccounts = document.getElementById("modal-accounts-container");
 
       const matches = storedAccounts.filter(acc => {
-        return (acc.games || []).some(g => g.toLowerCase().includes(query));
+        return (acc.games || []).some(g => g.toLowerCase().includes(query.toLowerCase()));
       });
 
       if (matches.length === 0) {
         modalAccounts.innerHTML = `
           <div class="modal-empty">
-            <div style="font-size: 2rem; margin-bottom: 8px;">❌</div>
-            <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">Hesap Bulunamadı</div>
-            <div>Şu anki doğrulamalarda <b>${escapeHtml(gameName)}</b> oyununa sahip bir hesap henüz düşmedi. 7/24 tarama devam ediyor, düştüğünde anında buraya gelecektir.</div>
+            <div style="font-size: 2.5rem; margin-bottom: 10px;">❌</div>
+            <div style="font-weight: 800; color: #fff; font-size: 1.05rem; margin-bottom: 6px;">Hesap Bulunamadı</div>
+            <div style="font-size: 0.85rem; line-height: 1.5; color: #94a3b8;">
+              Şu anki doğrulamalarda <b>${escapeHtml(gameName)}</b> oyununa sahip bir hesap henüz bulunamadı.<br>
+              Arka planda 7/24 bulut taraması devam ediyor. Bu oyuna sahip çalışan bir hesap doğrulandığında anında vitrine düşecektir.
+            </div>
           </div>
         `;
       } else {
@@ -722,10 +951,10 @@
                 <button class="btn-copy-acc" onclick="copyCred('${escapeHtml(cred)}')">📋 Kopyala</button>
               </div>
               <div class="modal-pass-pill" onclick="togglePass(this, '${escapeHtml(acc.pass)}')">•••••••• (Şifreyi Göster)</div>
-              <div style="font-size: 0.72rem; color: #94a3b8;">
-                <span>🌍 ${escapeHtml(acc.country || 'Global')}</span> &bull; 
+              <div style="font-size: 0.75rem; color: #94a3b8; display: flex; flex-wrap: wrap; gap: 8px;">
+                <span>🌍 ${escapeHtml(acc.country || 'Global')}</span>
                 <span>VAC: ${escapeHtml(acc.vac || 'CLEAN')}</span>
-                ${acc.wallet ? ` &bull; <span>💰 ${escapeHtml(acc.wallet)}</span>` : ''}
+                ${acc.wallet ? `<span>💰 ${escapeHtml(acc.wallet)}</span>` : ''}
               </div>
             </div>
           `;
@@ -762,7 +991,7 @@
     }
 
     loadData();
-    setInterval(loadData, 5000);
+    setInterval(loadData, 4000);
   </script>
 </body>
 </html>

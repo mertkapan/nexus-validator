@@ -15,6 +15,15 @@ try:
 except ImportError:
     SOCKS_SUPPORTED = False
 
+# Captive portals, Cloudflare blocks, squid and ISP proxy intercept signatures
+BANNED_HTML_SIGNATURES = (
+    "access denied", "squid", "mikrotik", "cloudflare", "captive",
+    "login required", "authorization required", "proxy error", "privoxy",
+    "connection refused", "url blocked", "web filter", "fortinet",
+    "sonicwall", "sophos", "blue coat", "zscaler", "attention required",
+    "just a moment...", "cf-browser-verification", "<!doctype html", "<html"
+)
+
 
 class NetworkRelay:
     """Represents an individual proxy / network relay node with advanced telemetry and health scoring."""
@@ -34,37 +43,68 @@ class NetworkRelay:
         self.cooldown_until: float = 0.0  # Timestamp until which node is resting after HTTP 429 / eresult 84
 
     def _parse(self, s: str, default_scheme: str):
-        scheme = default_scheme.lower()
+        # Strip protocols if present
+        scheme = default_scheme.lower() if default_scheme else "http"
+        s = s.strip()
         if "://" in s:
             scheme, rest = s.split("://", 1)
+            scheme = scheme.lower()
         else:
             rest = s
 
         username = None
         password = None
 
+        # Check for user:pass@host:port
         if "@" in rest:
             auth_part, host_part = rest.split("@", 1)
             if ":" in auth_part:
                 username, password = auth_part.split(":", 1)
             else:
                 username = auth_part
+            parts = host_part.split(":")
+            host = parts[0]
+            try:
+                port = int(parts[1]) if len(parts) > 1 else 8080
+            except ValueError:
+                port = 8080
         else:
-            host_part = rest
+            parts = rest.split(":")
+            if len(parts) == 4:
+                # Format: host:port:user:pass
+                host = parts[0]
+                try:
+                    port = int(parts[1])
+                except ValueError:
+                    port = 8080
+                username = parts[2]
+                password = parts[3]
+            elif len(parts) == 2:
+                # Format: host:port
+                host = parts[0]
+                try:
+                    port = int(parts[1])
+                except ValueError:
+                    port = 8080
+            elif len(parts) == 3:
+                # Possible format user:pass:host or host:port:other
+                try:
+                    port = int(parts[1])
+                    host = parts[0]
+                    username = parts[2]
+                except ValueError:
+                    host = parts[0]
+                    port = 8080
+            else:
+                host = parts[0] if parts else "127.0.0.1"
+                port = 8080
 
-        parts = host_part.split(":")
-        if len(parts) == 2:
-            host = parts[0]
-            port = int(parts[1])
-        elif len(parts) == 4:
-            # Format: host:port:user:pass
-            host = parts[0]
-            port = int(parts[1])
-            username = parts[2]
-            password = parts[3]
-        else:
-            host = parts[0]
-            port = 8080
+        # Clean host and credentials
+        host = host.strip()
+        if username:
+            username = username.strip()
+        if password:
+            password = password.strip()
 
         return scheme, host, port, username, password
 
@@ -237,7 +277,11 @@ async def probe_relay_viability(
             async with aiohttp.ClientSession(connector=connector) as session:
                 async with session.get(target_url, timeout=aiohttp.ClientTimeout(total=timeout), headers=headers) as resp:
                     latency = int((time.perf_counter() - start_time) * 1000)
-                    if resp.status in (200, 301, 302):
+                    if resp.status == 200:
+                        text_sample = (await resp.text(errors="ignore"))[:500].lower()
+                        if any(sig in text_sample for sig in BANNED_HTML_SIGNATURES):
+                            relay.mark_failure(severe=True)
+                            return {"success": False, "ping": latency, "status": resp.status, "reason": "Captive Portal"}
                         relay.mark_success(latency)
                         return {"success": True, "ping": latency, "status": resp.status}
                     else:
@@ -248,7 +292,11 @@ async def probe_relay_viability(
             async with aiohttp.ClientSession() as session:
                 async with session.get(target_url, proxy=relay.url, timeout=aiohttp.ClientTimeout(total=timeout), headers=headers) as resp:
                     latency = int((time.perf_counter() - start_time) * 1000)
-                    if resp.status in (200, 301, 302):
+                    if resp.status == 200:
+                        text_sample = (await resp.text(errors="ignore"))[:500].lower()
+                        if any(sig in text_sample for sig in BANNED_HTML_SIGNATURES):
+                            relay.mark_failure(severe=True)
+                            return {"success": False, "ping": latency, "status": resp.status, "reason": "Captive Portal"}
                         relay.mark_success(latency)
                         return {"success": True, "ping": latency, "status": resp.status}
                     else:

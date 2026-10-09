@@ -1,0 +1,3570 @@
+[
+  {
+    "name": "gfpcom - HTTP",
+    "url": "https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "gfpcom - SOCKS4",
+    "url": "https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "gfpcom - SOCKS5",
+    "url": "https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "proxifly - All",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "proxifly - HTTP",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "proxifly - SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "proxifly - SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "prxchk - All",
+    "url": "https://raw.githubusercontent.com/prxchk/proxy-list/main/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "prxchk - HTTP",
+    "url": "https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "prxchk - SOCKS4",
+    "url": "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "prxchk - SOCKS5",
+    "url": "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "komutan234 - All",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 100
+  },
+  {
+    "name": "komutan234 - HTTP",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 100
+  },
+  {
+    "name": "komutan234 - SOCKS4",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 100
+  },
+  {
+    "name": "komutan234 - SOCKS5",
+    "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 100
+  },
+  {
+    "name": "databay-labs - HTTP",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 98
+  },
+  {
+    "name": "databay-labs - SOCKS4",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 98
+  },
+  {
+    "name": "databay-labs - SOCKS5",
+    "url": "https://raw.githubusercontent.com/databay-labs/free-proxy-list/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 98
+  },
+  {
+    "name": "rdavydov - HTTP",
+    "url": "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 97
+  },
+  {
+    "name": "rdavydov - SOCKS4",
+    "url": "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 97
+  },
+  {
+    "name": "rdavydov - SOCKS5",
+    "url": "https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 97
+  },
+  {
+    "name": "zloi-user - HTTP",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 96
+  },
+  {
+    "name": "zloi-user - HTTPS",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 96
+  },
+  {
+    "name": "zloi-user - SOCKS4",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 96
+  },
+  {
+    "name": "zloi-user - SOCKS5",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 96
+  },
+  {
+    "name": "ALIILAPRO - HTTP",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "name": "ALIILAPRO - SOCKS4",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "name": "ALIILAPRO - SOCKS5",
+    "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "name": "Tsprnay - HTTP",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Tsprnay - HTTPS",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Tsprnay - SOCKS4",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Tsprnay - SOCKS5",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "zevtyardt - HTTP",
+    "url": "https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 94
+  },
+  {
+    "name": "zevtyardt - SOCKS4",
+    "url": "https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 94
+  },
+  {
+    "name": "zevtyardt - SOCKS5",
+    "url": "https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 94
+  },
+  {
+    "name": "ObcbO - SOCKS5",
+    "url": "https://raw.githubusercontent.com/ObcbO/getproxy/master/file/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 93
+  },
+  {
+    "name": "ObcbO - SOCKS4",
+    "url": "https://raw.githubusercontent.com/ObcbO/getproxy/master/file/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 93
+  },
+  {
+    "name": "ObcbO - HTTP",
+    "url": "https://raw.githubusercontent.com/ObcbO/getproxy/master/file/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 93
+  },
+  {
+    "name": "ObcbO - HTTPS",
+    "url": "https://raw.githubusercontent.com/ObcbO/getproxy/master/file/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 93
+  },
+  {
+    "name": "TheSpeedX - HTTP",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 92
+  },
+  {
+    "name": "TheSpeedX - SOCKS4",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 92
+  },
+  {
+    "name": "TheSpeedX - SOCKS5",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 92
+  },
+  {
+    "name": "monosans - All",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "monosans - HTTP",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "monosans - SOCKS4",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "monosans - SOCKS5",
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "roosterkid - HTTPS",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 90
+  },
+  {
+    "name": "roosterkid - SOCKS4",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 90
+  },
+  {
+    "name": "roosterkid - SOCKS5",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 90
+  },
+  {
+    "name": "hookzof - SOCKS5",
+    "url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 89
+  },
+  {
+    "name": "MuRongPIG - All",
+    "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 88
+  },
+  {
+    "name": "MuRongPIG - HTTP",
+    "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 88
+  },
+  {
+    "name": "MuRongPIG - SOCKS4",
+    "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 88
+  },
+  {
+    "name": "MuRongPIG - SOCKS5",
+    "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 88
+  },
+  {
+    "name": "ShiftyTR - HTTP",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "name": "ShiftyTR - HTTPS",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "name": "ShiftyTR - SOCKS4",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "name": "ShiftyTR - SOCKS5",
+    "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "name": "jetkai - HTTP",
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 84
+  },
+  {
+    "name": "jetkai - HTTPS",
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 84
+  },
+  {
+    "name": "jetkai - SOCKS4",
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 84
+  },
+  {
+    "name": "jetkai - SOCKS5",
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 84
+  },
+  {
+    "name": "vakhov - HTTP",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "vakhov - HTTPS",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "vakhov - SOCKS4",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "vakhov - SOCKS5",
+    "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 150
+  },
+  {
+    "name": "KangProxy - HTTP",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 75
+  },
+  {
+    "name": "KangProxy - HTTPS",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": false,
+    "priority": 75
+  },
+  {
+    "name": "KangProxy - SOCKS4",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 75
+  },
+  {
+    "name": "KangProxy - SOCKS5",
+    "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 75
+  },
+  {
+    "name": "ErcinDedeoglu - All",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 70
+  },
+  {
+    "name": "ErcinDedeoglu - HTTP",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "ErcinDedeoglu - HTTPS",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "ErcinDedeoglu - SOCKS4",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "ErcinDedeoglu - SOCKS5",
+    "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "ProxyScrape - HTTP",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 65
+  },
+  {
+    "name": "ProxyScrape - SOCKS4",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 65
+  },
+  {
+    "name": "ProxyScrape - SOCKS5",
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 65
+  },
+  {
+    "name": "Proxy-List.download - HTTP",
+    "url": "https://www.proxy-list.download/api/v1/get?type=http",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 60
+  },
+  {
+    "name": "Proxy-List.download - HTTPS",
+    "url": "https://www.proxy-list.download/api/v1/get?type=https",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 60
+  },
+  {
+    "name": "Proxy-List.download - SOCKS4",
+    "url": "https://www.proxy-list.download/api/v1/get?type=socks4",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 60
+  },
+  {
+    "name": "Proxy-List.download - SOCKS5",
+    "url": "https://www.proxy-list.download/api/v1/get?type=socks5",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 60
+  },
+  {
+    "name": "spys.me - HTTP",
+    "url": "https://spys.me/proxy.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 55
+  },
+  {
+    "name": "spys.me - SOCKS",
+    "url": "https://spys.me/socks.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 55
+  },
+  {
+    "name": "openproxy.space - HTTP",
+    "url": "https://openproxy.space/list/http",
+    "format": "json",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 55
+  },
+  {
+    "name": "openproxy.space - SOCKS4",
+    "url": "https://openproxy.space/list/socks4",
+    "format": "json",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 55
+  },
+  {
+    "name": "openproxy.space - SOCKS5",
+    "url": "https://openproxy.space/list/socks5",
+    "format": "json",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 55
+  },
+  {
+    "name": "sunny9577 - All Proxies",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 50
+  },
+  {
+    "name": "clarketm - Raw Scrape",
+    "url": "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 50
+  },
+  {
+    "name": "hendrikbgr - FreeProxyRepo",
+    "url": "https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 50
+  },
+  {
+    "name": "Anonym0usWork - HTTP",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/http_proxies.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 75
+  },
+  {
+    "name": "Anonym0usWork - HTTPS",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/https_proxies.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 75
+  },
+  {
+    "name": "Anonym0usWork - SOCKS4",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks4_proxies.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 75
+  },
+  {
+    "name": "Anonym0usWork - SOCKS5",
+    "url": "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks5_proxies.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 75
+  },
+  {
+    "name": "ProxyScrape GH - All",
+    "url": "https://raw.githubusercontent.com/proxyscrape/free-proxy-list/main/data.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 72
+  },
+  {
+    "name": "ProxyScrape GH - HTTP",
+    "url": "https://raw.githubusercontent.com/proxyscrape/free-proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 72
+  },
+  {
+    "name": "ProxyScrape GH - SOCKS4",
+    "url": "https://raw.githubusercontent.com/proxyscrape/free-proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 72
+  },
+  {
+    "name": "ProxyScrape GH - SOCKS5",
+    "url": "https://raw.githubusercontent.com/proxyscrape/free-proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 72
+  },
+  {
+    "name": "mmpx12 - HTTP",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "mmpx12 - HTTPS",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "mmpx12 - SOCKS4",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "mmpx12 - SOCKS5",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 70
+  },
+  {
+    "name": "TheSpeedX PROXY - HTTP",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 68
+  },
+  {
+    "name": "TheSpeedX PROXY - SOCKS4",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 68
+  },
+  {
+    "name": "TheSpeedX PROXY - SOCKS5",
+    "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 68
+  },
+  {
+    "name": "B4RC0D3-UA - HTTP",
+    "url": "https://raw.githubusercontent.com/B4RC0D3-UA/proxy-list/main/HTTP.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 65
+  },
+  {
+    "name": "B4RC0D3-UA - HTTPS",
+    "url": "https://raw.githubusercontent.com/B4RC0D3-UA/proxy-list/main/HTTPS.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": false,
+    "priority": 65
+  },
+  {
+    "name": "B4RC0D3-UA - SOCKS4",
+    "url": "https://raw.githubusercontent.com/B4RC0D3-UA/proxy-list/main/SOCKS4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 65
+  },
+  {
+    "name": "B4RC0D3-UA - SOCKS5",
+    "url": "https://raw.githubusercontent.com/B4RC0D3-UA/proxy-list/main/SOCKS5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 65
+  },
+  {
+    "name": "caliphdev - HTTP",
+    "url": "https://raw.githubusercontent.com/caliphdev/Proxy-List/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 64
+  },
+  {
+    "name": "caliphdev - SOCKS4",
+    "url": "https://raw.githubusercontent.com/caliphdev/Proxy-List/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 64
+  },
+  {
+    "name": "caliphdev - SOCKS5",
+    "url": "https://raw.githubusercontent.com/caliphdev/Proxy-List/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 64
+  },
+  {
+    "name": "SevenworksDev - All",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/master/proxies.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 64
+  },
+  {
+    "name": "yucelturan - HTTP",
+    "url": "https://raw.githubusercontent.com/yucelturan/Free-Proxy-List/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "yucelturan - SOCKS4",
+    "url": "https://raw.githubusercontent.com/yucelturan/Free-Proxy-List/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "yucelturan - SOCKS5",
+    "url": "https://raw.githubusercontent.com/yucelturan/Free-Proxy-List/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "im-notify - HTTP",
+    "url": "https://raw.githubusercontent.com/im-notify/free-proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "im-notify - SOCKS4",
+    "url": "https://raw.githubusercontent.com/im-notify/free-proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "im-notify - SOCKS5",
+    "url": "https://raw.githubusercontent.com/im-notify/free-proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 63
+  },
+  {
+    "name": "vitor-b-oliveira - All",
+    "url": "https://raw.githubusercontent.com/vitor-b-oliveira/free-proxy-list/main/proxies/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "vitor-b-oliveira - HTTP",
+    "url": "https://raw.githubusercontent.com/vitor-b-oliveira/free-proxy-list/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "vitor-b-oliveira - SOCKS4",
+    "url": "https://raw.githubusercontent.com/vitor-b-oliveira/free-proxy-list/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "vitor-b-oliveira - SOCKS5",
+    "url": "https://raw.githubusercontent.com/vitor-b-oliveira/free-proxy-list/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "saisuiu - Lion",
+    "url": "https://raw.githubusercontent.com/saisuiu/Lion-proxy/main/free.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "tuanminpay - All",
+    "url": "https://raw.githubusercontent.com/tuanminpay/live-proxy-list/master/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "tuanminpay - HTTP",
+    "url": "https://raw.githubusercontent.com/tuanminpay/live-proxy-list/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "tuanminpay - SOCKS4",
+    "url": "https://raw.githubusercontent.com/tuanminpay/live-proxy-list/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "tuanminpay - SOCKS5",
+    "url": "https://raw.githubusercontent.com/tuanminpay/live-proxy-list/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 62
+  },
+  {
+    "name": "roma8ok - HTTP",
+    "url": "https://raw.githubusercontent.com/roma8ok/proxy-list/main/proxy-list-http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "roma8ok - SOCKS4",
+    "url": "https://raw.githubusercontent.com/roma8ok/proxy-list/main/proxy-list-socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "roma8ok - SOCKS5",
+    "url": "https://raw.githubusercontent.com/roma8ok/proxy-list/main/proxy-list-socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "aslisk - HTTPS",
+    "url": "https://raw.githubusercontent.com/aslisk/proxyhttps/main/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "aslisk - SOCKS5",
+    "url": "https://raw.githubusercontent.com/aslisk/proxyhttps/main/socks.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "wallarm - All",
+    "url": "https://raw.githubusercontent.com/wallarm/proxy-list/main/proxy-list.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "rootnet-dev - All",
+    "url": "https://raw.githubusercontent.com/rootnet-dev/proxy-list/main/all.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "rootnet-dev - HTTP",
+    "url": "https://raw.githubusercontent.com/rootnet-dev/proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "rootnet-dev - SOCKS4",
+    "url": "https://raw.githubusercontent.com/rootnet-dev/proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "rootnet-dev - SOCKS5",
+    "url": "https://raw.githubusercontent.com/rootnet-dev/proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "Zaeem20 - HTTP",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 62
+  },
+  {
+    "name": "Zaeem20 - HTTPS",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/https.txt",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": true,
+    "priority": 62
+  },
+  {
+    "name": "Zaeem20 - SOCKS4",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 62
+  },
+  {
+    "name": "Zaeem20 - SOCKS5",
+    "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 62
+  },
+  {
+    "name": "casals-ar - HTTP",
+    "url": "https://raw.githubusercontent.com/casals-ar/proxy-list/main/http",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "casals-ar - SOCKS4",
+    "url": "https://raw.githubusercontent.com/casals-ar/proxy-list/main/socks4",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "casals-ar - SOCKS5",
+    "url": "https://raw.githubusercontent.com/casals-ar/proxy-list/main/socks5",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "HyperBeats - HTTP",
+    "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "HyperBeats - SOCKS4",
+    "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "HyperBeats - SOCKS5",
+    "url": "https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 61
+  },
+  {
+    "name": "Yakumo - HTTP",
+    "url": "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/http/global/http_checked.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "Yakumo - SOCKS4",
+    "url": "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks4/global/socks4_checked.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "Yakumo - SOCKS5",
+    "url": "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks5/global/socks5_checked.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 61
+  },
+  {
+    "name": "yemixx - HTTP",
+    "url": "https://raw.githubusercontent.com/yemixx/proxy-list/main/proxies/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "yemixx - SOCKS4",
+    "url": "https://raw.githubusercontent.com/yemixx/proxy-list/main/proxies/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "yemixx - SOCKS5",
+    "url": "https://raw.githubusercontent.com/yemixx/proxy-list/main/proxies/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "ProxyScan - HTTP",
+    "url": "https://www.proxyscan.io/download?type=http",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "ProxyScan - HTTPS",
+    "url": "https://www.proxyscan.io/download?type=https",
+    "format": "txt",
+    "protocol": "https",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "ProxyScan - SOCKS4",
+    "url": "https://www.proxyscan.io/download?type=socks4",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "ProxyScan - SOCKS5",
+    "url": "https://www.proxyscan.io/download?type=socks5",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 60
+  },
+  {
+    "name": "proxy4parsing - HTTP",
+    "url": "https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 115
+  },
+  {
+    "name": "mzyui - HTTP",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/output/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": false,
+    "priority": 115
+  },
+  {
+    "name": "mzyui - SOCKS4",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/output/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": false,
+    "priority": 115
+  },
+  {
+    "name": "mzyui - SOCKS5",
+    "url": "https://raw.githubusercontent.com/mzyui/proxy-list/main/output/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": false,
+    "priority": 115
+  },
+  {
+    "name": "IPLocate - HTTP",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/http.txt",
+    "format": "txt",
+    "protocol": "http",
+    "enabled": true,
+    "priority": 160
+  },
+  {
+    "name": "IPLocate - SOCKS4",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks4.txt",
+    "format": "txt",
+    "protocol": "socks4",
+    "enabled": true,
+    "priority": 160
+  },
+  {
+    "name": "IPLocate - SOCKS5",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt",
+    "format": "txt",
+    "protocol": "socks5",
+    "enabled": true,
+    "priority": 160
+  },
+  {
+    "name": "IPLocate - All",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/all-proxies.txt",
+    "format": "txt",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 160
+  },
+  {
+    "name": "fate0 - JSON Lines",
+    "url": "https://raw.githubusercontent.com/fate0/proxylist/master/proxy.list",
+    "format": "json",
+    "protocol": "mixed",
+    "enabled": true,
+    "priority": 80
+  },
+  {
+    "name": "Litport - HTTP",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/live/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Litport - HTTPS",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/live/proxies/https.txt",
+    "protocol": "https",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Litport - SOCKS4",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/live/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Litport - SOCKS5",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/live/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "HProxy - HTTP",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "HProxy - HTTPS",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/https.txt",
+    "protocol": "https",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "HProxy - SOCKS4",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "HProxy - SOCKS5",
+    "url": "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Moleway - HTTP",
+    "url": "https://raw.githubusercontent.com/Moleway/Free-Proxy-List/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Moleway - HTTPS",
+    "url": "https://raw.githubusercontent.com/Moleway/Free-Proxy-List/main/https.txt",
+    "protocol": "https",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Moleway - SOCKS4",
+    "url": "https://raw.githubusercontent.com/Moleway/Free-Proxy-List/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "Moleway - SOCKS5",
+    "url": "https://raw.githubusercontent.com/Moleway/Free-Proxy-List/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 30
+  },
+  {
+    "name": "openproxylist.xyz - HTTP discovery",
+    "url": "https://openproxylist.xyz/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxyspace.pro - HTTP discovery",
+    "url": "https://proxyspace.pro/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxyspace.pro - HTTP discovery",
+    "url": "https://proxyspace.pro/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "398001 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/http_working.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "6yyn - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/6yyn/free-proxy-list/main/free_http_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Argh94 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/HTTP.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "BlacKSnowDot0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "BlacKSnowDot0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ch4120N - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Cheagjihvg - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ciara-12 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "IPParrot - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "IPParrot - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "LoneKingCode - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Mohammedcha - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Mohammedcha/ProxRipper/main/full_proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Mohammedcha - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Mohammedcha/ProxRipper/main/full_proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "MrMarble - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/MrMarble/proxy-list/main/all.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "NikolaiT - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/http_working.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "NikolaiT - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/https_working.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScrape - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/http/data.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScrape - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/https/data.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScraper - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "RioMMO - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/RioMMO/ProxyFree/main/HTTP.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Riyoway - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "SevenworksDev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "SevenworksDev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/unknown.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "SoliSpirit - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/SoliSpirit/proxy-list/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/links/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/top-http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tianndev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tianndev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tsprnay - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/sorted/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tsprnay - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/sorted/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "TuanMinPay - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "VPSLabCloud - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/http_all.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Vann-Dev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Vann-Dev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "VolkanSah - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/VolkanSah/Auto-Proxy-Fetcher/main/proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "XigmaDev - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/XigmaDev/proxy/main/proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "andigwandi - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/andigwandi/free-proxy/main/proxy_list.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "anutmagang - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/anutmagang/Free-HighQuality-Proxy-Socks/main/results/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "b4mbo-o - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "berkay-digital - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/berkay-digital/Proxy-Scraper/main/proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "claude89757 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/claude89757/free_https_proxies/main/https_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "claude89757 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/claude89757/free_https_proxies/main/isz_https_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-PROXY/main/http_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/http_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ebrasha - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/ebrasha/abdal-proxy-hub/main/http-proxy-list-by-EbraSha.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ebrasha - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/ebrasha/abdal-proxy-hub/main/https-proxy-list-by-EbraSha.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "elliottophellia - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/http/global/http_checked.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "elliottophellia - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/pmix_checked.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/http_alive.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/http_fast.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/http_residential.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fyvri - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fyvri - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "gitrecon1455 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/gitrecon1455/fresh-proxy-list/main/proxylist.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "hienhoceo-dpsmedia - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/hienhoceo-dpsmedia/nekobox-proxy-list/main/dist/debug/http-us.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "hienhoceo-dpsmedia - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/hienhoceo-dpsmedia/nekobox-proxy-list/main/dist/debug/https-us.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/raw-files/raw-http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "iplocate - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "krokmazagaga - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/krokmazagaga/http-proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "litportnet - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "litportnet - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "lucasjustinudin - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/lucasjustinudin/Free-HighQuality-Proxy-Socks/main/output/by_protocol/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "nguyenduytan - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "noctiro - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/http_with_protocol.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "noctiro - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/https_with_protocol.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "parserpp - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/parserpp/ip_ports/main/proxyinfo.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxifly - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxio-io - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxio-io - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxmint - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxmint - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxy-free - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxygenerator1 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxygenerator1 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/source/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/source/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/anonymous/http/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/http/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/https/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/transparent/http/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/transparent/https/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/protocol/http/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/protocol/https/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "roosterkid - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "shubhamshendre - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "stormsia - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "sunny9577 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/http_proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "sunny9577 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "themiralay - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/themiralay/Proxy-List-World/master/data.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "tomjiu - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/tomjiu/proxy-pipeline/main/dist/online/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "trio666 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "trio666 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "vmheaven - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "vmheaven - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "wyattowalsh - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "wyattowalsh - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "xyzs996 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "xyzs996 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "z3a4 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/http-proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "z3a4 - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/https-proxies.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/connect.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/master/connect.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/master/http.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - HTTP discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/master/https.txt",
+    "protocol": "http",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "openproxylist.xyz - SOCKS4 discovery",
+    "url": "https://openproxylist.xyz/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxyspace.pro - SOCKS4 discovery",
+    "url": "https://proxyspace.pro/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "398001 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/socks4_working.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Access-At - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Access-At/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Argh94 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Argh94 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Argh94/ProxyProwler/main/proxy_output/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "BlacKSnowDot0 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ch4120N - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Cheagjihvg - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ciara-12 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "IPParrot - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "NikolaiT - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/socks4_working.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScrape - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks4/data.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScraper - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "RioMMO - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/RioMMO/ProxyFree/main/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Riyoway - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tianndev - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tsprnay - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/sorted/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "TuanMinPay - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "VPSLabCloud - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks4_all.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Vann-Dev - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "b4mbo-o - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-PROXY/main/socks4_proxies.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ebrasha - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/ebrasha/abdal-proxy-hub/main/socks4-proxy-list-by-EbraSha.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "elliottophellia - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/socks4/global/socks4_checked.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fyvri - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "gnxD3RfTT2WE - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/github-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "hienhoceo-dpsmedia - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/hienhoceo-dpsmedia/nekobox-proxy-list/main/dist/debug/socks4-us.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/raw-files/raw-socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "litportnet - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "nguyenduytan - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "noctiro - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/socks4_with_protocol.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxio-io - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxmint - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxy-free - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxygenerator1 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/source/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/socks4/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "roosterkid - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "shubhamshendre - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "stormsia - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "sunny9577 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/socks4_proxies.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "tomjiu - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/tomjiu/proxy-pipeline/main/dist/online/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "trio666 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "vmheaven - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "wyattowalsh - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "xyzs996 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "z3a4 - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/socks4-proxies.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - SOCKS4 discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/master/socks4.txt",
+    "protocol": "socks4",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "openproxylist.xyz - SOCKS5 discovery",
+    "url": "https://openproxylist.xyz/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxyspace.pro - SOCKS5 discovery",
+    "url": "https://proxyspace.pro/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "398001 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/socks5_working.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Argh94 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Argh94/Proxy-List/main/SOCKS5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Argh94 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Argh94/ProxyProwler/main/proxy_output/SOCKS5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "BlacKSnowDot0 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ch4120N - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Cheagjihvg - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Cheagjihvg/simple-proxylist/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ciara-12 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Ciara-12/PROXY-free/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "IPParrot - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/IPParrot/proxy_ips/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "NikolaiT - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/NikolaiT/free-proxy-list/main/proxies/socks5_working.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScrape - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScrape/free-proxy-list/main/proxies/protocols/socks5/data.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ProxyScraper - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Riyoway - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "SevenworksDev - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/links/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tianndev - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tsprnay - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/sorted/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "TuanMinPay - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "VPSLabCloud - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks5_all.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Vann-Dev - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "b4mbo-o - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/b4mbo-o/Check-Free-Proxy/main/alive_socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/checked_proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dinoz0rg - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-PROXY/main/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ebrasha - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/ebrasha/abdal-proxy-hub/main/socks5-proxy-list-by-EbraSha.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "elliottophellia - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/elliottophellia/proxylist/master/results/socks5/global/socks5_checked.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_alive.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_fast.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fmw86 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_residential.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "fyvri - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/fyvri/fresh-proxy-list/archive/storage/classic/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "gnxD3RfTT2WE - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/bulk-socks-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "gnxD3RfTT2WE - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/gnxD3RfTT2WE/proxy-list-plain-text/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "hienhoceo-dpsmedia - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/hienhoceo-dpsmedia/nekobox-proxy-list/main/dist/debug/socks5-china-live.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "hienhoceo-dpsmedia - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/hienhoceo-dpsmedia/nekobox-proxy-list/main/dist/debug/socks5-us.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/out-files/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "i-am-unbekannt - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/i-am-unbekannt/BLITZPROXY/main/raw-files/raw-socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "litportnet - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "nguyenduytan - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/nguyenduytan/NDT-Proxy-Scraper/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "noctiro - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/socks5_with_protocol.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxio-io - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxmint - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxy-free - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/proxy-free/free-proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxygenerator1 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ForAnonymity/elite/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "pwnx0 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/pwnx0/proxy/main/proxies/source/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "relayglass - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/relayglass/free-proxy-list/main/anonymity/elite/socks5/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "roosterkid - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "rtwo2 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "rtwo2 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/socks5_part2.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "shubhamshendre - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/shubhamshendre/Free-Proxies/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "stormsia - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "sunny9577 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/generated/socks5_proxies.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "tomjiu - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/tomjiu/proxy-pipeline/main/dist/online/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "trio666 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "vmheaven - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "wyattowalsh - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/wyattowalsh/proxywhirl/main/docs/proxy-lists/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "xyzs996 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "z3a4 - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/z3a4/free-proxy-list/main/proxies/unchecked/socks5-proxies.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "zloi-user - SOCKS5 discovery",
+    "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/master/socks5.txt",
+    "protocol": "socks5",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "398001 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/398001/ProxysList/main/all_working.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Bes-js - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Bes-js/public-proxy-list/main/proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "BlacKSnowDot0 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/BlacKSnowDot0/Proxy-Pulse/main/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "CB-X2-Jun - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/CB-X2-Jun/proxy-lists/main/proxy.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Ch4120N - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Ch4120N/Ch4120N-Proxy-List/master/proxies/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Epodonios - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "LoneKingCode - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/LoneKingCode/free-proxy-db/main/proxies/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Moleway - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Moleway/Free-Proxy-List/main/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Pxys-io - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Pxys-io/DailyProxyList/master/working_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Riyoway - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Riyoway/Proxies/master/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Skillter - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Skillter/ProxyGather/master/proxies/scraped-proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Thordata - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/links/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Tianndev - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Tianndev/free-proxy/main/proxy/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Xnuvers007 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Xnuvers007/free-proxy/main/proxy_scheme.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "Xnuvers007 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/Xnuvers007/free-proxy/main/proxy_scheme_active.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "abusaeeidx - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/abusaeeidx/TazaProxy-Troxy/main/working_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "azestkingscrown - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/azestkingscrown/Free_Proxy_List/main/working_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "chengaopan - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list_raw.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "daisymashiro - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/daisymashiro/proxy-free/main/proxy_alive.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "dpangestuw - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/All_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ermaozi - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "ezgy1984 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/ezgy1984/Aggregated-Split-ProxyList/main/all_working.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "litportnet - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/litportnet/free-proxy-list/main/proxies/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "mmpx12 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "morawskidotmy - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/morawskidotmy/youtube-proxies/main/youtube-proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "noctiro - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/noctiro/getproxy/master/file/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "nyeinkokoaung404 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "peasoft - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxio-io - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/proxio-io/proxy-list/main/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxmint - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/proxmint/free-proxy-list/main/proxies/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "proxygenerator1 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/proxygenerator1/ProxyGenerator/main/ALL/ALL.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "rianilham28 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/rianilham28/proxian/main/out/proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "sakha1370 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/all_valid_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "stormsia - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/stormsia/proxy-list/main/working_proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "theriturajps - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/theriturajps/proxy-list/main/proxies.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "trio666 - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/trio666/proxy-checker/main/all.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "vmheaven - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/main/allproxy.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "watchttvv - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/watchttvv/free-proxy-list/main/proxy.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  },
+  {
+    "name": "yuanjv - AUTO discovery",
+    "url": "https://raw.githubusercontent.com/yuanjv/proxy-urls/main/dupless_proxy_urls.txt",
+    "protocol": "mixed",
+    "format": "txt",
+    "enabled": true,
+    "priority": 25
+  }
+]

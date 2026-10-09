@@ -146,7 +146,7 @@
       "country": "Global",
       "games": [
         "Call of Duty: Modern Warfare II",
-        "Call of Duty®: Warzone™",
+        "Call of Duty: Warzone",
         "Inferna",
         "Metin2",
         "Metin2 Steam Pack",
@@ -168,7 +168,7 @@
       "country": "Afghanistan",
       "games": [
         "Call of Duty: Modern Warfare II",
-        "Call of Duty®: Warzone™",
+        "Call of Duty: Warzone",
         "Come Home",
         "Inferna",
         "Live Wallpaper",
@@ -192,7 +192,7 @@
       "country": "Global",
       "games": [
         "Call of Duty: Modern Warfare II",
-        "Call of Duty®: Warzone™",
+        "Call of Duty: Warzone",
         "Inferna",
         "Metin2",
         "Metin2 Steam Pack",
@@ -271,15 +271,15 @@
         "Crusader Kings II: South Indian Portraits 5 Year Anniversary Gift",
         "DCS World Steam Edition",
         "Deepest Sword",
-        "HITMAN™ 2",
-        "HITMAN™ 2 - Hawke's Bay",
+        "HITMAN 2",
+        "HITMAN 2 - Hawke's Bay",
         "Hello Neighbor 2 Alpha 1",
         "Kingdom Two Crowns",
         "Krunker",
         "LEGO Batman 3: Beyond Gotham DLC: Heroines and Villainesses Character Pack",
         "LEGO Batman 3: Beyond Gotham DLC: Rainbow Character Pack",
-        "LEGO® Batman™ 3: Beyond Gotham",
-        "LEGO® The Hobbit™",
+        "LEGO Batman 3: Beyond Gotham",
+        "LEGO The Hobbit",
         "Little Nightmares",
         "MadOut2 BigCityOnline [CLOSED]",
         "Metin2",
@@ -289,15 +289,15 @@
         "SCP: Secret Laboratory",
         "Shakes and Fidget",
         "Short Life",
-        "Steel Rats™",
-        "Steel Rats™ Stylish Mayhem - Skins DLC",
+        "Steel Rats",
+        "Steel Rats Stylish Mayhem - Skins DLC",
         "The Survivalists",
-        "Train Sim World® 4 Compatible: Northeast Corridor: New York - Trenton",
+        "Train Sim World 4 Compatible: Northeast Corridor: New York - Trenton",
         "Ultimate Custom Night",
         "VRChat",
         "Wallpaper Engine",
         "World of Guns: Gun Disassembly",
-        "eFootball™"
+        "eFootball"
       ]
     },
     {
@@ -307,12 +307,12 @@
       "vac": "BANNED",
       "country": "Global",
       "games": [
-        "HITMAN™ 2",
-        "LEGO® Batman™ 3: Beyond Gotham",
-        "LEGO® The Hobbit™",
+        "HITMAN 2",
+        "LEGO Batman 3: Beyond Gotham",
+        "LEGO The Hobbit",
         "Little Nightmares",
         "Little Nightmares Enhanced Edition",
-        "eFootball™"
+        "eFootball"
       ]
     },
     {
@@ -332,7 +332,7 @@
       "vac": "CLEAN",
       "country": "Global",
       "games": [
-        "Battlefield™ 6"
+        "Battlefield 6"
       ]
     },
     {
@@ -342,7 +342,7 @@
       "vac": "CLEAN",
       "country": "Global",
       "games": [
-        "STAR WARS™ Battlefront™ II"
+        "STAR WARS Battlefront II"
       ]
     },
     {
@@ -458,7 +458,7 @@
         "Tell Me Why",
         "Tell Me Why: Chapter 2",
         "Tell Me Why: Chapter 3",
-        "eFootball™",
+        "eFootball",
         "Contraband Police: Prologue",
         "Counter-Strike 2"
       ]
@@ -509,7 +509,7 @@
         "Bloodline Champions",
         "COIL",
         "Champions Online",
-        "DC Universe™ Online",
+        "DC Universe Online",
         "Deathtrap Dungeon",
         "Dystopia",
         "EVE Online",
@@ -554,7 +554,7 @@
         "Bloodline Champions",
         "COIL",
         "Champions Online",
-        "DC Universe™ Online",
+        "DC Universe Online",
         "Deathtrap Dungeon",
         "Dystopia",
         "EVE Online",
@@ -672,7 +672,7 @@
         "Injustice: Gods Among Us Ultimate Edition",
         "Interkosmos",
         "Kingdom: Classic",
-        "PAC-MAN™ CHAMPIONSHIP EDITION 2",
+        "PAC-MAN CHAMPIONSHIP EDITION 2",
         "Penumbra: Necrologue",
         "Polyball",
         "Portal 2 Sixense Perceptual Pack",
@@ -705,7 +705,7 @@
         "Injustice: Gods Among Us Ultimate Edition",
         "Interkosmos",
         "Kingdom: Classic",
-        "PAC-MAN™ CHAMPIONSHIP EDITION 2",
+        "PAC-MAN CHAMPIONSHIP EDITION 2",
         "Penumbra: Necrologue",
         "Polyball",
         "Portal 2 Sixense Perceptual Pack",
@@ -857,7 +857,7 @@
       "vac": "CLEAN",
       "country": "Global",
       "games": [
-        "Life is Strange™ - Directors' Commentary",
+        "Life is Strange - Directors' Commentary",
         "Tom Clancy's Rainbow Six Siege",
         "Brawlhalla",
         "Counter-Strike 2",
@@ -1006,9 +1006,9 @@
       "vac": "CLEAN",
       "country": "Global",
       "games": [
-        "Call of Duty®: Modern Warfare® 3",
-        "Call of Duty®: Modern Warfare® 3",
-        "Dead Space™ 2",
+        "Call of Duty: Modern Warfare 3",
+        "Call of Duty: Modern Warfare 3",
+        "Dead Space 2",
         "Metin2",
         "Metin2",
         "Metin2 Steam Pack",
@@ -1040,7 +1040,7 @@
         "Brawlhalla",
         "Counter-Strike 2",
         "Path of Exile",
-        "SMITE®",
+        "SMITE",
         "Unturned",
         "War Thunder",
         "Warframe"
@@ -1519,11 +1519,11 @@
         "Ironsight",
         "Metin2",
         "Metin2 Steam Pack",
-        "Train Sim World® 4 Compatible: Northeast Corridor: New York - Trenton",
+        "Train Sim World 4 Compatible: Northeast Corridor: New York - Trenton",
         "Z1 Battle Royale",
         "Counter-Strike 2",
         "Destiny 2",
-        "SMITE®"
+        "SMITE"
       ]
     },
     {
@@ -1800,7 +1800,7 @@
         "Black Squad",
         "Blood Strike",
         "Call of Duty: Modern Warfare II",
-        "Call of Duty®: Warzone™",
+        "Call of Duty: Warzone",
         "Car Mechanic Simulator 2018",
         "Combat Master: Season 5",
         "DCS World Steam Edition",
@@ -1822,7 +1822,7 @@
         "Trepang2",
         "Vigil",
         "Wallpaper Play",
-        "eFootball™",
+        "eFootball",
         "skate.",
         "Apex Legends",
         "Brawlhalla",
@@ -2086,7 +2086,7 @@
       "country": "Global",
       "games": [
         "Black Squad",
-        "Dirty Bomb®",
+        "Dirty Bomb",
         "Trove",
         "Counter-Strike 2",
         "PUBG: BATTLEGROUNDS",
@@ -2385,7 +2385,7 @@
         "Garry's Mod",
         "Brawlhalla",
         "Counter-Strike 2",
-        "Paladins®"
+        "Paladins"
       ]
     },
     {
@@ -2399,7 +2399,7 @@
         "Garry's Mod",
         "Brawlhalla",
         "Counter-Strike 2",
-        "Paladins®"
+        "Paladins"
       ]
     },
     {
@@ -2425,7 +2425,7 @@
         "Garry's Mod",
         "Brawlhalla",
         "Counter-Strike 2",
-        "Paladins®"
+        "Paladins"
       ]
     },
     {
@@ -2566,7 +2566,7 @@
         "Red Dead Redemption 2",
         "Redmatch 2",
         "VRChat",
-        "eFootball™",
+        "eFootball",
         "Counter-Strike 2",
         "Yu-Gi-Oh! Master Duel"
       ]
@@ -2605,7 +2605,7 @@
         "Red Dead Redemption 2",
         "Redmatch 2",
         "VRChat",
-        "eFootball™",
+        "eFootball",
         "Counter-Strike 2",
         "Yu-Gi-Oh! Master Duel"
       ]
@@ -3105,7 +3105,7 @@
       "country": "Global",
       "games": [
         "Barro",
-        "EA SPORTS FC™ 26",
+        "EA SPORTS FC 26",
         "Metin2",
         "Metin2 Steam Pack",
         "Counter-Strike 2"
@@ -3922,7 +3922,7 @@
       "games": [
         "Garry's Mod",
         "Grand Theft Auto V",
-        "Just Cause™ 3",
+        "Just Cause 3",
         "Mortal Kombat 11 Kombat Pack 1",
         "Brawlhalla",
         "Counter-Strike 2"
@@ -4184,7 +4184,7 @@
       "vac": "CLEAN",
       "country": "Global",
       "games": [
-        "Easy™ eSports",
+        "Easy eSports",
         "Ylands",
         "Brawlhalla",
         "Counter-Strike 2",
@@ -5178,7 +5178,7 @@
       "country": "Global",
       "games": [
         "EA SPORTS FC 25",
-        "EA SPORTS FC™ 25"
+        "EA SPORTS FC 25"
       ]
     },
     {
@@ -5189,7 +5189,7 @@
       "country": "Global",
       "games": [
         "EA SPORTS FC 25",
-        "EA SPORTS FC™ 25"
+        "EA SPORTS FC 25"
       ]
     },
     {

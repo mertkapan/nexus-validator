@@ -4,7 +4,6 @@ stages:
 variables:
   PYTHONUNBUFFERED: "1"
   DEBIAN_FRONTEND: "noninteractive"
-  DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
 
 run_104society_pipeline:
   stage: run_validator

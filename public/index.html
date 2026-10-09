@@ -757,11 +757,38 @@
     let storedAccounts = [];
     let currentTab = "all";
     let searchQuery = "";
+    let appidMap = {};
+
+    // Load extra appid mapping
+    fetch("game_appids.json?t=" + Date.now()).then(r => r.json()).then(data => {
+      appidMap = data || {};
+      renderStorefront();
+    }).catch(() => {});
+
+    function getBannerForGame(gameName) {
+      if (!gameName) return "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png";
+      const gn = gameName.toLowerCase().trim();
+      
+      // 1. Direct appid from appidMap
+      if (appidMap[gn]) {
+        return `https://cdn.akamai.steamstatic.com/steam/apps/${appidMap[gn]}/header.jpg`;
+      }
+      
+      // 2. Partial match in appidMap
+      for (const [k, v] of Object.entries(appidMap)) {
+        if (gn.includes(k) || k.includes(gn)) {
+          return `https://cdn.akamai.steamstatic.com/steam/apps/${v}/header.jpg`;
+        }
+      }
+
+      // 3. Fallback to Steam Community header
+      return "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png";
+    }
 
     // Popular tags / genres for categorization
-    const POPULAR_QUERY_LIST = ["fc", "fifa", "rust", "cyberpunk", "elden ring", "gta", "red dead", "witcher", "baldur", "helldivers"];
-    const SURVIVAL_LIST = ["rust", "forest", "sons of the forest", "dayz", "ark", "raft", "palworld", "project zomboid"];
-    const SPORTS_LIST = ["fc", "fifa", "pes", "efootball", "nba", "f1", "forza", "rocket league"];
+    const POPULAR_QUERY_LIST = ["fc", "fifa", "rust", "cyberpunk", "elden ring", "gta", "red dead", "witcher", "baldur", "helldivers", "counter-strike"];
+    const SURVIVAL_LIST = ["rust", "forest", "sons of the forest", "dayz", "ark", "raft", "palworld", "project zomboid", "unturned", "7 days"];
+    const SPORTS_LIST = ["fc", "fifa", "pes", "efootball", "nba", "f1", "forza", "rocket league", "total football"];
 
     function handleSearchKey(e) {
       if (e.key === "Enter") {
@@ -787,27 +814,27 @@
     async function loadData() {
       let data = null;
 
-      // 1. First try relative / local telemetry.json (GitLab Pages deploy / local root)
+      // 1. First try GitHub Contents API (always freshly updated from git commits)
       try {
-        const respLocal = await fetch("telemetry.json?t=" + Date.now());
-        if (respLocal.ok) {
-          data = await respLocal.json();
+        const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
+        if (respGH.ok) {
+          const ghJson = await respGH.json();
+          if (ghJson.content) {
+            const cleanB64 = ghJson.content.replace(/\s+/g, '');
+            const decoded = decodeURIComponent(escape(atob(cleanB64)));
+            data = JSON.parse(decoded);
+          }
         }
-      } catch (e0) {}
+      } catch (eGH) {}
 
-      // 2. Try GitHub Contents API with base64 decode (always freshest, zero CDN caching lag)
+      // 2. Try relative / local telemetry.json
       if (!data) {
         try {
-          const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
-          if (respGH.ok) {
-            const ghJson = await respGH.json();
-            if (ghJson.content) {
-              const cleanB64 = ghJson.content.replace(/\s+/g, '');
-              const decoded = decodeURIComponent(escape(atob(cleanB64)));
-              data = JSON.parse(decoded);
-            }
+          const respLocal = await fetch("telemetry.json?t=" + Date.now());
+          if (respLocal.ok) {
+            data = await respLocal.json();
           }
-        } catch (eGH) {}
+        } catch (e0) {}
       }
 
       // 3. Try GitHub Raw backup URL
@@ -818,19 +845,6 @@
             data = await resp2.json();
           }
         } catch (e2) {}
-      }
-
-      // 4. Try GitLab Snippet API
-      if (!data) {
-        try {
-          const resp = await fetch(GITLAB_SNIPPET_API + "?t=" + Date.now());
-          if (resp.ok) {
-            const snipObj = await resp.json();
-            if (snipObj.description) {
-              data = JSON.parse(snipObj.description);
-            }
-          }
-        } catch (e1) {}
       }
 
       if (data) {
@@ -884,7 +898,6 @@
       const container = document.getElementById("store-grid-container");
       let html = "";
 
-      // Build comprehensive list of games by combining catalog with any games present in storedAccounts
       const allGamesMap = new Map();
       CATALOG_GAMES.forEach(g => {
         allGamesMap.set(g.name.toLowerCase(), {
@@ -894,14 +907,14 @@
         });
       });
 
-      // Extract unique games owned by checked accounts
+      // Extract unique games owned by checked accounts with auto-resolved banners
       storedAccounts.forEach(acc => {
         (acc.games || []).forEach(gName => {
-          const lower = gName.toLowerCase();
+          const lower = gName.toLowerCase().trim();
           if (!allGamesMap.has(lower) && gName.length > 2) {
             allGamesMap.set(lower, {
               name: gName,
-              banner: "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png",
+              banner: getBannerForGame(gName),
               query: lower
             });
           }
@@ -912,7 +925,7 @@
       if (searchQuery && !allGamesMap.has(searchQuery)) {
         allGamesMap.set(searchQuery, {
           name: searchQuery.toUpperCase(),
-          banner: "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png",
+          banner: getBannerForGame(searchQuery),
           query: searchQuery
         });
       }

@@ -259,28 +259,66 @@ class HeadlessOrchestrator:
             "accounts": accounts
         }
 
-        try:
-            dumped_json = json.dumps(telemetry_payload, ensure_ascii=False)
-            req_data = json.dumps({
-                "description": dumped_json,
-                "files": [
-                    {
-                        "action": "update",
-                        "file_path": "telemetry.json",
-                        "content": dumped_json
-                    }
-                ]
-            }).encode("utf-8")
-            req = urllib.request.Request(
-                "https://gitlab.com/api/v4/snippets/6066556",
-                data=req_data,
-                headers={"PRIVATE-TOKEN": token, "Content-Type": "application/json"},
-                method="PUT"
-            )
-            with urllib.request.urlopen(req, timeout=8):
+        # 1. Update GitLab Snippet if GITLAB_TOKEN is available
+        if token:
+            try:
+                dumped_json = json.dumps(telemetry_payload, ensure_ascii=False)
+                req_data = json.dumps({
+                    "description": dumped_json,
+                    "files": [
+                        {
+                            "action": "update",
+                            "file_path": "telemetry.json",
+                            "content": dumped_json
+                        }
+                    ]
+                }).encode("utf-8")
+                req = urllib.request.Request(
+                    "https://gitlab.com/api/v4/snippets/6066556",
+                    data=req_data,
+                    headers={"PRIVATE-TOKEN": token, "Content-Type": "application/json"},
+                    method="PUT"
+                )
+                with urllib.request.urlopen(req, timeout=8):
+                    pass
+            except Exception:
                 pass
-        except Exception:
-            pass
+
+        # 2. Update GitHub telemetry.json directly (powers GitHub Pages live station)
+        gh_token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+        if gh_token:
+            try:
+                import base64
+                repo = os.environ.get("GITHUB_REPOSITORY", "mertkapan/nexus-validator")
+                url_get = f"https://api.github.com/repos/{repo}/contents/telemetry.json"
+                req_get = urllib.request.Request(url_get, headers={"Authorization": f"Bearer {gh_token}", "User-Agent": "NEXUS-Live"})
+                sha = None
+                try:
+                    with urllib.request.urlopen(req_get, timeout=6) as resp_get:
+                        meta = json.loads(resp_get.read().decode("utf-8"))
+                        sha = meta.get("sha")
+                except Exception:
+                    pass
+
+                dumped_bytes = json.dumps(telemetry_payload, ensure_ascii=False, indent=2).encode("utf-8")
+                b64_content = base64.b64encode(dumped_bytes).decode("utf-8")
+                body = {
+                    "message": f"telemetry: update {checked_idx:,} checked accounts",
+                    "content": b64_content
+                }
+                if sha:
+                    body["sha"] = sha
+
+                req_put = urllib.request.Request(
+                    url_get,
+                    data=json.dumps(body).encode("utf-8"),
+                    headers={"Authorization": f"Bearer {gh_token}", "Content-Type": "application/json", "User-Agent": "NEXUS-Live"},
+                    method="PUT"
+                )
+                with urllib.request.urlopen(req_put, timeout=8):
+                    pass
+            except Exception:
+                pass
 
     async def _init_proxies(self):
         """Loads existing proxies from disk or scrapes fresh ones if empty."""

@@ -753,13 +753,15 @@
       <button class="store-search-btn" onclick="executeSearch()">🔍 Ara</button>
     </div>
 
-    <!-- Quick Filter Tabs -->
+    <!-- Quick Filter Tabs & Sorting -->
     <div class="store-tabs">
       <button class="store-tab active" onclick="setTab('all', this)">Tüm Oyunlar</button>
       <button class="store-tab" onclick="setTab('hits', this)">🔥 Sadece Hesabı Olanlar</button>
       <button class="store-tab" onclick="setTab('popular', this)">⭐ Popüler AAA</button>
+      <button class="store-tab" onclick="setTab('fps', this)">🎯 FPS / Nişancı</button>
       <button class="store-tab" onclick="setTab('survival', this)">🏕️ Hayatta Kalma</button>
       <button class="store-tab" onclick="setTab('sports', this)">⚽ Spor / Futbol</button>
+      <button class="store-tab" onclick="setTab('rpg', this)">⚔️ RPG / Açık Dünya</button>
     </div>
 
     <div class="store-grid" id="store-grid-container">
@@ -866,8 +868,10 @@
 
     // Popular tags / genres for categorization
     const POPULAR_QUERY_LIST = ["fc", "fifa", "rust", "cyberpunk", "elden ring", "gta", "red dead", "witcher", "baldur", "helldivers", "counter-strike"];
-    const SURVIVAL_LIST = ["rust", "forest", "sons of the forest", "dayz", "ark", "raft", "palworld", "project zomboid", "unturned", "7 days"];
-    const SPORTS_LIST = ["fc", "fifa", "pes", "efootball", "nba", "f1", "forza", "rocket league", "total football"];
+    const FPS_LIST = ["counter-strike", "cs2", "half-life", "halo", "rainbow six", "overwatch", "apex", "team fortress", "day of defeat", "ricochet", "payday", "left 4 dead", "pubg"];
+    const SURVIVAL_LIST = ["rust", "forest", "sons of the forest", "dayz", "ark", "raft", "palworld", "project zomboid", "unturned", "7 days", "outlast"];
+    const SPORTS_LIST = ["fc", "fifa", "pes", "efootball", "nba", "f1", "forza", "rocket league", "total football", "pool"];
+    const RPG_LIST = ["witcher", "elden ring", "baldur", "cyberpunk", "metin2", "neverwinter", "black desert", "warframe", "lost ark", "path of exile", "skyrim", "dark souls"];
 
     function handleSearchKey(e) {
       if (e.key === "Enter") {
@@ -1095,15 +1099,33 @@
       // Filter by Tab
       if (currentTab === "hits") {
         gamesList = gamesList.filter(game => {
-          return storedAccounts.some(acc => (acc.games || []).some(g => g.toLowerCase().includes(game.query)));
+          const normTarget = normalizeGameTitle(game.name).toLowerCase();
+          return storedAccounts.some(acc => (acc.games || []).some(g => {
+            const normG = normalizeGameTitle(g).toLowerCase();
+            return normG === normTarget || normG.includes(game.query) || g.toLowerCase().includes(game.query);
+          }));
         });
       } else if (currentTab === "popular") {
         gamesList = gamesList.filter(game => POPULAR_QUERY_LIST.some(p => game.query.includes(p)));
+      } else if (currentTab === "fps") {
+        gamesList = gamesList.filter(game => FPS_LIST.some(p => game.query.includes(p)));
       } else if (currentTab === "survival") {
         gamesList = gamesList.filter(game => SURVIVAL_LIST.some(p => game.query.includes(p)));
       } else if (currentTab === "sports") {
         gamesList = gamesList.filter(game => SPORTS_LIST.some(p => game.query.includes(p)));
+      } else if (currentTab === "rpg") {
+        gamesList = gamesList.filter(game => RPG_LIST.some(p => game.query.includes(p)));
       }
+
+      // Sort: Prioritize games with active verified accounts, then alphabetical
+      gamesList.sort((a, b) => {
+        const normA = normalizeGameTitle(a.name).toLowerCase();
+        const normB = normalizeGameTitle(b.name).toLowerCase();
+        const countA = storedAccounts.filter(acc => (acc.games || []).some(g => normalizeGameTitle(g).toLowerCase() === normA)).length;
+        const countB = storedAccounts.filter(acc => (acc.games || []).some(g => normalizeGameTitle(g).toLowerCase() === normB)).length;
+        if (countB !== countA) return countB - countA;
+        return a.name.localeCompare(b.name);
+      });
 
       if (gamesList.length === 0) {
         container.innerHTML = `

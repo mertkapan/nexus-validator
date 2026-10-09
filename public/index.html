@@ -808,20 +808,33 @@
     function getBannerForGame(gameName) {
       if (!gameName) return "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png";
       const gn = gameName.toLowerCase().trim();
+      const norm = normalizeGameTitle(gameName).toLowerCase();
       
-      // 1. Direct appid from appidMap
+      // 1. Direct exact match in appidMap
       if (appidMap[gn]) {
         return `https://cdn.akamai.steamstatic.com/steam/apps/${appidMap[gn]}/header.jpg`;
       }
-      
-      // 2. Partial match in appidMap
+      if (appidMap[norm]) {
+        return `https://cdn.akamai.steamstatic.com/steam/apps/${appidMap[norm]}/header.jpg`;
+      }
+
+      // 2. Safe startsWith or exact word match (minimum 4 characters)
       for (const [k, v] of Object.entries(appidMap)) {
-        if (gn.includes(k) || k.includes(gn)) {
+        if (k.length >= 4) {
+          if (gn === k || norm === k || gn.startsWith(k + " ") || k.startsWith(gn + " ")) {
+            return `https://cdn.akamai.steamstatic.com/steam/apps/${v}/header.jpg`;
+          }
+        }
+      }
+
+      // 3. Fallback partial match only for distinctive longer names (>= 6 chars)
+      for (const [k, v] of Object.entries(appidMap)) {
+        if (k.length >= 6 && (gn.includes(k) || k.includes(gn))) {
           return `https://cdn.akamai.steamstatic.com/steam/apps/${v}/header.jpg`;
         }
       }
 
-      // 3. Fallback to Steam Community header
+      // 4. Fallback to clean Steam Community header
       return "https://community.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png";
     }
 

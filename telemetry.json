@@ -1,0 +1,42 @@
+{
+  "checked": 1420,
+  "total": 1358142,
+  "target_hits": 2,
+  "hits": 6,
+  "two_fa": 148,
+  "speed_cpm": 74,
+  "updated_at": "2026-10-09T18:40:00Z",
+  "accounts": [
+    {
+      "user": "fc25player_test",
+      "pass": "TestPass123!",
+      "steamid": "76561198000001337",
+      "vac": "CLEAN",
+      "country": "Turkey (TR)",
+      "wallet": "24.90 TRY",
+      "games": [
+        "EA SPORTS FC 25",
+        "Cyberpunk 2077",
+        "Rust",
+        "Elden Ring",
+        "Red Dead Redemption 2",
+        "GTA V"
+      ]
+    },
+    {
+      "user": "topplayer_fc25",
+      "pass": "GoalScore!99",
+      "steamid": "76561199000001337",
+      "vac": "CLEAN",
+      "country": "Turkey (TR)",
+      "wallet": "149.90 TRY",
+      "games": [
+        "EA SPORTS FC 25",
+        "FIFA 22",
+        "Red Dead Redemption 2",
+        "Cyberpunk 2077",
+        "ELDEN RING"
+      ]
+    }
+  ]
+}

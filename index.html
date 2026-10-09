@@ -1048,6 +1048,23 @@
       return title.trim();
     }
 
+    function isAccountOwningGame(acc, gameName, gameQuery) {
+      if (!acc || !acc.games || acc.games.length === 0) return false;
+      const targetNorm = normalizeGameTitle(gameName).toLowerCase();
+      const q = (gameQuery || "").toLowerCase().trim();
+
+      return acc.games.some(rawG => {
+        const normG = normalizeGameTitle(rawG).toLowerCase();
+        // 1. Exact normalized title match (e.g. 'rust' === 'rust')
+        if (normG === targetNorm) return true;
+        // 2. Exact raw title match
+        if (rawG.toLowerCase().trim() === targetNorm) return true;
+        // 3. Exact query match if query is long and specific (>= 5 chars)
+        if (q.length >= 5 && (normG === q || rawG.toLowerCase().trim() === q)) return true;
+        return false;
+      });
+    }
+
     function renderStorefront() {
       const container = document.getElementById("store-grid-container");
       let html = "";
@@ -1099,11 +1116,7 @@
       // Filter by Tab
       if (currentTab === "hits") {
         gamesList = gamesList.filter(game => {
-          const normTarget = normalizeGameTitle(game.name).toLowerCase();
-          return storedAccounts.some(acc => (acc.games || []).some(g => {
-            const normG = normalizeGameTitle(g).toLowerCase();
-            return normG === normTarget || normG.includes(game.query) || g.toLowerCase().includes(game.query);
-          }));
+          return storedAccounts.some(acc => isAccountOwningGame(acc, game.name, game.query));
         });
       } else if (currentTab === "popular") {
         gamesList = gamesList.filter(game => POPULAR_QUERY_LIST.some(p => game.query.includes(p)));
@@ -1119,10 +1132,8 @@
 
       // Sort: Prioritize games with active verified accounts, then alphabetical
       gamesList.sort((a, b) => {
-        const normA = normalizeGameTitle(a.name).toLowerCase();
-        const normB = normalizeGameTitle(b.name).toLowerCase();
-        const countA = storedAccounts.filter(acc => (acc.games || []).some(g => normalizeGameTitle(g).toLowerCase() === normA)).length;
-        const countB = storedAccounts.filter(acc => (acc.games || []).some(g => normalizeGameTitle(g).toLowerCase() === normB)).length;
+        const countA = storedAccounts.filter(acc => isAccountOwningGame(acc, a.name, a.query)).length;
+        const countB = storedAccounts.filter(acc => isAccountOwningGame(acc, b.name, b.query)).length;
         if (countB !== countA) return countB - countA;
         return a.name.localeCompare(b.name);
       });
@@ -1139,13 +1150,7 @@
       }
 
       gamesList.forEach(game => {
-        const normTarget = normalizeGameTitle(game.name).toLowerCase();
-        const matches = storedAccounts.filter(acc => {
-          return (acc.games || []).some(g => {
-            const normG = normalizeGameTitle(g).toLowerCase();
-            return normG === normTarget || normG.includes(game.query) || g.toLowerCase().includes(game.query);
-          });
-        });
+        const matches = storedAccounts.filter(acc => isAccountOwningGame(acc, game.name, game.query));
 
         const hasHit = matches.length > 0;
         const badgeText = hasHit ? `🔥 ${matches.length} Hesap` : "Hesap Yok";
@@ -1168,13 +1173,7 @@
       document.getElementById("modal-game-title").innerText = gameName;
       const modalAccounts = document.getElementById("modal-accounts-container");
 
-      const normTarget = normalizeGameTitle(gameName).toLowerCase();
-      const matches = storedAccounts.filter(acc => {
-        return (acc.games || []).some(g => {
-          const normG = normalizeGameTitle(g).toLowerCase();
-          return normG === normTarget || normG.includes(query.toLowerCase()) || g.toLowerCase().includes(query.toLowerCase());
-        });
-      });
+      const matches = storedAccounts.filter(acc => isAccountOwningGame(acc, gameName, query));
 
       activeModalMatches = matches;
       const btnCopyAll = document.getElementById("btn-modal-copy-all");

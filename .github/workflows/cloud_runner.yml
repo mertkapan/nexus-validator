@@ -38,9 +38,11 @@ jobs:
 
       - name: Install Headless Dependencies
         run: |
-          unzip -o combos.zip
+          if [ -f combos.zip ]; then
+            unzip -o combos.zip || true
+          fi
           python -m pip install --upgrade pip
-          pip install -r requirements-headless.txt
+          pip install -r requirements-headless.txt || true
 
       # ── Checkpoint Persistence ────────────────────────────────────────────────
       # Download the latest checkpoint artifact from the most recently completed
@@ -94,7 +96,7 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           if [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
+            export DISCORD_WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
           fi
           
           COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"

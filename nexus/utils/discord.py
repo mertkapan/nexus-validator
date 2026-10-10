@@ -290,6 +290,22 @@ def build_discord_embed(item: Dict[str, Any]) -> tuple:
         "inline": True
     })
 
+    # Community Inventory Items (CS2, TF2, Cards)
+    inv_sum = item.get("inventory_summary", {})
+    if inv_sum.get("total_items", 0) > 0:
+        cs2_cnt = inv_sum.get("cs2_items", 0)
+        tf2_cnt = inv_sum.get("tf2_items", 0)
+        cards_cnt = inv_sum.get("steam_cards", 0)
+        notable = inv_sum.get("notable_items", [])
+        inv_val = f"Toplam: **{inv_sum.get('total_items')}** Eşya (CS2: {cs2_cnt}, TF2: {tf2_cnt}, Kartlar: {cards_cnt})"
+        if notable:
+            inv_val += f"\nÖnemli: *{', '.join(notable[:3])}*"
+        fields.append({
+            "name": "🎒 Envanter / Eşyalar",
+            "value": inv_val,
+            "inline": False
+        })
+
     # Paid games list
     if paid_game_names:
         lines = [f"`{i:02d}` {nm}" for i, nm in enumerate(paid_game_names[:25], 1)]
@@ -322,12 +338,12 @@ def build_discord_embed(item: Dict[str, Any]) -> tuple:
         "color": color,
         "fields": fields,
         "author": {
-            "name": "104Society  ·  Steam Account Validator",
+            "name": "104Society · Developed by Mr. Profesör",
             "icon_url": STEAM_ICON
         },
         "thumbnail": {"url": avatar_url},
         "footer": {
-            "text": f"104Society Validator  •  {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
+            "text": f"104Society Steam Station • Developed by Mr. Profesör • {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}",
             "icon_url": STEAM_ICON
         },
         "timestamp": datetime.utcnow().isoformat() + "Z"

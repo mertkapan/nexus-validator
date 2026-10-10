@@ -96,7 +96,7 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           if [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            export DISCORD_WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
+            export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1548283725819674714/ScoIrZpwklucgiwb-oq4UrDvGLmqG62qeSXYjZe1q0Fb1QP-j1tFDbLUmFCfHrtjlpxb"
           fi
           
           COMBO_FILE="${{ github.event.inputs.combos_file || 'combos.txt' }}"

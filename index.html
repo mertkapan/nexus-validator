@@ -896,22 +896,15 @@
     async function loadData() {
       let data = null;
 
-      // 1. Primary Source: Direct GitHub Contents API (Instant Real-Time, bypasses GitHub Pages 10-minute CDN cache)
+      // 1. Primary Source: Direct GitHub Raw with cache-buster (No rate limits, instantaneous updates)
       try {
-        const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now(), {
-          headers: { "Accept": "application/vnd.github+json" }
-        });
-        if (respGH.ok) {
-          const ghJson = await respGH.json();
-          if (ghJson.content) {
-            const cleanB64 = ghJson.content.replace(/\s+/g, '');
-            const decoded = decodeURIComponent(escape(atob(cleanB64)));
-            data = JSON.parse(decoded);
-          }
+        const respRaw = await fetch("https://raw.githubusercontent.com/mertkapan/nexus-validator/main/telemetry.json?t=" + Date.now(), { cache: "no-store" });
+        if (respRaw.ok) {
+          data = await respRaw.json();
         }
-      } catch (eGH) {}
+      } catch (eRaw) {}
 
-      // 2. Fallback: Local / relative telemetry.json
+      // 2. Secondary Source: Local / relative telemetry.json
       if (!data) {
         try {
           const respLocal = await fetch("telemetry.json?t=" + Date.now(), { cache: "no-store" });
@@ -921,14 +914,19 @@
         } catch (e0) {}
       }
 
-      // 3. Fallback: GitHub Raw URL
+      // 3. Fallback: GitHub Contents API
       if (!data) {
         try {
-          const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now(), { cache: "no-store" });
-          if (resp2.ok) {
-            data = await resp2.json();
+          const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
+          if (respGH.ok) {
+            const ghJson = await respGH.json();
+            if (ghJson.content) {
+              const cleanB64 = ghJson.content.replace(/\s+/g, '');
+              const decoded = decodeURIComponent(escape(atob(cleanB64)));
+              data = JSON.parse(decoded);
+            }
           }
-        } catch (e2) {}
+        } catch (eGH) {}
       }
 
       if (data) {

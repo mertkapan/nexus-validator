@@ -1,11 +1,11 @@
 {
-  "checked": 1377,
+  "checked": 1485,
   "total": 1358142,
   "target_hits": 99,
-  "hits": 352,
-  "two_fa": 16,
-  "speed_cpm": 122,
-  "updated_at": "2026-10-11T17:15:03.239765+00:00",
+  "hits": 361,
+  "two_fa": 20,
+  "speed_cpm": 127,
+  "updated_at": "2026-10-11T17:15:29.453783+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2172,6 +2172,17 @@
       "wallet": "",
       "games": [
         "Call of Duty: Modern Warfare I"
+      ]
+    },
+    {
+      "user": "yusuf_malakhov",
+      "pass": "bis32808",
+      "steamid": "76561198019919196",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

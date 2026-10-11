@@ -896,30 +896,32 @@
     async function loadData() {
       let data = null;
 
-      // 1. First try relative / local telemetry.json (fastest and updated directly on GitHub Pages root)
+      // 1. Primary Source: Direct GitHub Contents API (Instant Real-Time, bypasses GitHub Pages 10-minute CDN cache)
       try {
-        const respLocal = await fetch("telemetry.json?t=" + Date.now(), { cache: "no-store" });
-        if (respLocal.ok) {
-          data = await respLocal.json();
+        const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now(), {
+          headers: { "Accept": "application/vnd.github+json" }
+        });
+        if (respGH.ok) {
+          const ghJson = await respGH.json();
+          if (ghJson.content) {
+            const cleanB64 = ghJson.content.replace(/\s+/g, '');
+            const decoded = decodeURIComponent(escape(atob(cleanB64)));
+            data = JSON.parse(decoded);
+          }
         }
-      } catch (e0) {}
+      } catch (eGH) {}
 
-      // 2. Try GitHub Contents API with fallback
+      // 2. Fallback: Local / relative telemetry.json
       if (!data) {
         try {
-          const respGH = await fetch("https://api.github.com/repos/mertkapan/nexus-validator/contents/telemetry.json?t=" + Date.now());
-          if (respGH.ok) {
-            const ghJson = await respGH.json();
-            if (ghJson.content) {
-              const cleanB64 = ghJson.content.replace(/\s+/g, '');
-              const decoded = decodeURIComponent(escape(atob(cleanB64)));
-              data = JSON.parse(decoded);
-            }
+          const respLocal = await fetch("telemetry.json?t=" + Date.now(), { cache: "no-store" });
+          if (respLocal.ok) {
+            data = await respLocal.json();
           }
-        } catch (eGH) {}
+        } catch (e0) {}
       }
 
-      // 3. Try GitHub Raw backup URL
+      // 3. Fallback: GitHub Raw URL
       if (!data) {
         try {
           const resp2 = await fetch(GITHUB_BACKUP_URL + "?t=" + Date.now(), { cache: "no-store" });

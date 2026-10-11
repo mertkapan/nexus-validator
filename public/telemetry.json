@@ -1,11 +1,11 @@
 {
-  "checked": 788,
+  "checked": 868,
   "total": 1358142,
   "target_hits": 69,
-  "hits": 168,
+  "hits": 197,
   "two_fa": 8,
-  "speed_cpm": 127,
-  "updated_at": "2026-10-11T17:12:20.046875+00:00",
+  "speed_cpm": 126,
+  "updated_at": "2026-10-11T17:12:46.673635+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1325,6 +1325,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "pitalino13",
+      "pass": "esumgaysabias?69",
+      "steamid": "76561198169541959",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "Aio2t2681",
+      "pass": "iGzAN2082",
+      "steamid": "76561199557835331",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
       ]
     }
   ]

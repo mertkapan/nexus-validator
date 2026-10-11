@@ -1,11 +1,11 @@
 {
-  "checked": 1813,
+  "checked": 1940,
   "total": 1358142,
-  "target_hits": 139,
-  "hits": 484,
-  "two_fa": 45,
-  "speed_cpm": 138,
-  "updated_at": "2026-10-11T12:04:15.455663+00:00",
+  "target_hits": 140,
+  "hits": 487,
+  "two_fa": 46,
+  "speed_cpm": 134,
+  "updated_at": "2026-10-11T12:04:58.015200+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -3201,6 +3201,28 @@
       "user": "Kawa18121994",
       "pass": "Kawa112$",
       "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "hunxa",
+      "pass": "drishya123",
+      "steamid": "76561198870449182",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

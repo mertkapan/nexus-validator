@@ -149,15 +149,13 @@ class HeadlessOrchestrator:
             pass
 
     def _sync_cloud_telemetry(self, checked_idx: int):
-        """Asynchronously syncs current checkpoint and hitsdc to public snippet."""
+        """Asynchronously syncs current checkpoint and hitsdc to GitHub and web dashboard."""
         now = time.time()
-        if hasattr(self, "_last_cloud_sync") and (now - self._last_cloud_sync) < 25:
+        if hasattr(self, "_last_cloud_sync") and (now - self._last_cloud_sync) < 20:
             return
         self._last_cloud_sync = now
 
         token = os.environ.get("GITLAB_TOKEN", "").strip()
-        if not token:
-            return
 
         import urllib.request
         from datetime import datetime, timezone

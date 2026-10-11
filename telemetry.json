@@ -1,11 +1,11 @@
 {
-  "checked": 1147,
+  "checked": 1193,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 364,
-  "two_fa": 26,
+  "target_hits": 124,
+  "hits": 392,
+  "two_fa": 28,
   "speed_cpm": 128,
-  "updated_at": "2026-10-11T12:00:54.811032+00:00",
+  "updated_at": "2026-10-11T12:01:20.873210+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2678,6 +2678,138 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hdl9wvqef98omyp",
+      "pass": "MIJXFAEWOVP4751",
+      "steamid": "76561199237434070",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Oceandell",
+      "pass": "A.Htr.2385",
+      "steamid": "76561199226441343",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "i3mvsiv30zifnpwf",
+      "pass": "TCEPWOWTSIAT511",
+      "steamid": "76561199113483459",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fuquens",
+      "pass": "aerosmith12",
+      "steamid": "76561198082578772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Warzon"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "d9s6i71y01ywrb7of976s",
+      "pass": "3NPK115HEUCR096",
+      "steamid": "76561199168473537",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DYNASTY WARRIORS 8: Xtreme Legends Complete Editio"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Forbidden Lov"
       ]
     }
   ]

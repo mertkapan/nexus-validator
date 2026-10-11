@@ -1,11 +1,11 @@
 {
-  "checked": 1485,
+  "checked": 1677,
   "total": 1358142,
   "target_hits": 99,
-  "hits": 361,
-  "two_fa": 20,
-  "speed_cpm": 127,
-  "updated_at": "2026-10-11T17:15:29.453783+00:00",
+  "hits": 385,
+  "two_fa": 24,
+  "speed_cpm": 143,
+  "updated_at": "2026-10-11T17:15:51.411017+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2183,6 +2183,28 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Board Game with Online Multiplayer"
       ]
     }
   ]

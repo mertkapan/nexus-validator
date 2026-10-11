@@ -1,11 +1,11 @@
 {
-  "checked": 1759,
+  "checked": 1965,
   "total": 1358142,
   "target_hits": 109,
-  "hits": 458,
+  "hits": 464,
   "two_fa": 42,
-  "speed_cpm": 175,
-  "updated_at": "2026-10-11T21:27:29.461381+00:00",
+  "speed_cpm": 187,
+  "updated_at": "2026-10-11T21:27:57.054429+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2651,6 +2651,28 @@
       "user": "politeprivatewolf",
       "pass": "Longcoal53",
       "steamid": "76561198889370080",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cronofunky",
+      "pass": "neokilla",
+      "steamid": "76561198004629905",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

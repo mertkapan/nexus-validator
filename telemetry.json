@@ -1,11 +1,11 @@
 {
-  "checked": 332,
+  "checked": 400,
   "total": 1358142,
   "target_hits": 63,
-  "hits": 154,
+  "hits": 155,
   "two_fa": 7,
-  "speed_cpm": 36,
-  "updated_at": "2026-10-11T07:35:37.687581+00:00",
+  "speed_cpm": 41,
+  "updated_at": "2026-10-11T07:36:02.044652+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -1259,6 +1259,17 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 435,
+  "checked": 839,
   "total": 1358142,
-  "target_hits": 62,
-  "hits": 160,
+  "target_hits": 65,
+  "hits": 169,
   "two_fa": 8,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-11T11:57:41.389025+00:00",
+  "speed_cpm": 140,
+  "updated_at": "2026-10-11T11:58:03.424437+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1391,6 +1391,94 @@
       "wallet": "",
       "games": [
         "Call of Duty®: Modern Warfare® 3 (2011"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "Express6611",
+      "pass": "wx#Rn04hziNll",
+      "steamid": "76561199677268146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "he00399837",
+      "pass": "ly19860919",
+      "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "walter2008oliver",
+      "pass": "Sillylamp497PF4X54",
+      "steamid": "76561199013027272",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "AR5295waRhWQ",
+      "pass": "HPUAfRXiZalLJ9OcV8v7",
+      "steamid": "76561198903283126",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -287,38 +287,40 @@ class HeadlessOrchestrator:
         # 2. Update GitHub telemetry.json directly (powers GitHub Pages live station)
         gh_token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
         if gh_token:
-            try:
-                import base64
-                repo = os.environ.get("GITHUB_REPOSITORY", "mertkapan/nexus-validator")
-                url_get = f"https://api.github.com/repos/{repo}/contents/telemetry.json"
-                req_get = urllib.request.Request(url_get, headers={"Authorization": f"Bearer {gh_token}", "User-Agent": "NEXUS-Live"})
-                sha = None
+            import base64
+            repo = os.environ.get("GITHUB_REPOSITORY", "mertkapan/nexus-validator")
+            dumped_bytes = json.dumps(telemetry_payload, ensure_ascii=False, indent=2).encode("utf-8")
+            b64_content = base64.b64encode(dumped_bytes).decode("utf-8")
+            
+            for file_path in ("telemetry.json", "public/telemetry.json"):
                 try:
-                    with urllib.request.urlopen(req_get, timeout=6) as resp_get:
-                        meta = json.loads(resp_get.read().decode("utf-8"))
-                        sha = meta.get("sha")
+                    url_get = f"https://api.github.com/repos/{repo}/contents/{file_path}"
+                    req_get = urllib.request.Request(url_get, headers={"Authorization": f"Bearer {gh_token}", "User-Agent": "NEXUS-Live"})
+                    sha = None
+                    try:
+                        with urllib.request.urlopen(req_get, timeout=6) as resp_get:
+                            meta = json.loads(resp_get.read().decode("utf-8"))
+                            sha = meta.get("sha")
+                    except Exception:
+                        pass
+
+                    body = {
+                        "message": f"telemetry: update {checked_idx:,} checked accounts ({file_path})",
+                        "content": b64_content
+                    }
+                    if sha:
+                        body["sha"] = sha
+
+                    req_put = urllib.request.Request(
+                        url_get,
+                        data=json.dumps(body).encode("utf-8"),
+                        headers={"Authorization": f"Bearer {gh_token}", "Content-Type": "application/json", "User-Agent": "NEXUS-Live"},
+                        method="PUT"
+                    )
+                    with urllib.request.urlopen(req_put, timeout=8):
+                        pass
                 except Exception:
                     pass
-
-                dumped_bytes = json.dumps(telemetry_payload, ensure_ascii=False, indent=2).encode("utf-8")
-                b64_content = base64.b64encode(dumped_bytes).decode("utf-8")
-                body = {
-                    "message": f"telemetry: update {checked_idx:,} checked accounts",
-                    "content": b64_content
-                }
-                if sha:
-                    body["sha"] = sha
-
-                req_put = urllib.request.Request(
-                    url_get,
-                    data=json.dumps(body).encode("utf-8"),
-                    headers={"Authorization": f"Bearer {gh_token}", "Content-Type": "application/json", "User-Agent": "NEXUS-Live"},
-                    method="PUT"
-                )
-                with urllib.request.urlopen(req_put, timeout=8):
-                    pass
-            except Exception:
-                pass
 
     async def _init_proxies(self):
         """Loads existing proxies from disk or scrapes fresh ones if empty."""

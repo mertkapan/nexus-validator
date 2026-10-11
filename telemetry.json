@@ -1,11 +1,11 @@
 {
-  "checked": 990,
+  "checked": 1043,
   "total": 1358142,
-  "target_hits": 103,
-  "hits": 299,
-  "two_fa": 16,
+  "target_hits": 112,
+  "hits": 326,
+  "two_fa": 17,
   "speed_cpm": 128,
-  "updated_at": "2026-10-11T11:59:45.713310+00:00",
+  "updated_at": "2026-10-11T12:00:10.509171+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2370,6 +2370,149 @@
       "wallet": "",
       "games": [
         "Crossou"
+      ]
+    },
+    {
+      "user": "um3to9xr3hs8",
+      "pass": "S110620047220tsts#",
+      "steamid": "76561199345854704",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "pjgci424217",
+      "pass": "GvItW142259",
+      "steamid": "76561199604575099",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Plane"
+      ]
+    },
+    {
+      "user": "focyb30350",
+      "pass": "ynjvq60107",
+      "steamid": "76561198774883799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "clyde2012grant",
+      "pass": "Greenchess219P9XS22",
+      "steamid": "76561199020655792",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barro"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🌐 Riyadh, Ar Riyad, Saudi Arabia",
+      "wallet": "",
+      "games": [
+        "Resident Evil 7 Teaser: Beginning Hour"
+      ]
+    },
+    {
+      "user": "zorowashere1",
+      "pass": "raoufazzi",
+      "steamid": "76561199571197328",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "vswnw53173",
+      "pass": "xlibn88659",
+      "steamid": "76561199711338508",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "youngspiffyibex",
+      "pass": "Greencave62",
+      "steamid": "76561198883470414",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Warspear Online"
+      ]
+    },
+    {
+      "user": "lolexec",
+      "pass": "1xClopapier",
+      "steamid": "76561198824732341",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mitos.is: The Gam"
+      ]
+    },
+    {
+      "user": "yohyi20789",
+      "pass": "bzVln1UOmaENvo",
+      "steamid": "76561199843008616",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "wnxn65596",
+      "pass": "Sq1Yt7Of4Zg76t",
+      "steamid": "76561199376622209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Warzon"
       ]
     }
   ]

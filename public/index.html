@@ -1013,6 +1013,17 @@
         return "Counter-Strike 2";
       }
 
+      // Common game mappings & truncated prefix normalization
+      if (/^ark:?\s*survival/i.test(title)) return "ARK: Survival Evolved";
+      if (/^rainbow six|^tom clancy's rainbow/i.test(title)) return "Tom Clancy's Rainbow Six Siege";
+      if (/^call of duty:?\s*modern warfare ii/i.test(title)) return "Call of Duty: Modern Warfare II";
+      if (/^call of duty/i.test(title)) return "Call of Duty";
+      if (/^grand theft auto iv/i.test(title)) return "Grand Theft Auto IV: The Complete Edition";
+      if (/^grand theft auto v|^gta\s*v/i.test(title)) return "Grand Theft Auto V";
+      if (/^grand theft auto|^gta/i.test(title)) return "Grand Theft Auto";
+      if (/^garry's mo/i.test(title)) return "Garry's Mod";
+      if (/^f1\S*\s*manager/i.test(title)) return "F1 Manager 2023";
+
       // Strip skin packs, kombat packs, character packs, soundtracks, servers
       title = title.replace(/\s+(Skin Pack|Kombat Pack|Fighter Pack|Character Pack|Bonus Pack|Soundtrack|Digital Soundtrack|DLC|Season Pass|Expansion Pass).*$/gi, "");
       title = title.replace(/\s*-\s*(Test Server|Experimental|Dedicated Server|Soundtrack|Digital Soundtrack|Demo|Public Test Branch).*$/gi, "");
@@ -1033,8 +1044,11 @@
         if (normG === targetNorm) return true;
         // 2. Exact raw title match
         if (rawG.toLowerCase().trim() === targetNorm) return true;
-        // 3. Exact query match if query is long and specific (>= 5 chars)
-        if (q.length >= 5 && (normG === q || rawG.toLowerCase().trim() === q)) return true;
+        // 3. Prefix matching for truncated titles (e.g. 'Counter-Strike:Global Offensiv' matches 'Counter-Strike: Global Offensive')
+        if (normG.length >= 6 && targetNorm.startsWith(normG)) return true;
+        if (targetNorm.length >= 6 && normG.startsWith(targetNorm)) return true;
+        // 4. Exact query match if query is long and specific (>= 4 chars)
+        if (q.length >= 4 && (normG === q || normG.includes(q))) return true;
         return false;
       });
     }

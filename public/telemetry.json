@@ -1,11 +1,11 @@
 {
-  "checked": 1677,
+  "checked": 1907,
   "total": 1358142,
   "target_hits": 99,
-  "hits": 385,
-  "two_fa": 24,
-  "speed_cpm": 143,
-  "updated_at": "2026-10-11T17:15:51.411017+00:00",
+  "hits": 400,
+  "two_fa": 26,
+  "speed_cpm": 150,
+  "updated_at": "2026-10-11T17:16:46.285476+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2205,6 +2205,28 @@
       "wallet": "",
       "games": [
         "Business Tour - Board Game with Online Multiplayer"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Vampire: The Masquerade - Bloodhunt"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Vampire: The Masquerade - Bloodhunt"
       ]
     }
   ]

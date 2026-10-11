@@ -1,11 +1,11 @@
 {
-  "checked": 400,
+  "checked": 562,
   "total": 1358142,
   "target_hits": 63,
   "hits": 155,
   "two_fa": 7,
-  "speed_cpm": 41,
-  "updated_at": "2026-10-11T07:36:02.044652+00:00",
+  "speed_cpm": 58,
+  "updated_at": "2026-10-11T07:36:25.834570+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",

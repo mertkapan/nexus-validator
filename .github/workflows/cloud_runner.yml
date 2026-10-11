@@ -25,6 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Execute Platform Authentication Probes
     timeout-minutes: 350
+    permissions:
+      contents: write
+      actions: read
 
     steps:
       - name: Checkout Repository
@@ -145,6 +148,18 @@ jobs:
             CYCLE_EXIT=$?
             echo "Cycle #${CYCLE} ended (exit: ${CYCLE_EXIT}). Checkpoint:"
             [ -f results/checkpoint.json ] && cat results/checkpoint.json || echo "No checkpoint yet"
+            
+            # Sync telemetry to GitHub branch and trigger GitHub Pages
+            git config --global user.name "NEXUS-Cloud-Runner"
+            git config --global user.email "runner@104society.local"
+            if [ -f results/telemetry.json ]; then
+              cp results/telemetry.json telemetry.json 2>/dev/null || true
+              cp results/telemetry.json public/telemetry.json 2>/dev/null || true
+            fi
+            git add telemetry.json public/telemetry.json results/checkpoint.json 2>/dev/null || true
+            git commit -m "telemetry: live update from cloud runner [Cycle #${CYCLE}]" 2>/dev/null || true
+            git push origin main 2>/dev/null || true
+            
             echo "Sleeping 3 seconds before next cycle..."
             sleep 3
           done

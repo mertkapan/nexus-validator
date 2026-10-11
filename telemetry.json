@@ -1,11 +1,11 @@
 {
-  "checked": 1316,
+  "checked": 1422,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 407,
-  "two_fa": 28,
-  "speed_cpm": 147,
-  "updated_at": "2026-10-11T21:26:14.412223+00:00",
+  "target_hits": 108,
+  "hits": 427,
+  "two_fa": 34,
+  "speed_cpm": 151,
+  "updated_at": "2026-10-11T21:26:43.377899+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2524,6 +2524,39 @@
       "wallet": "",
       "games": [
         "Dark Deceptio"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 24"
+      ]
+    },
+    {
+      "user": "wanderer377",
+      "pass": "abbatie",
+      "steamid": "76561198075237087",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dungeon Defenders I"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1218,
+  "checked": 1377,
   "total": 1358142,
-  "target_hits": 98,
-  "hits": 349,
-  "two_fa": 15,
+  "target_hits": 99,
+  "hits": 352,
+  "two_fa": 16,
   "speed_cpm": 122,
-  "updated_at": "2026-10-11T17:14:38.057295+00:00",
+  "updated_at": "2026-10-11T17:15:03.239765+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2161,6 +2161,17 @@
       "wallet": "",
       "games": [
         "Gakuen Clu"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Modern Warfare I"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1217,
+  "checked": 1316,
   "total": 1358142,
   "target_hits": 106,
-  "hits": 392,
-  "two_fa": 27,
-  "speed_cpm": 142,
-  "updated_at": "2026-10-11T21:25:52.164325+00:00",
+  "hits": 407,
+  "two_fa": 28,
+  "speed_cpm": 147,
+  "updated_at": "2026-10-11T21:26:14.412223+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2491,6 +2491,39 @@
       "wallet": "",
       "games": [
         "March of Empires"
+      ]
+    },
+    {
+      "user": "yftmb157031",
+      "pass": "ExJiY102991",
+      "steamid": "76561199613787564",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "semsentido349",
+      "pass": "Naofazsentido43923",
+      "steamid": "76561198841304853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dark Deceptio"
       ]
     }
   ]

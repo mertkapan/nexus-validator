@@ -1,11 +1,11 @@
 {
-  "checked": 1542,
+  "checked": 1607,
   "total": 1358142,
   "target_hits": 127,
-  "hits": 469,
-  "two_fa": 44,
-  "speed_cpm": 152,
-  "updated_at": "2026-10-11T07:24:51.040179+00:00",
+  "hits": 477,
+  "two_fa": 45,
+  "speed_cpm": 148,
+  "updated_at": "2026-10-11T07:25:26.086880+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3063,6 +3063,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "TERA - Action MMORPG"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1193,
+  "checked": 1346,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 392,
-  "two_fa": 28,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-11T12:01:20.873210+00:00",
+  "target_hits": 127,
+  "hits": 414,
+  "two_fa": 30,
+  "speed_cpm": 138,
+  "updated_at": "2026-10-11T12:01:43.289409+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2810,6 +2810,94 @@
       "wallet": "",
       "games": [
         "Forbidden Lov"
+      ]
+    },
+    {
+      "user": "lrg2017",
+      "pass": "Dollyluiz20192004",
+      "steamid": "76561198357318512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Plane"
+      ]
+    },
+    {
+      "user": "semsentido349",
+      "pass": "Naofazsentido43923",
+      "steamid": "76561198841304853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "kralfarukreis",
+      "pass": "71821905kralfaruk",
+      "steamid": "76561199057660911",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

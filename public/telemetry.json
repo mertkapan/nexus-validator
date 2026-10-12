@@ -1,11 +1,11 @@
 {
-  "checked": 247,
+  "checked": 489,
   "total": 1358142,
-  "target_hits": 55,
-  "hits": 147,
+  "target_hits": 59,
+  "hits": 160,
   "two_fa": 9,
-  "speed_cpm": 40,
-  "updated_at": "2026-10-12T14:04:56.789427+00:00",
+  "speed_cpm": 84,
+  "updated_at": "2026-10-12T14:05:19.093779+00:00",
   "accounts": [
     {
       "user": "hqy20030213",
@@ -1237,6 +1237,105 @@
       "wallet": "",
       "games": [
         "Ninja Stealth 3"
+      ]
+    },
+    {
+      "user": "rucel2",
+      "pass": "Adamprice11",
+      "steamid": "76561197965895458",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "he00399837",
+      "pass": "ly19860919",
+      "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Heroes & General"
       ]
     }
   ]

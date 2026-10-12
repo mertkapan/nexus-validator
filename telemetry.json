@@ -1,11 +1,11 @@
 {
-  "checked": 1711,
+  "checked": 2069,
   "total": 1358142,
   "target_hits": 143,
-  "hits": 482,
+  "hits": 485,
   "two_fa": 49,
-  "speed_cpm": 173,
-  "updated_at": "2026-10-12T03:40:18.884899+00:00",
+  "speed_cpm": 174,
+  "updated_at": "2026-10-12T03:41:23.766637+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3063,6 +3063,17 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

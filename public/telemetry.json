@@ -1,11 +1,11 @@
 {
-  "checked": 1648,
+  "checked": 1711,
   "total": 1358142,
   "target_hits": 143,
-  "hits": 480,
+  "hits": 482,
   "two_fa": 49,
-  "speed_cpm": 176,
-  "updated_at": "2026-10-12T03:39:51.771369+00:00",
+  "speed_cpm": 173,
+  "updated_at": "2026-10-12T03:40:18.884899+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3052,6 +3052,17 @@
       "wallet": "",
       "games": [
         "Fishing Plane"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
       ]
     }
   ]

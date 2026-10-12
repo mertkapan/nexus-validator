@@ -1,11 +1,11 @@
 {
-  "checked": 1187,
+  "checked": 1347,
   "total": 1358142,
-  "target_hits": 130,
-  "hits": 388,
-  "two_fa": 32,
-  "speed_cpm": 151,
-  "updated_at": "2026-10-12T03:38:25.161695+00:00",
+  "target_hits": 135,
+  "hits": 413,
+  "two_fa": 33,
+  "speed_cpm": 162,
+  "updated_at": "2026-10-12T03:38:49.495346+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2722,6 +2722,138 @@
       "wallet": "",
       "games": [
         "Lost"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Editio"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "quanaoyama2005",
+      "pass": "15251985quan",
+      "steamid": "76561198844326515",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "America's Army: Proving Ground"
+      ]
+    },
+    {
+      "user": "yftmb157031",
+      "pass": "ExJiY102991",
+      "steamid": "76561199613787564",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "murzynki3",
+      "pass": "Tina0987",
+      "steamid": "76561198951508862",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
       ]
     }
   ]

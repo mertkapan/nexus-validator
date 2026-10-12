@@ -1,11 +1,11 @@
 {
-  "checked": 389,
+  "checked": 826,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 161,
+  "target_hits": 71,
+  "hits": 167,
   "two_fa": 9,
-  "speed_cpm": 74,
-  "updated_at": "2026-10-12T03:35:29.107771+00:00",
+  "speed_cpm": 157,
+  "updated_at": "2026-10-12T03:35:53.018819+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1446,6 +1446,39 @@
       "wallet": "",
       "games": [
         "Banana Shoote"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
       ]
     }
   ]

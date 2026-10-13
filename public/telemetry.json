@@ -1,11 +1,11 @@
 {
-  "checked": 2163,
+  "checked": 2601,
   "total": 1358142,
   "target_hits": 144,
   "hits": 482,
   "two_fa": 48,
-  "speed_cpm": 160,
-  "updated_at": "2026-10-13T22:20:24.727026+00:00",
+  "speed_cpm": 190,
+  "updated_at": "2026-10-13T22:20:46.450357+00:00",
   "accounts": [
     {
       "user": "rickgamer77",

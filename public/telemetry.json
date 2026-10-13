@@ -1,11 +1,11 @@
 {
-  "checked": 679,
+  "checked": 872,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 165,
-  "two_fa": 11,
-  "speed_cpm": 116,
-  "updated_at": "2026-10-13T00:04:51.819461+00:00",
+  "target_hits": 72,
+  "hits": 187,
+  "two_fa": 12,
+  "speed_cpm": 100,
+  "updated_at": "2026-10-13T00:06:44.817210+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1380,6 +1380,61 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
       ]
     }
   ]

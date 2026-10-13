@@ -1,11 +1,11 @@
 {
-  "checked": 2093,
+  "checked": 2200,
   "total": 1358142,
   "target_hits": 140,
-  "hits": 482,
+  "hits": 484,
   "two_fa": 48,
-  "speed_cpm": 193,
-  "updated_at": "2026-10-13T06:09:05.002940+00:00",
+  "speed_cpm": 6,
+  "updated_at": "2026-10-13T11:29:00.228391+00:00",
   "accounts": [
     {
       "user": "kudon93",

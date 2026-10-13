@@ -1,11 +1,11 @@
 {
-  "checked": 1243,
+  "checked": 1395,
   "total": 1358142,
-  "target_hits": 126,
-  "hits": 407,
-  "two_fa": 31,
-  "speed_cpm": 149,
-  "updated_at": "2026-10-13T06:07:01.247879+00:00",
+  "target_hits": 128,
+  "hits": 429,
+  "two_fa": 38,
+  "speed_cpm": 160,
+  "updated_at": "2026-10-13T06:07:25.895548+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -2766,6 +2766,61 @@
       "wallet": "",
       "games": [
         "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 24"
       ]
     }
   ]

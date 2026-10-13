@@ -1,11 +1,11 @@
 {
-  "checked": 944,
+  "checked": 995,
   "total": 1358142,
-  "target_hits": 88,
-  "hits": 255,
-  "two_fa": 15,
+  "target_hits": 97,
+  "hits": 299,
+  "two_fa": 18,
   "speed_cpm": 126,
-  "updated_at": "2026-10-13T13:53:58.310935+00:00",
+  "updated_at": "2026-10-13T13:54:24.189539+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1930,6 +1930,259 @@
       "wallet": "",
       "games": [
         "The Fores"
+      ]
+    },
+    {
+      "user": "fad88269",
+      "pass": "IdO410261",
+      "steamid": "76561199712571100",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "MMZ_85",
+      "pass": "1385z1385",
+      "steamid": "76561199849142922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "lmlbcxqx1ab6",
+      "pass": "Balonas123!",
+      "steamid": "76561199878163759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Escape from Tarko"
+      ]
+    },
+    {
+      "user": "gfk66707",
+      "pass": "Bcp77509817",
+      "steamid": "76561199763707315",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "drbxn15403",
+      "pass": "3iCrnVKh",
+      "steamid": "76561199671862875",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "brianyparkerwns",
+      "pass": "Jennifer21kenneth100",
+      "steamid": "76561199574396454",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dmundrusz",
+      "pass": "SeeXXX19",
+      "steamid": "76561199089645682",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "eiPzEoK8d",
+      "pass": "bsAWwuFw3mD9JkQ",
+      "steamid": "76561198744978145",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "House Flipper"
+      ]
+    },
+    {
+      "user": "htl77405",
+      "pass": "OhC696145",
+      "steamid": "76561199709566113",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ftbjh70706",
+      "pass": "wQ9kKB52",
+      "steamid": "76561199670739957",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "UNO"
+      ]
+    },
+    {
+      "user": "jwhnn88213",
+      "pass": "edoi02089P",
+      "steamid": "76561199717868322",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "eedvy76820",
+      "pass": "TctoKZl9GITqb6",
+      "steamid": "76561199857254805",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "significantpopulation9691",
+      "pass": "0ANP0380",
+      "steamid": "76561199880678548",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "5jqqau50wiaqtagij2",
+      "pass": "3VSC6BNMAKW5791",
+      "steamid": "76561199153621898",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "osdz99462",
+      "pass": "Bo0Or3Ni9Zs16t",
+      "steamid": "76561199373972955",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mini Royale"
+      ]
+    },
+    {
+      "user": "pedram__hjk",
+      "pass": "9123036155",
+      "steamid": "76561199184676439",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "How to Fish"
+      ]
+    },
+    {
+      "user": "cx0d4xi8",
+      "pass": "tgEgha3IKnG4",
+      "steamid": "76561199730469722",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Bongo Ca"
+      ]
+    },
+    {
+      "user": "quanaoyama2005",
+      "pass": "15251985quan",
+      "steamid": "76561198844326515",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "pjgci424217",
+      "pass": "GvItW142259",
+      "steamid": "76561199604575099",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "djpnk19041",
+      "pass": "qadxr44555",
+      "steamid": "76561199711801400",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "focyb30350",
+      "pass": "ynjvq60107",
+      "steamid": "76561198774883799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "quirrelo10178holloway",
+      "pass": "JSI0WRH0H0VE268",
+      "steamid": "76561199073678132",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
       ]
     }
   ]

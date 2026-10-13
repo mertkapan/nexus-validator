@@ -1,11 +1,11 @@
 {
-  "checked": 2672,
+  "checked": 2870,
   "total": 1358142,
   "target_hits": 136,
-  "hits": 476,
+  "hits": 477,
   "two_fa": 46,
-  "speed_cpm": 163,
-  "updated_at": "2026-10-13T13:59:58.908320+00:00",
+  "speed_cpm": 173,
+  "updated_at": "2026-10-13T14:00:24.319045+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3195,6 +3195,17 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "gdevifzl",
+      "pass": "gamedev2020",
+      "steamid": "76561198974503590",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

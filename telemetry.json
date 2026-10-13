@@ -1,11 +1,11 @@
 {
-  "checked": 242,
+  "checked": 484,
   "total": 1358142,
-  "target_hits": 56,
-  "hits": 137,
-  "two_fa": 10,
-  "speed_cpm": 41,
-  "updated_at": "2026-10-13T00:04:06.552232+00:00",
+  "target_hits": 65,
+  "hits": 157,
+  "two_fa": 11,
+  "speed_cpm": 86,
+  "updated_at": "2026-10-13T00:04:29.258209+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1156,6 +1156,182 @@
       "pass": "9301vp54",
       "steamid": "76561199081844020",
       "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "ojasytpro1",
+      "pass": "Oojasytpro01",
+      "steamid": "76561199856592629",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "ownerzombie",
+      "pass": "truman24",
+      "steamid": "76561198041379038",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "dollie2019vigiani",
+      "pass": "Loudrice63SHWUQ92",
+      "steamid": "76561199007957649",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Transformice"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Rijeka, Primorsko-Goranska, Croatia",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "encul3",
+      "pass": "Pawelqw11!",
+      "steamid": "76561199391983447",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "F1® Manager 202"
+      ]
+    },
+    {
+      "user": "dadscap9",
+      "pass": "cechy127",
+      "steamid": "76561199225168485",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "dearTuna67637",
+      "pass": "UOxKvXT4eBar",
+      "steamid": "76561198754862847",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

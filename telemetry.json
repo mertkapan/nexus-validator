@@ -1,11 +1,11 @@
 {
-  "checked": 1626,
+  "checked": 1868,
   "total": 1358142,
-  "target_hits": 134,
-  "hits": 467,
+  "target_hits": 135,
+  "hits": 472,
   "two_fa": 46,
-  "speed_cpm": 145,
-  "updated_at": "2026-10-13T13:57:31.692571+00:00",
+  "speed_cpm": 162,
+  "updated_at": "2026-10-13T13:57:54.955026+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3124,6 +3124,61 @@
       "user": "troyas127",
       "pass": "venusymarte123",
       "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "cronofunky",
+      "pass": "neokilla",
+      "steamid": "76561198004629905",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "vlasik20101",
+      "pass": "1905lkvI",
+      "steamid": "76561198880907167",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

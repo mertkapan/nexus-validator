@@ -1,11 +1,11 @@
 {
-  "checked": 1981,
+  "checked": 2131,
   "total": 1358142,
-  "target_hits": 135,
-  "hits": 473,
+  "target_hits": 136,
+  "hits": 475,
   "two_fa": 46,
-  "speed_cpm": 165,
-  "updated_at": "2026-10-13T13:58:21.734492+00:00",
+  "speed_cpm": 164,
+  "updated_at": "2026-10-13T13:59:01.579188+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3184,6 +3184,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1095,
+  "checked": 1143,
   "total": 1358142,
-  "target_hits": 118,
-  "hits": 341,
-  "two_fa": 22,
+  "target_hits": 122,
+  "hits": 363,
+  "two_fa": 30,
   "speed_cpm": 144,
-  "updated_at": "2026-10-13T06:06:14.908559+00:00",
+  "updated_at": "2026-10-13T06:06:36.729708+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -2513,6 +2513,61 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "lrg2017",
+      "pass": "Dollyluiz20192004",
+      "steamid": "76561198357318512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "vswnw53173",
+      "pass": "xlibn88659",
+      "steamid": "76561199711338508",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOu"
       ]
     }
   ]

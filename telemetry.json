@@ -1,11 +1,11 @@
 {
-  "checked": 1216,
+  "checked": 1332,
   "total": 1358142,
-  "target_hits": 123,
-  "hits": 392,
-  "two_fa": 33,
-  "speed_cpm": 113,
-  "updated_at": "2026-10-13T00:08:55.131838+00:00",
+  "target_hits": 124,
+  "hits": 402,
+  "two_fa": 34,
+  "speed_cpm": 117,
+  "updated_at": "2026-10-13T00:09:26.120078+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2546,6 +2546,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "timmi1x",
+      "pass": "lums2022@SdSb",
+      "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "murzynki3",
+      "pass": "Tina0987",
+      "steamid": "76561198951508862",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Jungle Guardian"
       ]
     }
   ]

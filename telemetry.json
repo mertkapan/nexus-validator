@@ -1,11 +1,11 @@
 {
-  "checked": 1525,
+  "checked": 1626,
   "total": 1358142,
   "target_hits": 134,
-  "hits": 457,
+  "hits": 467,
   "two_fa": 46,
-  "speed_cpm": 140,
-  "updated_at": "2026-10-13T13:57:09.667062+00:00",
+  "speed_cpm": 145,
+  "updated_at": "2026-10-13T13:57:31.692571+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3096,6 +3096,39 @@
       "wallet": "",
       "games": [
         "Century: Age of Ashe"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jessiecaciolli2015",
+      "pass": "Oliveshow20CFR0166",
+      "steamid": "76561199009091417",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "TERA - Action MMORPG"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

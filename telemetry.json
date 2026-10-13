@@ -1,11 +1,11 @@
 {
-  "checked": 1097,
+  "checked": 1144,
   "total": 1358142,
-  "target_hits": 109,
-  "hits": 335,
-  "two_fa": 25,
-  "speed_cpm": 132,
-  "updated_at": "2026-10-13T13:54:47.424743+00:00",
+  "target_hits": 116,
+  "hits": 362,
+  "two_fa": 30,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-13T13:55:13.438639+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2469,6 +2469,127 @@
       "wallet": "",
       "games": [
         "Phasmophobi"
+      ]
+    },
+    {
+      "user": "kiep19941218",
+      "pass": "Kiep112$",
+      "steamid": "76561199106541149",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "nml53567",
+      "pass": "hdhqo4449",
+      "steamid": "76561199838631352",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "0146742063",
+      "pass": "9329423195",
+      "steamid": "76561199743690146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "i3mvsiv30zifnpwf",
+      "pass": "TCEPWOWTSIAT511",
+      "steamid": "76561199113483459",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kralfarukreis",
+      "pass": "71821905kralfaruk",
+      "steamid": "76561199057660911",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "iiTzPineAppleZz",
+      "pass": "Miloandsasha22",
+      "steamid": "76561198452507707",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vmmpk10496",
+      "pass": "Allah361",
+      "steamid": "76561199566209226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "foasg42779",
+      "pass": "djdts12014",
+      "steamid": "76561199837258966",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOu"
       ]
     }
   ]

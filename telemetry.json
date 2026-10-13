@@ -1,11 +1,11 @@
 {
-  "checked": 1539,
+  "checked": 1846,
   "total": 1358142,
-  "target_hits": 136,
-  "hits": 465,
-  "two_fa": 43,
-  "speed_cpm": 170,
-  "updated_at": "2026-10-13T06:07:47.576959+00:00",
+  "target_hits": 138,
+  "hits": 472,
+  "two_fa": 47,
+  "speed_cpm": 195,
+  "updated_at": "2026-10-13T06:08:13.425240+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -2942,6 +2942,50 @@
       "wallet": "",
       "games": [
         "Little Nightmare"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1332,
+  "checked": 1486,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 402,
-  "two_fa": 34,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-13T00:09:26.120078+00:00",
+  "target_hits": 127,
+  "hits": 431,
+  "two_fa": 47,
+  "speed_cpm": 126,
+  "updated_at": "2026-10-13T00:09:58.059730+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2579,6 +2579,94 @@
       "wallet": "",
       "games": [
         "Jungle Guardian"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "VoicelessUnsuitableManatee",
+      "pass": "Whitehair92",
+      "steamid": "76561198890124638",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Singapore",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "7bd1xlsxezc1n4zolhg",
+      "pass": "L7A5B6O700ZI795",
+      "steamid": "76561199184765475",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Booty Farm"
+      ]
+    },
+    {
+      "user": "hamzahmz951",
+      "pass": "hamzahamza951",
+      "steamid": "76561198870900842",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativers"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

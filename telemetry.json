@@ -1,11 +1,11 @@
 {
-  "checked": 1395,
+  "checked": 1539,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 429,
-  "two_fa": 38,
-  "speed_cpm": 160,
-  "updated_at": "2026-10-13T06:07:25.895548+00:00",
+  "target_hits": 136,
+  "hits": 465,
+  "two_fa": 43,
+  "speed_cpm": 170,
+  "updated_at": "2026-10-13T06:07:47.576959+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -2821,6 +2821,127 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC 24"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexo"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "yusuf_malakhov",
+      "pass": "bis32808",
+      "steamid": "76561198019919196",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1347,
+  "checked": 1449,
   "total": 1358142,
-  "target_hits": 132,
-  "hits": 411,
-  "two_fa": 34,
-  "speed_cpm": 151,
-  "updated_at": "2026-10-13T22:16:32.171305+00:00",
+  "target_hits": 140,
+  "hits": 432,
+  "two_fa": 41,
+  "speed_cpm": 156,
+  "updated_at": "2026-10-13T22:16:53.609386+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -2821,6 +2821,138 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 25"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "neefarmdear",
+      "pass": "71821905.",
+      "steamid": "76561199016344714",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "lesske11",
+      "pass": "gustavomito12@1",
+      "steamid": "76561199105210233",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "TERA - Action MMORPG"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "TERA - Action MMORPG"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 24"
       ]
     }
   ]

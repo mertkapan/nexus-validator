@@ -1,11 +1,11 @@
 {
-  "checked": 2601,
+  "checked": 3065,
   "total": 1358142,
   "target_hits": 144,
-  "hits": 482,
+  "hits": 483,
   "two_fa": 48,
-  "speed_cpm": 190,
-  "updated_at": "2026-10-13T22:20:46.450357+00:00",
+  "speed_cpm": 219,
+  "updated_at": "2026-10-13T22:21:10.202804+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -3118,6 +3118,17 @@
       "wallet": "",
       "games": [
         "Stardew Valley"
+      ]
+    },
+    {
+      "user": "hoangnova17",
+      "pass": "H0angN0va83",
+      "steamid": "76561199087071058",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
       ]
     }
   ]

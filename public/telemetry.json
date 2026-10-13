@@ -1,11 +1,11 @@
 {
-  "checked": 1129,
+  "checked": 1177,
   "total": 1358142,
-  "target_hits": 119,
-  "hits": 342,
-  "two_fa": 25,
-  "speed_cpm": 111,
-  "updated_at": "2026-10-13T00:08:12.663422+00:00",
+  "target_hits": 123,
+  "hits": 371,
+  "two_fa": 33,
+  "speed_cpm": 113,
+  "updated_at": "2026-10-13T00:08:32.974946+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2359,6 +2359,105 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mleko181294",
+      "pass": "Mleko112$",
+      "steamid": "76561199110829180",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaste"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Editio"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOu"
+      ]
+    },
+    {
+      "user": "ov5vo2st6qu7",
+      "pass": "Mikosik878.",
+      "steamid": "76561199315823095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "fuquens",
+      "pass": "aerosmith12",
+      "steamid": "76561198082578772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rise"
+      ]
+    },
+    {
+      "user": "d9s6i71y01ywrb7of976s",
+      "pass": "3NPK115HEUCR096",
+      "steamid": "76561199168473537",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
       ]
     }
   ]

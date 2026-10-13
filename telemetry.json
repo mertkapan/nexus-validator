@@ -1,11 +1,11 @@
 {
-  "checked": 893,
+  "checked": 944,
   "total": 1358142,
-  "target_hits": 71,
-  "hits": 213,
-  "two_fa": 12,
-  "speed_cpm": 132,
-  "updated_at": "2026-10-13T22:14:20.503011+00:00",
+  "target_hits": 93,
+  "hits": 256,
+  "two_fa": 15,
+  "speed_cpm": 130,
+  "updated_at": "2026-10-13T22:14:49.275460+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -1743,6 +1743,336 @@
       "wallet": "",
       "games": [
         "Enclav"
+      ]
+    },
+    {
+      "user": "toqyl59425",
+      "pass": "lidox53025",
+      "steamid": "76561199872233178",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "saneyapper",
+      "pass": "sane1081009",
+      "steamid": "76561198246356678",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "sxewv27595",
+      "pass": "Mate2007Mate_",
+      "steamid": "76561199571717634",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "ryjvj19309",
+      "pass": "pzzoj96868",
+      "steamid": "76561198756097780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "inturongr2104quinn",
+      "pass": "muiepsd12",
+      "steamid": "76561199076043963",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "alejandro2020631",
+      "pass": "Alejandro14754776",
+      "steamid": "76561199217992512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Kabel18121994",
+      "pass": "Kabel112$",
+      "steamid": "76561199111460512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "Jo4Ua6Jc6Kq5",
+      "pass": "Ev9Hj6Lf0Vo5",
+      "steamid": "76561199318854250",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "antmatzmad",
+      "pass": "29111970ant",
+      "steamid": "76561198031714154",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Driebard92",
+      "pass": "Gui19981998",
+      "steamid": "76561199063182985",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Fores"
+      ]
+    },
+    {
+      "user": "focyb30350",
+      "pass": "ynjvq60107",
+      "steamid": "76561198774883799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crossou"
+      ]
+    },
+    {
+      "user": "djpnk19041",
+      "pass": "qadxr44555",
+      "steamid": "76561199711801400",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "6bpntgtc2",
+      "pass": "kratos123456789L",
+      "steamid": "76561199664448096",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🌐 Riyadh, Ar Riyad, Saudi Arabia",
+      "wallet": "",
+      "games": [
+        "Mafia III: Definitive Editio"
+      ]
+    },
+    {
+      "user": "fkgdc17929",
+      "pass": "vhryd24318",
+      "steamid": "76561199796199147",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "htl77405",
+      "pass": "OhC696145",
+      "steamid": "76561199709566113",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "UnusedKnownVulture",
+      "pass": "Noisystick86",
+      "steamid": "76561198889691295",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "abdulatif_12_",
+      "pass": "abdu_776",
+      "steamid": "76561198726241809",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "drbxn15403",
+      "pass": "3iCrnVKh",
+      "steamid": "76561199671862875",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "bjzwb459831",
+      "pass": "RwJoM062383",
+      "steamid": "76561199605496084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "88672477",
+      "pass": "45379336",
+      "steamid": "76561199552679094",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "dmundrusz",
+      "pass": "SeeXXX19",
+      "steamid": "76561199089645682",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foasg42779",
+      "pass": "djdts12014",
+      "steamid": "76561199837258966",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "ni3sh7txt13l6az",
+      "pass": "44DOKMQNXSGO579",
+      "steamid": "76561199205974430",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life: Restore"
+      ]
+    },
+    {
+      "user": "0766411986",
+      "pass": "NQH&5FEa9N^#D8C",
+      "steamid": "76561199866567024",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "veiledcheetos",
+      "pass": "000000000_",
+      "steamid": "76561198916637598",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "cv0gvl7me",
+      "pass": "M@rrakech199",
+      "steamid": "76561199803081173",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Half-Life"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 534,
+  "checked": 845,
   "total": 1358142,
-  "target_hits": 62,
-  "hits": 160,
+  "target_hits": 66,
+  "hits": 169,
   "two_fa": 10,
-  "speed_cpm": 99,
-  "updated_at": "2026-10-13T06:04:01.767721+00:00",
+  "speed_cpm": 146,
+  "updated_at": "2026-10-13T06:04:27.971875+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -1369,6 +1369,72 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Rijeka, Primorsko-Goranska, Croatia",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "walter2008oliver",
+      "pass": "Sillylamp497PF4X54",
+      "steamid": "76561199013027272",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

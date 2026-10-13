@@ -1,11 +1,11 @@
 {
-  "checked": 1846,
+  "checked": 1891,
   "total": 1358142,
-  "target_hits": 138,
-  "hits": 472,
+  "target_hits": 139,
+  "hits": 479,
   "two_fa": 47,
-  "speed_cpm": 195,
-  "updated_at": "2026-10-13T06:08:13.425240+00:00",
+  "speed_cpm": 193,
+  "updated_at": "2026-10-13T06:08:35.353102+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -2986,6 +2986,28 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

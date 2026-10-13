@@ -1,11 +1,11 @@
 {
-  "checked": 1596,
+  "checked": 1809,
   "total": 1358142,
-  "target_hits": 141,
-  "hits": 454,
-  "two_fa": 46,
-  "speed_cpm": 166,
-  "updated_at": "2026-10-13T22:17:15.643812+00:00",
+  "target_hits": 143,
+  "hits": 473,
+  "two_fa": 48,
+  "speed_cpm": 174,
+  "updated_at": "2026-10-13T22:17:58.312194+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -2971,6 +2971,105 @@
       "pass": "#Y&#T6r7352726yu4",
       "steamid": "76561199438238454",
       "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tiger33511",
+      "pass": "jakndaxter",
+      "steamid": "76561198164522199",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "MakeshiftBentOkapi",
+      "pass": "Hotview24",
+      "steamid": "76561198889707770",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thepalareis",
+      "pass": "The2290Pala3133.",
+      "steamid": "76561199057743381",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "gfk66707",
+      "pass": "Bcp77509817",
+      "steamid": "76561199763707315",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

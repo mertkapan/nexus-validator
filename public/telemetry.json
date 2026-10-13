@@ -1,11 +1,11 @@
 {
-  "checked": 1486,
+  "checked": 1662,
   "total": 1358142,
-  "target_hits": 127,
-  "hits": 431,
-  "two_fa": 47,
-  "speed_cpm": 126,
-  "updated_at": "2026-10-13T00:09:58.059730+00:00",
+  "target_hits": 132,
+  "hits": 465,
+  "two_fa": 50,
+  "speed_cpm": 123,
+  "updated_at": "2026-10-13T00:10:58.392853+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2667,6 +2667,61 @@
       "wallet": "",
       "games": [
         "Little Nightmare"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "jessiecaciolli2015",
+      "pass": "Oliveshow20CFR0166",
+      "steamid": "76561199009091417",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

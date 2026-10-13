@@ -1,11 +1,11 @@
 {
-  "checked": 989,
+  "checked": 1095,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 301,
-  "two_fa": 16,
-  "speed_cpm": 130,
-  "updated_at": "2026-10-13T22:15:12.624282+00:00",
+  "target_hits": 124,
+  "hits": 335,
+  "two_fa": 23,
+  "speed_cpm": 136,
+  "updated_at": "2026-10-13T22:15:39.986942+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -2326,6 +2326,226 @@
       "wallet": "",
       "games": [
         "Warspear Online"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "novaphase3",
+      "pass": "xmwESYhRswKk5E",
+      "steamid": "76561199875879685",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "fad88269",
+      "pass": "IdO410261",
+      "steamid": "76561199712571100",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barr"
+      ]
+    },
+    {
+      "user": "ov5vo2st6qu7",
+      "pass": "Mikosik878.",
+      "steamid": "76561199315823095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "quanaoyama2005",
+      "pass": "15251985quan",
+      "steamid": "76561198844326515",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "oblys793769",
+      "pass": "BzYtJ305351",
+      "steamid": "76561199613467874",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Psychonaut"
+      ]
+    },
+    {
+      "user": "ymvqt00929",
+      "pass": "B4pbvMj0",
+      "steamid": "76561199670946849",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "xwsez74818",
+      "pass": "iqavl22253",
+      "steamid": "76561199844118561",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "nohio00466",
+      "pass": "xsio07018E",
+      "steamid": "76561199717808096",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "tngvo08229",
+      "pass": "yaap33595M",
+      "steamid": "76561199717900109",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "rcvfr216440",
+      "pass": "XaVdF935333",
+      "steamid": "76561199613830700",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "Aio2t2681",
+      "pass": "iGzAN2082",
+      "steamid": "76561199557835331",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "yohyi20789",
+      "pass": "bzVln1UOmaENvo",
+      "steamid": "76561199843008616",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "vmmpk10496",
+      "pass": "Allah361",
+      "steamid": "76561199566209226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Editio"
+      ]
+    },
+    {
+      "user": "wbhil99014",
+      "pass": "ysza78105L",
+      "steamid": "76561199721300589",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "mleko181294",
+      "pass": "Mleko112$",
+      "steamid": "76561199110829180",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Adventure of Bear"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin"
       ]
     }
   ]

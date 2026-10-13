@@ -1,11 +1,11 @@
 {
-  "checked": 1467,
+  "checked": 1525,
   "total": 1358142,
-  "target_hits": 133,
-  "hits": 442,
-  "two_fa": 41,
+  "target_hits": 134,
+  "hits": 457,
+  "two_fa": 46,
   "speed_cpm": 140,
-  "updated_at": "2026-10-13T13:56:48.770169+00:00",
+  "updated_at": "2026-10-13T13:57:09.667062+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -3063,6 +3063,39 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Century: Age of Ashe"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 3065,
+  "checked": 3264,
   "total": 1358142,
-  "target_hits": 144,
-  "hits": 483,
+  "target_hits": 146,
+  "hits": 485,
   "two_fa": 48,
-  "speed_cpm": 219,
-  "updated_at": "2026-10-13T22:21:10.202804+00:00",
+  "speed_cpm": 171,
+  "updated_at": "2026-10-13T22:25:08.332120+00:00",
   "accounts": [
     {
       "user": "rickgamer77",
@@ -3129,6 +3129,28 @@
       "wallet": "",
       "games": [
         "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "dadscap9",
+      "pass": "cechy127",
+      "steamid": "76561199225168485",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "yswg114270",
+      "pass": "9301vp54",
+      "steamid": "76561199081844020",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
       ]
     }
   ]

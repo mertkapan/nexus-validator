@@ -1,11 +1,11 @@
 {
-  "checked": 898,
+  "checked": 944,
   "total": 1358142,
-  "target_hits": 74,
-  "hits": 214,
-  "two_fa": 11,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-13T13:53:28.834492+00:00",
+  "target_hits": 88,
+  "hits": 255,
+  "two_fa": 15,
+  "speed_cpm": 126,
+  "updated_at": "2026-10-13T13:53:58.310935+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1677,6 +1677,259 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ni3sh7txt13l6az",
+      "pass": "44DOKMQNXSGO579",
+      "steamid": "76561199205974430",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "artjomtkrv",
+      "pass": "25121995",
+      "steamid": "76561198027481542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "saneyapper",
+      "pass": "sane1081009",
+      "steamid": "76561198246356678",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Freestyle 2: Street Basketbal"
+      ]
+    },
+    {
+      "user": "jonathan_conner3",
+      "pass": "}F;t{)icHA+H",
+      "steamid": "76561199091764344",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "t2pxrxum0y2o2sz1rzb0zsxb",
+      "pass": "VL2GG74TWGBZ883",
+      "steamid": "76561199144619272",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "abdulatif_12_",
+      "pass": "abdu_776",
+      "steamid": "76561198726241809",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "88672477",
+      "pass": "45379336",
+      "steamid": "76561199552679094",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "pitalino13",
+      "pass": "esumgaysabias?69",
+      "steamid": "76561198169541959",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "hevca56989",
+      "pass": "hilariousGame!989",
+      "steamid": "76561199784743546",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "existingbooth51",
+      "pass": "RU8ltFaCgETK2A8",
+      "steamid": "76561199661465645",
+      "vac": "CLEAN",
+      "country": "🌐 Grenada",
+      "wallet": "",
+      "games": [
+        "ARC Raiders"
+      ]
+    },
+    {
+      "user": "exgpi03415",
+      "pass": "sxrh44514Z",
+      "steamid": "76561199566570822",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "cv0gvl7me",
+      "pass": "M@rrakech199",
+      "steamid": "76561199803081173",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Half-Life 2: Deathmatc"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "lenjp953117",
+      "pass": "ZiEaN583444",
+      "steamid": "76561199610099742",
+      "vac": "CLEAN",
+      "country": "🌐 Lithuania",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "megasonic_0005",
+      "pass": "MegaSonic121_5",
+      "steamid": "76561199377835055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares Enhanced Editio"
+      ]
+    },
+    {
+      "user": "bjzwb459831",
+      "pass": "RwJoM062383",
+      "steamid": "76561199605496084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fdgju10598",
+      "pass": "bzzvz53815",
+      "steamid": "76561198751776114",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🌐 Riyadh, Ar Riyad, Saudi Arabia",
+      "wallet": "",
+      "games": [
+        "Mafia III: Definitive Editio"
+      ]
+    },
+    {
+      "user": "buuau28597",
+      "pass": "xfgv73496W",
+      "steamid": "76561199566010995",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Fores"
       ]
     }
   ]

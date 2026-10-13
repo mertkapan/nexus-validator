@@ -1,11 +1,11 @@
 {
-  "checked": 484,
+  "checked": 679,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 157,
+  "target_hits": 67,
+  "hits": 165,
   "two_fa": 11,
-  "speed_cpm": 86,
-  "updated_at": "2026-10-13T00:04:29.258209+00:00",
+  "speed_cpm": 116,
+  "updated_at": "2026-10-13T00:04:51.819461+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1336,6 +1336,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "Zc9Ge1Fe7In6",
+      "pass": "Um8Dz1Ac0Qb7",
+      "steamid": "76561199321232302",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rucel2",
+      "pass": "Adamprice11",
+      "steamid": "76561197965895458",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
       ]
     }
   ]

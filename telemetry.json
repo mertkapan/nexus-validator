@@ -1,11 +1,11 @@
 {
-  "checked": 1891,
+  "checked": 2093,
   "total": 1358142,
-  "target_hits": 139,
-  "hits": 479,
-  "two_fa": 47,
+  "target_hits": 140,
+  "hits": 482,
+  "two_fa": 48,
   "speed_cpm": 193,
-  "updated_at": "2026-10-13T06:08:35.353102+00:00",
+  "updated_at": "2026-10-13T06:09:05.002940+00:00",
   "accounts": [
     {
       "user": "kudon93",
@@ -3008,6 +3008,17 @@
       "wallet": "",
       "games": [
         "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

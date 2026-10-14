@@ -1,11 +1,11 @@
 {
-  "checked": 343,
+  "checked": 743,
   "total": 1358142,
-  "target_hits": 64,
-  "hits": 150,
+  "target_hits": 65,
+  "hits": 154,
   "two_fa": 10,
-  "speed_cpm": 49,
-  "updated_at": "2026-10-14T11:01:20.907451+00:00",
+  "speed_cpm": 109,
+  "updated_at": "2026-10-14T11:01:41.956698+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1270,6 +1270,50 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "dark_light0_033",
+      "pass": "dark_light0_0",
+      "steamid": "76561199204196463",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

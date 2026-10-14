@@ -1,11 +1,11 @@
 {
-  "checked": 98,
+  "checked": 151,
   "total": 1358142,
-  "target_hits": 13,
-  "hits": 35,
-  "two_fa": 2,
-  "speed_cpm": 13,
-  "updated_at": "2026-10-14T02:57:02.225572+00:00",
+  "target_hits": 22,
+  "hits": 71,
+  "two_fa": 5,
+  "speed_cpm": 21,
+  "updated_at": "2026-10-14T02:57:55.198860+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -335,6 +335,215 @@
       "wallet": "",
       "games": [
         "CS:GO Player Profile"
+      ]
+    },
+    {
+      "user": "deizfreeacc",
+      "pass": "deizdiscord09870",
+      "steamid": "76561199132104873",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "mikamark01",
+      "pass": "makmak08",
+      "steamid": "76561198882726647",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "dcoii01",
+      "pass": "I'mthelichking01",
+      "steamid": "76561198866551210",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "johnmasterpl",
+      "pass": "Sc11SwyvFLpiar90u6",
+      "steamid": "76561198096116505",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "asfbbgcmdhek",
+      "pass": "lza20081115",
+      "steamid": "76561199426708785",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "STAR WARS™ Battlefront™ II"
+      ]
+    },
+    {
+      "user": "kauazinhu1",
+      "pass": "33462656Kk",
+      "steamid": "76561198797748454",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nomahgawd",
+      "pass": "hbj81228",
+      "steamid": "76561199088215357",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Kill It With Fire: HEATWAVE"
+      ]
+    },
+    {
+      "user": "lup2731",
+      "pass": "RedImba12345",
+      "steamid": "76561198404542840",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "16677214",
+      "pass": "86891040",
+      "steamid": "76561199852803089",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "leroymorgan2003",
+      "pass": "PZT4LQAUY1F550",
+      "steamid": "76561199027122671",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Deceit"
+      ]
+    },
+    {
+      "user": "rjsth72035",
+      "pass": "shsw89379N",
+      "steamid": "76561199505571535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Aeons Ech"
+      ]
+    },
+    {
+      "user": "dark_light0_033",
+      "pass": "dark_light0_0",
+      "steamid": "76561199204196463",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "itnrk87833",
+      "pass": "9DafaT2acWJxYuV",
+      "steamid": "76561199839515059",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "tlmvcl0769",
+      "pass": "17Love32",
+      "steamid": "76561199737835097",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "sabrinovic2",
+      "pass": "azerty1306",
+      "steamid": "76561198271692333",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zaE3525D",
+      "pass": "9rHbZ66o",
+      "steamid": "76561199816258994",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "AtmaSpher"
+      ]
+    },
+    {
+      "user": "usesell12234",
+      "pass": "usesell09383926589",
+      "steamid": "76561198931418710",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LOL"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "1v1.LOL - Battle Royale Gam"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Editio"
       ]
     }
   ]

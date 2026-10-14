@@ -1,11 +1,11 @@
 {
-  "checked": 1023,
+  "checked": 1115,
   "total": 1358142,
-  "target_hits": 87,
-  "hits": 296,
-  "two_fa": 17,
-  "speed_cpm": 111,
-  "updated_at": "2026-10-14T03:01:50.862076+00:00",
+  "target_hits": 95,
+  "hits": 329,
+  "two_fa": 25,
+  "speed_cpm": 118,
+  "updated_at": "2026-10-14T03:02:11.626324+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2040,6 +2040,116 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Lif"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "wmlxj59351",
+      "pass": "cywep81207",
+      "steamid": "76561199768221477",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "yohyi20789",
+      "pass": "bzVln1UOmaENvo",
+      "steamid": "76561199843008616",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "oblys793769",
+      "pass": "BzYtJ305351",
+      "steamid": "76561199613467874",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barr"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "npyyw06895",
+      "pass": "iycubRCS3r7owM",
+      "steamid": "76561198744083717",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 27 Lit"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
       ]
     }
   ]

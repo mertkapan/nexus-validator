@@ -1,11 +1,11 @@
 {
-  "checked": 581,
+  "checked": 839,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 158,
+  "target_hits": 71,
+  "hits": 168,
   "two_fa": 8,
-  "speed_cpm": 108,
-  "updated_at": "2026-10-14T21:13:44.034740+00:00",
+  "speed_cpm": 144,
+  "updated_at": "2026-10-14T21:14:12.669268+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -1325,6 +1325,83 @@
       "wallet": "",
       "games": [
         "Rus"
+      ]
+    },
+    {
+      "user": "brhbtrhbtrh",
+      "pass": "Cechy127",
+      "steamid": "76561199388477533",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "clydecappelletti1994",
+      "pass": "Shinyapple54S2UKA45",
+      "steamid": "76561199011861603",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ahmetefe226",
+      "pass": "13579Kskli",
+      "steamid": "76561198978075807",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

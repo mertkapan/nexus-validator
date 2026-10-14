@@ -1,11 +1,11 @@
 {
-  "checked": 682,
+  "checked": 797,
   "total": 1358142,
-  "target_hits": 62,
-  "hits": 159,
+  "target_hits": 64,
+  "hits": 162,
   "two_fa": 11,
-  "speed_cpm": 133,
-  "updated_at": "2026-10-14T16:19:08.702654+00:00",
+  "speed_cpm": 142,
+  "updated_at": "2026-10-14T16:19:32.298790+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1259,6 +1259,28 @@
       "wallet": "",
       "games": [
         "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

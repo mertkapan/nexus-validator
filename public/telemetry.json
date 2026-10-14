@@ -1,11 +1,11 @@
 {
-  "checked": 1457,
+  "checked": 1737,
   "total": 1358142,
-  "target_hits": 96,
-  "hits": 318,
-  "two_fa": 21,
-  "speed_cpm": 155,
-  "updated_at": "2026-10-14T16:21:02.095570+00:00",
+  "target_hits": 97,
+  "hits": 329,
+  "two_fa": 22,
+  "speed_cpm": 161,
+  "updated_at": "2026-10-14T16:21:25.650268+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2128,6 +2128,39 @@
       "wallet": "",
       "games": [
         "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "MakeshiftBentOkapi",
+      "pass": "Hotview24",
+      "steamid": "76561198889707770",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

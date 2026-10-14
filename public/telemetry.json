@@ -1,11 +1,11 @@
 {
-  "checked": 1270,
+  "checked": 1375,
   "total": 1358142,
-  "target_hits": 99,
-  "hits": 392,
-  "two_fa": 30,
+  "target_hits": 101,
+  "hits": 405,
+  "two_fa": 35,
   "speed_cpm": 123,
-  "updated_at": "2026-10-14T03:03:02.691111+00:00",
+  "updated_at": "2026-10-14T03:03:29.454793+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2260,6 +2260,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rise"
+      ]
+    },
+    {
+      "user": "smitty091676",
+      "pass": "11101775",
+      "steamid": "76561197999191637",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dungeon Defenders I"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
       ]
     }
   ]

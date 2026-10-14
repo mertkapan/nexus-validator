@@ -1,11 +1,11 @@
 {
-  "checked": 199,
+  "checked": 260,
   "total": 1358142,
-  "target_hits": 43,
-  "hits": 114,
-  "two_fa": 8,
-  "speed_cpm": 27,
-  "updated_at": "2026-10-14T02:58:49.668028+00:00",
+  "target_hits": 51,
+  "hits": 131,
+  "two_fa": 9,
+  "speed_cpm": 33,
+  "updated_at": "2026-10-14T02:59:22.169559+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -918,6 +918,160 @@
       "wallet": "",
       "games": [
         "Call of Duty®"
+      ]
+    },
+    {
+      "user": "xdboogsterdx",
+      "pass": "Boogster123",
+      "steamid": "76561198084402029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "spikyfixedsquirrel",
+      "pass": "Lumpyhook12",
+      "steamid": "76561198884141138",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "juuu4nchox18181",
+      "pass": "J_uancruz18",
+      "steamid": "76561199401506164",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Lost Ligh"
+      ]
+    },
+    {
+      "user": "3brogamersfifa22",
+      "pass": "YPN7LEGKDJ@C",
+      "steamid": "76561199238560586",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "infinitesauc3",
+      "pass": "Manner123",
+      "steamid": "76561198360541351",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "rbf32196",
+      "pass": "ywr62917",
+      "steamid": "76561199291106468",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
+      ]
+    },
+    {
+      "user": "dollie2019vigiani",
+      "pass": "Loudrice63SHWUQ92",
+      "steamid": "76561199007957649",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
       ]
     }
   ]

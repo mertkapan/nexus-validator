@@ -1,11 +1,11 @@
 {
-  "checked": 1407,
+  "checked": 1513,
   "total": 1358142,
   "target_hits": 135,
-  "hits": 431,
-  "two_fa": 40,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-14T11:05:48.568241+00:00",
+  "hits": 439,
+  "two_fa": 42,
+  "speed_cpm": 126,
+  "updated_at": "2026-10-14T11:06:24.008357+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2689,6 +2689,28 @@
       "wallet": "",
       "games": [
         "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "jessiecaciolli2015",
+      "pass": "Oliveshow20CFR0166",
+      "steamid": "76561199009091417",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cronofunky",
+      "pass": "neokilla",
+      "steamid": "76561198004629905",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

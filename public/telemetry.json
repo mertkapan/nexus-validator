@@ -1,11 +1,11 @@
 {
-  "checked": 294,
+  "checked": 682,
   "total": 1358142,
-  "target_hits": 60,
-  "hits": 147,
-  "two_fa": 8,
-  "speed_cpm": 55,
-  "updated_at": "2026-10-14T16:18:48.066860+00:00",
+  "target_hits": 62,
+  "hits": 159,
+  "two_fa": 11,
+  "speed_cpm": 133,
+  "updated_at": "2026-10-14T16:19:08.702654+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1182,6 +1182,83 @@
       "wallet": "",
       "games": [
         "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "dismarian5",
+      "pass": "Ro1522269",
+      "steamid": "76561198123499638",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "2874906864",
+      "pass": "hulboj12",
+      "steamid": "76561199104320287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "usesell12234",
+      "pass": "usesell09383926589",
+      "steamid": "76561198931418710",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LOL"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "DCL - The Gam"
       ]
     }
   ]

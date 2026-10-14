@@ -1,11 +1,11 @@
 {
-  "checked": 1648,
+  "checked": 1751,
   "total": 1358142,
-  "target_hits": 168,
-  "hits": 463,
-  "two_fa": 41,
-  "speed_cpm": 178,
-  "updated_at": "2026-10-14T21:17:37.541373+00:00",
+  "target_hits": 170,
+  "hits": 469,
+  "two_fa": 43,
+  "speed_cpm": 182,
+  "updated_at": "2026-10-14T21:17:58.474098+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -3228,6 +3228,28 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "leroymorgan2003",
+      "pass": "PZT4LQAUY1F550",
+      "steamid": "76561199027122671",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Deceit"
       ]
     }
   ]

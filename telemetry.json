@@ -1,11 +1,11 @@
 {
-  "checked": 743,
+  "checked": 883,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 154,
-  "two_fa": 10,
-  "speed_cpm": 109,
-  "updated_at": "2026-10-14T11:01:41.956698+00:00",
+  "target_hits": 81,
+  "hits": 213,
+  "two_fa": 11,
+  "speed_cpm": 117,
+  "updated_at": "2026-10-14T11:02:33.883559+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1314,6 +1314,325 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "su0wn1hf",
+      "pass": "UOipTT58vG5XZ1",
+      "steamid": "76561198962329526",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cuphead"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "AR5295waRhWQ",
+      "pass": "HPUAfRXiZalLJ9OcV8v7",
+      "steamid": "76561198903283126",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "urtlesv1bertrand69834",
+      "pass": "89002932024boom",
+      "steamid": "76561199074897017",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BRAIN / OU"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "wideeyedchubbymagpie68",
+      "pass": "Quietowl28ZOLQJ94",
+      "steamid": "76561199003127330",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "rareheadycurlew97",
+      "pass": "Bravejump32ZS3DE40",
+      "steamid": "76561198997341239",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "walter2008oliver",
+      "pass": "Sillylamp497PF4X54",
+      "steamid": "76561199013027272",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Lust Goddes"
+      ]
+    },
+    {
+      "user": "lukepascual1989",
+      "pass": "Gabrielgois123",
+      "steamid": "76561199019343832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "r5d6m1wxal2ra5v",
+      "pass": "DBBCQRCR0I0Q687",
+      "steamid": "76561199140221257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "lowtrust1",
+      "pass": "000000000_",
+      "steamid": "76561198929194917",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "djsarib19",
+      "pass": "SHAMSHAD786",
+      "steamid": "76561199221494340",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Bongo Ca"
+      ]
+    },
+    {
+      "user": "kcicu42940",
+      "pass": "ouzjr07605",
+      "steamid": "76561199844962421",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 2"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "WorldBox - God Simulator"
+      ]
+    },
+    {
+      "user": "toqyl59425",
+      "pass": "lidox53025",
+      "steamid": "76561199872233178",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "One-armed robbe"
+      ]
+    },
+    {
+      "user": "I3lackHeartto",
+      "pass": "oatnahub01",
+      "steamid": "76561199115633115",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "zgofw11",
+      "pass": "zavosh1388",
+      "steamid": "76561199188110435",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
+      ]
+    },
+    {
+      "user": "21te918773s45b6loj",
+      "pass": "AQ25Q4RJPAJF040",
+      "steamid": "76561199167230290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 2"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "vlpyx34160",
+      "pass": "emqj69427X",
+      "steamid": "76561199565023120",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mo"
+      ]
+    },
+    {
+      "user": "Driebard92",
+      "pass": "Gui19981998",
+      "steamid": "76561199063182985",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "3brogamersfifa22",
+      "pass": "YPN7LEGKDJ@C",
+      "steamid": "76561199238560586",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "tngvo08229",
+      "pass": "yaap33595M",
+      "steamid": "76561199717900109",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

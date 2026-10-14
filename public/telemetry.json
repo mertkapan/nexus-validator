@@ -1,11 +1,11 @@
 {
-  "checked": 1167,
+  "checked": 1270,
   "total": 1358142,
-  "target_hits": 98,
-  "hits": 360,
-  "two_fa": 28,
-  "speed_cpm": 118,
-  "updated_at": "2026-10-14T03:02:36.930994+00:00",
+  "target_hits": 99,
+  "hits": 392,
+  "two_fa": 30,
+  "speed_cpm": 123,
+  "updated_at": "2026-10-14T03:03:02.691111+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2238,6 +2238,28 @@
       "wallet": "",
       "games": [
         "Fears to Fathom - Episode"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "America's Army: Proving Ground"
+      ]
+    },
+    {
+      "user": "semsentido349",
+      "pass": "Naofazsentido43923",
+      "steamid": "76561198841304853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

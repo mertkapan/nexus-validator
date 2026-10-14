@@ -1,11 +1,11 @@
 {
-  "checked": 1507,
+  "checked": 1648,
   "total": 1358142,
-  "target_hits": 166,
-  "hits": 447,
+  "target_hits": 168,
+  "hits": 463,
   "two_fa": 41,
-  "speed_cpm": 168,
-  "updated_at": "2026-10-14T21:17:16.284813+00:00",
+  "speed_cpm": 178,
+  "updated_at": "2026-10-14T21:17:37.541373+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -3184,6 +3184,50 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Singapore",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

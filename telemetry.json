@@ -1,11 +1,11 @@
 {
-  "checked": 1299,
+  "checked": 1407,
   "total": 1358142,
-  "target_hits": 133,
-  "hits": 407,
-  "two_fa": 32,
+  "target_hits": 135,
+  "hits": 431,
+  "two_fa": 40,
   "speed_cpm": 128,
-  "updated_at": "2026-10-14T11:05:04.860081+00:00",
+  "updated_at": "2026-10-14T11:05:48.568241+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2645,6 +2645,50 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "whjcs09814",
+      "pass": "kyqdk23430",
+      "steamid": "76561199711564189",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Empires II: Definitive Editio"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
       ]
     }
   ]

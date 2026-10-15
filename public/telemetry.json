@@ -1,11 +1,11 @@
 {
-  "checked": 90,
+  "checked": 139,
   "total": 1358142,
-  "target_hits": 12,
-  "hits": 35,
-  "two_fa": 3,
-  "speed_cpm": 14,
-  "updated_at": "2026-10-15T02:35:52.077550+00:00",
+  "target_hits": 26,
+  "hits": 69,
+  "two_fa": 7,
+  "speed_cpm": 25,
+  "updated_at": "2026-10-15T02:36:12.755375+00:00",
   "accounts": [
     {
       "user": "deizfreeacc",
@@ -291,6 +291,270 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "redjl21138",
+      "pass": "Jurassic@Park",
+      "steamid": "76561199526685090",
+      "vac": "CLEAN",
+      "country": "🌐 Angola",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "leroymorgan2003",
+      "pass": "PZT4LQAUY1F550",
+      "steamid": "76561199027122671",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "xBullDroidx",
+      "pass": "mihaflander2001",
+      "steamid": "76561198154177815",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "kudon93",
+      "pass": "DIEP1996",
+      "steamid": "76561198332563351",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "90 Minute Feve"
+      ]
+    },
+    {
+      "user": "heinhtet1240",
+      "pass": "HEINMINHTET1241",
+      "steamid": "76561199022288105",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "rickgamer77",
+      "pass": "ricardo93618713",
+      "steamid": "76561198822448482",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Last Man Standing"
+      ]
+    },
+    {
+      "user": "mikamark01",
+      "pass": "makmak08",
+      "steamid": "76561198882726647",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Zc9Ge1Fe7In6",
+      "pass": "Um8Dz1Ac0Qb7",
+      "steamid": "76561199321232302",
+      "vac": "CLEAN",
+      "country": "🌐 Guyana",
+      "wallet": "",
+      "games": [
+        "Life is Strange - Episode"
+      ]
+    },
+    {
+      "user": "rjsth72035",
+      "pass": "shsw89379N",
+      "steamid": "76561199505571535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Aeons Ech"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
+      ]
+    },
+    {
+      "user": "murad99991",
+      "pass": "Etibar5555",
+      "steamid": "76561198332758055",
+      "vac": "BANNED",
+      "country": "🌐 Corat, Sumqayit, Azerbaijan",
+      "wallet": "",
+      "games": [
+        "BLOCKADE 3D"
+      ]
+    },
+    {
+      "user": "pavlasire1984",
+      "pass": "FUwDDlvd7y1979",
+      "steamid": "76561199443314388",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dream Pets VR - Commercial License (Monthly"
+      ]
+    },
+    {
+      "user": "G06pLa0Y",
+      "pass": "Ax37PT0O",
+      "steamid": "76561198772680838",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "100% Orange Juic"
+      ]
+    },
+    {
+      "user": "keilirmine1is",
+      "pass": "vwZUnw3mwf",
+      "steamid": "76561198878967522",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "tlmvcl0769",
+      "pass": "17Love32",
+      "steamid": "76561199737835097",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "Beata19275",
+      "pass": "antoniotest1",
+      "steamid": "76561198259770109",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Hearts of Iron II"
+      ]
+    },
+    {
+      "user": "dark_light0_033",
+      "pass": "dark_light0_0",
+      "steamid": "76561199204196463",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "16677214",
+      "pass": "86891040",
+      "steamid": "76561199852803089",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "illustriousmaterialisticaardvark",
+      "pass": "Smallpear91",
+      "steamid": "76561198884569170",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "CS Diamantes Pipas PC : Jogo de pip"
+      ]
+    },
+    {
+      "user": "kghv57338",
+      "pass": "Yu2Yg9Rk5Vc46t",
+      "steamid": "76561199376398212",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "zcqj56077",
+      "pass": "fb4js1x4p",
+      "steamid": "76561199350564560",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "johnmasterpl",
+      "pass": "Sc11SwyvFLpiar90u6",
+      "steamid": "76561198096116505",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "ozgpedqoxvodmgtpf5ng",
+      "pass": "BHKEUX8NFDS6331",
+      "steamid": "76561199109795268",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "nomahgawd",
+      "pass": "hbj81228",
+      "steamid": "76561199088215357",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Editio"
       ]
     }
   ]

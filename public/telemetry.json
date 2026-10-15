@@ -1,11 +1,11 @@
 {
-  "checked": 646,
+  "checked": 769,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 162,
+  "target_hits": 67,
+  "hits": 168,
   "two_fa": 9,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-15T20:52:05.046595+00:00",
+  "speed_cpm": 114,
+  "updated_at": "2026-10-15T20:52:28.446344+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1391,6 +1391,50 @@
       "wallet": "",
       "games": [
         "Cyber Hunte"
+      ]
+    },
+    {
+      "user": "brhbtrhbtrh",
+      "pass": "Cechy127",
+      "steamid": "76561199388477533",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "vlh74alhq5jyhk9axjgo818h",
+      "pass": "NBQA8RCW35O4174",
+      "steamid": "76561199172476215",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "ridsx64949",
+      "pass": "9AKvoJM6iySy",
+      "steamid": "76561199519259038",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "dollie2019vigiani",
+      "pass": "Loudrice63SHWUQ92",
+      "steamid": "76561199007957649",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Transformice"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 990,
+  "checked": 1144,
   "total": 1358142,
-  "target_hits": 108,
-  "hits": 302,
-  "two_fa": 16,
-  "speed_cpm": 129,
-  "updated_at": "2026-10-15T10:44:28.882102+00:00",
+  "target_hits": 125,
+  "hits": 366,
+  "two_fa": 27,
+  "speed_cpm": 141,
+  "updated_at": "2026-10-15T10:44:53.929670+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2238,6 +2238,314 @@
       "wallet": "",
       "games": [
         "Little Nightmares Enhanced Editio"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "rszpm53700",
+      "pass": "wnru12444C",
+      "steamid": "76561199467119803",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sillyemu86794",
+      "pass": "jtbq9mlq90c365o.3!tfm",
+      "steamid": "76561199834587324",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "F1® 2"
+      ]
+    },
+    {
+      "user": "buuau28597",
+      "pass": "xfgv73496W",
+      "steamid": "76561199566010995",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "jwhnn88213",
+      "pass": "edoi02089P",
+      "steamid": "76561199717868322",
+      "vac": "CLEAN",
+      "country": "🌐 Santo Domingo, Distrito Nacional, Dominican Republic",
+      "wallet": "",
+      "games": [
+        "SCP: Project 90"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nwdoa10583",
+      "pass": "nrlc86022V",
+      "steamid": "76561199718417238",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "svtjx32839",
+      "pass": "ubwx32519F",
+      "steamid": "76561199717639931",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🌐 Riyadh, Ar Riyad, Saudi Arabia",
+      "wallet": "",
+      "games": [
+        "Mafia III: Definitive Editio"
+      ]
+    },
+    {
+      "user": "nohio00466",
+      "pass": "xsio07018E",
+      "steamid": "76561199717808096",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "quanaoyama2005",
+      "pass": "15251985quan",
+      "steamid": "76561198844326515",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "thirstyeightwasp",
+      "pass": "Sillypanda39",
+      "steamid": "76561198883592811",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "significantpopulation9691",
+      "pass": "0ANP0380",
+      "steamid": "76561199880678548",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lmlbcxqx1ab6",
+      "pass": "Balonas123!",
+      "steamid": "76561199878163759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kindseagull0693",
+      "pass": "QoZ0EeG1p2qS",
+      "steamid": "76561198777268201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "R.E.P.O."
+      ]
+    },
+    {
+      "user": "ymvqt00929",
+      "pass": "B4pbvMj0",
+      "steamid": "76561199670946849",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "yusty65043",
+      "pass": "gawu29602N",
+      "steamid": "76561199717494363",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "youngspiffyibex",
+      "pass": "Greencave62",
+      "steamid": "76561198883470414",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "xwsez74818",
+      "pass": "iqavl22253",
+      "steamid": "76561199844118561",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "rcvfr216440",
+      "pass": "XaVdF935333",
+      "steamid": "76561199613830700",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "arezj63431",
+      "pass": "dg0izeBW",
+      "steamid": "76561199671947632",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
       ]
     }
   ]

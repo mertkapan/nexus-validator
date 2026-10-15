@@ -1,11 +1,11 @@
 {
-  "checked": 1038,
+  "checked": 1144,
   "total": 1358142,
-  "target_hits": 95,
-  "hits": 327,
-  "two_fa": 19,
-  "speed_cpm": 148,
-  "updated_at": "2026-10-15T02:39:02.457227+00:00",
+  "target_hits": 104,
+  "hits": 366,
+  "two_fa": 25,
+  "speed_cpm": 155,
+  "updated_at": "2026-10-15T02:39:24.936094+00:00",
   "accounts": [
     {
       "user": "deizfreeacc",
@@ -2015,6 +2015,149 @@
       "steamid": "76561199717639931",
       "vac": "CLEAN",
       "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "y2aixQo03",
+      "pass": "8EKDfhuYQaz2el5",
+      "steamid": "76561198746567770",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "zorowashere1",
+      "pass": "raoufazzi",
+      "steamid": "76561199571197328",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "quanaoyama2005",
+      "pass": "15251985quan",
+      "steamid": "76561198844326515",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "eqipueness",
+      "pass": "IvenKall+1",
+      "steamid": "76561198868784057",
+      "vac": "BANNED",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Crossou"
+      ]
+    },
+    {
+      "user": "arezj63431",
+      "pass": "dg0izeBW",
+      "steamid": "76561199671947632",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "wmlxj59351",
+      "pass": "cywep81207",
+      "steamid": "76561199768221477",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "youngspiffyibex",
+      "pass": "Greencave62",
+      "steamid": "76561198883470414",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "whjcs09814",
+      "pass": "kyqdk23430",
+      "steamid": "76561199711564189",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "yohyi20789",
+      "pass": "bzVln1UOmaENvo",
+      "steamid": "76561199843008616",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kkkk18121994",
+      "pass": "Kkkk112$",
+      "steamid": "76561199118500732",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "0146742063",
+      "pass": "9329423195",
+      "steamid": "76561199743690146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"

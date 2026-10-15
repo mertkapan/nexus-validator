@@ -1,11 +1,11 @@
 {
-  "checked": 1792,
+  "checked": 2306,
   "total": 1358142,
-  "target_hits": 143,
-  "hits": 415,
+  "target_hits": 144,
+  "hits": 419,
   "two_fa": 39,
-  "speed_cpm": 153,
-  "updated_at": "2026-10-15T16:10:45.691772+00:00",
+  "speed_cpm": 178,
+  "updated_at": "2026-10-15T16:11:10.337390+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2590,6 +2590,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

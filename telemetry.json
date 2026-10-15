@@ -1,11 +1,11 @@
 {
-  "checked": 883,
+  "checked": 936,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 213,
-  "two_fa": 11,
-  "speed_cpm": 145,
-  "updated_at": "2026-10-15T02:38:09.178442+00:00",
+  "target_hits": 73,
+  "hits": 256,
+  "two_fa": 14,
+  "speed_cpm": 144,
+  "updated_at": "2026-10-15T02:38:34.398437+00:00",
   "accounts": [
     {
       "user": "deizfreeacc",
@@ -1468,6 +1468,182 @@
       "wallet": "",
       "games": [
         "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "aktsx37581",
+      "pass": "pzav58565G",
+      "steamid": "76561199717893866",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "animaexoticossv",
+      "pass": "Sodjamigp",
+      "steamid": "76561198895555460",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "phoebevalentini6",
+      "pass": "Redmouse928CIHE78",
+      "steamid": "76561199023986207",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "OBKripZz",
+      "pass": "Tinkabella2017",
+      "steamid": "76561199848095930",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "Steamlion29049",
+      "pass": "Covid-19@",
+      "steamid": "76561199559004095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "0766411986",
+      "pass": "NQH&5FEa9N^#D8C",
+      "steamid": "76561199866567024",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARC Raiders"
+      ]
+    },
+    {
+      "user": "sxewv27595",
+      "pass": "Mate2007Mate_",
+      "steamid": "76561199571717634",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Wp5B9xV0",
+      "pass": "Q2noXHPm",
+      "steamid": "76561198785823857",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fdgju10598",
+      "pass": "bzzvz53815",
+      "steamid": "76561198751776114",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "House Flippe"
+      ]
+    },
+    {
+      "user": "bdzpa87456",
+      "pass": "gdyx12771W",
+      "steamid": "76561199717510749",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mafia III - Family Kick Back Pac"
+      ]
+    },
+    {
+      "user": "pitalino13",
+      "pass": "esumgaysabias?69",
+      "steamid": "76561198169541959",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "House Flipper"
+      ]
+    },
+    {
+      "user": "lowtrust1",
+      "pass": "000000000_",
+      "steamid": "76561198929194917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "CS:GO Player Profile"
+      ]
+    },
+    {
+      "user": "ni3sh7txt13l6az",
+      "pass": "44DOKMQNXSGO579",
+      "steamid": "76561199205974430",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "CS:GO Player Profile"
+      ]
+    },
+    {
+      "user": "buuau28597",
+      "pass": "xfgv73496W",
+      "steamid": "76561199566010995",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
       ]
     }
   ]

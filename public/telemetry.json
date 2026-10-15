@@ -1,11 +1,11 @@
 {
-  "checked": 296,
+  "checked": 790,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 157,
-  "two_fa": 8,
-  "speed_cpm": 58,
-  "updated_at": "2026-10-15T16:05:56.055745+00:00",
+  "target_hits": 66,
+  "hits": 170,
+  "two_fa": 9,
+  "speed_cpm": 161,
+  "updated_at": "2026-10-15T16:06:18.452742+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1237,6 +1237,105 @@
       "wallet": "",
       "games": [
         "Infestation: The New"
+      ]
+    },
+    {
+      "user": "myasd16370",
+      "pass": "oMC3ejdijveBZ9",
+      "steamid": "76561199731951728",
+      "vac": "CLEAN",
+      "country": "🌐 Antarctica",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "bwkfih0cvhy91zmzb",
+      "pass": "LUG9QWWTP95G720",
+      "steamid": "76561199149478636",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rbf32196",
+      "pass": "ywr62917",
+      "steamid": "76561199291106468",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
+      ]
+    },
+    {
+      "user": "ownerzombie",
+      "pass": "truman24",
+      "steamid": "76561198041379038",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "luantuz3",
+      "pass": "Luan8924717",
+      "steamid": "76561198806330812",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battle Realms: Zen Editio"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCL - The Gam"
       ]
     }
   ]

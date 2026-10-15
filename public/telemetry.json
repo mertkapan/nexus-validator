@@ -1,11 +1,11 @@
 {
-  "checked": 690,
+  "checked": 784,
   "total": 1358142,
   "target_hits": 70,
-  "hits": 163,
+  "hits": 166,
   "two_fa": 8,
-  "speed_cpm": 110,
-  "updated_at": "2026-10-15T10:43:02.317689+00:00",
+  "speed_cpm": 119,
+  "updated_at": "2026-10-15T10:43:24.263187+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1347,6 +1347,17 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

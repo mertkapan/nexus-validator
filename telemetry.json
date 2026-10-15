@@ -1,11 +1,11 @@
 {
-  "checked": 1461,
+  "checked": 1563,
   "total": 1358142,
-  "target_hits": 130,
-  "hits": 428,
-  "two_fa": 38,
-  "speed_cpm": 153,
-  "updated_at": "2026-10-15T10:46:13.813652+00:00",
+  "target_hits": 136,
+  "hits": 444,
+  "two_fa": 46,
+  "speed_cpm": 158,
+  "updated_at": "2026-10-15T10:46:35.873616+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2678,6 +2678,83 @@
       "wallet": "",
       "games": [
         "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "vincecubels",
+      "pass": "akocvince",
+      "steamid": "76561198277272884",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "ScrawnyUnsuitableMouse",
+      "pass": "Bravetwist82",
+      "steamid": "76561198889760166",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

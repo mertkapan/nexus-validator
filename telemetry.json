@@ -1,11 +1,11 @@
 {
-  "checked": 1224,
+  "checked": 1332,
   "total": 1358142,
-  "target_hits": 90,
-  "hits": 262,
-  "two_fa": 12,
-  "speed_cpm": 99,
-  "updated_at": "2026-10-15T20:54:54.992191+00:00",
+  "target_hits": 92,
+  "hits": 271,
+  "two_fa": 15,
+  "speed_cpm": 104,
+  "updated_at": "2026-10-15T20:55:25.045013+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2139,6 +2139,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "0369613279",
+      "pass": "Nh@n01112000",
+      "steamid": "76561199489814472",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
       ]
     }
   ]

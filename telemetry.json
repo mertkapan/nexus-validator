@@ -1,11 +1,11 @@
 {
-  "checked": 1366,
+  "checked": 1461,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 411,
-  "two_fa": 30,
-  "speed_cpm": 151,
-  "updated_at": "2026-10-15T10:45:41.628595+00:00",
+  "target_hits": 130,
+  "hits": 428,
+  "two_fa": 38,
+  "speed_cpm": 153,
+  "updated_at": "2026-10-15T10:46:13.813652+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2656,6 +2656,28 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "timmi1x",
+      "pass": "lums2022@SdSb",
+      "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
       ]
     }
   ]

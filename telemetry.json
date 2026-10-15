@@ -1,11 +1,11 @@
 {
-  "checked": 1434,
+  "checked": 1743,
   "total": 1358142,
-  "target_hits": 94,
-  "hits": 289,
-  "two_fa": 22,
-  "speed_cpm": 110,
-  "updated_at": "2026-10-15T20:55:51.074829+00:00",
+  "target_hits": 97,
+  "hits": 322,
+  "two_fa": 28,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-15T20:58:10.004924+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2238,6 +2238,105 @@
       "wallet": "",
       "games": [
         "Among Us"
+      ]
+    },
+    {
+      "user": "Ewis18121994",
+      "pass": "Ewis112$",
+      "steamid": "76561199105865047",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "politeprivatewolf",
+      "pass": "Longcoal53",
+      "steamid": "76561198889370080",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

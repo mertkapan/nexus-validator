@@ -1,11 +1,11 @@
 {
-  "checked": 790,
+  "checked": 894,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 170,
-  "two_fa": 9,
-  "speed_cpm": 161,
-  "updated_at": "2026-10-15T16:06:18.452742+00:00",
+  "target_hits": 74,
+  "hits": 218,
+  "two_fa": 10,
+  "speed_cpm": 159,
+  "updated_at": "2026-10-15T16:06:59.298682+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1336,6 +1336,116 @@
       "wallet": "",
       "games": [
         "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "inturongr2104quinn",
+      "pass": "muiepsd12",
+      "steamid": "76561199076043963",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "Kabel18121994",
+      "pass": "Kabel112$",
+      "steamid": "76561199111460512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BRAIN / OU"
+      ]
+    },
+    {
+      "user": "luevz71288",
+      "pass": "ykly44760M",
+      "steamid": "76561199706944090",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "urtlesv1bertrand69834",
+      "pass": "89002932024boom",
+      "steamid": "76561199074897017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "WorldBox - God Simulator"
+      ]
+    },
+    {
+      "user": "PriceyGoofyCrocodile",
+      "pass": "Newlift17",
+      "steamid": "76561198885089447",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Freestyle 2: Street Basketbal"
+      ]
+    },
+    {
+      "user": "calop65",
+      "pass": "Lumsmrpdvg",
+      "steamid": "76561199149945747",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dark Deception"
+      ]
+    },
+    {
+      "user": "makker03",
+      "pass": "csvinger96",
+      "steamid": "76561198103465063",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Enclav"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Enclav"
       ]
     }
   ]

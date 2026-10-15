@@ -1,11 +1,11 @@
 {
-  "checked": 2477,
+  "checked": 2961,
   "total": 1358142,
   "target_hits": 119,
   "hits": 478,
   "two_fa": 46,
-  "speed_cpm": 226,
-  "updated_at": "2026-10-15T02:42:16.893145+00:00",
+  "speed_cpm": 240,
+  "updated_at": "2026-10-15T02:42:43.229921+00:00",
   "accounts": [
     {
       "user": "deizfreeacc",

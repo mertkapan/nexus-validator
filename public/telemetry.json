@@ -1,11 +1,11 @@
 {
-  "checked": 1258,
+  "checked": 1366,
   "total": 1358142,
   "target_hits": 128,
-  "hits": 402,
+  "hits": 411,
   "two_fa": 30,
-  "speed_cpm": 146,
-  "updated_at": "2026-10-15T10:45:18.331794+00:00",
+  "speed_cpm": 151,
+  "updated_at": "2026-10-15T10:45:41.628595+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2645,6 +2645,17 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
       ]
     }
   ]

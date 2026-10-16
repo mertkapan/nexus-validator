@@ -1,11 +1,11 @@
 {
-  "checked": 2703,
+  "checked": 2809,
   "total": 1358142,
   "target_hits": 134,
-  "hits": 468,
+  "hits": 471,
   "two_fa": 48,
-  "speed_cpm": 154,
-  "updated_at": "2026-10-16T02:41:17.932144+00:00",
+  "speed_cpm": 156,
+  "updated_at": "2026-10-16T02:41:43.372027+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2766,6 +2766,28 @@
       "wallet": "",
       "games": [
         "Drift Legends"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "nomahgawd",
+      "pass": "hbj81228",
+      "steamid": "76561199088215357",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Kill It With Fire: HEATWAV"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1425,
+  "checked": 1536,
   "total": 1358142,
-  "target_hits": 130,
-  "hits": 368,
-  "two_fa": 26,
-  "speed_cpm": 124,
-  "updated_at": "2026-10-16T20:27:57.980187+00:00",
+  "target_hits": 134,
+  "hits": 376,
+  "two_fa": 29,
+  "speed_cpm": 129,
+  "updated_at": "2026-10-16T20:28:24.412585+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -2447,6 +2447,61 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "tiger33511",
+      "pass": "jakndaxter",
+      "steamid": "76561198164522199",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

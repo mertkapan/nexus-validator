@@ -1,11 +1,11 @@
 {
-  "checked": 442,
+  "checked": 793,
   "total": 1358142,
-  "target_hits": 68,
-  "hits": 159,
+  "target_hits": 73,
+  "hits": 167,
   "two_fa": 8,
-  "speed_cpm": 69,
-  "updated_at": "2026-10-16T20:24:54.102620+00:00",
+  "speed_cpm": 120,
+  "updated_at": "2026-10-16T20:25:22.377901+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -1292,6 +1292,72 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "drybandicoot1078",
+      "pass": "2b044d4862e2032d1!aZ",
+      "steamid": "76561199407192713",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "encul3",
+      "pass": "Pawelqw11!",
+      "steamid": "76561199391983447",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "F1® Manager 202"
+      ]
+    },
+    {
+      "user": "dearTuna67637",
+      "pass": "UOxKvXT4eBar",
+      "steamid": "76561198754862847",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
       ]
     }
   ]

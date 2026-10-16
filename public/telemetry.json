@@ -1,11 +1,11 @@
 {
-  "checked": 1493,
+  "checked": 1637,
   "total": 1358142,
-  "target_hits": 107,
-  "hits": 379,
-  "two_fa": 30,
-  "speed_cpm": 121,
-  "updated_at": "2026-10-16T10:33:30.017620+00:00",
+  "target_hits": 108,
+  "hits": 399,
+  "two_fa": 33,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-16T10:33:55.336878+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2425,6 +2425,72 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "vincecubels",
+      "pass": "akocvince",
+      "steamid": "76561198277272884",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "Express6611",
+      "pass": "wx#Rn04hziNll",
+      "steamid": "76561199677268146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
       ]
     }
   ]

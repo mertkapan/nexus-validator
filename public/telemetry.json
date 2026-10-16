@@ -1,11 +1,11 @@
 {
-  "checked": 1637,
+  "checked": 1832,
   "total": 1358142,
-  "target_hits": 108,
-  "hits": 399,
-  "two_fa": 33,
-  "speed_cpm": 131,
-  "updated_at": "2026-10-16T10:33:55.336878+00:00",
+  "target_hits": 109,
+  "hits": 412,
+  "two_fa": 37,
+  "speed_cpm": 136,
+  "updated_at": "2026-10-16T10:34:38.919246+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2491,6 +2491,50 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "politeprivatewolf",
+      "pass": "Longcoal53",
+      "steamid": "76561198889370080",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "tiger33511",
+      "pass": "jakndaxter",
+      "steamid": "76561198164522199",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "APB Reloade"
       ]
     }
   ]

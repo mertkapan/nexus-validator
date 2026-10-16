@@ -1,11 +1,11 @@
 {
-  "checked": 616,
+  "checked": 768,
   "total": 1358142,
   "target_hits": 64,
-  "hits": 161,
+  "hits": 162,
   "two_fa": 8,
-  "speed_cpm": 85,
-  "updated_at": "2026-10-16T15:56:43.838371+00:00",
+  "speed_cpm": 76,
+  "updated_at": "2026-10-16T15:58:46.946598+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -1204,6 +1204,17 @@
       "wallet": "",
       "games": [
         "Battlefield™"
+      ]
+    },
+    {
+      "user": "Zc9Ge1Fe7In6",
+      "pass": "Um8Dz1Ac0Qb7",
+      "steamid": "76561199321232302",
+      "vac": "CLEAN",
+      "country": "🌐 Guyana",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

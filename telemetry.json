@@ -1,11 +1,11 @@
 {
-  "checked": 2809,
+  "checked": 3005,
   "total": 1358142,
   "target_hits": 134,
-  "hits": 471,
+  "hits": 473,
   "two_fa": 48,
-  "speed_cpm": 156,
-  "updated_at": "2026-10-16T02:41:43.372027+00:00",
+  "speed_cpm": 165,
+  "updated_at": "2026-10-16T02:42:06.461570+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2788,6 +2788,28 @@
       "wallet": "",
       "games": [
         "Kill It With Fire: HEATWAV"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "39aanngx",
+      "pass": "DD3272034",
+      "steamid": "76561199317620921",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

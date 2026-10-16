@@ -1,11 +1,11 @@
 {
-  "checked": 1734,
+  "checked": 2069,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 466,
+  "target_hits": 122,
+  "hits": 470,
   "two_fa": 44,
-  "speed_cpm": 97,
-  "updated_at": "2026-10-16T16:05:39.180860+00:00",
+  "speed_cpm": 95,
+  "updated_at": "2026-10-16T16:06:34.220107+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2491,6 +2491,17 @@
       "wallet": "",
       "games": [
         "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "FanaticalEquableChinchilla",
+      "pass": "Jaderabbit13",
+      "steamid": "76561198883657627",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dead Ground Arcade - Ellis Islan"
       ]
     }
   ]

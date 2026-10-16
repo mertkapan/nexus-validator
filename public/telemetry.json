@@ -1,11 +1,11 @@
 {
-  "checked": 1409,
+  "checked": 1512,
   "total": 1358142,
-  "target_hits": 114,
-  "hits": 428,
-  "two_fa": 36,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-16T16:04:01.699831+00:00",
+  "target_hits": 116,
+  "hits": 444,
+  "two_fa": 40,
+  "speed_cpm": 94,
+  "updated_at": "2026-10-16T16:04:32.051068+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2425,6 +2425,17 @@
       "wallet": "",
       "games": [
         "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

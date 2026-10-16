@@ -1,11 +1,11 @@
 {
-  "checked": 807,
+  "checked": 872,
   "total": 1358142,
-  "target_hits": 71,
-  "hits": 157,
+  "target_hits": 78,
+  "hits": 183,
   "two_fa": 9,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-16T02:34:11.298123+00:00",
+  "speed_cpm": 103,
+  "updated_at": "2026-10-16T02:34:44.681305+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1336,6 +1336,116 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "kcicu42940",
+      "pass": "ouzjr07605",
+      "steamid": "76561199844962421",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ic"
+      ]
+    },
+    {
+      "user": "vlpyx34160",
+      "pass": "emqj69427X",
+      "steamid": "76561199565023120",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "AR5295waRhWQ",
+      "pass": "HPUAfRXiZalLJ9OcV8v7",
+      "steamid": "76561198903283126",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Bongo Ca"
+      ]
+    },
+    {
+      "user": "imaginarymeatymarten62",
+      "pass": "Sillycap29O8U7C33",
+      "steamid": "76561199006910896",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARC Raiders"
+      ]
+    },
+    {
+      "user": "gero124dse",
+      "pass": "ouss4570ghyf",
+      "steamid": "76561198825700252",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Endless Sk"
+      ]
+    },
+    {
+      "user": "veiledcheetos",
+      "pass": "000000000_",
+      "steamid": "76561198916637598",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BRAIN / OU"
+      ]
+    },
+    {
+      "user": "0766411986",
+      "pass": "NQH&5FEa9N^#D8C",
+      "steamid": "76561199866567024",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BRAIN / OU"
+      ]
+    },
+    {
+      "user": "ClumsyCapriciousSeahorse",
+      "pass": "Weirdsoap18",
+      "steamid": "76561198889573122",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
       ]
     }
   ]

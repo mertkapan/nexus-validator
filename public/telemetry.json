@@ -1,11 +1,11 @@
 {
-  "checked": 1512,
+  "checked": 1734,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 444,
-  "two_fa": 40,
-  "speed_cpm": 94,
-  "updated_at": "2026-10-16T16:04:32.051068+00:00",
+  "target_hits": 121,
+  "hits": 466,
+  "two_fa": 44,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-16T16:05:39.180860+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2436,6 +2436,61 @@
       "wallet": "",
       "games": [
         "Call of Duty®"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
       ]
     }
   ]

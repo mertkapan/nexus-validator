@@ -1,11 +1,11 @@
 {
-  "checked": 1389,
+  "checked": 1493,
   "total": 1358142,
-  "target_hits": 104,
-  "hits": 351,
-  "two_fa": 25,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-16T10:32:59.331182+00:00",
+  "target_hits": 107,
+  "hits": 379,
+  "two_fa": 30,
+  "speed_cpm": 121,
+  "updated_at": "2026-10-16T10:33:30.017620+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2348,6 +2348,83 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "FanaticalEquableChinchilla",
+      "pass": "Jaderabbit13",
+      "steamid": "76561198883657627",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

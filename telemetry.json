@@ -1,11 +1,11 @@
 {
-  "checked": 1689,
+  "checked": 1847,
   "total": 1358142,
   "target_hits": 132,
-  "hits": 453,
-  "two_fa": 47,
-  "speed_cpm": 144,
-  "updated_at": "2026-10-16T02:38:05.369441+00:00",
+  "hits": 461,
+  "two_fa": 48,
+  "speed_cpm": 147,
+  "updated_at": "2026-10-16T02:38:50.383622+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2706,6 +2706,39 @@
       "user": "andrew63pfeiffer",
       "pass": "Muddytest83XBW2P33",
       "steamid": "76561199012234639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

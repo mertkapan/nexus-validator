@@ -1,11 +1,11 @@
 {
-  "checked": 1867,
+  "checked": 2050,
   "total": 1358142,
   "target_hits": 135,
-  "hits": 395,
+  "hits": 401,
   "two_fa": 33,
-  "speed_cpm": 141,
-  "updated_at": "2026-10-16T20:29:43.922175+00:00",
+  "speed_cpm": 126,
+  "updated_at": "2026-10-16T20:31:26.844872+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -2575,6 +2575,17 @@
       "pass": "Hugestart38",
       "steamid": "76561198883824257",
       "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

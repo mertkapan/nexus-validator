@@ -1,11 +1,11 @@
 {
-  "checked": 1043,
+  "checked": 1239,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 335,
-  "two_fa": 16,
-  "speed_cpm": 133,
-  "updated_at": "2026-10-16T20:26:38.067991+00:00",
+  "target_hits": 128,
+  "hits": 358,
+  "two_fa": 24,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-16T20:27:09.573788+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -2337,6 +2337,72 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "eedvy76820",
+      "pass": "TctoKZl9GITqb6",
+      "steamid": "76561199857254805",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "um3to9xr3hs8",
+      "pass": "S110620047220tsts#",
+      "steamid": "76561199345854704",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "Megalen13",
+      "pass": "09178129979Az",
+      "steamid": "76561199435056186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "fadiw537661",
+      "pass": "QtPdV107673",
+      "steamid": "76561199611062699",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Lost"
+      ]
+    },
+    {
+      "user": "toolate5891",
+      "pass": "aa740316",
+      "steamid": "76561198995157132",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wanderer377",
+      "pass": "abbatie",
+      "steamid": "76561198075237087",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rise"
       ]
     }
   ]

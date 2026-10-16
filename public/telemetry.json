@@ -1,11 +1,11 @@
 {
-  "checked": 444,
+  "checked": 596,
   "total": 1358142,
-  "target_hits": 63,
-  "hits": 156,
+  "target_hits": 65,
+  "hits": 161,
   "two_fa": 9,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-16T10:28:55.213287+00:00",
+  "speed_cpm": 97,
+  "updated_at": "2026-10-16T10:29:19.271851+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -1369,6 +1369,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
       ]
     }
   ]

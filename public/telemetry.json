@@ -1,11 +1,11 @@
 {
-  "checked": 596,
+  "checked": 663,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 161,
+  "target_hits": 66,
+  "hits": 165,
   "two_fa": 9,
   "speed_cpm": 97,
-  "updated_at": "2026-10-16T10:29:19.271851+00:00",
+  "updated_at": "2026-10-16T10:29:48.240661+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -1413,6 +1413,50 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "ojasytpro1",
+      "pass": "Oojasytpro01",
+      "steamid": "76561199856592629",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

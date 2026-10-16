@@ -1,11 +1,11 @@
 {
-  "checked": 2643,
+  "checked": 2703,
   "total": 1358142,
-  "target_hits": 133,
-  "hits": 465,
+  "target_hits": 134,
+  "hits": 468,
   "two_fa": 48,
   "speed_cpm": 154,
-  "updated_at": "2026-10-16T02:40:56.778284+00:00",
+  "updated_at": "2026-10-16T02:41:17.932144+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2755,6 +2755,17 @@
       "wallet": "",
       "games": [
         "Assetto Cors"
+      ]
+    },
+    {
+      "user": "egoros3p41",
+      "pass": "siski33BFa9lCBU7O67483",
+      "steamid": "76561198415609495",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Drift Legends"
       ]
     }
   ]

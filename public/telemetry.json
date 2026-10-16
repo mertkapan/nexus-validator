@@ -1,11 +1,11 @@
 {
-  "checked": 1536,
+  "checked": 1722,
   "total": 1358142,
   "target_hits": 134,
-  "hits": 376,
-  "two_fa": 29,
-  "speed_cpm": 129,
-  "updated_at": "2026-10-16T20:28:24.412585+00:00",
+  "hits": 383,
+  "two_fa": 31,
+  "speed_cpm": 145,
+  "updated_at": "2026-10-16T20:28:47.221417+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -2502,6 +2502,50 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mhawsayar2013",
+      "pass": "mrsimple528",
+      "steamid": "76561199102210013",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

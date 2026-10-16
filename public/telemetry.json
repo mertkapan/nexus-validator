@@ -1,11 +1,11 @@
 {
-  "checked": 663,
+  "checked": 755,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 165,
+  "target_hits": 67,
+  "hits": 167,
   "two_fa": 9,
   "speed_cpm": 97,
-  "updated_at": "2026-10-16T10:29:48.240661+00:00",
+  "updated_at": "2026-10-16T10:30:19.143248+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -1457,6 +1457,17 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

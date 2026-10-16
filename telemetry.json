@@ -1,11 +1,11 @@
 {
-  "checked": 793,
+  "checked": 827,
   "total": 1358142,
-  "target_hits": 73,
-  "hits": 167,
+  "target_hits": 75,
+  "hits": 175,
   "two_fa": 8,
-  "speed_cpm": 120,
-  "updated_at": "2026-10-16T20:25:22.377901+00:00",
+  "speed_cpm": 122,
+  "updated_at": "2026-10-16T20:25:42.632559+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -1358,6 +1358,61 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "spikyfixedsquirrel",
+      "pass": "Lumpyhook12",
+      "steamid": "76561198884141138",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "AR5295waRhWQ",
+      "pass": "HPUAfRXiZalLJ9OcV8v7",
+      "steamid": "76561198903283126",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wideeyedchubbymagpie68",
+      "pass": "Quietowl28ZOLQJ94",
+      "steamid": "76561199003127330",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crystal Crisi"
+      ]
+    },
+    {
+      "user": "Kabel18121994",
+      "pass": "Kabel112$",
+      "steamid": "76561199111460512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

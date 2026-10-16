@@ -1,11 +1,11 @@
 {
-  "checked": 1185,
+  "checked": 1290,
   "total": 1358142,
   "target_hits": 102,
-  "hits": 321,
-  "two_fa": 18,
-  "speed_cpm": 109,
-  "updated_at": "2026-10-16T10:31:52.289226+00:00",
+  "hits": 335,
+  "two_fa": 20,
+  "speed_cpm": 114,
+  "updated_at": "2026-10-16T10:32:23.174398+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2271,6 +2271,28 @@
       "wallet": "",
       "games": [
         "Blackjack Championship"
+      ]
+    },
+    {
+      "user": "beepbeepimajeep111",
+      "pass": "passwordforplebs",
+      "steamid": "76561198365473226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infestation: The New"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
       ]
     }
   ]

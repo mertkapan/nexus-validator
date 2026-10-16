@@ -1,11 +1,11 @@
 {
-  "checked": 359,
+  "checked": 650,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 154,
+  "target_hits": 71,
+  "hits": 157,
   "two_fa": 9,
-  "speed_cpm": 46,
-  "updated_at": "2026-10-16T02:33:24.537239+00:00",
+  "speed_cpm": 88,
+  "updated_at": "2026-10-16T02:33:45.924257+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1314,6 +1314,28 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "2874906864",
+      "pass": "hulboj12",
+      "steamid": "76561199104320287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Coloring Game 4"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

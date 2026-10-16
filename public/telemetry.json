@@ -1,11 +1,11 @@
 {
-  "checked": 1722,
+  "checked": 1818,
   "total": 1358142,
   "target_hits": 134,
-  "hits": 383,
-  "two_fa": 31,
-  "speed_cpm": 145,
-  "updated_at": "2026-10-16T20:28:47.221417+00:00",
+  "hits": 391,
+  "two_fa": 32,
+  "speed_cpm": 142,
+  "updated_at": "2026-10-16T20:29:19.880630+00:00",
   "accounts": [
     {
       "user": "murad99991",
@@ -2541,6 +2541,17 @@
       "user": "mhawsayar2013",
       "pass": "mrsimple528",
       "steamid": "76561199102210013",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

@@ -1,11 +1,11 @@
 {
-  "checked": 2336,
+  "checked": 2643,
   "total": 1358142,
-  "target_hits": 132,
-  "hits": 462,
+  "target_hits": 133,
+  "hits": 465,
   "two_fa": 48,
-  "speed_cpm": 156,
-  "updated_at": "2026-10-16T02:40:05.497776+00:00",
+  "speed_cpm": 154,
+  "updated_at": "2026-10-16T02:40:56.778284+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2744,6 +2744,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "f447z4t206twnm7j6p6",
+      "pass": "349FB6DUYU0A288",
+      "steamid": "76561199155241872",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Assetto Cors"
       ]
     }
   ]

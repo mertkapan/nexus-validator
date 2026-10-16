@@ -1,11 +1,11 @@
 {
-  "checked": 3005,
+  "checked": 3148,
   "total": 1358142,
-  "target_hits": 134,
-  "hits": 473,
-  "two_fa": 48,
-  "speed_cpm": 165,
-  "updated_at": "2026-10-16T02:42:06.461570+00:00",
+  "target_hits": 136,
+  "hits": 478,
+  "two_fa": 49,
+  "speed_cpm": 7,
+  "updated_at": "2026-10-16T07:57:03.901198+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2810,6 +2810,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "luantuz3",
+      "pass": "Luan8924717",
+      "steamid": "76561198806330812",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battle Realms: Zen Edition"
+      ]
+    },
+    {
+      "user": "dollie2019vigiani",
+      "pass": "Loudrice63SHWUQ92",
+      "steamid": "76561199007957649",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Transformice"
+      ]
+    },
+    {
+      "user": "dadscap9",
+      "pass": "cechy127",
+      "steamid": "76561199225168485",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "rucel2",
+      "pass": "Adamprice11",
+      "steamid": "76561197965895458",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
       ]
     }
   ]

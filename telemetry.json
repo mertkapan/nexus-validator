@@ -1,11 +1,11 @@
 {
-  "checked": 1290,
+  "checked": 1389,
   "total": 1358142,
-  "target_hits": 102,
-  "hits": 335,
-  "two_fa": 20,
-  "speed_cpm": 114,
-  "updated_at": "2026-10-16T10:32:23.174398+00:00",
+  "target_hits": 104,
+  "hits": 351,
+  "two_fa": 25,
+  "speed_cpm": 117,
+  "updated_at": "2026-10-16T10:32:59.331182+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2293,6 +2293,61 @@
       "wallet": "",
       "games": [
         "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "quirkygruesomelemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
+      ]
+    },
+    {
+      "user": "andrew63pfeiffer",
+      "pass": "Muddytest83XBW2P33",
+      "steamid": "76561199012234639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

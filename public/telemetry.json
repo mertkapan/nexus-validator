@@ -1,11 +1,11 @@
 {
-  "checked": 1325,
+  "checked": 1444,
   "total": 1358142,
-  "target_hits": 127,
-  "hits": 414,
-  "two_fa": 34,
-  "speed_cpm": 127,
-  "updated_at": "2026-10-16T02:36:47.042734+00:00",
+  "target_hits": 129,
+  "hits": 428,
+  "two_fa": 39,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-16T02:37:17.793939+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2491,6 +2491,72 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:EL - Air XenoDaw"
+      ]
+    },
+    {
+      "user": "MakeshiftBentOkapi",
+      "pass": "Hotview24",
+      "steamid": "76561198889707770",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Vampire: The Masquerade - Bloodhunt"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "mhawsayar2013",
+      "pass": "mrsimple528",
+      "steamid": "76561199102210013",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dungeon Defenders I"
       ]
     }
   ]

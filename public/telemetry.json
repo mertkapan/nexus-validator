@@ -1,11 +1,11 @@
 {
-  "checked": 2050,
+  "checked": 2255,
   "total": 1358142,
   "target_hits": 135,
   "hits": 401,
   "two_fa": 33,
-  "speed_cpm": 126,
-  "updated_at": "2026-10-16T20:31:26.844872+00:00",
+  "speed_cpm": 138,
+  "updated_at": "2026-10-16T20:31:48.974148+00:00",
   "accounts": [
     {
       "user": "murad99991",

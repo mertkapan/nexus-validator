@@ -1,11 +1,11 @@
 {
-  "checked": 535,
+  "checked": 745,
   "total": 1358142,
   "target_hits": 66,
-  "hits": 161,
+  "hits": 164,
   "two_fa": 7,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-17T02:25:01.402984+00:00",
+  "speed_cpm": 118,
+  "updated_at": "2026-10-17T02:25:28.324941+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1292,6 +1292,39 @@
       "wallet": "",
       "games": [
         "AtmaSpher"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "rbf32196",
+      "pass": "ywr62917",
+      "steamid": "76561199291106468",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
       ]
     }
   ]

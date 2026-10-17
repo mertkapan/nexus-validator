@@ -1,11 +1,11 @@
 {
-  "checked": 450,
+  "checked": 642,
   "total": 1358142,
-  "target_hits": 63,
-  "hits": 150,
+  "target_hits": 64,
+  "hits": 158,
   "two_fa": 8,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-17T19:59:17.566731+00:00",
+  "speed_cpm": 104,
+  "updated_at": "2026-10-17T19:59:43.837819+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1226,6 +1226,50 @@
       "wallet": "",
       "games": [
         "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "kghv57338",
+      "pass": "Yu2Yg9Rk5Vc46t",
+      "steamid": "76561199376398212",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
       ]
     }
   ]

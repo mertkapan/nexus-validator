@@ -1,11 +1,11 @@
 {
-  "checked": 1383,
+  "checked": 1540,
   "total": 1358142,
   "target_hits": 71,
-  "hits": 202,
-  "two_fa": 8,
+  "hits": 213,
+  "two_fa": 11,
   "speed_cpm": 70,
-  "updated_at": "2026-10-17T10:06:00.238886+00:00",
+  "updated_at": "2026-10-17T10:06:48.079922+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1347,6 +1347,28 @@
       "wallet": "",
       "games": [
         "Fishing Planet"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

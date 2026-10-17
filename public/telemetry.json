@@ -1,11 +1,11 @@
 {
-  "checked": 605,
+  "checked": 671,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 155,
+  "target_hits": 66,
+  "hits": 159,
   "two_fa": 7,
-  "speed_cpm": 74,
-  "updated_at": "2026-10-17T10:03:28.243811+00:00",
+  "speed_cpm": 76,
+  "updated_at": "2026-10-17T10:03:56.827718+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1226,6 +1226,50 @@
       "wallet": "",
       "games": [
         "Knight Online"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "xdboogsterdx",
+      "pass": "Boogster123",
+      "steamid": "76561198084402029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Ninja Stealth 3"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

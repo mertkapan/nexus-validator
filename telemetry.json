@@ -1,11 +1,11 @@
 {
-  "checked": 1640,
+  "checked": 1890,
   "total": 1358142,
   "target_hits": 71,
-  "hits": 215,
+  "hits": 216,
   "two_fa": 11,
-  "speed_cpm": 76,
-  "updated_at": "2026-10-17T10:07:10.658605+00:00",
+  "speed_cpm": 95,
+  "updated_at": "2026-10-17T10:07:37.971308+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1369,6 +1369,17 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

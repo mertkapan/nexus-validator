@@ -1,11 +1,11 @@
 {
-  "checked": 1339,
+  "checked": 1432,
   "total": 1358142,
-  "target_hits": 111,
-  "hits": 372,
-  "two_fa": 28,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-17T14:52:09.920016+00:00",
+  "target_hits": 112,
+  "hits": 399,
+  "two_fa": 35,
+  "speed_cpm": 136,
+  "updated_at": "2026-10-17T14:52:45.394024+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2469,6 +2469,72 @@
       "wallet": "",
       "games": [
         "Among Us"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "RODJA_LOLL",
+      "pass": "Rodion10012011",
+      "steamid": "76561199209915434",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "America's Army"
+      ]
+    },
+    {
+      "user": "MakeshiftBentOkapi",
+      "pass": "Hotview24",
+      "steamid": "76561198889707770",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Peggle Extreme"
+      ]
+    },
+    {
+      "user": "smitty091676",
+      "pass": "11101775",
+      "steamid": "76561197999191637",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Peggle Extrem"
       ]
     }
   ]

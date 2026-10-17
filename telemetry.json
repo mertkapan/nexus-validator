@@ -1,11 +1,11 @@
 {
-  "checked": 1207,
+  "checked": 1303,
   "total": 1358142,
-  "target_hits": 105,
-  "hits": 326,
-  "two_fa": 24,
-  "speed_cpm": 126,
-  "updated_at": "2026-10-17T02:27:50.902355+00:00",
+  "target_hits": 107,
+  "hits": 342,
+  "two_fa": 25,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-17T02:28:18.673785+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2271,6 +2271,116 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 26 SHOWCASE"
+      ]
+    },
+    {
+      "user": "girlfriend_me",
+      "pass": "zqumie.1029",
+      "steamid": "76561199167519346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "High Octane Drift"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fadiw537661",
+      "pass": "QtPdV107673",
+      "steamid": "76561199611062699",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vkin5azafpq2",
+      "pass": "xCMTNUFtZD",
+      "steamid": "76561199851511161",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pfrad79606",
+      "pass": "RH2605800",
+      "steamid": "76561199705301382",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "timmi1x",
+      "pass": "lums2022@SdSb",
+      "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "wbhil99014",
+      "pass": "ysza78105L",
+      "steamid": "76561199721300589",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

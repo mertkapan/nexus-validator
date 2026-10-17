@@ -1,11 +1,11 @@
 {
-  "checked": 1615,
+  "checked": 1745,
   "total": 1358142,
-  "target_hits": 117,
-  "hits": 412,
-  "two_fa": 41,
-  "speed_cpm": 137,
-  "updated_at": "2026-10-17T02:30:07.297076+00:00",
+  "target_hits": 118,
+  "hits": 415,
+  "two_fa": 42,
+  "speed_cpm": 134,
+  "updated_at": "2026-10-17T02:30:44.225863+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2590,6 +2590,17 @@
       "wallet": "",
       "games": [
         "Dune: Awakenin"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

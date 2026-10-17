@@ -1,11 +1,11 @@
 {
-  "checked": 1066,
+  "checked": 1115,
   "total": 1358142,
-  "target_hits": 68,
-  "hits": 203,
-  "two_fa": 10,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-17T20:02:10.262687+00:00",
+  "target_hits": 70,
+  "hits": 217,
+  "two_fa": 11,
+  "speed_cpm": 93,
+  "updated_at": "2026-10-17T20:02:32.871596+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1512,6 +1512,72 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "thirstyeightwasp",
+      "pass": "Sillypanda39",
+      "steamid": "76561198883592811",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "iiTzPineAppleZz",
+      "pass": "Miloandsasha22",
+      "steamid": "76561198452507707",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1682,
+  "checked": 1798,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 432,
-  "two_fa": 42,
-  "speed_cpm": 149,
-  "updated_at": "2026-10-17T14:53:33.634799+00:00",
+  "target_hits": 123,
+  "hits": 442,
+  "two_fa": 43,
+  "speed_cpm": 152,
+  "updated_at": "2026-10-17T14:54:02.557817+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2685,6 +2685,28 @@
       "pass": "Hugestart38",
       "steamid": "76561198883824257",
       "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Editio"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

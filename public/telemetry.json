@@ -1,11 +1,11 @@
 {
-  "checked": 1376,
+  "checked": 1469,
   "total": 1358142,
-  "target_hits": 79,
-  "hits": 279,
-  "two_fa": 26,
-  "speed_cpm": 106,
-  "updated_at": "2026-10-17T20:03:49.816328+00:00",
+  "target_hits": 81,
+  "hits": 307,
+  "two_fa": 34,
+  "speed_cpm": 111,
+  "updated_at": "2026-10-17T20:04:19.970833+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1787,6 +1787,61 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "cronofunky",
+      "pass": "neokilla",
+      "steamid": "76561198004629905",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "mhawsayar2013",
+      "pass": "mrsimple528",
+      "steamid": "76561199102210013",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

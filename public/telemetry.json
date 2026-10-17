@@ -1,11 +1,11 @@
 {
-  "checked": 1189,
+  "checked": 1234,
   "total": 1358142,
-  "target_hits": 110,
-  "hits": 352,
+  "target_hits": 111,
+  "hits": 361,
   "two_fa": 25,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-17T14:51:22.499186+00:00",
+  "speed_cpm": 129,
+  "updated_at": "2026-10-17T14:51:44.085192+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2414,6 +2414,17 @@
       "wallet": "",
       "games": [
         "Garry's Mod"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
       ]
     }
   ]

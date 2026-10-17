@@ -1,11 +1,11 @@
 {
-  "checked": 1222,
+  "checked": 1376,
   "total": 1358142,
-  "target_hits": 75,
-  "hits": 254,
-  "two_fa": 19,
-  "speed_cpm": 96,
-  "updated_at": "2026-10-17T20:03:21.593709+00:00",
+  "target_hits": 79,
+  "hits": 279,
+  "two_fa": 26,
+  "speed_cpm": 106,
+  "updated_at": "2026-10-17T20:03:49.816328+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1710,6 +1710,83 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championshi"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin 2"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Edition"
+      ]
+    },
+    {
+      "user": "davuttataroglureis",
+      "pass": "71821905davut",
+      "steamid": "76561199057911359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dungeon Defenders I"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1234,
+  "checked": 1339,
   "total": 1358142,
   "target_hits": 111,
-  "hits": 361,
-  "two_fa": 25,
-  "speed_cpm": 129,
-  "updated_at": "2026-10-17T14:51:44.085192+00:00",
+  "hits": 372,
+  "two_fa": 28,
+  "speed_cpm": 134,
+  "updated_at": "2026-10-17T14:52:09.920016+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2425,6 +2425,50 @@
       "wallet": "",
       "games": [
         "Phasmophobi"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "girlfriend_me",
+      "pass": "zqumie.1029",
+      "steamid": "76561199167519346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "High Octane Drift"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
       ]
     }
   ]

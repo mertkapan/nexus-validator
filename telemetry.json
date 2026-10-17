@@ -1,11 +1,11 @@
 {
-  "checked": 951,
+  "checked": 1383,
   "total": 1358142,
   "target_hits": 71,
-  "hits": 179,
-  "two_fa": 7,
-  "speed_cpm": 68,
-  "updated_at": "2026-10-17T10:05:32.368957+00:00",
+  "hits": 202,
+  "two_fa": 8,
+  "speed_cpm": 70,
+  "updated_at": "2026-10-17T10:06:00.238886+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1336,6 +1336,17 @@
       "wallet": "",
       "games": [
         "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

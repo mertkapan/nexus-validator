@@ -1,11 +1,11 @@
 {
-  "checked": 1569,
+  "checked": 1842,
   "total": 1358142,
-  "target_hits": 83,
-  "hits": 330,
-  "two_fa": 37,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-17T20:04:40.384284+00:00",
+  "target_hits": 84,
+  "hits": 338,
+  "two_fa": 38,
+  "speed_cpm": 135,
+  "updated_at": "2026-10-17T20:05:02.737328+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1930,6 +1930,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

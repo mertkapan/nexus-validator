@@ -1,11 +1,11 @@
 {
-  "checked": 1540,
+  "checked": 1682,
   "total": 1358142,
-  "target_hits": 117,
-  "hits": 421,
-  "two_fa": 38,
-  "speed_cpm": 140,
-  "updated_at": "2026-10-17T14:53:11.015642+00:00",
+  "target_hits": 121,
+  "hits": 432,
+  "two_fa": 42,
+  "speed_cpm": 149,
+  "updated_at": "2026-10-17T14:53:33.634799+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2645,6 +2645,50 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

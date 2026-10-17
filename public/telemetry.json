@@ -1,11 +1,11 @@
 {
-  "checked": 289,
+  "checked": 644,
   "total": 1358142,
-  "target_hits": 56,
-  "hits": 147,
+  "target_hits": 62,
+  "hits": 163,
   "two_fa": 8,
-  "speed_cpm": 55,
-  "updated_at": "2026-10-17T14:47:45.032632+00:00",
+  "speed_cpm": 120,
+  "updated_at": "2026-10-17T14:48:10.383014+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1270,6 +1270,160 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nu0sgclss",
+      "pass": "bro5pukm0",
+      "steamid": "76561199824984592",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barro 2"
+      ]
+    },
+    {
+      "user": "496bwsezygcxf9r1lwyan5",
+      "pass": "N9ECEFMG9O5F127",
+      "steamid": "76561199095875261",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "zaE3525D",
+      "pass": "9rHbZ66o",
+      "steamid": "76561199816258994",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "AtmaSpher"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

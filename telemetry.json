@@ -1,11 +1,11 @@
 {
-  "checked": 1502,
+  "checked": 1615,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 389,
-  "two_fa": 38,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-17T02:29:35.095329+00:00",
+  "target_hits": 117,
+  "hits": 412,
+  "two_fa": 41,
+  "speed_cpm": 137,
+  "updated_at": "2026-10-17T02:30:07.297076+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2579,6 +2579,17 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "kzwmmao6n8",
+      "pass": "Esparta0110@@011110",
+      "steamid": "76561199772116496",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dune: Awakenin"
       ]
     }
   ]

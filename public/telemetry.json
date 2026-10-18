@@ -1,11 +1,11 @@
 {
-  "checked": 1487,
+  "checked": 1530,
   "total": 1358142,
-  "target_hits": 138,
-  "hits": 293,
-  "two_fa": 28,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-18T10:18:03.050231+00:00",
+  "target_hits": 140,
+  "hits": 310,
+  "two_fa": 32,
+  "speed_cpm": 118,
+  "updated_at": "2026-10-18T10:18:26.590033+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2282,6 +2282,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Copa Petrobras de Marca"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

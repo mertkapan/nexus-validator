@@ -1,11 +1,11 @@
 {
-  "checked": 2926,
+  "checked": 3042,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 441,
+  "target_hits": 127,
+  "hits": 445,
   "two_fa": 47,
-  "speed_cpm": 212,
-  "updated_at": "2026-10-18T15:21:37.873198+00:00",
+  "speed_cpm": 213,
+  "updated_at": "2026-10-18T15:22:02.582916+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2645,6 +2645,39 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 26 SHOWCASE"
+      ]
+    },
+    {
+      "user": "egoros3p41",
+      "pass": "siski33BFa9lCBU7O67483",
+      "steamid": "76561198415609495",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Drift Legends"
+      ]
+    },
+    {
+      "user": "ridsx64949",
+      "pass": "9AKvoJM6iySy",
+      "steamid": "76561199519259038",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "jacobd781",
+      "pass": "beachzone1",
+      "steamid": "76561198021273029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®: Modern Warfare® 3 (2011"
       ]
     }
   ]

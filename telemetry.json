@@ -1,11 +1,11 @@
 {
-  "checked": 1168,
+  "checked": 1368,
   "total": 1358142,
-  "target_hits": 126,
-  "hits": 374,
-  "two_fa": 30,
-  "speed_cpm": 147,
-  "updated_at": "2026-10-18T02:26:43.228536+00:00",
+  "target_hits": 134,
+  "hits": 416,
+  "two_fa": 37,
+  "speed_cpm": 167,
+  "updated_at": "2026-10-18T02:27:03.657374+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2524,6 +2524,160 @@
       "wallet": "",
       "games": [
         "America's Army: Proving Ground"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championshi"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Plane"
+      ]
+    },
+    {
+      "user": "xqgdw096670",
+      "pass": "MqMgL178110",
+      "steamid": "76561199609962619",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mamaliga191",
+      "pass": "ion061059277",
+      "steamid": "76561198448913320",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "mee12181994",
+      "pass": "Meee112$",
+      "steamid": "76561199133737446",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "semsentido349",
+      "pass": "Naofazsentido43923",
+      "steamid": "76561198841304853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Escape the Backroom"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Escape the Backroom"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

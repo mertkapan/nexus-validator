@@ -1,11 +1,11 @@
 {
-  "checked": 1424,
+  "checked": 1519,
   "total": 1358142,
-  "target_hits": 113,
-  "hits": 384,
-  "two_fa": 35,
-  "speed_cpm": 139,
-  "updated_at": "2026-10-18T15:18:07.690989+00:00",
+  "target_hits": 118,
+  "hits": 404,
+  "two_fa": 44,
+  "speed_cpm": 143,
+  "updated_at": "2026-10-18T15:18:36.017161+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2458,6 +2458,83 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "andrew63pfeiffer",
+      "pass": "Muddytest83XBW2P33",
+      "steamid": "76561199012234639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativers"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
       ]
     }
   ]

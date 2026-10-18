@@ -1,11 +1,11 @@
 {
-  "checked": 544,
+  "checked": 593,
   "total": 1358142,
   "target_hits": 75,
-  "hits": 164,
+  "hits": 167,
   "two_fa": 8,
-  "speed_cpm": 96,
-  "updated_at": "2026-10-18T02:24:46.612954+00:00",
+  "speed_cpm": 98,
+  "updated_at": "2026-10-18T02:25:09.411673+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1479,6 +1479,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

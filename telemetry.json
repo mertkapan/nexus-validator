@@ -1,11 +1,11 @@
 {
-  "checked": 1216,
+  "checked": 1321,
   "total": 1358142,
-  "target_hits": 109,
-  "hits": 359,
-  "two_fa": 29,
-  "speed_cpm": 131,
-  "updated_at": "2026-10-18T15:17:10.390765+00:00",
+  "target_hits": 111,
+  "hits": 366,
+  "two_fa": 30,
+  "speed_cpm": 136,
+  "updated_at": "2026-10-18T15:17:35.137373+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2370,6 +2370,28 @@
       "wallet": "",
       "games": [
         "Fishing Planet"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops III"
+      ]
+    },
+    {
+      "user": "0369613279",
+      "pass": "Nh@n01112000",
+      "steamid": "76561199489814472",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

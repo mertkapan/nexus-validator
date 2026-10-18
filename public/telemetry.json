@@ -1,11 +1,11 @@
 {
-  "checked": 739,
+  "checked": 876,
   "total": 1358142,
   "target_hits": 77,
-  "hits": 171,
-  "two_fa": 8,
-  "speed_cpm": 109,
-  "updated_at": "2026-10-18T02:25:32.684053+00:00",
+  "hits": 187,
+  "two_fa": 9,
+  "speed_cpm": 119,
+  "updated_at": "2026-10-18T02:25:53.335095+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1523,6 +1523,17 @@
       "wallet": "",
       "games": [
         "AX:E"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

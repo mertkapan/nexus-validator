@@ -1,11 +1,11 @@
 {
-  "checked": 294,
+  "checked": 544,
   "total": 1358142,
-  "target_hits": 61,
-  "hits": 144,
-  "two_fa": 8,
-  "speed_cpm": 54,
-  "updated_at": "2026-10-18T19:58:39.747347+00:00",
+  "target_hits": 64,
+  "hits": 152,
+  "two_fa": 9,
+  "speed_cpm": 99,
+  "updated_at": "2026-10-18T19:59:07.414911+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1193,6 +1193,83 @@
       "wallet": "",
       "games": [
         "Lost Ligh"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "ozgpedqoxvodmgtpf5ng",
+      "pass": "BHKEUX8NFDS6331",
+      "steamid": "76561199109795268",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The First Descendant"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "he00399837",
+      "pass": "ly19860919",
+      "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
       ]
     }
   ]

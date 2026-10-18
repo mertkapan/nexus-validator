@@ -1,11 +1,11 @@
 {
-  "checked": 657,
+  "checked": 758,
   "total": 1358142,
-  "target_hits": 56,
-  "hits": 152,
+  "target_hits": 57,
+  "hits": 157,
   "two_fa": 9,
-  "speed_cpm": 105,
-  "updated_at": "2026-10-18T15:14:50.890079+00:00",
+  "speed_cpm": 104,
+  "updated_at": "2026-10-18T15:15:21.907199+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1160,6 +1160,39 @@
       "wallet": "",
       "games": [
         "Faeri"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "rxait798",
+      "pass": "Fan7Tasy",
+      "steamid": "76561199111758630",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "brhbtrhbtrh",
+      "pass": "Cechy127",
+      "steamid": "76561199388477533",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
       ]
     }
   ]

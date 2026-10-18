@@ -1,11 +1,11 @@
 {
-  "checked": 593,
+  "checked": 739,
   "total": 1358142,
-  "target_hits": 75,
-  "hits": 167,
+  "target_hits": 77,
+  "hits": 171,
   "two_fa": 8,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-18T02:25:09.411673+00:00",
+  "speed_cpm": 109,
+  "updated_at": "2026-10-18T02:25:32.684053+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1490,6 +1490,39 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "styxlaws",
+      "pass": "Starwarsisc00l",
+      "steamid": "76561198215890247",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Walk in the Wood"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
       ]
     }
   ]

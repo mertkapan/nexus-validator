@@ -1,11 +1,11 @@
 {
-  "checked": 3739,
+  "checked": 3823,
   "total": 1358142,
-  "target_hits": 129,
-  "hits": 454,
+  "target_hits": 131,
+  "hits": 474,
   "two_fa": 48,
-  "speed_cpm": 246,
-  "updated_at": "2026-10-18T15:23:34.222496+00:00",
+  "speed_cpm": 241,
+  "updated_at": "2026-10-18T15:24:05.292894+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2700,6 +2700,28 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares Enhanced Edition"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 538,
+  "checked": 642,
   "total": 1358142,
   "target_hits": 69,
-  "hits": 157,
+  "hits": 162,
   "two_fa": 8,
-  "speed_cpm": 92,
-  "updated_at": "2026-10-18T10:14:30.793230+00:00",
+  "speed_cpm": 104,
+  "updated_at": "2026-10-18T10:14:52.038851+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1358,6 +1358,50 @@
       "wallet": "",
       "games": [
         "Decei"
+      ]
+    },
+    {
+      "user": "ownerzombie",
+      "pass": "truman24",
+      "steamid": "76561198041379038",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "litao931052253",
+      "pass": "wijGz8RL",
+      "steamid": "76561198423877878",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "bwkfih0cvhy91zmzb",
+      "pass": "LUG9QWWTP95G720",
+      "steamid": "76561199149478636",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

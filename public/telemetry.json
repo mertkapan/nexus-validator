@@ -1,11 +1,11 @@
 {
-  "checked": 758,
+  "checked": 855,
   "total": 1358142,
-  "target_hits": 57,
-  "hits": 157,
+  "target_hits": 59,
+  "hits": 173,
   "two_fa": 9,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-18T15:15:21.907199+00:00",
+  "speed_cpm": 112,
+  "updated_at": "2026-10-18T15:15:51.482097+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1193,6 +1193,50 @@
       "wallet": "",
       "games": [
         "Infern"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

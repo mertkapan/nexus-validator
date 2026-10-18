@@ -1,11 +1,11 @@
 {
-  "checked": 1633,
+  "checked": 2051,
   "total": 1358142,
-  "target_hits": 138,
-  "hits": 454,
-  "two_fa": 47,
-  "speed_cpm": 185,
-  "updated_at": "2026-10-18T02:27:25.516251+00:00",
+  "target_hits": 140,
+  "hits": 463,
+  "two_fa": 49,
+  "speed_cpm": 4,
+  "updated_at": "2026-10-18T07:49:37.610043+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2887,6 +2887,28 @@
       "wallet": "",
       "games": [
         "APB Reloade"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

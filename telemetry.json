@@ -1,11 +1,11 @@
 {
-  "checked": 1519,
+  "checked": 1728,
   "total": 1358142,
-  "target_hits": 118,
-  "hits": 404,
-  "two_fa": 44,
-  "speed_cpm": 143,
-  "updated_at": "2026-10-18T15:18:36.017161+00:00",
+  "target_hits": 121,
+  "hits": 425,
+  "two_fa": 47,
+  "speed_cpm": 158,
+  "updated_at": "2026-10-18T15:18:58.233910+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2535,6 +2535,39 @@
       "wallet": "",
       "games": [
         "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dead Ground Arcade - Ellis Islan"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

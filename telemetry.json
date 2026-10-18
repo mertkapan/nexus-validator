@@ -1,11 +1,11 @@
 {
-  "checked": 2633,
+  "checked": 2785,
   "total": 1358142,
   "target_hits": 121,
-  "hits": 435,
+  "hits": 436,
   "two_fa": 47,
-  "speed_cpm": 200,
-  "updated_at": "2026-10-18T15:20:53.007128+00:00",
+  "speed_cpm": 206,
+  "updated_at": "2026-10-18T15:21:17.806109+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2579,6 +2579,17 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "dollie2019vigiani",
+      "pass": "Loudrice63SHWUQ92",
+      "steamid": "76561199007957649",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Transformice"
       ]
     }
   ]

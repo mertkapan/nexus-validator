@@ -1,11 +1,11 @@
 {
-  "checked": 1830,
+  "checked": 2024,
   "total": 1358142,
   "target_hits": 121,
-  "hits": 432,
+  "hits": 435,
   "two_fa": 47,
-  "speed_cpm": 154,
-  "updated_at": "2026-10-18T15:19:31.353208+00:00",
+  "speed_cpm": 160,
+  "updated_at": "2026-10-18T15:20:03.790789+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2568,6 +2568,17 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

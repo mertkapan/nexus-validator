@@ -1,11 +1,11 @@
 {
-  "checked": 732,
+  "checked": 930,
   "total": 1358142,
-  "target_hits": 69,
-  "hits": 165,
-  "two_fa": 8,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-18T10:15:20.253256+00:00",
+  "target_hits": 83,
+  "hits": 198,
+  "two_fa": 10,
+  "speed_cpm": 99,
+  "updated_at": "2026-10-18T10:16:08.974614+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1424,6 +1424,171 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "Kabel18121994",
+      "pass": "Kabel112$",
+      "steamid": "76561199111460512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "7qf8bq3ml6ae8a2x",
+      "pass": "7AWCJZH7U8PM328",
+      "steamid": "76561199155855727",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "I3lackHeartto",
+      "pass": "oatnahub01",
+      "steamid": "76561199115633115",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "bpwf68vpm83jahin9r",
+      "pass": "6VUAHJ67VMSG125",
+      "steamid": "76561199090069494",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Sieg"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "r5d6m1wxal2ra5v",
+      "pass": "DBBCQRCR0I0Q687",
+      "steamid": "76561199140221257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "sxewv27595",
+      "pass": "Mate2007Mate_",
+      "steamid": "76561199571717634",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "alejandro2020631",
+      "pass": "Alejandro14754776",
+      "steamid": "76561199217992512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "t2pxrxum0y2o2sz1rzb0zsxb",
+      "pass": "VL2GG74TWGBZ883",
+      "steamid": "76561199144619272",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Resident Evil 7 Teaser: Beginning Hou"
       ]
     }
   ]

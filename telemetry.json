@@ -1,11 +1,11 @@
 {
-  "checked": 3139,
+  "checked": 3434,
   "total": 1358142,
-  "target_hits": 127,
-  "hits": 445,
+  "target_hits": 128,
+  "hits": 446,
   "two_fa": 47,
-  "speed_cpm": 215,
-  "updated_at": "2026-10-18T15:22:23.059315+00:00",
+  "speed_cpm": 235,
+  "updated_at": "2026-10-18T15:22:43.935241+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2678,6 +2678,17 @@
       "wallet": "",
       "games": [
         "Call of Duty®: Modern Warfare® 3 (2011"
+      ]
+    },
+    {
+      "user": "dadscap9",
+      "pass": "cechy127",
+      "steamid": "76561199225168485",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

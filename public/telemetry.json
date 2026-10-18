@@ -1,11 +1,11 @@
 {
-  "checked": 642,
+  "checked": 732,
   "total": 1358142,
   "target_hits": 69,
-  "hits": 162,
+  "hits": 165,
   "two_fa": 8,
   "speed_cpm": 104,
-  "updated_at": "2026-10-18T10:14:52.038851+00:00",
+  "updated_at": "2026-10-18T10:15:20.253256+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1402,6 +1402,28 @@
       "wallet": "",
       "games": [
         "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "496bwsezygcxf9r1lwyan5",
+      "pass": "N9ECEFMG9O5F127",
+      "steamid": "76561199095875261",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

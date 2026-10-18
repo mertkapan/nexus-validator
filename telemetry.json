@@ -1,11 +1,11 @@
 {
-  "checked": 3434,
+  "checked": 3693,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 446,
+  "target_hits": 129,
+  "hits": 449,
   "two_fa": 47,
-  "speed_cpm": 235,
-  "updated_at": "2026-10-18T15:22:43.935241+00:00",
+  "speed_cpm": 249,
+  "updated_at": "2026-10-18T15:23:13.558348+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2689,6 +2689,17 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
       ]
     }
   ]

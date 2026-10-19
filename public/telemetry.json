@@ -1,11 +1,11 @@
 {
-  "checked": 1906,
+  "checked": 2139,
   "total": 1358142,
-  "target_hits": 141,
-  "hits": 467,
+  "target_hits": 144,
+  "hits": 471,
   "two_fa": 49,
-  "speed_cpm": 188,
-  "updated_at": "2026-10-19T11:50:46.802768+00:00",
+  "speed_cpm": 195,
+  "updated_at": "2026-10-19T11:51:13.247907+00:00",
   "accounts": [
     {
       "user": "styxlaws",
@@ -2876,6 +2876,39 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "vlasik20101",
+      "pass": "1905lkvI",
+      "steamid": "76561198880907167",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

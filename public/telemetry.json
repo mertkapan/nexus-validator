@@ -1,11 +1,11 @@
 {
-  "checked": 1435,
+  "checked": 1586,
   "total": 1358142,
   "target_hits": 118,
-  "hits": 422,
-  "two_fa": 33,
-  "speed_cpm": 149,
-  "updated_at": "2026-10-19T02:43:20.678080+00:00",
+  "hits": 431,
+  "two_fa": 36,
+  "speed_cpm": 159,
+  "updated_at": "2026-10-19T02:43:43.564555+00:00",
   "accounts": [
     {
       "user": "exqgy03440",
@@ -2843,6 +2843,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "FanaticalEquableChinchilla",
+      "pass": "Jaderabbit13",
+      "steamid": "76561198883657627",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - 在线多人桌"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1755,
+  "checked": 1906,
   "total": 1358142,
-  "target_hits": 140,
-  "hits": 459,
+  "target_hits": 141,
+  "hits": 467,
   "two_fa": 49,
-  "speed_cpm": 180,
-  "updated_at": "2026-10-19T11:50:24.609667+00:00",
+  "speed_cpm": 188,
+  "updated_at": "2026-10-19T11:50:46.802768+00:00",
   "accounts": [
     {
       "user": "styxlaws",
@@ -2865,6 +2865,17 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 295,
+  "checked": 531,
   "total": 1358142,
-  "target_hits": 73,
-  "hits": 147,
+  "target_hits": 79,
+  "hits": 159,
   "two_fa": 8,
-  "speed_cpm": 46,
-  "updated_at": "2026-10-19T11:46:23.160412+00:00",
+  "speed_cpm": 87,
+  "updated_at": "2026-10-19T11:46:43.331893+00:00",
   "accounts": [
     {
       "user": "styxlaws",
@@ -1281,6 +1281,83 @@
       "wallet": "",
       "games": [
         "Half-Life"
+      ]
+    },
+    {
+      "user": "infinitesauc3",
+      "pass": "Manner123",
+      "steamid": "76561198360541351",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "rxait798",
+      "pass": "Fan7Tasy",
+      "steamid": "76561199111758630",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "UndesirableShallowTrout",
+      "pass": "Pinkpeach74",
+      "steamid": "76561198889650305",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "drybandicoot1078",
+      "pass": "2b044d4862e2032d1!aZ",
+      "steamid": "76561199407192713",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
       ]
     }
   ]

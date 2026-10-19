@@ -1,11 +1,11 @@
 {
-  "checked": 998,
+  "checked": 1151,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 300,
-  "two_fa": 14,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-19T11:48:02.254226+00:00",
+  "target_hits": 130,
+  "hits": 359,
+  "two_fa": 27,
+  "speed_cpm": 147,
+  "updated_at": "2026-10-19T11:48:25.323856+00:00",
   "accounts": [
     {
       "user": "styxlaws",
@@ -2260,6 +2260,138 @@
       "wallet": "",
       "games": [
         "The Outlast Trials"
+      ]
+    },
+    {
+      "user": "wnxn65596",
+      "pass": "Sq1Yt7Of4Zg76t",
+      "steamid": "76561199376622209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "nohio00466",
+      "pass": "xsio07018E",
+      "steamid": "76561199717808096",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOut"
+      ]
+    },
+    {
+      "user": "fadiw537661",
+      "pass": "QtPdV107673",
+      "steamid": "76561199611062699",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Empires II: Definitive Editio"
+      ]
+    },
+    {
+      "user": "sxewv27595",
+      "pass": "Mate2007Mate_",
+      "steamid": "76561199571717634",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
       ]
     }
   ]

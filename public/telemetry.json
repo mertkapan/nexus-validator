@@ -1,11 +1,11 @@
 {
-  "checked": 1599,
+  "checked": 1755,
   "total": 1358142,
   "target_hits": 140,
-  "hits": 452,
-  "two_fa": 46,
-  "speed_cpm": 171,
-  "updated_at": "2026-10-19T11:50:02.035896+00:00",
+  "hits": 459,
+  "two_fa": 49,
+  "speed_cpm": 180,
+  "updated_at": "2026-10-19T11:50:24.609667+00:00",
   "accounts": [
     {
       "user": "styxlaws",
@@ -2854,6 +2854,17 @@
       "wallet": "",
       "games": [
         "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1871,
+  "checked": 2142,
   "total": 1358142,
-  "target_hits": 119,
-  "hits": 450,
+  "target_hits": 120,
+  "hits": 454,
   "two_fa": 39,
-  "speed_cpm": 167,
-  "updated_at": "2026-10-19T02:44:46.658808+00:00",
+  "speed_cpm": 180,
+  "updated_at": "2026-10-19T02:45:10.512185+00:00",
   "accounts": [
     {
       "user": "exqgy03440",
@@ -2909,6 +2909,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cat Quest I"
       ]
     }
   ]

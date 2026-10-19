@@ -1,11 +1,11 @@
 {
-  "checked": 543,
+  "checked": 664,
   "total": 1358142,
-  "target_hits": 69,
-  "hits": 164,
+  "target_hits": 71,
+  "hits": 166,
   "two_fa": 8,
-  "speed_cpm": 85,
-  "updated_at": "2026-10-19T18:07:50.105468+00:00",
+  "speed_cpm": 96,
+  "updated_at": "2026-10-19T18:08:10.833417+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1424,6 +1424,28 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
       ]
     }
   ]

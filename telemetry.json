@@ -1,11 +1,11 @@
 {
-  "checked": 2142,
+  "checked": 2323,
   "total": 1358142,
   "target_hits": 120,
-  "hits": 454,
-  "two_fa": 39,
-  "speed_cpm": 180,
-  "updated_at": "2026-10-19T02:45:10.512185+00:00",
+  "hits": 457,
+  "two_fa": 40,
+  "speed_cpm": 5,
+  "updated_at": "2026-10-19T08:04:38.451397+00:00",
   "accounts": [
     {
       "user": "exqgy03440",

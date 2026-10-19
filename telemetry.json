@@ -1,11 +1,11 @@
 {
-  "checked": 1226,
+  "checked": 1435,
   "total": 1358142,
-  "target_hits": 110,
-  "hits": 380,
-  "two_fa": 30,
-  "speed_cpm": 141,
-  "updated_at": "2026-10-19T02:42:44.787084+00:00",
+  "target_hits": 118,
+  "hits": 422,
+  "two_fa": 33,
+  "speed_cpm": 149,
+  "updated_at": "2026-10-19T02:43:20.678080+00:00",
   "accounts": [
     {
       "user": "exqgy03440",
@@ -2689,6 +2689,160 @@
       "wallet": "",
       "games": [
         "March of Empires"
+      ]
+    },
+    {
+      "user": "davuttataroglureis",
+      "pass": "71821905davut",
+      "steamid": "76561199057911359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pack"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "KartRider: Drift"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lowtrust1",
+      "pass": "000000000_",
+      "steamid": "76561198929194917",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

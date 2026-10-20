@@ -1,11 +1,11 @@
 {
-  "checked": 1395,
+  "checked": 1494,
   "total": 1358142,
-  "target_hits": 107,
-  "hits": 338,
-  "two_fa": 34,
-  "speed_cpm": 120,
-  "updated_at": "2026-10-20T16:14:44.530659+00:00",
+  "target_hits": 113,
+  "hits": 367,
+  "two_fa": 38,
+  "speed_cpm": 125,
+  "updated_at": "2026-10-20T16:15:09.135352+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2392,6 +2392,105 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "7bd1xlsxezc1n4zolhg",
+      "pass": "L7A5B6O700ZI795",
+      "steamid": "76561199184765475",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "yusuf_malakhov",
+      "pass": "bis32808",
+      "steamid": "76561198019919196",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

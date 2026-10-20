@@ -1,11 +1,11 @@
 {
-  "checked": 1525,
+  "checked": 1586,
   "total": 1358142,
   "target_hits": 163,
-  "hits": 431,
+  "hits": 439,
   "two_fa": 39,
   "speed_cpm": 151,
-  "updated_at": "2026-10-20T02:56:07.813395+00:00",
+  "updated_at": "2026-10-20T02:56:28.759235+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3217,6 +3217,61 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "FanaticalEquableChinchilla",
+      "pass": "Jaderabbit13",
+      "steamid": "76561198883657627",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lesske11",
+      "pass": "gustavomito12@1",
+      "steamid": "76561199105210233",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jessiecaciolli2015",
+      "pass": "Oliveshow20CFR0166",
+      "steamid": "76561199009091417",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

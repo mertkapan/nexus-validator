@@ -1,11 +1,11 @@
 {
-  "checked": 2158,
+  "checked": 2349,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 396,
+  "target_hits": 121,
+  "hits": 397,
   "two_fa": 44,
   "speed_cpm": 146,
-  "updated_at": "2026-10-20T16:17:31.691167+00:00",
+  "updated_at": "2026-10-20T16:18:10.785455+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2623,6 +2623,17 @@
       "wallet": "",
       "games": [
         "Fishing Plane"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

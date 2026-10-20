@@ -1,11 +1,11 @@
 {
-  "checked": 2814,
+  "checked": 2873,
   "total": 1358142,
-  "target_hits": 164,
-  "hits": 445,
+  "target_hits": 165,
+  "hits": 446,
   "two_fa": 40,
-  "speed_cpm": 205,
-  "updated_at": "2026-10-20T02:58:54.531174+00:00",
+  "speed_cpm": 202,
+  "updated_at": "2026-10-20T02:59:19.424589+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3294,6 +3294,17 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "tsukinohikari6",
+      "pass": "Ngxhieu2005",
+      "steamid": "76561199815458186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26 SHOWCASE"
       ]
     }
   ]

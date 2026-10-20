@@ -1,11 +1,11 @@
 {
-  "checked": 1756,
+  "checked": 1856,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 325,
-  "two_fa": 37,
-  "speed_cpm": 96,
-  "updated_at": "2026-10-20T21:17:31.956977+00:00",
+  "target_hits": 122,
+  "hits": 332,
+  "two_fa": 38,
+  "speed_cpm": 99,
+  "updated_at": "2026-10-20T21:18:00.773359+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2139,6 +2139,28 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

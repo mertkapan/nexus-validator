@@ -1,11 +1,11 @@
 {
-  "checked": 601,
+  "checked": 709,
   "total": 1358142,
-  "target_hits": 68,
-  "hits": 157,
+  "target_hits": 69,
+  "hits": 160,
   "two_fa": 9,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-20T21:09:18.172084+00:00",
+  "speed_cpm": 94,
+  "updated_at": "2026-10-20T21:09:51.715247+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1303,6 +1303,17 @@
       "wallet": "",
       "games": [
         "Battlefield™"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
       ]
     }
   ]

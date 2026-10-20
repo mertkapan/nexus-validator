@@ -1,11 +1,11 @@
 {
-  "checked": 1293,
+  "checked": 1395,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 321,
-  "two_fa": 26,
-  "speed_cpm": 115,
-  "updated_at": "2026-10-20T16:14:19.531860+00:00",
+  "target_hits": 107,
+  "hits": 338,
+  "two_fa": 34,
+  "speed_cpm": 120,
+  "updated_at": "2026-10-20T16:14:44.530659+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2337,6 +2337,61 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dark Deceptio"
+      ]
+    },
+    {
+      "user": "neefarmdear",
+      "pass": "71821905.",
+      "steamid": "76561199016344714",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

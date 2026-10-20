@@ -1,11 +1,11 @@
 {
-  "checked": 298,
+  "checked": 437,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 150,
+  "target_hits": 72,
+  "hits": 158,
   "two_fa": 8,
-  "speed_cpm": 49,
-  "updated_at": "2026-10-20T10:48:15.944081+00:00",
+  "speed_cpm": 73,
+  "updated_at": "2026-10-20T10:48:37.818127+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1342,6 +1342,72 @@
       "user": "he00399837",
       "pass": "ly19860919",
       "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "yswg114270",
+      "pass": "9301vp54",
+      "steamid": "76561199081844020",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "litao931052253",
+      "pass": "wijGz8RL",
+      "steamid": "76561198423877878",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
       "vac": "BANNED",
       "country": "🌐 Global",
       "wallet": "",

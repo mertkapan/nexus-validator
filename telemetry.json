@@ -1,11 +1,11 @@
 {
-  "checked": 246,
+  "checked": 493,
   "total": 1358142,
-  "target_hits": 57,
-  "hits": 131,
+  "target_hits": 62,
+  "hits": 153,
   "two_fa": 9,
-  "speed_cpm": 41,
-  "updated_at": "2026-10-20T16:09:59.464900+00:00",
+  "speed_cpm": 88,
+  "updated_at": "2026-10-20T16:10:19.567222+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1215,6 +1215,182 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "Doeldealvarez2",
+      "pass": "bellarosalia97",
+      "steamid": "76561198165088714",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "3brogamersfifa22",
+      "pass": "YPN7LEGKDJ@C",
+      "steamid": "76561199238560586",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
+      ]
+    },
+    {
+      "user": "rbf32196",
+      "pass": "ywr62917",
+      "steamid": "76561199291106468",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
+      ]
+    },
+    {
+      "user": "wangtaguaan005",
+      "pass": "@Admin16",
+      "steamid": "76561199290721209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "2874906864",
+      "pass": "hulboj12",
+      "steamid": "76561199104320287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Coloring Game"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ic"
+      ]
+    },
+    {
+      "user": "496bwsezygcxf9r1lwyan5",
+      "pass": "N9ECEFMG9O5F127",
+      "steamid": "76561199095875261",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "maggie93malavolti",
+      "pass": "156500207",
+      "steamid": "76561199019950165",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "legendrygh",
+      "pass": "Amirmasoudgh33computer33",
+      "steamid": "76561199079985639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
       ]
     }
   ]

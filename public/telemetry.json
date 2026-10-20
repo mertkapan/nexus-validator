@@ -1,11 +1,11 @@
 {
-  "checked": 596,
+  "checked": 696,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 160,
+  "target_hits": 67,
+  "hits": 163,
   "two_fa": 9,
-  "speed_cpm": 100,
-  "updated_at": "2026-10-20T16:10:40.392775+00:00",
+  "speed_cpm": 110,
+  "updated_at": "2026-10-20T16:11:05.951355+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1446,6 +1446,39 @@
       "wallet": "",
       "games": [
         "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

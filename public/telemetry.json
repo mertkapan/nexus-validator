@@ -1,11 +1,11 @@
 {
-  "checked": 1494,
+  "checked": 1593,
   "total": 1358142,
-  "target_hits": 113,
-  "hits": 367,
-  "two_fa": 38,
-  "speed_cpm": 125,
-  "updated_at": "2026-10-20T16:15:09.135352+00:00",
+  "target_hits": 116,
+  "hits": 384,
+  "two_fa": 44,
+  "speed_cpm": 131,
+  "updated_at": "2026-10-20T16:15:31.924683+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2491,6 +2491,61 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "smitty091676",
+      "pass": "11101775",
+      "steamid": "76561197999191637",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

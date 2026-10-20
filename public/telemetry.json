@@ -1,11 +1,11 @@
 {
-  "checked": 1415,
+  "checked": 1525,
   "total": 1358142,
-  "target_hits": 161,
-  "hits": 421,
-  "two_fa": 36,
-  "speed_cpm": 153,
-  "updated_at": "2026-10-20T02:55:41.926527+00:00",
+  "target_hits": 163,
+  "hits": 431,
+  "two_fa": 39,
+  "speed_cpm": 151,
+  "updated_at": "2026-10-20T02:56:07.813395+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3162,6 +3162,61 @@
       "wallet": "",
       "games": [
         "Planet Coaster"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

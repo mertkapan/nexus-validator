@@ -1,11 +1,11 @@
 {
-  "checked": 709,
+  "checked": 903,
   "total": 1358142,
-  "target_hits": 69,
-  "hits": 160,
+  "target_hits": 76,
+  "hits": 182,
   "two_fa": 9,
-  "speed_cpm": 94,
-  "updated_at": "2026-10-20T21:09:51.715247+00:00",
+  "speed_cpm": 92,
+  "updated_at": "2026-10-20T21:10:34.495706+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1314,6 +1314,171 @@
       "wallet": "",
       "games": [
         "Calibe"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "gero124dse",
+      "pass": "ouss4570ghyf",
+      "steamid": "76561198825700252",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crystal Crisi"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "WorldBox - God Simulator"
+      ]
+    },
+    {
+      "user": "sxewv27595",
+      "pass": "Mate2007Mate_",
+      "steamid": "76561199571717634",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crystal Crisi"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "vlpyx34160",
+      "pass": "emqj69427X",
+      "steamid": "76561199565023120",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Air Conflicts: Pacific Carrier"
+      ]
+    },
+    {
+      "user": "bpwf68vpm83jahin9r",
+      "pass": "6VUAHJ67VMSG125",
+      "steamid": "76561199090069494",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lukepascual1989",
+      "pass": "Gabrielgois123",
+      "steamid": "76561199019343832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "frank8323",
+      "pass": "Mumu-2fetcham",
+      "steamid": "76561198368854226",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Marvel Rivals - High-Resolution Pac"
+      ]
+    },
+    {
+      "user": "r5d6m1wxal2ra5v",
+      "pass": "DBBCQRCR0I0Q687",
+      "steamid": "76561199140221257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "100% Orange Juic"
+      ]
+    },
+    {
+      "user": "artjomtkrv",
+      "pass": "25121995",
+      "steamid": "76561198027481542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "inidonkeyt9marinelli1",
+      "pass": "2KMWL63LIRR7956",
+      "steamid": "76561199058102893",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

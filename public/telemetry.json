@@ -1,11 +1,11 @@
 {
-  "checked": 1138,
+  "checked": 1195,
   "total": 1358142,
-  "target_hits": 103,
-  "hits": 281,
-  "two_fa": 23,
-  "speed_cpm": 108,
-  "updated_at": "2026-10-20T16:13:33.229500+00:00",
+  "target_hits": 105,
+  "hits": 303,
+  "two_fa": 25,
+  "speed_cpm": 109,
+  "updated_at": "2026-10-20T16:13:55.935654+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2183,6 +2183,94 @@
       "wallet": "",
       "games": [
         "Warspear Online"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "hieu301233",
+      "pass": "Hieu3012",
+      "steamid": "76561199133050985",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "lrg2017",
+      "pass": "Dollyluiz20192004",
+      "steamid": "76561198357318512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "d9s6i71y01ywrb7of976s",
+      "pass": "3NPK115HEUCR096",
+      "steamid": "76561199168473537",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hdl9wvqef98omyp",
+      "pass": "MIJXFAEWOVP4751",
+      "steamid": "76561199237434070",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOut"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

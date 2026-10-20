@@ -1,11 +1,11 @@
 {
-  "checked": 199,
+  "checked": 254,
   "total": 1358142,
-  "target_hits": 58,
-  "hits": 112,
-  "two_fa": 7,
-  "speed_cpm": 33,
-  "updated_at": "2026-10-20T02:51:44.793046+00:00",
+  "target_hits": 68,
+  "hits": 138,
+  "two_fa": 8,
+  "speed_cpm": 40,
+  "updated_at": "2026-10-20T02:52:11.580764+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1017,6 +1017,182 @@
       "wallet": "",
       "games": [
         "Cuphead"
+      ]
+    },
+    {
+      "user": "legendrygh",
+      "pass": "Amirmasoudgh33computer33",
+      "steamid": "76561199079985639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "ubimp21346",
+      "pass": "cewl19027P",
+      "steamid": "76561199513080899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "clyde2012grant",
+      "pass": "Greenchess219P9XS22",
+      "steamid": "76561199020655792",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zaE3525D",
+      "pass": "9rHbZ66o",
+      "steamid": "76561199816258994",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "AtmaSpher"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator"
+      ]
+    },
+    {
+      "user": "wangtaguaan005",
+      "pass": "@Admin16",
+      "steamid": "76561199290721209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raf"
+      ]
+    },
+    {
+      "user": "brhbtrhbtrh",
+      "pass": "Cechy127",
+      "steamid": "76561199388477533",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "maggie93malavolti",
+      "pass": "156500207",
+      "steamid": "76561199019950165",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "he00399837",
+      "pass": "ly19860919",
+      "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "v1nwggex4",
+      "pass": "eFghOTmOBe",
+      "steamid": "76561199176715682",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barr"
       ]
     }
   ]

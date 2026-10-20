@@ -1,11 +1,11 @@
 {
-  "checked": 1303,
+  "checked": 1408,
   "total": 1358142,
-  "target_hits": 110,
-  "hits": 270,
-  "two_fa": 24,
-  "speed_cpm": 72,
-  "updated_at": "2026-10-20T21:16:09.298982+00:00",
+  "target_hits": 112,
+  "hits": 289,
+  "two_fa": 28,
+  "speed_cpm": 76,
+  "updated_at": "2026-10-20T21:16:44.465953+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2007,6 +2007,39 @@
       "wallet": "",
       "games": [
         "Fishing Planet"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

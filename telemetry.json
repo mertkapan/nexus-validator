@@ -1,11 +1,11 @@
 {
-  "checked": 1222,
+  "checked": 1415,
   "total": 1358142,
-  "target_hits": 151,
-  "hits": 376,
-  "two_fa": 30,
-  "speed_cpm": 145,
-  "updated_at": "2026-10-20T02:55:09.378288+00:00",
+  "target_hits": 161,
+  "hits": 421,
+  "two_fa": 36,
+  "speed_cpm": 153,
+  "updated_at": "2026-10-20T02:55:41.926527+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3008,6 +3008,160 @@
       "wallet": "",
       "games": [
         "Rise"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among U"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "kralfarukreis",
+      "pass": "71821905kralfaruk",
+      "steamid": "76561199057660911",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
       ]
     }
   ]

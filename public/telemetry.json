@@ -1,11 +1,11 @@
 {
-  "checked": 1586,
+  "checked": 1695,
   "total": 1358142,
   "target_hits": 163,
-  "hits": 439,
-  "two_fa": 39,
-  "speed_cpm": 151,
-  "updated_at": "2026-10-20T02:56:28.759235+00:00",
+  "hits": 442,
+  "two_fa": 40,
+  "speed_cpm": 154,
+  "updated_at": "2026-10-20T02:56:56.965309+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3267,6 +3267,17 @@
       "user": "jokiliman",
       "pass": "SRBIJA",
       "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

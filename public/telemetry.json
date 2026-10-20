@@ -1,11 +1,11 @@
 {
-  "checked": 696,
+  "checked": 872,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 163,
+  "target_hits": 71,
+  "hits": 173,
   "two_fa": 9,
-  "speed_cpm": 110,
-  "updated_at": "2026-10-20T16:11:05.951355+00:00",
+  "speed_cpm": 101,
+  "updated_at": "2026-10-20T16:12:07.236282+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1479,6 +1479,94 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cane272",
+      "pass": "Walker*7778",
+      "steamid": "76561199563650483",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCL - The Gam"
+      ]
+    },
+    {
+      "user": "ahmetefe226",
+      "pass": "13579Kskli",
+      "steamid": "76561198978075807",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "mahdiarslt",
+      "pass": "mahdiar.slt1",
+      "steamid": "76561199097608376",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "abdulatif_12_",
+      "pass": "abdu_776",
+      "steamid": "76561198726241809",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "UnusedKnownVulture",
+      "pass": "Noisystick86",
+      "steamid": "76561198889691295",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Black Ops II"
+      ]
+    },
+    {
+      "user": "ClumsyCapriciousSeahorse",
+      "pass": "Weirdsoap18",
+      "steamid": "76561198889573122",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
       ]
     }
   ]

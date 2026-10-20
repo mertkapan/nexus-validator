@@ -1,11 +1,11 @@
 {
-  "checked": 1206,
+  "checked": 1303,
   "total": 1358142,
-  "target_hits": 109,
-  "hits": 246,
-  "two_fa": 20,
-  "speed_cpm": 67,
-  "updated_at": "2026-10-20T21:15:40.334067+00:00",
+  "target_hits": 110,
+  "hits": 270,
+  "two_fa": 24,
+  "speed_cpm": 72,
+  "updated_at": "2026-10-20T21:16:09.298982+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1930,6 +1930,83 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lazziyareis",
+      "pass": "71821905lazziya",
+      "steamid": "76561199057807614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
+      ]
+    },
+    {
+      "user": "mee12181994",
+      "pass": "Meee112$",
+      "steamid": "76561199133737446",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

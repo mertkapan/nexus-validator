@@ -1,11 +1,11 @@
 {
-  "checked": 1144,
+  "checked": 1206,
   "total": 1358142,
   "target_hits": 109,
-  "hits": 230,
-  "two_fa": 18,
-  "speed_cpm": 65,
-  "updated_at": "2026-10-20T21:15:14.792097+00:00",
+  "hits": 246,
+  "two_fa": 20,
+  "speed_cpm": 67,
+  "updated_at": "2026-10-20T21:15:40.334067+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1875,6 +1875,61 @@
       "wallet": "",
       "games": [
         "PAYDAY"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "dcjvr8ws1ptg5hlfzpzrkpb0",
+      "pass": "43NXFQFUAZC3438",
+      "steamid": "76561199233373125",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "murzynki3",
+      "pass": "Tina0987",
+      "steamid": "76561198951508862",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "krewneck1",
+      "pass": "santi210301",
+      "steamid": "76561198440628397",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 493,
+  "checked": 596,
   "total": 1358142,
-  "target_hits": 62,
-  "hits": 153,
+  "target_hits": 66,
+  "hits": 160,
   "two_fa": 9,
-  "speed_cpm": 88,
-  "updated_at": "2026-10-20T16:10:19.567222+00:00",
+  "speed_cpm": 100,
+  "updated_at": "2026-10-20T16:10:40.392775+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1391,6 +1391,61 @@
       "wallet": "",
       "games": [
         "Dota Underlord"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "yswg114270",
+      "pass": "9301vp54",
+      "steamid": "76561199081844020",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
       ]
     }
   ]

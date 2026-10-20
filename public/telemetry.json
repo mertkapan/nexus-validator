@@ -1,11 +1,11 @@
 {
-  "checked": 2845,
+  "checked": 3100,
   "total": 1358142,
-  "target_hits": 122,
-  "hits": 400,
+  "target_hits": 123,
+  "hits": 403,
   "two_fa": 44,
-  "speed_cpm": 153,
-  "updated_at": "2026-10-20T16:19:53.370535+00:00",
+  "speed_cpm": 159,
+  "updated_at": "2026-10-20T16:20:34.109948+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2645,6 +2645,28 @@
       "wallet": "",
       "games": [
         "Cuphead"
+      ]
+    },
+    {
+      "user": "39aanngx",
+      "pass": "DD3272034",
+      "steamid": "76561199317620921",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Heroes & General"
       ]
     }
   ]

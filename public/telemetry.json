@@ -1,11 +1,11 @@
 {
-  "checked": 2625,
+  "checked": 2755,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 398,
+  "target_hits": 122,
+  "hits": 400,
   "two_fa": 44,
-  "speed_cpm": 147,
-  "updated_at": "2026-10-20T16:19:09.413889+00:00",
+  "speed_cpm": 150,
+  "updated_at": "2026-10-20T16:19:30.862369+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -2634,6 +2634,17 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "su0wn1hf",
+      "pass": "UOipTT58vG5XZ1",
+      "steamid": "76561198962329526",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cuphead"
       ]
     }
   ]

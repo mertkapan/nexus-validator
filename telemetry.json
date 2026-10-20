@@ -1,11 +1,11 @@
 {
-  "checked": 697,
+  "checked": 802,
   "total": 1358142,
-  "target_hits": 74,
-  "hits": 158,
+  "target_hits": 75,
+  "hits": 162,
   "two_fa": 8,
-  "speed_cpm": 114,
-  "updated_at": "2026-10-20T02:52:54.589121+00:00",
+  "speed_cpm": 122,
+  "updated_at": "2026-10-20T02:53:22.920839+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -1336,6 +1336,39 @@
       "wallet": "",
       "games": [
         "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 975,
+  "checked": 1080,
   "total": 1358142,
-  "target_hits": 75,
-  "hits": 226,
-  "two_fa": 10,
-  "speed_cpm": 130,
-  "updated_at": "2026-10-21T21:10:46.789249+00:00",
+  "target_hits": 90,
+  "hits": 258,
+  "two_fa": 14,
+  "speed_cpm": 129,
+  "updated_at": "2026-10-21T21:11:13.004941+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1765,6 +1765,204 @@
       "wallet": "",
       "games": [
         "Crossout"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "kindseagull0693",
+      "pass": "QoZ0EeG1p2qS",
+      "steamid": "76561198777268201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crossout"
+      ]
+    },
+    {
+      "user": "lenjp953117",
+      "pass": "ZiEaN583444",
+      "steamid": "76561199610099742",
+      "vac": "CLEAN",
+      "country": "🌐 Lithuania",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "y2aixQo03",
+      "pass": "8EKDfhuYQaz2el5",
+      "steamid": "76561198746567770",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cell to Singularity - Evolution Never End"
+      ]
+    },
+    {
+      "user": "Driebard92",
+      "pass": "Gui19981998",
+      "steamid": "76561199063182985",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "fp4mg6onn",
+      "pass": "oamm2gsay",
+      "steamid": "76561199658700069",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "drbxn15403",
+      "pass": "3iCrnVKh",
+      "steamid": "76561199671862875",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "ojbrb01622",
+      "pass": "fz3kZki8",
+      "steamid": "76561199671752633",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "nwdoa10583",
+      "pass": "nrlc86022V",
+      "steamid": "76561199718417238",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "R.E.P.O"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rus"
+      ]
+    },
+    {
+      "user": "wnxn65596",
+      "pass": "Sq1Yt7Of4Zg76t",
+      "steamid": "76561199376622209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "novaphase3",
+      "pass": "xmwESYhRswKk5E",
+      "steamid": "76561199875879685",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pjgci424217",
+      "pass": "GvItW142259",
+      "steamid": "76561199604575099",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "svtjx32839",
+      "pass": "ubwx32519F",
+      "steamid": "76561199717639931",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "gfk66707",
+      "pass": "Bcp77509817",
+      "steamid": "76561199763707315",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "Black Myth: Wukon"
+      ]
+    },
+    {
+      "user": "Wp5B9xV0",
+      "pass": "Q2noXHPm",
+      "steamid": "76561198785823857",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1137,
+  "checked": 1177,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 320,
-  "two_fa": 24,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-21T16:32:49.942177+00:00",
+  "target_hits": 124,
+  "hits": 357,
+  "two_fa": 30,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-21T16:33:27.610273+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2227,6 +2227,72 @@
       "wallet": "",
       "games": [
         "Dark Deceptio"
+      ]
+    },
+    {
+      "user": "uSioK18b",
+      "pass": "Zye7sbPL",
+      "steamid": "76561199831205726",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "krewneck1",
+      "pass": "santi210301",
+      "steamid": "76561198440628397",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Kritika:REBOO"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AION MM"
+      ]
+    },
+    {
+      "user": "hdl9wvqef98omyp",
+      "pass": "MIJXFAEWOVP4751",
+      "steamid": "76561199237434070",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Forbidden Lov"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOut"
       ]
     }
   ]

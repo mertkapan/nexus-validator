@@ -1,11 +1,11 @@
 {
-  "checked": 807,
+  "checked": 879,
   "total": 1358142,
-  "target_hits": 54,
-  "hits": 143,
-  "two_fa": 8,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-21T16:29:22.312484+00:00",
+  "target_hits": 58,
+  "hits": 170,
+  "two_fa": 9,
+  "speed_cpm": 98,
+  "updated_at": "2026-10-21T16:30:18.919050+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -1105,6 +1105,105 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "ahmetefe226",
+      "pass": "13579Kskli",
+      "steamid": "76561198978075807",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Ewis18121994",
+      "pass": "Ewis112$",
+      "steamid": "76561199105865047",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Plane"
+      ]
+    },
+    {
+      "user": "jonathan_conner3",
+      "pass": "}F;t{)icHA+H",
+      "steamid": "76561199091764344",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "r5d6m1wxal2ra5v",
+      "pass": "DBBCQRCR0I0Q687",
+      "steamid": "76561199140221257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "adiatedtortoiseo6aguil",
+      "pass": "6O6VXJAIZDU3471",
+      "steamid": "76561199077385772",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AIDE"
       ]
     }
   ]

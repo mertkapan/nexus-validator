@@ -1,11 +1,11 @@
 {
-  "checked": 1084,
+  "checked": 1137,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 305,
-  "two_fa": 18,
-  "speed_cpm": 99,
-  "updated_at": "2026-10-21T16:32:11.715070+00:00",
+  "target_hits": 121,
+  "hits": 320,
+  "two_fa": 24,
+  "speed_cpm": 98,
+  "updated_at": "2026-10-21T16:32:49.942177+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2150,6 +2150,83 @@
       "wallet": "",
       "games": [
         "ELDEN RING"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "wideeyedchubbymagpie68",
+      "pass": "Quietowl28ZOLQJ94",
+      "steamid": "76561199003127330",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "kindseagull0693",
+      "pass": "QoZ0EeG1p2qS",
+      "steamid": "76561198777268201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "clydecappelletti1994",
+      "pass": "Shinyapple54S2UKA45",
+      "steamid": "76561199011861603",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "hesitantfertilestarling",
+      "pass": "Blueleaf18",
+      "steamid": "76561198884123376",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "wbhil99014",
+      "pass": "ysza78105L",
+      "steamid": "76561199721300589",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dark Deceptio"
       ]
     }
   ]

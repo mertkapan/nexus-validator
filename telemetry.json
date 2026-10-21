@@ -1,11 +1,11 @@
 {
-  "checked": 1024,
+  "checked": 1104,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 293,
-  "two_fa": 17,
-  "speed_cpm": 115,
-  "updated_at": "2026-10-21T02:49:19.526840+00:00",
+  "target_hits": 129,
+  "hits": 328,
+  "two_fa": 25,
+  "speed_cpm": 121,
+  "updated_at": "2026-10-21T02:49:45.158723+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2150,6 +2150,160 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "vkin5azafpq2",
+      "pass": "xCMTNUFtZD",
+      "steamid": "76561199851511161",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "zorowashere1",
+      "pass": "raoufazzi",
+      "steamid": "76561199571197328",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "yusty65043",
+      "pass": "gawu29602N",
+      "steamid": "76561199717494363",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Greenland",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulato"
+      ]
+    },
+    {
+      "user": "lmqfa37888",
+      "pass": "hypev47083",
+      "steamid": "76561199816642816",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "toolate5891",
+      "pass": "aa740316",
+      "steamid": "76561198995157132",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Lost"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "pfrad79606",
+      "pass": "RH2605800",
+      "steamid": "76561199705301382",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mleko181294",
+      "pass": "Mleko112$",
+      "steamid": "76561199110829180",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 3648,
+  "checked": 3778,
   "total": 1358142,
   "target_hits": 145,
-  "hits": 439,
+  "hits": 446,
   "two_fa": 46,
-  "speed_cpm": 158,
-  "updated_at": "2026-10-21T03:00:23.037967+00:00",
+  "speed_cpm": 157,
+  "updated_at": "2026-10-21T03:00:45.073785+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2667,6 +2667,61 @@
       "wallet": "",
       "games": [
         "1v1.LO"
+      ]
+    },
+    {
+      "user": "thepalareis",
+      "pass": "The2290Pala3133.",
+      "steamid": "76561199057743381",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
       ]
     }
   ]

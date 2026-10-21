@@ -1,11 +1,11 @@
 {
-  "checked": 1840,
+  "checked": 1950,
   "total": 1358142,
-  "target_hits": 139,
-  "hits": 433,
-  "two_fa": 48,
-  "speed_cpm": 125,
-  "updated_at": "2026-10-21T16:36:09.112881+00:00",
+  "target_hits": 140,
+  "hits": 438,
+  "two_fa": 49,
+  "speed_cpm": 128,
+  "updated_at": "2026-10-21T16:36:38.504029+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2535,6 +2535,17 @@
       "wallet": "",
       "games": [
         "Business Tour - 在线多人桌游"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
       ]
     }
   ]

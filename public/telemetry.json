@@ -1,11 +1,11 @@
 {
-  "checked": 439,
+  "checked": 635,
   "total": 1358142,
-  "target_hits": 62,
-  "hits": 147,
+  "target_hits": 65,
+  "hits": 160,
   "two_fa": 8,
-  "speed_cpm": 74,
-  "updated_at": "2026-10-21T10:59:26.033860+00:00",
+  "speed_cpm": 103,
+  "updated_at": "2026-10-21T10:59:52.874634+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1314,6 +1314,61 @@
       "wallet": "",
       "games": [
         "A Walk in the Wood"
+      ]
+    },
+    {
+      "user": "tkujq647113",
+      "pass": "IjMeF967122",
+      "steamid": "76561199616928081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "usesell12234",
+      "pass": "usesell09383926589",
+      "steamid": "76561198931418710",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "1v1.LOL"
+      ]
+    },
+    {
+      "user": "contentllama3401",
+      "pass": "yusahan7",
+      "steamid": "76561199489800703",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Sea of Thieve"
+      ]
+    },
+    {
+      "user": "luantuz3",
+      "pass": "Luan8924717",
+      "steamid": "76561198806330812",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battle Realms: Zen Edition"
       ]
     }
   ]

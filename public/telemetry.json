@@ -1,11 +1,11 @@
 {
-  "checked": 93,
+  "checked": 148,
   "total": 1358142,
-  "target_hits": 14,
-  "hits": 34,
-  "two_fa": 2,
-  "speed_cpm": 14,
-  "updated_at": "2026-10-21T02:44:35.190507+00:00",
+  "target_hits": 31,
+  "hits": 68,
+  "two_fa": 5,
+  "speed_cpm": 24,
+  "updated_at": "2026-10-21T02:45:08.779655+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -324,6 +324,292 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "hoangnova17",
+      "pass": "H0angN0va83",
+      "steamid": "76561199087071058",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "theHunter Classic"
+      ]
+    },
+    {
+      "user": "xBullDroidx",
+      "pass": "mihaflander2001",
+      "steamid": "76561198154177815",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "egoros3p41",
+      "pass": "siski33BFa9lCBU7O67483",
+      "steamid": "76561198415609495",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "f447z4t206twnm7j6p6",
+      "pass": "349FB6DUYU0A288",
+      "steamid": "76561199155241872",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Assetto Cors"
+      ]
+    },
+    {
+      "user": "styxlaws",
+      "pass": "Starwarsisc00l",
+      "steamid": "76561198215890247",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Walk in the Wood"
+      ]
+    },
+    {
+      "user": "kudon93",
+      "pass": "DIEP1996",
+      "steamid": "76561198332563351",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "90 Minute Feve"
+      ]
+    },
+    {
+      "user": "Beata19275",
+      "pass": "antoniotest1",
+      "steamid": "76561198259770109",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Hearts of Iron III"
+      ]
+    },
+    {
+      "user": "zcqj56077",
+      "pass": "fb4js1x4p",
+      "steamid": "76561199350564560",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "diffuseger87255",
+      "pass": "0814ce10623ac662dbf214323c193e20",
+      "steamid": "76561199549254477",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "City Car Drivin"
+      ]
+    },
+    {
+      "user": "nu0sgclss",
+      "pass": "bro5pukm0",
+      "steamid": "76561199824984592",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "kloubi3",
+      "pass": "Sim@Klo2009",
+      "steamid": "76561199042989724",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "asfbbgcmdhek",
+      "pass": "lza20081115",
+      "steamid": "76561199426708785",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "oa05907327",
+      "pass": "Madalina@22",
+      "steamid": "76561198738698164",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "itnrk87833",
+      "pass": "9DafaT2acWJxYuV",
+      "steamid": "76561199839515059",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "aberranthabitualwalrus",
+      "pass": "Loudfrog70",
+      "steamid": "76561198888896394",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "illustriousmaterialisticaardvark",
+      "pass": "Smallpear91",
+      "steamid": "76561198884569170",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "pro_sniper10122",
+      "pass": "loganglover1",
+      "steamid": "76561198409570378",
+      "vac": "CLEAN",
+      "country": "🇳🇴 NO",
+      "wallet": "",
+      "games": [
+        "Feed and Grow: Fish"
+      ]
+    },
+    {
+      "user": "crusmalog881",
+      "pass": "Apfeltasche123!",
+      "steamid": "76561198978988869",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mojo: Hanak"
+      ]
+    },
+    {
+      "user": "Doeldealvarez2",
+      "pass": "bellarosalia97",
+      "steamid": "76561198165088714",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "kghv57338",
+      "pass": "Yu2Yg9Rk5Vc46t",
+      "steamid": "76561199376398212",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Crossou"
+      ]
+    },
+    {
+      "user": "39aanngx",
+      "pass": "DD3272034",
+      "steamid": "76561199317620921",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tsukinohikari6",
+      "pass": "Ngxhieu2005",
+      "steamid": "76561199815458186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26 SHOWCASE"
+      ]
+    },
+    {
+      "user": "ewwtu15078",
+      "pass": "yxls67816Y",
+      "steamid": "76561199676800916",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "mikamark01",
+      "pass": "makmak08",
+      "steamid": "76561198882726647",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "myasd16370",
+      "pass": "oMC3ejdijveBZ9",
+      "steamid": "76561199731951728",
+      "vac": "CLEAN",
+      "country": "🌐 Antarctica",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
       ]
     }
   ]

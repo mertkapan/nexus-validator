@@ -1,11 +1,11 @@
 {
-  "checked": 1686,
+  "checked": 1840,
   "total": 1358142,
   "target_hits": 139,
-  "hits": 427,
-  "two_fa": 46,
-  "speed_cpm": 118,
-  "updated_at": "2026-10-21T16:35:39.060283+00:00",
+  "hits": 433,
+  "two_fa": 48,
+  "speed_cpm": 125,
+  "updated_at": "2026-10-21T16:36:09.112881+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2513,6 +2513,28 @@
       "wallet": "",
       "games": [
         "Little Nightmare"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - 在线多人桌游"
       ]
     }
   ]

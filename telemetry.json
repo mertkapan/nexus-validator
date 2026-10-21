@@ -1,11 +1,11 @@
 {
-  "checked": 843,
+  "checked": 1020,
   "total": 1358142,
   "target_hits": 65,
-  "hits": 177,
+  "hits": 214,
   "two_fa": 8,
   "speed_cpm": 99,
-  "updated_at": "2026-10-21T11:00:35.307742+00:00",
+  "updated_at": "2026-10-21T11:01:05.630256+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1424,6 +1424,17 @@
       "wallet": "",
       "games": [
         "Inferna"
+      ]
+    },
+    {
+      "user": "pedram__hjk",
+      "pass": "9123036155",
+      "steamid": "76561199184676439",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "How to Fish"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 348,
+  "checked": 742,
   "total": 1358142,
-  "target_hits": 73,
-  "hits": 150,
-  "two_fa": 7,
-  "speed_cpm": 54,
-  "updated_at": "2026-10-21T02:46:37.735283+00:00",
+  "target_hits": 75,
+  "hits": 155,
+  "two_fa": 8,
+  "speed_cpm": 119,
+  "updated_at": "2026-10-21T02:46:59.325028+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1342,6 +1342,50 @@
       "user": "oth9evvn6kj9typls6dz",
       "pass": "ISW8WUDBTA5J769",
       "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

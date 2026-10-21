@@ -1,11 +1,11 @@
 {
-  "checked": 930,
+  "checked": 975,
   "total": 1358142,
-  "target_hits": 71,
-  "hits": 212,
-  "two_fa": 12,
+  "target_hits": 93,
+  "hits": 253,
+  "two_fa": 15,
   "speed_cpm": 99,
-  "updated_at": "2026-10-21T16:30:45.291581+00:00",
+  "updated_at": "2026-10-21T16:31:16.908361+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -1490,6 +1490,303 @@
       "wallet": "",
       "games": [
         "Cities: Skyline"
+      ]
+    },
+    {
+      "user": "hevca56989",
+      "pass": "hilariousGame!989",
+      "steamid": "76561199784743546",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Goat Simulato"
+      ]
+    },
+    {
+      "user": "kacperhudyma",
+      "pass": "marpanov",
+      "steamid": "76561198256610645",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Goat Simulato"
+      ]
+    },
+    {
+      "user": "fdgju10598",
+      "pass": "bzzvz53815",
+      "steamid": "76561198751776114",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Lif"
+      ]
+    },
+    {
+      "user": "djpnk19041",
+      "pass": "qadxr44555",
+      "steamid": "76561199711801400",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Lif"
+      ]
+    },
+    {
+      "user": "6bpntgtc2",
+      "pass": "kratos123456789L",
+      "steamid": "76561199664448096",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hunxa",
+      "pass": "drishya123",
+      "steamid": "76561198870449182",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "gfk66707",
+      "pass": "Bcp77509817",
+      "steamid": "76561199763707315",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "Black Myth: Wukon"
+      ]
+    },
+    {
+      "user": "buuau28597",
+      "pass": "xfgv73496W",
+      "steamid": "76561199566010995",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Resident Evil 7 Teaser: Beginning Hou"
+      ]
+    },
+    {
+      "user": "88672477",
+      "pass": "45379336",
+      "steamid": "76561199552679094",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "5jqqau50wiaqtagij2",
+      "pass": "3VSC6BNMAKW5791",
+      "steamid": "76561199153621898",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Modern Warfare II"
+      ]
+    },
+    {
+      "user": "ftbjh70706",
+      "pass": "wQ9kKB52",
+      "steamid": "76561199670739957",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares Enhanced Editio"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "pedram__hjk",
+      "pass": "9123036155",
+      "steamid": "76561199184676439",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "How to Fis"
+      ]
+    },
+    {
+      "user": "Wp5B9xV0",
+      "pass": "Q2noXHPm",
+      "steamid": "76561198785823857",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "lolexec",
+      "pass": "1xClopapier",
+      "steamid": "76561198824732341",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "cx0d4xi8",
+      "pass": "tgEgha3IKnG4",
+      "steamid": "76561199730469722",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "ONE PIECE Bounty Rus"
+      ]
+    },
+    {
+      "user": "npyyw06895",
+      "pass": "iycubRCS3r7owM",
+      "steamid": "76561198744083717",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Muck"
+      ]
+    },
+    {
+      "user": "fp4mg6onn",
+      "pass": "oamm2gsay",
+      "steamid": "76561199658700069",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "ping2pong",
+      "pass": "Hh@112233",
+      "steamid": "76561198943814614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "ojbrb01622",
+      "pass": "fz3kZki8",
+      "steamid": "76561199671752633",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "ljvbm27073",
+      "pass": "mtny49203V",
+      "steamid": "76561199715037189",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "significantpopulation9691",
+      "pass": "0ANP0380",
+      "steamid": "76561199880678548",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "lenjp953117",
+      "pass": "ZiEaN583444",
+      "steamid": "76561199610099742",
+      "vac": "CLEAN",
+      "country": "🌐 Lithuania",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "pjgci424217",
+      "pass": "GvItW142259",
+      "steamid": "76561199604575099",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "ov5vo2st6qu7",
+      "pass": "Mikosik878.",
+      "steamid": "76561199315823095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
       ]
     }
   ]

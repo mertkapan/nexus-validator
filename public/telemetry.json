@@ -1,11 +1,11 @@
 {
-  "checked": 1104,
+  "checked": 1212,
   "total": 1358142,
-  "target_hits": 129,
-  "hits": 328,
-  "two_fa": 25,
+  "target_hits": 130,
+  "hits": 344,
+  "two_fa": 28,
   "speed_cpm": 121,
-  "updated_at": "2026-10-21T02:49:45.158723+00:00",
+  "updated_at": "2026-10-21T02:50:07.910977+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2304,6 +2304,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "d9s6i71y01ywrb7of976s",
+      "pass": "3NPK115HEUCR096",
+      "steamid": "76561199168473537",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Outlast Trials"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "R.E.P.O."
+      ]
+    },
+    {
+      "user": "athacalalt",
+      "pass": "Gamer_Lord666",
+      "steamid": "76561199197524732",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
       ]
     }
   ]

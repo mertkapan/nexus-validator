@@ -1,11 +1,11 @@
 {
-  "checked": 1473,
+  "checked": 1524,
   "total": 1358142,
-  "target_hits": 138,
-  "hits": 389,
-  "two_fa": 38,
+  "target_hits": 139,
+  "hits": 396,
+  "two_fa": 42,
   "speed_cpm": 124,
-  "updated_at": "2026-10-21T02:51:55.681054+00:00",
+  "updated_at": "2026-10-21T02:52:19.000761+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2469,6 +2469,28 @@
       "wallet": "",
       "games": [
         "Vampire: The Masquerade - Bloodhunt"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
       ]
     }
   ]

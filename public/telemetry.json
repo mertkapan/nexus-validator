@@ -1,11 +1,11 @@
 {
-  "checked": 1440,
+  "checked": 1590,
   "total": 1358142,
-  "target_hits": 136,
-  "hits": 398,
-  "two_fa": 38,
-  "speed_cpm": 107,
-  "updated_at": "2026-10-21T16:34:46.474643+00:00",
+  "target_hits": 139,
+  "hits": 419,
+  "two_fa": 45,
+  "speed_cpm": 114,
+  "updated_at": "2026-10-21T16:35:15.015598+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2469,6 +2469,50 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dead Ground Arcade - Ellis Islan"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

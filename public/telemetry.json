@@ -1,11 +1,11 @@
 {
-  "checked": 1258,
+  "checked": 1375,
   "total": 1358142,
-  "target_hits": 132,
-  "hits": 353,
-  "two_fa": 28,
-  "speed_cpm": 122,
-  "updated_at": "2026-10-21T02:50:28.008473+00:00",
+  "target_hits": 133,
+  "hits": 363,
+  "two_fa": 33,
+  "speed_cpm": 125,
+  "updated_at": "2026-10-21T02:51:06.331436+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2381,6 +2381,28 @@
       "wallet": "",
       "games": [
         "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championship"
       ]
     }
   ]

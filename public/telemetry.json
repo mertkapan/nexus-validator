@@ -1,11 +1,11 @@
 {
-  "checked": 1426,
+  "checked": 1473,
   "total": 1358142,
   "target_hits": 138,
-  "hits": 381,
-  "two_fa": 36,
+  "hits": 389,
+  "two_fa": 38,
   "speed_cpm": 124,
-  "updated_at": "2026-10-21T02:51:30.860014+00:00",
+  "updated_at": "2026-10-21T02:51:55.681054+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2458,6 +2458,17 @@
       "wallet": "",
       "games": [
         "Battlefield™ 204"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Vampire: The Masquerade - Bloodhunt"
       ]
     }
   ]

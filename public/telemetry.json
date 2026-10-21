@@ -1,11 +1,11 @@
 {
-  "checked": 1020,
+  "checked": 1115,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 214,
-  "two_fa": 8,
-  "speed_cpm": 99,
-  "updated_at": "2026-10-21T11:01:05.630256+00:00",
+  "target_hits": 68,
+  "hits": 240,
+  "two_fa": 16,
+  "speed_cpm": 105,
+  "updated_at": "2026-10-21T11:01:39.571917+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1435,6 +1435,83 @@
       "wallet": "",
       "games": [
         "How to Fish"
+      ]
+    },
+    {
+      "user": "ov5vo2st6qu7",
+      "pass": "Mikosik878.",
+      "steamid": "76561199315823095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Outlast Trials"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "R.E.P.O."
+      ]
+    },
+    {
+      "user": "npyyw06895",
+      "pass": "iycubRCS3r7owM",
+      "steamid": "76561198744083717",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Muck"
+      ]
+    },
+    {
+      "user": "0146742063",
+      "pass": "9329423195",
+      "steamid": "76561199743690146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lmaxynl",
+      "pass": "9915142071dd",
+      "steamid": "76561199173616216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phasmophobi"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

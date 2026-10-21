@@ -1,11 +1,11 @@
 {
-  "checked": 1032,
+  "checked": 1084,
   "total": 1358142,
-  "target_hits": 104,
-  "hits": 283,
-  "two_fa": 16,
-  "speed_cpm": 100,
-  "updated_at": "2026-10-21T16:31:41.558803+00:00",
+  "target_hits": 116,
+  "hits": 305,
+  "two_fa": 18,
+  "speed_cpm": 99,
+  "updated_at": "2026-10-21T16:32:11.715070+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -2007,6 +2007,149 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "vswnw53173",
+      "pass": "xlibn88659",
+      "steamid": "76561199711338508",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "ymvqt00929",
+      "pass": "B4pbvMj0",
+      "steamid": "76561199670946849",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "youngspiffyibex",
+      "pass": "Greencave62",
+      "steamid": "76561198883470414",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metro 2033 Redu"
+      ]
+    },
+    {
+      "user": "xwsez74818",
+      "pass": "iqavl22253",
+      "steamid": "76561199844118561",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metro 2033 Redu"
+      ]
+    },
+    {
+      "user": "ryjvj19309",
+      "pass": "pzzoj96868",
+      "steamid": "76561198756097780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metro 2033 Redu"
+      ]
+    },
+    {
+      "user": "gergesashraffarouk15",
+      "pass": "GERGES12345gogo",
+      "steamid": "76561199175651645",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "wnxn65596",
+      "pass": "Sq1Yt7Of4Zg76t",
+      "steamid": "76561199376622209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "z7r0r4w2dytk1ve",
+      "pass": "VFNW67HLB9AP718",
+      "steamid": "76561199100458106",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
       ]
     }
   ]

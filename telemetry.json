@@ -1,11 +1,11 @@
 {
-  "checked": 1080,
+  "checked": 1818,
   "total": 1358142,
-  "target_hits": 90,
-  "hits": 258,
-  "two_fa": 14,
-  "speed_cpm": 129,
-  "updated_at": "2026-10-21T21:11:13.004941+00:00",
+  "target_hits": 95,
+  "hits": 269,
+  "two_fa": 16,
+  "speed_cpm": 108,
+  "updated_at": "2026-10-21T21:12:59.425867+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1963,6 +1963,61 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "cx0d4xi8",
+      "pass": "tgEgha3IKnG4",
+      "steamid": "76561199730469722",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "ONE PIECE Bounty Rus"
+      ]
+    },
+    {
+      "user": "ftbjh70706",
+      "pass": "wQ9kKB52",
+      "steamid": "76561199670739957",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "bjzwb459831",
+      "pass": "RwJoM062383",
+      "steamid": "76561199605496084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "djpnk19041",
+      "pass": "qadxr44555",
+      "steamid": "76561199711801400",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "focyb30350",
+      "pass": "ynjvq60107",
+      "steamid": "76561198774883799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 371,
+  "checked": 807,
   "total": 1358142,
-  "target_hits": 53,
-  "hits": 138,
+  "target_hits": 54,
+  "hits": 143,
   "two_fa": 8,
-  "speed_cpm": 45,
-  "updated_at": "2026-10-21T16:28:43.120882+00:00",
+  "speed_cpm": 104,
+  "updated_at": "2026-10-21T16:29:22.312484+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -1083,6 +1083,28 @@
       "wallet": "",
       "games": [
         "Dota Underlord"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

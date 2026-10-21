@@ -1,11 +1,11 @@
 {
-  "checked": 2780,
+  "checked": 2905,
   "total": 1358142,
-  "target_hits": 144,
-  "hits": 433,
+  "target_hits": 145,
+  "hits": 434,
   "two_fa": 46,
-  "speed_cpm": 158,
-  "updated_at": "2026-10-21T02:56:55.082221+00:00",
+  "speed_cpm": 146,
+  "updated_at": "2026-10-21T02:58:28.114374+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2656,6 +2656,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "joziasdumer10",
+      "pass": "@dumer2013",
+      "steamid": "76561199013275137",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1466,
+  "checked": 1742,
   "total": 1358142,
-  "target_hits": 81,
-  "hits": 341,
-  "two_fa": 33,
-  "speed_cpm": 122,
-  "updated_at": "2026-10-21T11:03:26.129457+00:00",
+  "target_hits": 84,
+  "hits": 366,
+  "two_fa": 40,
+  "speed_cpm": 120,
+  "updated_at": "2026-10-21T11:04:26.381842+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1883,6 +1883,105 @@
       "steamid": "76561198164522199",
       "vac": "CLEAN",
       "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "hieu301233",
+      "pass": "Hieu3012",
+      "steamid": "76561199133050985",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"

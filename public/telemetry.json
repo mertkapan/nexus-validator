@@ -1,11 +1,11 @@
 {
-  "checked": 975,
+  "checked": 1032,
   "total": 1358142,
-  "target_hits": 93,
-  "hits": 253,
-  "two_fa": 15,
-  "speed_cpm": 99,
-  "updated_at": "2026-10-21T16:31:16.908361+00:00",
+  "target_hits": 104,
+  "hits": 283,
+  "two_fa": 16,
+  "speed_cpm": 100,
+  "updated_at": "2026-10-21T16:31:41.558803+00:00",
   "accounts": [
     {
       "user": "dcoii01",
@@ -1787,6 +1787,226 @@
       "wallet": "",
       "games": [
         "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "exgpi03415",
+      "pass": "sxrh44514Z",
+      "steamid": "76561199566570822",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cell to Singularity - Evolution Never End"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "foasg42779",
+      "pass": "djdts12014",
+      "steamid": "76561199837258966",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cell to Singularity - Evolution Never End"
+      ]
+    },
+    {
+      "user": "hiddenlemming2085",
+      "pass": "e38e8ddd057df6cf1!aZ",
+      "steamid": "76561199485955964",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "sillyemu86794",
+      "pass": "jtbq9mlq90c365o.3!tfm",
+      "steamid": "76561199834587324",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "F1® 2"
+      ]
+    },
+    {
+      "user": "paajv10684",
+      "pass": "zdob85393Y",
+      "steamid": "76561199717460703",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Ready or Not"
+      ]
+    },
+    {
+      "user": "jwhnn88213",
+      "pass": "edoi02089P",
+      "steamid": "76561199717868322",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "PriceyGoofyCrocodile",
+      "pass": "Newlift17",
+      "steamid": "76561198885089447",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "mauriceviti1985",
+      "pass": "Samsung1406",
+      "steamid": "76561199019843095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "bjzwb459831",
+      "pass": "RwJoM062383",
+      "steamid": "76561199605496084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kiep19941218",
+      "pass": "Kiep112$",
+      "steamid": "76561199106541149",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "novaphase3",
+      "pass": "xmwESYhRswKk5E",
+      "steamid": "76561199875879685",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rszpm53700",
+      "pass": "wnru12444C",
+      "steamid": "76561199467119803",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Greenland",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "Oy1Sd9Fk2Cr7",
+      "pass": "Xd5Bl8Yt4Os3",
+      "steamid": "76561199317944889",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zbjgn66165",
+      "pass": "pucar60765",
+      "steamid": "76561199881759728",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "cv0gvl7me",
+      "pass": "M@rrakech199",
+      "steamid": "76561199803081173",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "I3lackHeartto",
+      "pass": "oatnahub01",
+      "steamid": "76561199115633115",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
       ]
     }
   ]

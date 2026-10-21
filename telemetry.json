@@ -1,11 +1,11 @@
 {
-  "checked": 1375,
+  "checked": 1426,
   "total": 1358142,
-  "target_hits": 133,
-  "hits": 363,
-  "two_fa": 33,
-  "speed_cpm": 125,
-  "updated_at": "2026-10-21T02:51:06.331436+00:00",
+  "target_hits": 138,
+  "hits": 381,
+  "two_fa": 36,
+  "speed_cpm": 124,
+  "updated_at": "2026-10-21T02:51:30.860014+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2403,6 +2403,61 @@
       "wallet": "",
       "games": [
         "Blackjack Championship"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 204"
       ]
     }
   ]

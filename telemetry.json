@@ -1,11 +1,11 @@
 {
-  "checked": 3778,
+  "checked": 3918,
   "total": 1358142,
-  "target_hits": 145,
-  "hits": 446,
+  "target_hits": 146,
+  "hits": 448,
   "two_fa": 46,
-  "speed_cpm": 157,
-  "updated_at": "2026-10-21T03:00:45.073785+00:00",
+  "speed_cpm": 9,
+  "updated_at": "2026-10-21T08:11:06.375468+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2722,6 +2722,17 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
       ]
     }
   ]

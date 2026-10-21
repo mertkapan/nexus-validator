@@ -1,11 +1,11 @@
 {
-  "checked": 1168,
+  "checked": 1212,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 267,
-  "two_fa": 21,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-21T11:02:11.766386+00:00",
+  "target_hits": 72,
+  "hits": 286,
+  "two_fa": 23,
+  "speed_cpm": 105,
+  "updated_at": "2026-10-21T11:02:37.164362+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1578,6 +1578,61 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "lazziyareis",
+      "pass": "71821905lazziya",
+      "steamid": "76561199057807614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
       ]
     }
   ]

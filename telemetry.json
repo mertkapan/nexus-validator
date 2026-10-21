@@ -1,11 +1,11 @@
 {
-  "checked": 1524,
+  "checked": 1816,
   "total": 1358142,
-  "target_hits": 139,
-  "hits": 396,
-  "two_fa": 42,
-  "speed_cpm": 124,
-  "updated_at": "2026-10-21T02:52:19.000761+00:00",
+  "target_hits": 140,
+  "hits": 417,
+  "two_fa": 44,
+  "speed_cpm": 147,
+  "updated_at": "2026-10-21T02:52:39.283746+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2491,6 +2491,72 @@
       "wallet": "",
       "games": [
         "Everlasting Summer"
+      ]
+    },
+    {
+      "user": "vlad1000",
+      "pass": "19881988",
+      "steamid": "76561197989391908",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "FanaticalEquableChinchilla",
+      "pass": "Jaderabbit13",
+      "steamid": "76561198883657627",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cat Quest I"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
       ]
     }
   ]

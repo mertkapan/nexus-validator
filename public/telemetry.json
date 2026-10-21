@@ -1,11 +1,11 @@
 {
-  "checked": 1590,
+  "checked": 1686,
   "total": 1358142,
   "target_hits": 139,
-  "hits": 419,
-  "two_fa": 45,
-  "speed_cpm": 114,
-  "updated_at": "2026-10-21T16:35:15.015598+00:00",
+  "hits": 427,
+  "two_fa": 46,
+  "speed_cpm": 118,
+  "updated_at": "2026-10-21T16:35:39.060283+00:00",
   "accounts": [
     {
       "user": "dcoii01",

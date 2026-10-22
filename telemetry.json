@@ -1,11 +1,11 @@
 {
-  "checked": 267,
+  "checked": 467,
   "total": 1358142,
-  "target_hits": 59,
-  "hits": 131,
+  "target_hits": 61,
+  "hits": 141,
   "two_fa": 8,
-  "speed_cpm": 36,
-  "updated_at": "2026-10-22T02:44:30.371944+00:00",
+  "speed_cpm": 67,
+  "updated_at": "2026-10-22T02:44:52.456759+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1193,6 +1193,72 @@
       "wallet": "",
       "games": [
         "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "YuuOtosaKaC",
+      "pass": "9876543213690bk0@",
+      "steamid": "76561199224240319",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "2874906864",
+      "pass": "hulboj12",
+      "steamid": "76561199104320287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Coloring Game 4"
+      ]
+    },
+    {
+      "user": "aberranthabitualwalrus",
+      "pass": "Loudfrog70",
+      "steamid": "76561198888896394",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Heroes & General"
+      ]
+    },
+    {
+      "user": "jtsqd5p4684xy9xy",
+      "pass": "7KF956B9OXPS607",
+      "steamid": "76561199130211257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

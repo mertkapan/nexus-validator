@@ -1,11 +1,11 @@
 {
-  "checked": 1162,
+  "checked": 1221,
   "total": 1358142,
-  "target_hits": 104,
-  "hits": 257,
+  "target_hits": 105,
+  "hits": 272,
   "two_fa": 16,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-22T02:48:17.760620+00:00",
+  "speed_cpm": 92,
+  "updated_at": "2026-10-22T02:48:39.796041+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1996,6 +1996,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroa"
       ]
     }
   ]

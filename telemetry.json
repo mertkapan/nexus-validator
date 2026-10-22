@@ -1,11 +1,11 @@
 {
-  "checked": 538,
+  "checked": 751,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 154,
+  "target_hits": 73,
+  "hits": 162,
   "two_fa": 7,
-  "speed_cpm": 86,
-  "updated_at": "2026-10-22T21:07:15.563467+00:00",
+  "speed_cpm": 112,
+  "updated_at": "2026-10-22T21:07:39.399101+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1270,6 +1270,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "xdboogsterdx",
+      "pass": "Boogster123",
+      "steamid": "76561198084402029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Ninja Stealth 3"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "vbmco84157",
+      "pass": "fqjem05283",
+      "steamid": "76561199796171575",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "johnmasterpl",
+      "pass": "Sc11SwyvFLpiar90u6",
+      "steamid": "76561198096116505",
+      "vac": "CLEAN",
+      "country": "🇷🇺 RU",
+      "wallet": "",
+      "games": [
+        "Decei"
       ]
     }
   ]

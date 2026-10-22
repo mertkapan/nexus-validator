@@ -1,11 +1,11 @@
 {
-  "checked": 242,
+  "checked": 538,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 141,
+  "target_hits": 70,
+  "hits": 154,
   "two_fa": 7,
-  "speed_cpm": 36,
-  "updated_at": "2026-10-22T21:06:53.706171+00:00",
+  "speed_cpm": 86,
+  "updated_at": "2026-10-22T21:07:15.563467+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1182,6 +1182,94 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "pro_sniper10122",
+      "pass": "loganglover1",
+      "steamid": "76561198409570378",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Feed and Grow: Fish"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Elder Scrolls V: Skyrim"
+      ]
+    },
+    {
+      "user": "UndesirableShallowTrout",
+      "pass": "Pinkpeach74",
+      "steamid": "76561198889650305",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Knight Online"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "legendrygh",
+      "pass": "Amirmasoudgh33computer33",
+      "steamid": "76561199079985639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "litao931052253",
+      "pass": "wijGz8RL",
+      "steamid": "76561198423877878",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

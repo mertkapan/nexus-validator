@@ -1,11 +1,11 @@
 {
-  "checked": 1424,
+  "checked": 1575,
   "total": 1358142,
-  "target_hits": 110,
-  "hits": 308,
-  "two_fa": 22,
-  "speed_cpm": 103,
-  "updated_at": "2026-10-22T02:49:36.723953+00:00",
+  "target_hits": 120,
+  "hits": 329,
+  "two_fa": 27,
+  "speed_cpm": 113,
+  "updated_at": "2026-10-22T02:49:59.840937+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2150,6 +2150,127 @@
       "wallet": "",
       "games": [
         "TERA - Action MMORPG"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "ScrawnyUnsuitableMouse",
+      "pass": "Bravetwist82",
+      "steamid": "76561198889760166",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vincecubels",
+      "pass": "akocvince",
+      "steamid": "76561198277272884",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "gurtuvi07",
+      "pass": "16062007Gv",
+      "steamid": "76561198995153814",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "QuirkyGruesomeLemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

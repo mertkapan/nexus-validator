@@ -1,11 +1,11 @@
 {
-  "checked": 262,
+  "checked": 322,
   "total": 1358142,
   "target_hits": 66,
-  "hits": 143,
+  "hits": 146,
   "two_fa": 8,
-  "speed_cpm": 32,
-  "updated_at": "2026-10-22T16:27:50.911134+00:00",
+  "speed_cpm": 37,
+  "updated_at": "2026-10-22T16:28:14.917503+00:00",
   "accounts": [
     {
       "user": "Bz0Xs5Bt1Qv4",
@@ -1182,6 +1182,17 @@
       "wallet": "",
       "games": [
         "Knight Online"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

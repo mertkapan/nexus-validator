@@ -1,11 +1,11 @@
 {
-  "checked": 1740,
+  "checked": 1877,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 341,
-  "two_fa": 29,
-  "speed_cpm": 126,
-  "updated_at": "2026-10-22T21:12:33.067385+00:00",
+  "target_hits": 121,
+  "hits": 348,
+  "two_fa": 30,
+  "speed_cpm": 122,
+  "updated_at": "2026-10-22T21:13:19.870803+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2205,6 +2205,17 @@
       "wallet": "",
       "games": [
         "Everlasting Summe"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

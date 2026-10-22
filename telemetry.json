@@ -1,11 +1,11 @@
 {
-  "checked": 479,
+  "checked": 829,
   "total": 1358142,
   "target_hits": 66,
-  "hits": 148,
-  "two_fa": 8,
-  "speed_cpm": 57,
-  "updated_at": "2026-10-22T16:28:35.814186+00:00",
+  "hits": 152,
+  "two_fa": 9,
+  "speed_cpm": 100,
+  "updated_at": "2026-10-22T16:29:07.833071+00:00",
   "accounts": [
     {
       "user": "Bz0Xs5Bt1Qv4",
@@ -1204,6 +1204,17 @@
       "wallet": "",
       "games": [
         "Inferna"
+      ]
+    },
+    {
+      "user": "urtlesv1bertrand69834",
+      "pass": "89002932024boom",
+      "steamid": "76561199074897017",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

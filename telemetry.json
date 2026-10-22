@@ -1,11 +1,11 @@
 {
-  "checked": 751,
+  "checked": 799,
   "total": 1358142,
-  "target_hits": 73,
-  "hits": 162,
+  "target_hits": 74,
+  "hits": 167,
   "two_fa": 7,
-  "speed_cpm": 112,
-  "updated_at": "2026-10-22T21:07:39.399101+00:00",
+  "speed_cpm": 109,
+  "updated_at": "2026-10-22T21:08:18.476172+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1325,6 +1325,50 @@
       "wallet": "",
       "games": [
         "Decei"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

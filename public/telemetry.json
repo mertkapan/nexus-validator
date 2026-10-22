@@ -1,11 +1,11 @@
 {
-  "checked": 784,
+  "checked": 797,
   "total": 1358142,
   "target_hits": 68,
-  "hits": 157,
+  "hits": 158,
   "two_fa": 7,
-  "speed_cpm": 93,
-  "updated_at": "2026-10-22T11:01:37.209144+00:00",
+  "speed_cpm": 2,
+  "updated_at": "2026-10-22T16:24:38.781534+00:00",
   "accounts": [
     {
       "user": "dreemxxz",
@@ -1237,6 +1237,17 @@
       "wallet": "",
       "games": [
         "AX:E"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

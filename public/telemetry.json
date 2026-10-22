@@ -1,11 +1,11 @@
 {
-  "checked": 794,
+  "checked": 938,
   "total": 1358142,
-  "target_hits": 61,
-  "hits": 150,
-  "two_fa": 8,
-  "speed_cpm": 100,
-  "updated_at": "2026-10-22T02:45:57.130968+00:00",
+  "target_hits": 70,
+  "hits": 187,
+  "two_fa": 10,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-22T02:46:40.699108+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1336,6 +1336,204 @@
       "wallet": "",
       "games": [
         "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "hoangnova17",
+      "pass": "H0angN0va83",
+      "steamid": "76561199087071058",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "I3lackHeartto",
+      "pass": "oatnahub01",
+      "steamid": "76561199115633115",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BRAIN / OU"
+      ]
+    },
+    {
+      "user": "lukepascual1989",
+      "pass": "Gabrielgois123",
+      "steamid": "76561199019343832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Aio2t2681",
+      "pass": "iGzAN2082",
+      "steamid": "76561199557835331",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dark Deception"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "lowtrust1",
+      "pass": "000000000_",
+      "steamid": "76561198929194917",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "bpwf68vpm83jahin9r",
+      "pass": "6VUAHJ67VMSG125",
+      "steamid": "76561199090069494",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "artjomtkrv",
+      "pass": "25121995",
+      "steamid": "76561198027481542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "huldavega2009",
+      "pass": "Messylemur11J2JHX88",
+      "steamid": "76561199024442930",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "inturongr2104quinn",
+      "pass": "muiepsd12",
+      "steamid": "76561199076043963",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "antmatzmad",
+      "pass": "29111970ant",
+      "steamid": "76561198031714154",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Redmatch"
+      ]
+    },
+    {
+      "user": "inidonkeyt9marinelli1",
+      "pass": "2KMWL63LIRR7956",
+      "steamid": "76561199058102893",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "5jqqau50wiaqtagij2",
+      "pass": "3VSC6BNMAKW5791",
+      "steamid": "76561199153621898",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "djsarib19",
+      "pass": "SHAMSHAD786",
+      "steamid": "76561199221494340",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cities: Skyline"
+      ]
+    },
+    {
+      "user": "jgtbj72313",
+      "pass": "kvbbt28678",
+      "steamid": "76561199859353348",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dirty Bomb"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Greenland",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "foasg42779",
+      "pass": "djdts12014",
+      "steamid": "76561199837258966",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "focyb30350",
+      "pass": "ynjvq60107",
+      "steamid": "76561198774883799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Goat Simulato"
       ]
     }
   ]

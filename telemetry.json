@@ -1,11 +1,11 @@
 {
-  "checked": 685,
+  "checked": 794,
   "total": 1358142,
   "target_hits": 61,
-  "hits": 147,
+  "hits": 150,
   "two_fa": 8,
-  "speed_cpm": 90,
-  "updated_at": "2026-10-22T02:45:34.012542+00:00",
+  "speed_cpm": 100,
+  "updated_at": "2026-10-22T02:45:57.130968+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1314,6 +1314,28 @@
       "wallet": "",
       "games": [
         "SpeedRunner"
+      ]
+    },
+    {
+      "user": "17261552",
+      "pass": "91019024",
+      "steamid": "76561199404759316",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Baldi's Basics Classic Remastere"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
       ]
     }
   ]

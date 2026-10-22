@@ -1,11 +1,11 @@
 {
-  "checked": 467,
+  "checked": 685,
   "total": 1358142,
   "target_hits": 61,
-  "hits": 141,
+  "hits": 147,
   "two_fa": 8,
-  "speed_cpm": 67,
-  "updated_at": "2026-10-22T02:44:52.456759+00:00",
+  "speed_cpm": 90,
+  "updated_at": "2026-10-22T02:45:34.012542+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1259,6 +1259,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "UnnaturalWideDogfish",
+      "pass": "Shinyocean35",
+      "steamid": "76561198889484252",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Knight Online"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Rijeka, Primorsko-Goranska, Croatia",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "he00399837",
+      "pass": "ly19860919",
+      "steamid": "76561198137405564",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SpeedRunner"
       ]
     }
   ]

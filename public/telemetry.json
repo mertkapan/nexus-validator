@@ -1,11 +1,11 @@
 {
-  "checked": 1206,
+  "checked": 1364,
   "total": 1358142,
-  "target_hits": 97,
-  "hits": 264,
-  "two_fa": 13,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-22T21:10:37.917796+00:00",
+  "target_hits": 101,
+  "hits": 281,
+  "two_fa": 15,
+  "speed_cpm": 107,
+  "updated_at": "2026-10-22T21:11:14.541041+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1886,6 +1886,72 @@
       "wallet": "",
       "games": [
         "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "quirkygruesomelemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

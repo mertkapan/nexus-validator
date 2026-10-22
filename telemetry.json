@@ -1,11 +1,11 @@
 {
-  "checked": 1364,
+  "checked": 1469,
   "total": 1358142,
-  "target_hits": 101,
-  "hits": 281,
-  "two_fa": 15,
-  "speed_cpm": 107,
-  "updated_at": "2026-10-22T21:11:14.541041+00:00",
+  "target_hits": 104,
+  "hits": 309,
+  "two_fa": 24,
+  "speed_cpm": 113,
+  "updated_at": "2026-10-22T21:11:37.019490+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1947,6 +1947,72 @@
       "user": "mkrevo",
       "pass": "Smallville1@",
       "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "0369613279",
+      "pass": "Nh@n01112000",
+      "steamid": "76561199489814472",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championshi"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "Kawa18121994",
+      "pass": "Kawa112$",
+      "steamid": "76561199106189610",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

@@ -1,11 +1,11 @@
 {
-  "checked": 1221,
+  "checked": 1318,
   "total": 1358142,
-  "target_hits": 105,
-  "hits": 272,
+  "target_hits": 106,
+  "hits": 289,
   "two_fa": 16,
-  "speed_cpm": 92,
-  "updated_at": "2026-10-22T02:48:39.796041+00:00",
+  "speed_cpm": 97,
+  "updated_at": "2026-10-22T02:49:14.245776+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2051,6 +2051,50 @@
       "wallet": "",
       "games": [
         "Game of Thrones: Kingsroa"
+      ]
+    },
+    {
+      "user": "semsentido349",
+      "pass": "Naofazsentido43923",
+      "steamid": "76561198841304853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

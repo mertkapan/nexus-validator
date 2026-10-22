@@ -1,11 +1,11 @@
 {
-  "checked": 661,
+  "checked": 784,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 155,
+  "target_hits": 68,
+  "hits": 157,
   "two_fa": 7,
-  "speed_cpm": 92,
-  "updated_at": "2026-10-22T11:01:08.270719+00:00",
+  "speed_cpm": 93,
+  "updated_at": "2026-10-22T11:01:37.209144+00:00",
   "accounts": [
     {
       "user": "dreemxxz",
@@ -1215,6 +1215,28 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
       ]
     }
   ]

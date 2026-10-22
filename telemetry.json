@@ -1,11 +1,11 @@
 {
-  "checked": 1664,
+  "checked": 1740,
   "total": 1358142,
-  "target_hits": 118,
-  "hits": 336,
+  "target_hits": 120,
+  "hits": 341,
   "two_fa": 29,
-  "speed_cpm": 125,
-  "updated_at": "2026-10-22T21:12:11.713047+00:00",
+  "speed_cpm": 126,
+  "updated_at": "2026-10-22T21:12:33.067385+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2183,6 +2183,28 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Everlasting Summe"
       ]
     }
   ]

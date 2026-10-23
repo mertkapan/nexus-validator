@@ -1,11 +1,11 @@
 {
-  "checked": 3411,
+  "checked": 3458,
   "total": 1358142,
   "target_hits": 159,
-  "hits": 432,
-  "two_fa": 45,
-  "speed_cpm": 97,
-  "updated_at": "2026-10-23T03:09:42.629368+00:00",
+  "hits": 440,
+  "two_fa": 46,
+  "speed_cpm": 98,
+  "updated_at": "2026-10-23T03:10:04.930594+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2733,6 +2733,28 @@
       "wallet": "",
       "games": [
         "Fishing Planet"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championshi"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

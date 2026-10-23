@@ -1,11 +1,11 @@
 {
-  "checked": 1311,
+  "checked": 1412,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 323,
-  "two_fa": 28,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-23T16:21:53.030532+00:00",
+  "target_hits": 113,
+  "hits": 345,
+  "two_fa": 33,
+  "speed_cpm": 104,
+  "updated_at": "2026-10-23T16:22:14.273997+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -2260,6 +2260,127 @@
       "wallet": "",
       "games": [
         "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "murzynki3",
+      "pass": "Tina0987",
+      "steamid": "76561198951508862",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Edition"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valle"
+      ]
+    },
+    {
+      "user": "quirkygruesomelemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Warspear Online"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
       ]
     }
   ]

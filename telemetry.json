@@ -1,11 +1,11 @@
 {
-  "checked": 1431,
+  "checked": 1528,
   "total": 1358142,
-  "target_hits": 108,
-  "hits": 231,
-  "two_fa": 17,
-  "speed_cpm": 88,
-  "updated_at": "2026-10-23T02:54:56.812613+00:00",
+  "target_hits": 109,
+  "hits": 247,
+  "two_fa": 23,
+  "speed_cpm": 93,
+  "updated_at": "2026-10-23T02:55:25.151098+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1809,6 +1809,28 @@
       "wallet": "",
       "games": [
         "Warspear Online"
+      ]
+    },
+    {
+      "user": "VoicelessUnsuitableManatee",
+      "pass": "Whitehair92",
+      "steamid": "76561198890124638",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

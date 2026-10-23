@@ -1,11 +1,11 @@
 {
-  "checked": 3755,
+  "checked": 3840,
   "total": 1358142,
-  "target_hits": 159,
-  "hits": 446,
+  "target_hits": 160,
+  "hits": 451,
   "two_fa": 47,
   "speed_cpm": 106,
-  "updated_at": "2026-10-23T03:10:47.410383+00:00",
+  "updated_at": "2026-10-23T03:11:51.188975+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2755,6 +2755,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
       ]
     }
   ]

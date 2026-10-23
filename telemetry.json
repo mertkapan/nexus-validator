@@ -1,11 +1,11 @@
 {
-  "checked": 1195,
+  "checked": 1346,
   "total": 1358142,
-  "target_hits": 119,
-  "hits": 382,
-  "two_fa": 29,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-23T20:59:04.639317+00:00",
+  "target_hits": 125,
+  "hits": 403,
+  "two_fa": 34,
+  "speed_cpm": 139,
+  "updated_at": "2026-10-23T20:59:26.044242+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2700,6 +2700,105 @@
       "wallet": "",
       "games": [
         "Mortal Kombat 11"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FPS Game: Dev Tes"
+      ]
+    },
+    {
+      "user": "i3mvsiv30zifnpwf",
+      "pass": "TCEPWOWTSIAT511",
+      "steamid": "76561199113483459",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ptrip91",
+      "pass": "Fuck&you2",
+      "steamid": "76561198328568949",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "lazziyareis",
+      "pass": "71821905lazziya",
+      "steamid": "76561199057807614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "gurtuvi07",
+      "pass": "16062007Gv",
+      "steamid": "76561198995153814",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 25"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 25"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 25"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championship"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 3349,
+  "checked": 3364,
   "total": 1358142,
-  "target_hits": 157,
-  "hits": 401,
-  "two_fa": 42,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-23T03:08:34.552651+00:00",
+  "target_hits": 159,
+  "hits": 422,
+  "two_fa": 44,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-23T03:09:13.067846+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2667,6 +2667,61 @@
       "wallet": "",
       "games": [
         "Grand Theft Auto IV: The Complete Edition"
+      ]
+    },
+    {
+      "user": "toolate5891",
+      "pass": "aa740316",
+      "steamid": "76561198995157132",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin 2"
+      ]
+    },
+    {
+      "user": "Afyoncu",
+      "pass": "71821905oguzreis",
+      "steamid": "76561198988469301",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin"
+      ]
+    },
+    {
+      "user": "mleko181294",
+      "pass": "Mleko112$",
+      "steamid": "76561199110829180",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "existingbooth51",
+      "pass": "RU8ltFaCgETK2A8",
+      "steamid": "76561199661465645",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Forbidden Lov"
       ]
     }
   ]

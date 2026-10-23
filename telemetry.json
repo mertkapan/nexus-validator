@@ -1,11 +1,11 @@
 {
-  "checked": 1322,
+  "checked": 1379,
   "total": 1358142,
-  "target_hits": 103,
-  "hits": 218,
-  "two_fa": 12,
-  "speed_cpm": 85,
-  "updated_at": "2026-10-23T02:54:06.734432+00:00",
+  "target_hits": 106,
+  "hits": 222,
+  "two_fa": 14,
+  "speed_cpm": 87,
+  "updated_at": "2026-10-23T02:54:27.449708+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1743,6 +1743,39 @@
       "wallet": "",
       "games": [
         "EA SPORTS FC 24"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

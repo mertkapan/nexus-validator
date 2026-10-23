@@ -1,11 +1,11 @@
 {
-  "checked": 1528,
+  "checked": 1681,
   "total": 1358142,
-  "target_hits": 109,
-  "hits": 247,
-  "two_fa": 23,
-  "speed_cpm": 93,
-  "updated_at": "2026-10-23T02:55:25.151098+00:00",
+  "target_hits": 110,
+  "hits": 263,
+  "two_fa": 26,
+  "speed_cpm": 102,
+  "updated_at": "2026-10-23T02:55:51.374690+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1831,6 +1831,28 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

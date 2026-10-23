@@ -1,11 +1,11 @@
 {
-  "checked": 998,
+  "checked": 1101,
   "total": 1358142,
-  "target_hits": 107,
-  "hits": 292,
-  "two_fa": 16,
-  "speed_cpm": 120,
-  "updated_at": "2026-10-23T20:57:57.491372+00:00",
+  "target_hits": 114,
+  "hits": 326,
+  "two_fa": 24,
+  "speed_cpm": 125,
+  "updated_at": "2026-10-23T20:58:28.645372+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2260,6 +2260,182 @@
       "wallet": "",
       "games": [
         "Warspear Online"
+      ]
+    },
+    {
+      "user": "wmlxj59351",
+      "pass": "cywep81207",
+      "steamid": "76561199768221477",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ov5vo2st6qu7",
+      "pass": "Mikosik878.",
+      "steamid": "76561199315823095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "kwangsmart",
+      "pass": "12604566",
+      "steamid": "76561198087397683",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "xqgdw096670",
+      "pass": "MqMgL178110",
+      "steamid": "76561199609962619",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "ymvqt00929",
+      "pass": "B4pbvMj0",
+      "steamid": "76561199670946849",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "reasonablequail76769",
+      "pass": "n4mbsll3sbf5yrb!lbs7!",
+      "steamid": "76561199658902216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "yusty65043",
+      "pass": "gawu29602N",
+      "steamid": "76561199717494363",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "yftmb157031",
+      "pass": "ExJiY102991",
+      "steamid": "76561199613787564",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "vswnw53173",
+      "pass": "xlibn88659",
+      "steamid": "76561199711338508",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "bdzpa87456",
+      "pass": "gdyx12771W",
+      "steamid": "76561199717510749",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Barro"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "R.E.P.O."
+      ]
+    },
+    {
+      "user": "lenjp953117",
+      "pass": "ZiEaN583444",
+      "steamid": "76561199610099742",
+      "vac": "CLEAN",
+      "country": "🌐 Lithuania",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "dh14mArt",
+      "pass": "vg70ZZVF",
+      "steamid": "76561199303428756",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulato"
       ]
     }
   ]

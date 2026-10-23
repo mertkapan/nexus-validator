@@ -1,11 +1,11 @@
 {
-  "checked": 3458,
+  "checked": 3598,
   "total": 1358142,
   "target_hits": 159,
-  "hits": 440,
+  "hits": 445,
   "two_fa": 46,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-23T03:10:04.930594+00:00",
+  "speed_cpm": 102,
+  "updated_at": "2026-10-23T03:10:25.390974+00:00",
   "accounts": [
     {
       "user": "redjl21138",

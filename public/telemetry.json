@@ -1,11 +1,11 @@
 {
-  "checked": 1379,
+  "checked": 1431,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 222,
-  "two_fa": 14,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-23T02:54:27.449708+00:00",
+  "target_hits": 108,
+  "hits": 231,
+  "two_fa": 17,
+  "speed_cpm": 88,
+  "updated_at": "2026-10-23T02:54:56.812613+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1776,6 +1776,39 @@
       "wallet": "",
       "games": [
         "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "lesske11",
+      "pass": "gustavomito12@1",
+      "steamid": "76561199105210233",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "JaydenJ217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Warspear Online"
       ]
     }
   ]

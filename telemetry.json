@@ -1,11 +1,11 @@
 {
-  "checked": 543,
+  "checked": 648,
   "total": 1358142,
-  "target_hits": 69,
-  "hits": 148,
-  "two_fa": 6,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-23T16:16:55.519588+00:00",
+  "target_hits": 70,
+  "hits": 152,
+  "two_fa": 7,
+  "speed_cpm": 97,
+  "updated_at": "2026-10-23T16:17:20.974180+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",
@@ -1292,6 +1292,39 @@
       "wallet": "",
       "games": [
         "Dota Underlord"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "usesell12234",
+      "pass": "usesell09383926589",
+      "steamid": "76561198931418710",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

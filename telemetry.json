@@ -1,11 +1,11 @@
 {
-  "checked": 2160,
+  "checked": 2540,
   "total": 1358142,
   "target_hits": 120,
   "hits": 400,
   "two_fa": 46,
-  "speed_cpm": 143,
-  "updated_at": "2026-10-23T16:24:08.851175+00:00",
+  "speed_cpm": 162,
+  "updated_at": "2026-10-23T16:24:43.341233+00:00",
   "accounts": [
     {
       "user": "G06pLa0Y",

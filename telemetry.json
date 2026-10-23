@@ -1,11 +1,11 @@
 {
-  "checked": 3364,
+  "checked": 3411,
   "total": 1358142,
   "target_hits": 159,
-  "hits": 422,
-  "two_fa": 44,
+  "hits": 432,
+  "two_fa": 45,
   "speed_cpm": 97,
-  "updated_at": "2026-10-23T03:09:13.067846+00:00",
+  "updated_at": "2026-10-23T03:09:42.629368+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2722,6 +2722,17 @@
       "wallet": "",
       "games": [
         "Forbidden Lov"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

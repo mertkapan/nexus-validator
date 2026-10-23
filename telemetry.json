@@ -1,11 +1,11 @@
 {
-  "checked": 1253,
+  "checked": 1322,
   "total": 1358142,
-  "target_hits": 102,
-  "hits": 215,
+  "target_hits": 103,
+  "hits": 218,
   "two_fa": 12,
-  "speed_cpm": 84,
-  "updated_at": "2026-10-23T02:53:43.654047+00:00",
+  "speed_cpm": 85,
+  "updated_at": "2026-10-23T02:54:06.734432+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1732,6 +1732,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 24"
       ]
     }
   ]

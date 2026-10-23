@@ -1,11 +1,11 @@
 {
-  "checked": 458,
+  "checked": 669,
   "total": 1358142,
-  "target_hits": 77,
-  "hits": 145,
+  "target_hits": 78,
+  "hits": 146,
   "two_fa": 7,
-  "speed_cpm": 60,
-  "updated_at": "2026-10-23T02:50:14.444465+00:00",
+  "speed_cpm": 86,
+  "updated_at": "2026-10-23T02:50:35.300701+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1270,6 +1270,17 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
       ]
     }
   ]

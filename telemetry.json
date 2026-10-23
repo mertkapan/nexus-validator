@@ -1,11 +1,11 @@
 {
-  "checked": 3281,
+  "checked": 3327,
   "total": 1358142,
-  "target_hits": 114,
-  "hits": 279,
+  "target_hits": 122,
+  "hits": 294,
   "two_fa": 29,
-  "speed_cpm": 96,
-  "updated_at": "2026-10-23T03:05:52.014511+00:00",
+  "speed_cpm": 97,
+  "updated_at": "2026-10-23T03:06:37.904748+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1930,6 +1930,116 @@
       "wallet": "",
       "games": [
         "Aeons Ech"
+      ]
+    },
+    {
+      "user": "brianyparkerwns",
+      "pass": "Jennifer21kenneth100",
+      "steamid": "76561199574396454",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Goat Simulato"
+      ]
+    },
+    {
+      "user": "PriceyGoofyCrocodile",
+      "pass": "Newlift17",
+      "steamid": "76561198885089447",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "cv0gvl7me",
+      "pass": "M@rrakech199",
+      "steamid": "76561199803081173",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "buuau28597",
+      "pass": "xfgv73496W",
+      "steamid": "76561199566010995",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "ClumsyCapriciousSeahorse",
+      "pass": "Weirdsoap18",
+      "steamid": "76561198889573122",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Resident Evil 7 Teaser: Beginning Hou"
+      ]
+    },
+    {
+      "user": "wideeyedchubbymagpie68",
+      "pass": "Quietowl28ZOLQJ94",
+      "steamid": "76561199003127330",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Resident Evil 7 Teaser: Beginning Hou"
+      ]
+    },
+    {
+      "user": "ljvbm27073",
+      "pass": "mtny49203V",
+      "steamid": "76561199715037189",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lenjp953117",
+      "pass": "ZiEaN583444",
+      "steamid": "76561199610099742",
+      "vac": "CLEAN",
+      "country": "🌐 Lithuania",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "iaf55c1l3qk8e",
+      "pass": "dxy23i8zr41y5",
+      "steamid": "76561198757490673",
+      "vac": "CLEAN",
+      "country": "🌐 Saint Lucia",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🌐 Greenland",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
       ]
     }
   ]

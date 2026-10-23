@@ -1,11 +1,11 @@
 {
-  "checked": 3343,
+  "checked": 3349,
   "total": 1358142,
-  "target_hits": 151,
-  "hits": 380,
-  "two_fa": 36,
-  "speed_cpm": 97,
-  "updated_at": "2026-10-23T03:08:07.687241+00:00",
+  "target_hits": 157,
+  "hits": 401,
+  "two_fa": 42,
+  "speed_cpm": 98,
+  "updated_at": "2026-10-23T03:08:34.552651+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2568,6 +2568,105 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "cx0d4xi8",
+      "pass": "tgEgha3IKnG4",
+      "steamid": "76561199730469722",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "neefarm3dear",
+      "pass": "71821905.",
+      "steamid": "76561199016351240",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "Megalen13",
+      "pass": "09178129979Az",
+      "steamid": "76561199435056186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "mauriceviti1985",
+      "pass": "Samsung1406",
+      "steamid": "76561199019843095",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "snyvu97178",
+      "pass": "sbasd47117",
+      "steamid": "76561199710925139",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cell to Singularity - Evolution Never End"
+      ]
+    },
+    {
+      "user": "lmlbcxqx1ab6",
+      "pass": "Balonas123!",
+      "steamid": "76561199878163759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "fadiw537661",
+      "pass": "QtPdV107673",
+      "steamid": "76561199611062699",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto IV: The Complete Edition"
       ]
     }
   ]

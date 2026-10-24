@@ -1,11 +1,11 @@
 {
-  "checked": 1414,
+  "checked": 1562,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 416,
-  "two_fa": 38,
+  "target_hits": 136,
+  "hits": 446,
+  "two_fa": 45,
   "speed_cpm": 150,
-  "updated_at": "2026-10-24T02:49:50.879173+00:00",
+  "updated_at": "2026-10-24T02:50:30.649959+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2766,6 +2766,160 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lolexec",
+      "pass": "1xClopapier",
+      "steamid": "76561198824732341",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 2042"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "7bd1xlsxezc1n4zolhg",
+      "pass": "L7A5B6O700ZI795",
+      "steamid": "76561199184765475",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "vlasik20101",
+      "pass": "1905lkvI",
+      "steamid": "76561198880907167",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "Rambunctiousbusycat",
+      "pass": "Lumpymonkey29",
+      "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead"
+      ]
+    },
+    {
+      "user": "vlad1000",
+      "pass": "19881988",
+      "steamid": "76561197989391908",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

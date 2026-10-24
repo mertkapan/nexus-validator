@@ -1,11 +1,11 @@
 {
-  "checked": 1753,
+  "checked": 1945,
   "total": 1358142,
-  "target_hits": 129,
-  "hits": 456,
-  "two_fa": 48,
-  "speed_cpm": 152,
-  "updated_at": "2026-10-24T15:18:36.467016+00:00",
+  "target_hits": 131,
+  "hits": 466,
+  "two_fa": 49,
+  "speed_cpm": 162,
+  "updated_at": "2026-10-24T15:19:12.451335+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -3030,6 +3030,28 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
       ]
     }
   ]

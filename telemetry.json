@@ -1,11 +1,11 @@
 {
-  "checked": 521,
+  "checked": 630,
   "total": 1358142,
-  "target_hits": 73,
-  "hits": 152,
+  "target_hits": 76,
+  "hits": 160,
   "two_fa": 8,
-  "speed_cpm": 69,
-  "updated_at": "2026-10-24T20:07:37.442229+00:00",
+  "speed_cpm": 79,
+  "updated_at": "2026-10-24T20:08:06.584925+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1314,6 +1314,61 @@
       "wallet": "",
       "games": [
         "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
+      ]
+    },
+    {
+      "user": "deizfreeacc",
+      "pass": "deizdiscord09870",
+      "steamid": "76561199132104873",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "HotPushyBarracuda",
+      "pass": "mmiu6c5n",
+      "steamid": "76561198890692385",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

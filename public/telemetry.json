@@ -1,11 +1,11 @@
 {
-  "checked": 1407,
+  "checked": 1499,
   "total": 1358142,
-  "target_hits": 114,
-  "hits": 282,
-  "two_fa": 21,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-24T20:12:05.925978+00:00",
+  "target_hits": 116,
+  "hits": 308,
+  "two_fa": 31,
+  "speed_cpm": 91,
+  "updated_at": "2026-10-24T20:12:37.700111+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2080,6 +2080,94 @@
       "pass": "OYXGQ86F0CJ3969",
       "steamid": "76561199238358565",
       "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ScrawnyUnsuitableMouse",
+      "pass": "Bravetwist82",
+      "steamid": "76561198889760166",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Singapore",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "smitty091676",
+      "pass": "11101775",
+      "steamid": "76561197999191637",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "QuirkyGruesomeLemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

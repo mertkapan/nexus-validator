@@ -1,11 +1,11 @@
 {
-  "checked": 1244,
+  "checked": 1347,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 387,
-  "two_fa": 31,
-  "speed_cpm": 128,
-  "updated_at": "2026-10-24T15:16:48.499750+00:00",
+  "target_hits": 123,
+  "hits": 411,
+  "two_fa": 33,
+  "speed_cpm": 133,
+  "updated_at": "2026-10-24T15:17:14.633845+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2799,6 +2799,94 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "0369613279",
+      "pass": "Nh@n01112000",
+      "steamid": "76561199489814472",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "snyvu97178",
+      "pass": "sbasd47117",
+      "steamid": "76561199710925139",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wanderer377",
+      "pass": "abbatie",
+      "steamid": "76561198075237087",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 25"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Plane"
       ]
     }
   ]

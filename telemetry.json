@@ -1,11 +1,11 @@
 {
-  "checked": 1199,
+  "checked": 1245,
   "total": 1358142,
-  "target_hits": 107,
-  "hits": 253,
-  "two_fa": 14,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-24T20:11:08.337958+00:00",
+  "target_hits": 109,
+  "hits": 261,
+  "two_fa": 15,
+  "speed_cpm": 77,
+  "updated_at": "2026-10-24T20:11:29.678506+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1985,6 +1985,28 @@
       "wallet": "",
       "games": [
         "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "lazziyareis",
+      "pass": "71821905lazziya",
+      "steamid": "76561199057807614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

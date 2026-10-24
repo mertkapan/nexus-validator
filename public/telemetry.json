@@ -1,11 +1,11 @@
 {
-  "checked": 399,
+  "checked": 521,
   "total": 1358142,
-  "target_hits": 70,
-  "hits": 146,
+  "target_hits": 73,
+  "hits": 152,
   "two_fa": 8,
-  "speed_cpm": 58,
-  "updated_at": "2026-10-24T20:07:07.723589+00:00",
+  "speed_cpm": 69,
+  "updated_at": "2026-10-24T20:07:37.442229+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1281,6 +1281,39 @@
       "wallet": "",
       "games": [
         "Battlefield™"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Heroes & General"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 351,
+  "checked": 597,
   "total": 1358142,
-  "target_hits": 64,
-  "hits": 153,
+  "target_hits": 65,
+  "hits": 159,
   "two_fa": 9,
-  "speed_cpm": 48,
-  "updated_at": "2026-10-24T10:08:56.444728+00:00",
+  "speed_cpm": 80,
+  "updated_at": "2026-10-24T10:09:30.216813+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1259,6 +1259,39 @@
       "wallet": "",
       "games": [
         "AX:E"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
       ]
     }
   ]

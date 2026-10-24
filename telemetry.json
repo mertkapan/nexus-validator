@@ -1,11 +1,11 @@
 {
-  "checked": 247,
+  "checked": 399,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 132,
+  "target_hits": 70,
+  "hits": 146,
   "two_fa": 8,
-  "speed_cpm": 35,
-  "updated_at": "2026-10-24T20:06:46.072505+00:00",
+  "speed_cpm": 58,
+  "updated_at": "2026-10-24T20:07:07.723589+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1215,6 +1215,72 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "ubimp21346",
+      "pass": "cewl19027P",
+      "steamid": "76561199513080899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "nu0sgclss",
+      "pass": "bro5pukm0",
+      "steamid": "76561199824984592",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "clyde2012grant",
+      "pass": "Greenchess219P9XS22",
+      "steamid": "76561199020655792",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "xdboogsterdx",
+      "pass": "Boogster123",
+      "steamid": "76561198084402029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Ninja Stealth 3"
+      ]
+    },
+    {
+      "user": "myasd16370",
+      "pass": "oMC3ejdijveBZ9",
+      "steamid": "76561199731951728",
+      "vac": "CLEAN",
+      "country": "🌐 Antarctica",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
       ]
     }
   ]

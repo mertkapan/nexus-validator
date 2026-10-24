@@ -1,11 +1,11 @@
 {
-  "checked": 1499,
+  "checked": 1699,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 308,
-  "two_fa": 31,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-24T20:12:37.700111+00:00",
+  "target_hits": 118,
+  "hits": 332,
+  "two_fa": 34,
+  "speed_cpm": 81,
+  "updated_at": "2026-10-24T20:14:38.944365+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2168,6 +2168,94 @@
       "pass": "Heavyplay38",
       "steamid": "76561198889314844",
       "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mhawsayar2013",
+      "pass": "mrsimple528",
+      "steamid": "76561199102210013",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

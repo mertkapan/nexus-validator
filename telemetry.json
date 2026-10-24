@@ -1,11 +1,11 @@
 {
-  "checked": 843,
+  "checked": 1079,
   "total": 1358142,
-  "target_hits": 93,
-  "hits": 194,
-  "two_fa": 9,
-  "speed_cpm": 85,
-  "updated_at": "2026-10-24T20:08:47.485424+00:00",
+  "target_hits": 105,
+  "hits": 237,
+  "two_fa": 13,
+  "speed_cpm": 80,
+  "updated_at": "2026-10-24T20:09:55.236754+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1611,6 +1611,325 @@
       "wallet": "",
       "games": [
         "Cities: Skylines"
+      ]
+    },
+    {
+      "user": "lowtrust1",
+      "pass": "000000000_",
+      "steamid": "76561198929194917",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "PriceyGoofyCrocodile",
+      "pass": "Newlift17",
+      "steamid": "76561198885089447",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "ZKfvC9rC",
+      "pass": "4KHyYOp5",
+      "steamid": "76561199828933216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "Wp5B9xV0",
+      "pass": "Q2noXHPm",
+      "steamid": "76561198785823857",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "hevca56989",
+      "pass": "hilariousGame!989",
+      "steamid": "76561199784743546",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "fad88269",
+      "pass": "IdO410261",
+      "steamid": "76561199712571100",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Cell to Singularity - Evolution Never End"
+      ]
+    },
+    {
+      "user": "drbxn15403",
+      "pass": "3iCrnVKh",
+      "steamid": "76561199671862875",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Psychonauts"
+      ]
+    },
+    {
+      "user": "htl77405",
+      "pass": "OhC696145",
+      "steamid": "76561199709566113",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "fwqub80081",
+      "pass": "bxypp98512",
+      "steamid": "76561198765039435",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Driebard92",
+      "pass": "Gui19981998",
+      "steamid": "76561199063182985",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "npyyw06895",
+      "pass": "iycubRCS3r7owM",
+      "steamid": "76561198744083717",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "pedram__hjk",
+      "pass": "9123036155",
+      "steamid": "76561199184676439",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "How to Fish"
+      ]
+    },
+    {
+      "user": "oyqrl8dhp",
+      "pass": "pwku2rzsz9",
+      "steamid": "76561199766455288",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ABOV"
+      ]
+    },
+    {
+      "user": "lolexec",
+      "pass": "1xClopapier",
+      "steamid": "76561198824732341",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "reasonablequail76769",
+      "pass": "n4mbsll3sbf5yrb!lbs7!",
+      "steamid": "76561199658902216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "eiPzEoK8d",
+      "pass": "bsAWwuFw3mD9JkQ",
+      "steamid": "76561198744978145",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "wnxn65596",
+      "pass": "Sq1Yt7Of4Zg76t",
+      "steamid": "76561199376622209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ping2pong",
+      "pass": "Hh@112233",
+      "steamid": "76561198943814614",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thirstyeightwasp",
+      "pass": "Sillypanda39",
+      "steamid": "76561198883592811",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kiep19941218",
+      "pass": "Kiep112$",
+      "steamid": "76561199106541149",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "osdz99462",
+      "pass": "Bo0Or3Ni9Zs16t",
+      "steamid": "76561199373972955",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mvylz60603",
+      "pass": "Hns.mnxx.ro123",
+      "steamid": "76561199586592201",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "vkin5azafpq2",
+      "pass": "xCMTNUFtZD",
+      "steamid": "76561199851511161",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "yusty65043",
+      "pass": "gawu29602N",
+      "steamid": "76561199717494363",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "uSioK18b",
+      "pass": "Zye7sbPL",
+      "steamid": "76561199831205726",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "yftmb157031",
+      "pass": "ExJiY102991",
+      "steamid": "76561199613787564",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

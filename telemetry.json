@@ -1,11 +1,11 @@
 {
-  "checked": 1236,
+  "checked": 1286,
   "total": 1358142,
   "target_hits": 119,
-  "hits": 340,
-  "two_fa": 26,
-  "speed_cpm": 110,
-  "updated_at": "2026-10-25T02:39:14.018366+00:00",
+  "hits": 354,
+  "two_fa": 27,
+  "speed_cpm": 111,
+  "updated_at": "2026-10-25T02:39:35.841790+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2304,6 +2304,72 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "e9uf46zna665jqzmpp0",
+      "pass": "DaNGUS165",
+      "steamid": "76561199211397917",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Game of Thrones: Kingsroad"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "athacalalt",
+      "pass": "Gamer_Lord666",
+      "steamid": "76561199197524732",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Jungle Guardian"
       ]
     }
   ]

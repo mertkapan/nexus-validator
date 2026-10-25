@@ -1,11 +1,11 @@
 {
-  "checked": 286,
+  "checked": 584,
   "total": 1358142,
   "target_hits": 65,
-  "hits": 147,
+  "hits": 158,
   "two_fa": 8,
-  "speed_cpm": 53,
-  "updated_at": "2026-10-25T15:24:13.412425+00:00",
+  "speed_cpm": 110,
+  "updated_at": "2026-10-25T15:24:34.625555+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1314,6 +1314,105 @@
       "wallet": "",
       "games": [
         "Portal 2 Sixense Perceptual Pac"
+      ]
+    },
+    {
+      "user": "dodobkf14",
+      "pass": "dgs17007@",
+      "steamid": "76561199470365748",
+      "vac": "BANNED",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Inferna"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "xdboogsterdx",
+      "pass": "Boogster123",
+      "steamid": "76561198084402029",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Ninja Stealth 3"
+      ]
+    },
+    {
+      "user": "bwkfih0cvhy91zmzb",
+      "pass": "LUG9QWWTP95G720",
+      "steamid": "76561199149478636",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "litao931052253",
+      "pass": "wijGz8RL",
+      "steamid": "76561198423877878",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ic"
+      ]
+    },
+    {
+      "user": "rickgamer77",
+      "pass": "ricardo93618713",
+      "steamid": "76561198822448482",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Last Man Standing"
       ]
     }
   ]

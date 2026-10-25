@@ -1,11 +1,11 @@
 {
-  "checked": 1904,
+  "checked": 2063,
   "total": 1358142,
-  "target_hits": 168,
-  "hits": 418,
+  "target_hits": 169,
+  "hits": 423,
   "two_fa": 37,
-  "speed_cpm": 169,
-  "updated_at": "2026-10-25T15:28:27.397325+00:00",
+  "speed_cpm": 177,
+  "updated_at": "2026-10-25T15:28:54.346816+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -3206,6 +3206,17 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1633,
+  "checked": 1718,
   "total": 1358142,
   "target_hits": 145,
-  "hits": 462,
-  "two_fa": 48,
-  "speed_cpm": 158,
-  "updated_at": "2026-10-25T20:21:29.091813+00:00",
+  "hits": 469,
+  "two_fa": 49,
+  "speed_cpm": 155,
+  "updated_at": "2026-10-25T20:21:58.411355+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",

@@ -1,11 +1,11 @@
 {
-  "checked": 1105,
+  "checked": 1183,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 307,
-  "two_fa": 20,
-  "speed_cpm": 110,
-  "updated_at": "2026-10-25T02:38:18.465668+00:00",
+  "target_hits": 118,
+  "hits": 333,
+  "two_fa": 24,
+  "speed_cpm": 109,
+  "updated_at": "2026-10-25T02:38:52.112143+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2216,6 +2216,72 @@
       "wallet": "",
       "games": [
         "ELDEN RING"
+      ]
+    },
+    {
+      "user": "kkkk18121994",
+      "pass": "Kkkk112$",
+      "steamid": "76561199118500732",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOut"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Adventure of Bear"
+      ]
+    },
+    {
+      "user": "hieu301233",
+      "pass": "Hieu3012",
+      "steamid": "76561199133050985",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "davuttataroglureis",
+      "pass": "71821905davut",
+      "steamid": "76561199057911359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
       ]
     }
   ]

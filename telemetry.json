@@ -1,11 +1,11 @@
 {
-  "checked": 1904,
+  "checked": 2059,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 416,
+  "target_hits": 125,
+  "hits": 424,
   "two_fa": 45,
-  "speed_cpm": 138,
-  "updated_at": "2026-10-25T02:42:01.035346+00:00",
+  "speed_cpm": 126,
+  "updated_at": "2026-10-25T02:43:54.632846+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2513,6 +2513,28 @@
       "wallet": "",
       "games": [
         "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

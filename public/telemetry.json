@@ -1,11 +1,11 @@
 {
-  "checked": 1286,
+  "checked": 1387,
   "total": 1358142,
-  "target_hits": 119,
-  "hits": 354,
-  "two_fa": 27,
-  "speed_cpm": 111,
-  "updated_at": "2026-10-25T02:39:35.841790+00:00",
+  "target_hits": 120,
+  "hits": 370,
+  "two_fa": 33,
+  "speed_cpm": 115,
+  "updated_at": "2026-10-25T02:40:07.485367+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2370,6 +2370,50 @@
       "wallet": "",
       "games": [
         "Jungle Guardian"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championship"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

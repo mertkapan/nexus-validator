@@ -1,11 +1,11 @@
 {
-  "checked": 1389,
+  "checked": 1487,
   "total": 1358142,
-  "target_hits": 136,
-  "hits": 414,
-  "two_fa": 37,
-  "speed_cpm": 150,
-  "updated_at": "2026-10-25T20:20:18.441012+00:00",
+  "target_hits": 140,
+  "hits": 436,
+  "two_fa": 45,
+  "speed_cpm": 153,
+  "updated_at": "2026-10-25T20:20:48.150656+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -2986,6 +2986,94 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "tiger33511",
+      "pass": "jakndaxter",
+      "steamid": "76561198164522199",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "RokokScorpion000",
+      "pass": "Rokok12345",
+      "steamid": "76561199652509309",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

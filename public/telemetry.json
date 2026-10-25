@@ -1,11 +1,11 @@
 {
-  "checked": 1183,
+  "checked": 1236,
   "total": 1358142,
-  "target_hits": 118,
-  "hits": 333,
-  "two_fa": 24,
-  "speed_cpm": 109,
-  "updated_at": "2026-10-25T02:38:52.112143+00:00",
+  "target_hits": 119,
+  "hits": 340,
+  "two_fa": 26,
+  "speed_cpm": 110,
+  "updated_at": "2026-10-25T02:39:14.018366+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2282,6 +2282,28 @@
       "wallet": "",
       "games": [
         "Fishing Planet"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 385,
+  "checked": 521,
   "total": 1358142,
-  "target_hits": 77,
-  "hits": 164,
+  "target_hits": 80,
+  "hits": 170,
   "two_fa": 8,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-25T10:32:12.305257+00:00",
+  "speed_cpm": 72,
+  "updated_at": "2026-10-25T10:33:05.398214+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1325,6 +1325,50 @@
       "wallet": "",
       "games": [
         "Transformice"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Rijeka, Primorsko-Goranska, Croatia",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "Zakbl92",
+      "pass": "zakbgx92",
+      "steamid": "76561198418897452",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
       ]
     }
   ]

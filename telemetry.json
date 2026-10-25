@@ -1,11 +1,11 @@
 {
-  "checked": 1487,
+  "checked": 1633,
   "total": 1358142,
-  "target_hits": 140,
-  "hits": 436,
-  "two_fa": 45,
-  "speed_cpm": 153,
-  "updated_at": "2026-10-25T20:20:48.150656+00:00",
+  "target_hits": 145,
+  "hits": 462,
+  "two_fa": 48,
+  "speed_cpm": 158,
+  "updated_at": "2026-10-25T20:21:29.091813+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3074,6 +3074,116 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativers"
+      ]
+    },
+    {
+      "user": "vlasik20101",
+      "pass": "1905lkvI",
+      "steamid": "76561198880907167",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "hamzahmz951",
+      "pass": "hamzahamza951",
+      "steamid": "76561198870900842",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
       ]
     }
   ]

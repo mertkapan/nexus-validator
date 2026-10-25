@@ -1,11 +1,11 @@
 {
-  "checked": 650,
+  "checked": 695,
   "total": 1358142,
   "target_hits": 74,
-  "hits": 156,
+  "hits": 157,
   "two_fa": 8,
-  "speed_cpm": 102,
-  "updated_at": "2026-10-25T02:35:35.893683+00:00",
+  "speed_cpm": 103,
+  "updated_at": "2026-10-25T02:36:00.219683+00:00",
   "accounts": [
     {
       "user": "quhs47482",

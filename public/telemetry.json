@@ -1,11 +1,11 @@
 {
-  "checked": 1718,
+  "checked": 1885,
   "total": 1358142,
-  "target_hits": 145,
-  "hits": 469,
+  "target_hits": 146,
+  "hits": 471,
   "two_fa": 49,
   "speed_cpm": 155,
-  "updated_at": "2026-10-25T20:21:58.411355+00:00",
+  "updated_at": "2026-10-25T20:22:38.652272+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3184,6 +3184,28 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "erusu3guyot74115522",
+      "pass": "baran123baran123",
+      "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

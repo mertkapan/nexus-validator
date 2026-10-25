@@ -1,11 +1,11 @@
 {
-  "checked": 1233,
+  "checked": 1389,
   "total": 1358142,
-  "target_hits": 131,
-  "hits": 393,
-  "two_fa": 30,
-  "speed_cpm": 139,
-  "updated_at": "2026-10-25T20:19:51.889054+00:00",
+  "target_hits": 136,
+  "hits": 414,
+  "two_fa": 37,
+  "speed_cpm": 150,
+  "updated_at": "2026-10-25T20:20:18.441012+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -2876,6 +2876,116 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "neefarm5dear",
+      "pass": "71821905oguz",
+      "steamid": "76561199016462431",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "mkrevo",
+      "pass": "Smallville1@",
+      "steamid": "76561197997913451",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "lordjade1341",
+      "pass": "November2702",
+      "steamid": "76561198354177003",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Blackjack Championship"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "28mq7473885",
+      "pass": "1fe56HFUJW15",
+      "steamid": "76561199281301084",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

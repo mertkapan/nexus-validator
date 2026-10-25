@@ -1,11 +1,11 @@
 {
-  "checked": 690,
+  "checked": 805,
   "total": 1358142,
-  "target_hits": 67,
-  "hits": 165,
+  "target_hits": 68,
+  "hits": 167,
   "two_fa": 8,
-  "speed_cpm": 119,
-  "updated_at": "2026-10-25T15:25:02.739535+00:00",
+  "speed_cpm": 124,
+  "updated_at": "2026-10-25T15:25:36.493753+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1457,6 +1457,28 @@
       "wallet": "",
       "games": [
         "Knight Online"
+      ]
+    },
+    {
+      "user": "mailinhne1206",
+      "pass": "Tranmailin6",
+      "steamid": "76561199775860865",
+      "vac": "CLEAN",
+      "country": "🇨🇦 CA",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

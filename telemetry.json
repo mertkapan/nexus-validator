@@ -1,11 +1,11 @@
 {
-  "checked": 352,
+  "checked": 650,
   "total": 1358142,
-  "target_hits": 71,
-  "hits": 152,
+  "target_hits": 74,
+  "hits": 156,
   "two_fa": 8,
-  "speed_cpm": 55,
-  "updated_at": "2026-10-25T02:35:10.536689+00:00",
+  "speed_cpm": 102,
+  "updated_at": "2026-10-25T02:35:35.893683+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -1325,6 +1325,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pedrofafe18",
+      "pass": "1952Pedro.,",
+      "steamid": "76561199325856993",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "nhatanhbtcsgo3",
+      "pass": "0982827549",
+      "steamid": "76561199471743098",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

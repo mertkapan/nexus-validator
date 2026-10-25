@@ -1,11 +1,11 @@
 {
-  "checked": 1436,
+  "checked": 1534,
   "total": 1358142,
-  "target_hits": 120,
-  "hits": 379,
-  "two_fa": 37,
-  "speed_cpm": 114,
-  "updated_at": "2026-10-25T02:40:36.119854+00:00",
+  "target_hits": 122,
+  "hits": 398,
+  "two_fa": 43,
+  "speed_cpm": 119,
+  "updated_at": "2026-10-25T02:41:02.237006+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2447,6 +2447,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "JaydenJ217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Peggle Extreme"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "POSTAL"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "politeprivatewolf",
+      "pass": "Longcoal53",
+      "steamid": "76561198889370080",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1594,
+  "checked": 1698,
   "total": 1358142,
-  "target_hits": 139,
-  "hits": 407,
-  "two_fa": 42,
-  "speed_cpm": 136,
-  "updated_at": "2026-10-26T18:25:31.815415+00:00",
+  "target_hits": 140,
+  "hits": 413,
+  "two_fa": 45,
+  "speed_cpm": 140,
+  "updated_at": "2026-10-26T18:25:56.845475+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2788,6 +2788,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
       ]
     }
   ]

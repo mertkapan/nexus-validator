@@ -1,11 +1,11 @@
 {
-  "checked": 1034,
+  "checked": 1147,
   "total": 1358142,
-  "target_hits": 100,
-  "hits": 269,
-  "two_fa": 15,
-  "speed_cpm": 102,
-  "updated_at": "2026-10-26T12:05:55.395880+00:00",
+  "target_hits": 107,
+  "hits": 292,
+  "two_fa": 22,
+  "speed_cpm": 108,
+  "updated_at": "2026-10-26T12:06:23.575089+00:00",
   "accounts": [
     {
       "user": "2540000",
@@ -1974,6 +1974,116 @@
       "wallet": "",
       "games": [
         "MiniRoyale"
+      ]
+    },
+    {
+      "user": "ZKfvC9rC",
+      "pass": "4KHyYOp5",
+      "steamid": "76561199828933216",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "tnlvr96244",
+      "pass": "d3f61401cd5c7822fd194e4bf8308842",
+      "steamid": "76561199728068779",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "rszpm53700",
+      "pass": "wnru12444C",
+      "steamid": "76561199467119803",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "MiniRoyale"
+      ]
+    },
+    {
+      "user": "arezj63431",
+      "pass": "dg0izeBW",
+      "steamid": "76561199671947632",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "MiniRoyale"
+      ]
+    },
+    {
+      "user": "yusty65043",
+      "pass": "gawu29602N",
+      "steamid": "76561199717494363",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "ymvqt00929",
+      "pass": "B4pbvMj0",
+      "steamid": "76561199670946849",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "wbhil99014",
+      "pass": "ysza78105L",
+      "steamid": "76561199721300589",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "jaydenj217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Megalen13",
+      "pass": "09178129979Az",
+      "steamid": "76561199435056186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

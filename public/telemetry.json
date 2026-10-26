@@ -1,11 +1,11 @@
 {
-  "checked": 1191,
+  "checked": 1294,
   "total": 1358142,
   "target_hits": 128,
-  "hits": 324,
+  "hits": 340,
   "two_fa": 26,
-  "speed_cpm": 119,
-  "updated_at": "2026-10-26T18:23:40.186065+00:00",
+  "speed_cpm": 126,
+  "updated_at": "2026-10-26T18:24:00.434809+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2535,6 +2535,61 @@
       "wallet": "",
       "games": [
         "Kritika:REBOO"
+      ]
+    },
+    {
+      "user": "aleemattoss",
+      "pass": "alexandre162",
+      "steamid": "76561198942181958",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Board Game with Online Multiplayer"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FPS Game: Dev Tes"
+      ]
+    },
+    {
+      "user": "timmi1x",
+      "pass": "lums2022@SdSb",
+      "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "neefarmdear",
+      "pass": "71821905.",
+      "steamid": "76561199016344714",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

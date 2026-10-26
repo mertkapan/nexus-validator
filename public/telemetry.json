@@ -1,11 +1,11 @@
 {
-  "checked": 2069,
+  "checked": 2164,
   "total": 1358142,
-  "target_hits": 141,
-  "hits": 415,
+  "target_hits": 142,
+  "hits": 417,
   "two_fa": 47,
-  "speed_cpm": 145,
-  "updated_at": "2026-10-26T18:27:20.739493+00:00",
+  "speed_cpm": 144,
+  "updated_at": "2026-10-26T18:27:42.881417+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2810,6 +2810,28 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "pro_sniper10122",
+      "pass": "loganglover1",
+      "steamid": "76561198409570378",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Feed and Grow: Fish"
+      ]
+    },
+    {
+      "user": "Express6611",
+      "pass": "wx#Rn04hziNll",
+      "steamid": "76561199677268146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
       ]
     }
   ]

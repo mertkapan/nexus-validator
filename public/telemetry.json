@@ -1,11 +1,11 @@
 {
-  "checked": 1457,
+  "checked": 1598,
   "total": 1358142,
-  "target_hits": 154,
-  "hits": 429,
-  "two_fa": 43,
-  "speed_cpm": 154,
-  "updated_at": "2026-10-26T02:38:23.826625+00:00",
+  "target_hits": 159,
+  "hits": 470,
+  "two_fa": 46,
+  "speed_cpm": 159,
+  "updated_at": "2026-10-26T02:39:01.854052+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",
@@ -3327,6 +3327,127 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mabinogi"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "POSTAL"
+      ]
+    },
+    {
+      "user": "politeprivatewolf",
+      "pass": "Longcoal53",
+      "steamid": "76561198889370080",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "BLOCKAD"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
+      ]
+    },
+    {
+      "user": "dcjvr8ws1ptg5hlfzpzrkpb0",
+      "pass": "43NXFQFUAZC3438",
+      "steamid": "76561199233373125",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
       ]
     }
   ]

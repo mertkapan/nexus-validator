@@ -1,11 +1,11 @@
 {
-  "checked": 615,
+  "checked": 798,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 156,
+  "target_hits": 68,
+  "hits": 161,
   "two_fa": 8,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-26T12:03:57.490038+00:00",
+  "speed_cpm": 103,
+  "updated_at": "2026-10-26T12:04:24.379639+00:00",
   "accounts": [
     {
       "user": "2540000",
@@ -1226,6 +1226,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "3brogamersfifa22",
+      "pass": "YPN7LEGKDJ@C",
+      "steamid": "76561199238560586",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
       ]
     }
   ]

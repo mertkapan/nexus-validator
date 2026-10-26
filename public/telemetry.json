@@ -1,11 +1,11 @@
 {
-  "checked": 1301,
+  "checked": 1621,
   "total": 1358142,
-  "target_hits": 112,
-  "hits": 349,
-  "two_fa": 27,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-26T12:07:00.291487+00:00",
+  "target_hits": 113,
+  "hits": 362,
+  "two_fa": 31,
+  "speed_cpm": 111,
+  "updated_at": "2026-10-26T12:07:57.725880+00:00",
   "accounts": [
     {
       "user": "2540000",
@@ -2282,6 +2282,83 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "tordrogues123",
+      "pass": "d77e67myy123",
+      "steamid": "76561199116343258",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "POSTAL"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

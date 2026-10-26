@@ -1,11 +1,11 @@
 {
-  "checked": 2322,
+  "checked": 2531,
   "total": 1358142,
   "target_hits": 161,
   "hits": 477,
   "two_fa": 48,
-  "speed_cpm": 175,
-  "updated_at": "2026-10-26T02:40:43.482215+00:00",
+  "speed_cpm": 185,
+  "updated_at": "2026-10-26T02:41:08.857345+00:00",
   "accounts": [
     {
       "user": "heinhtet1240",

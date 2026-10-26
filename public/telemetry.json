@@ -1,11 +1,11 @@
 {
-  "checked": 2443,
+  "checked": 3074,
   "total": 1358142,
-  "target_hits": 143,
-  "hits": 420,
+  "target_hits": 144,
+  "hits": 421,
   "two_fa": 47,
-  "speed_cpm": 164,
-  "updated_at": "2026-10-26T18:28:04.396040+00:00",
+  "speed_cpm": 177,
+  "updated_at": "2026-10-26T18:29:22.566294+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2865,6 +2865,17 @@
       "wallet": "",
       "games": [
         "The First Descendant"
+      ]
+    },
+    {
+      "user": "egoros3p41",
+      "pass": "siski33BFa9lCBU7O67483",
+      "steamid": "76561198415609495",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Drift Legends"
       ]
     }
   ]

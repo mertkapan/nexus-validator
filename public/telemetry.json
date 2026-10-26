@@ -1,11 +1,11 @@
 {
-  "checked": 2164,
+  "checked": 2443,
   "total": 1358142,
-  "target_hits": 142,
-  "hits": 417,
+  "target_hits": 143,
+  "hits": 420,
   "two_fa": 47,
-  "speed_cpm": 144,
-  "updated_at": "2026-10-26T18:27:42.881417+00:00",
+  "speed_cpm": 164,
+  "updated_at": "2026-10-26T18:28:04.396040+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2832,6 +2832,39 @@
       "wallet": "",
       "games": [
         "Call of Duty®"
+      ]
+    },
+    {
+      "user": "otwjd36574",
+      "pass": "olwh11975Y",
+      "steamid": "76561199505778509",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "SUPERVIVE"
+      ]
+    },
+    {
+      "user": "ridsx64949",
+      "pass": "9AKvoJM6iySy",
+      "steamid": "76561199519259038",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "ozgpedqoxvodmgtpf5ng",
+      "pass": "BHKEUX8NFDS6331",
+      "steamid": "76561199109795268",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The First Descendant"
       ]
     }
   ]

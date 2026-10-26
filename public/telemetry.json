@@ -1,11 +1,11 @@
 {
-  "checked": 1493,
+  "checked": 1594,
   "total": 1358142,
-  "target_hits": 138,
-  "hits": 391,
-  "two_fa": 38,
-  "speed_cpm": 131,
-  "updated_at": "2026-10-26T18:25:10.498189+00:00",
+  "target_hits": 139,
+  "hits": 407,
+  "two_fa": 42,
+  "speed_cpm": 136,
+  "updated_at": "2026-10-26T18:25:31.815415+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2740,6 +2740,50 @@
       "pass": "SOK1OGEA2K3O821",
       "steamid": "76561199095307832",
       "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "vtvpn54120",
+      "pass": "govm30000W",
+      "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tejas1246",
+      "pass": "9850928825",
+      "steamid": "76561199001889899",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vincecubels",
+      "pass": "akocvince",
+      "steamid": "76561198277272884",
+      "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",
       "games": [

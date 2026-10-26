@@ -1,11 +1,11 @@
 {
-  "checked": 1294,
+  "checked": 1389,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 340,
-  "two_fa": 26,
-  "speed_cpm": 126,
-  "updated_at": "2026-10-26T18:24:00.434809+00:00",
+  "target_hits": 131,
+  "hits": 363,
+  "two_fa": 33,
+  "speed_cpm": 128,
+  "updated_at": "2026-10-26T18:24:37.121574+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2590,6 +2590,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "yusuf_malakhov",
+      "pass": "bis32808",
+      "steamid": "76561198019919196",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
       ]
     }
   ]

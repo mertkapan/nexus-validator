@@ -1,11 +1,11 @@
 {
-  "checked": 3074,
+  "checked": 3316,
   "total": 1358142,
-  "target_hits": 144,
-  "hits": 421,
-  "two_fa": 47,
-  "speed_cpm": 177,
-  "updated_at": "2026-10-26T18:29:22.566294+00:00",
+  "target_hits": 148,
+  "hits": 430,
+  "two_fa": 51,
+  "speed_cpm": 190,
+  "updated_at": "2026-10-26T18:29:56.766142+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2876,6 +2876,61 @@
       "wallet": "",
       "games": [
         "Drift Legends"
+      ]
+    },
+    {
+      "user": "acmgc064",
+      "pass": "yrxq59243L",
+      "steamid": "76561199148004226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "WorldBox - God Simulator"
+      ]
+    },
+    {
+      "user": "haendelsa",
+      "pass": "910039390",
+      "steamid": "76561198991744359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "88672477",
+      "pass": "45379336",
+      "steamid": "76561199552679094",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The Forest"
+      ]
+    },
+    {
+      "user": "saneyapper",
+      "pass": "sane1081009",
+      "steamid": "76561198246356678",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
       ]
     }
   ]

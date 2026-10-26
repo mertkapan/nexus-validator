@@ -1,11 +1,11 @@
 {
-  "checked": 502,
+  "checked": 615,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 155,
+  "target_hits": 66,
+  "hits": 156,
   "two_fa": 8,
-  "speed_cpm": 75,
-  "updated_at": "2026-10-26T12:03:37.105864+00:00",
+  "speed_cpm": 87,
+  "updated_at": "2026-10-26T12:03:57.490038+00:00",
   "accounts": [
     {
       "user": "2540000",
@@ -1215,6 +1215,17 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
       ]
     }
   ]

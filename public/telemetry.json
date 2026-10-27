@@ -1,11 +1,11 @@
 {
-  "checked": 1299,
+  "checked": 1400,
   "total": 1358142,
-  "target_hits": 87,
-  "hits": 243,
-  "two_fa": 19,
-  "speed_cpm": 81,
-  "updated_at": "2026-10-27T03:15:15.322403+00:00",
+  "target_hits": 90,
+  "hits": 258,
+  "two_fa": 26,
+  "speed_cpm": 87,
+  "updated_at": "2026-10-27T03:15:40.322735+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1809,6 +1809,83 @@
       "wallet": "",
       "games": [
         "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FPS Game: Dev Test"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2 - Metallic Paint Jobs Pac"
+      ]
+    },
+    {
+      "user": "toolate5891",
+      "pass": "aa740316",
+      "steamid": "76561198995157132",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Lost"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "fuquens",
+      "pass": "aerosmith12",
+      "steamid": "76561198082578772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Jungle Guardian"
+      ]
+    },
+    {
+      "user": "cronofunky",
+      "pass": "neokilla",
+      "steamid": "76561198004629905",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

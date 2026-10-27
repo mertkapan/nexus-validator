@@ -1,11 +1,11 @@
 {
-  "checked": 2743,
+  "checked": 3059,
   "total": 1358142,
-  "target_hits": 122,
-  "hits": 419,
+  "target_hits": 123,
+  "hits": 421,
   "two_fa": 42,
-  "speed_cpm": 146,
-  "updated_at": "2026-10-27T11:35:23.517274+00:00",
+  "speed_cpm": 148,
+  "updated_at": "2026-10-27T11:35:51.400076+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2755,6 +2755,17 @@
       "wallet": "",
       "games": [
         "Buckshot Roulett"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
       ]
     }
   ]

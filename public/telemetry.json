@@ -1,11 +1,11 @@
 {
-  "checked": 1305,
+  "checked": 1404,
   "total": 1358142,
-  "target_hits": 116,
-  "hits": 394,
-  "two_fa": 28,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-27T21:47:58.941572+00:00",
+  "target_hits": 124,
+  "hits": 414,
+  "two_fa": 37,
+  "speed_cpm": 139,
+  "updated_at": "2026-10-27T21:48:23.505927+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2634,6 +2634,138 @@
       "wallet": "",
       "games": [
         "Among Us"
+      ]
+    },
+    {
+      "user": "Afyoncu",
+      "pass": "71821905oguzreis",
+      "steamid": "76561198988469301",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "mazinindostu",
+      "pass": "71821905.",
+      "steamid": "76561199016184487",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 25"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "03TheFire",
+      "pass": "71821905fire",
+      "steamid": "76561199058110641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "oukb50034",
+      "pass": "Haroon2002+",
+      "steamid": "76561199373255544",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "POSTA"
       ]
     }
   ]

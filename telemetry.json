@@ -1,11 +1,11 @@
 {
-  "checked": 569,
+  "checked": 761,
   "total": 1358142,
   "target_hits": 54,
-  "hits": 143,
+  "hits": 147,
   "two_fa": 7,
-  "speed_cpm": 66,
-  "updated_at": "2026-10-27T11:26:51.820997+00:00",
+  "speed_cpm": 88,
+  "updated_at": "2026-10-27T11:27:15.942682+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1083,6 +1083,17 @@
       "wallet": "",
       "games": [
         "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "q6nz0aic",
+      "pass": "vky27139",
+      "steamid": "76561199344141392",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Inferna"
       ]
     }
   ]

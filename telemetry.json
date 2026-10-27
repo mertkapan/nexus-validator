@@ -1,11 +1,11 @@
 {
-  "checked": 1400,
+  "checked": 1497,
   "total": 1358142,
-  "target_hits": 90,
-  "hits": 258,
-  "two_fa": 26,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-27T03:15:40.322735+00:00",
+  "target_hits": 92,
+  "hits": 280,
+  "two_fa": 33,
+  "speed_cpm": 92,
+  "updated_at": "2026-10-27T03:16:04.135840+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1886,6 +1886,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "lrg2017",
+      "pass": "Dollyluiz20192004",
+      "steamid": "76561198357318512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 24"
+      ]
+    },
+    {
+      "user": "JaydenJ217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Vampire: The Masquerade - Bloodhunt"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "America's Army"
+      ]
+    },
+    {
+      "user": "WeskerLC",
+      "pass": "Thedurden92",
+      "steamid": "76561199108348050",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
       ]
     }
   ]

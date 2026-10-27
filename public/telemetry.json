@@ -1,11 +1,11 @@
 {
-  "checked": 1466,
+  "checked": 1566,
   "total": 1358142,
   "target_hits": 111,
-  "hits": 423,
-  "two_fa": 40,
-  "speed_cpm": 147,
-  "updated_at": "2026-10-27T17:15:51.814217+00:00",
+  "hits": 442,
+  "two_fa": 44,
+  "speed_cpm": 151,
+  "updated_at": "2026-10-27T17:16:17.594373+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2425,6 +2425,28 @@
       "wallet": "",
       "games": [
         "Risen 2: Dark Water"
+      ]
+    },
+    {
+      "user": "EZPZN2K",
+      "pass": "raabha40",
+      "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "darkisoulkastkey2",
+      "pass": "pamkaha@astrokey.store",
+      "steamid": "76561199807446590",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

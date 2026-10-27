@@ -1,11 +1,11 @@
 {
-  "checked": 1404,
+  "checked": 1504,
   "total": 1358142,
-  "target_hits": 124,
-  "hits": 414,
-  "two_fa": 37,
-  "speed_cpm": 139,
-  "updated_at": "2026-10-27T21:48:23.505927+00:00",
+  "target_hits": 127,
+  "hits": 438,
+  "two_fa": 41,
+  "speed_cpm": 144,
+  "updated_at": "2026-10-27T21:48:46.159916+00:00",
   "accounts": [
     {
       "user": "quhs47482",
@@ -2766,6 +2766,72 @@
       "wallet": "",
       "games": [
         "POSTA"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Grand Theft Auto"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "r2vgvu1v",
+      "pass": "DD8330518",
+      "steamid": "76561199286057177",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valley"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
       ]
     }
   ]

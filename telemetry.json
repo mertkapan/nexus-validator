@@ -1,11 +1,11 @@
 {
-  "checked": 272,
+  "checked": 416,
   "total": 1358142,
-  "target_hits": 47,
-  "hits": 126,
+  "target_hits": 50,
+  "hits": 134,
   "two_fa": 7,
-  "speed_cpm": 30,
-  "updated_at": "2026-10-27T11:26:00.893473+00:00",
+  "speed_cpm": 49,
+  "updated_at": "2026-10-27T11:26:29.471059+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -973,6 +973,50 @@
       "wallet": "",
       "games": [
         "Stardew Valley"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
       ]
     }
   ]

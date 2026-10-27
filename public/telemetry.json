@@ -1,11 +1,11 @@
 {
-  "checked": 1237,
+  "checked": 1397,
   "total": 1358142,
-  "target_hits": 111,
-  "hits": 344,
-  "two_fa": 23,
-  "speed_cpm": 94,
-  "updated_at": "2026-10-27T11:31:00.743480+00:00",
+  "target_hits": 114,
+  "hits": 361,
+  "two_fa": 28,
+  "speed_cpm": 103,
+  "updated_at": "2026-10-27T11:31:29.589288+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2519,6 +2519,72 @@
       "user": "timmi1x",
       "pass": "lums2022@SdSb",
       "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Red Dead Redemption 2"
+      ]
+    },
+    {
+      "user": "murzynki3",
+      "pass": "Tina0987",
+      "steamid": "76561198951508862",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Hard Light Vecto"
+      ]
+    },
+    {
+      "user": "Wg9Bs8Rr4Cj7",
+      "pass": "Skatepunk852",
+      "steamid": "76561199334644793",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "krispaul27",
+      "pass": "kristine27",
+      "steamid": "76561198063903772",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fishing Planet"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

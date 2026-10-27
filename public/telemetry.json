@@ -1,11 +1,11 @@
 {
-  "checked": 3059,
+  "checked": 3340,
   "total": 1358142,
-  "target_hits": 123,
-  "hits": 421,
+  "target_hits": 124,
+  "hits": 423,
   "two_fa": 42,
-  "speed_cpm": 148,
-  "updated_at": "2026-10-27T11:35:51.400076+00:00",
+  "speed_cpm": 147,
+  "updated_at": "2026-10-27T11:36:37.574997+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2766,6 +2766,17 @@
       "wallet": "",
       "games": [
         "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "makker03",
+      "pass": "csvinger96",
+      "steamid": "76561198103465063",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmares"
       ]
     }
   ]

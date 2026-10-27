@@ -1,11 +1,11 @@
 {
-  "checked": 2609,
+  "checked": 2743,
   "total": 1358142,
-  "target_hits": 121,
-  "hits": 418,
-  "two_fa": 41,
-  "speed_cpm": 147,
-  "updated_at": "2026-10-27T11:35:00.265252+00:00",
+  "target_hits": 122,
+  "hits": 419,
+  "two_fa": 42,
+  "speed_cpm": 146,
+  "updated_at": "2026-10-27T11:35:23.517274+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2744,6 +2744,17 @@
       "wallet": "",
       "games": [
         "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "Bz0Xs5Bt1Qv4",
+      "pass": "Rg9Bf8Cx6Rz1",
+      "steamid": "76561199316863512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Buckshot Roulett"
       ]
     }
   ]

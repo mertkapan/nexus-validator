@@ -1,11 +1,11 @@
 {
-  "checked": 1141,
+  "checked": 1197,
   "total": 1358142,
-  "target_hits": 84,
-  "hits": 200,
-  "two_fa": 16,
-  "speed_cpm": 74,
-  "updated_at": "2026-10-27T03:14:17.790948+00:00",
+  "target_hits": 86,
+  "hits": 225,
+  "two_fa": 18,
+  "speed_cpm": 76,
+  "updated_at": "2026-10-27T03:14:43.073779+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1699,6 +1699,61 @@
       "wallet": "",
       "games": [
         "PAYDAY 2"
+      ]
+    },
+    {
+      "user": "hieu301233",
+      "pass": "Hieu3012",
+      "steamid": "76561199133050985",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "divaitunamaku",
+      "pass": "MyNameIsDiva03",
+      "steamid": "76561198224164692",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Forbidden Lov"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
       ]
     }
   ]

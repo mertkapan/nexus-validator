@@ -1,11 +1,11 @@
 {
-  "checked": 3602,
+  "checked": 3761,
   "total": 1358142,
-  "target_hits": 128,
-  "hits": 431,
-  "two_fa": 42,
-  "speed_cpm": 155,
-  "updated_at": "2026-10-27T11:37:26.406661+00:00",
+  "target_hits": 131,
+  "hits": 443,
+  "two_fa": 44,
+  "speed_cpm": 156,
+  "updated_at": "2026-10-27T11:38:13.141576+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2865,6 +2865,72 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "fp4mg6onn",
+      "pass": "oamm2gsay",
+      "steamid": "76561199658700069",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Adventure of Bear"
+      ]
+    },
+    {
+      "user": "vmmpk10496",
+      "pass": "Allah361",
+      "steamid": "76561199566209226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "asdsw1221",
+      "pass": "Ab159372846",
+      "steamid": "76561199181725542",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FlatOut"
+      ]
+    },
+    {
+      "user": "thirstyeightwasp",
+      "pass": "Sillypanda39",
+      "steamid": "76561198883592811",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cx0d4xi8",
+      "pass": "tgEgha3IKnG4",
+      "steamid": "76561199730469722",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "ONE PIECE Bounty Rus"
       ]
     }
   ]

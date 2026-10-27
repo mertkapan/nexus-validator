@@ -1,11 +1,11 @@
 {
-  "checked": 1397,
+  "checked": 1498,
   "total": 1358142,
-  "target_hits": 114,
-  "hits": 361,
-  "two_fa": 28,
-  "speed_cpm": 103,
-  "updated_at": "2026-10-27T11:31:29.589288+00:00",
+  "target_hits": 117,
+  "hits": 383,
+  "two_fa": 36,
+  "speed_cpm": 107,
+  "updated_at": "2026-10-27T11:31:58.258696+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2590,6 +2590,83 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11 Kombat Pack 1"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "VoicelessUnsuitableManatee",
+      "pass": "Whitehair92",
+      "steamid": "76561198890124638",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "JaydenJ217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1158,
+  "checked": 1247,
   "total": 1358142,
   "target_hits": 107,
-  "hits": 357,
-  "two_fa": 28,
-  "speed_cpm": 135,
-  "updated_at": "2026-10-27T17:14:29.313250+00:00",
+  "hits": 390,
+  "two_fa": 29,
+  "speed_cpm": 142,
+  "updated_at": "2026-10-27T17:14:49.933243+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2343,6 +2343,28 @@
       "user": "heepn8roth1139859",
       "pass": "Zebra21#",
       "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "kralfarukreis",
+      "pass": "71821905kralfaruk",
+      "steamid": "76561199057660911",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

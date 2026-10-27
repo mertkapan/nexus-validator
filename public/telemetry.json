@@ -1,11 +1,11 @@
 {
-  "checked": 1193,
+  "checked": 1237,
   "total": 1358142,
-  "target_hits": 109,
-  "hits": 329,
+  "target_hits": 111,
+  "hits": 344,
   "two_fa": 23,
-  "speed_cpm": 93,
-  "updated_at": "2026-10-27T11:30:38.719802+00:00",
+  "speed_cpm": 94,
+  "updated_at": "2026-10-27T11:31:00.743480+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2469,6 +2469,61 @@
       "wallet": "",
       "games": [
         "AION MM"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
+      ]
+    },
+    {
+      "user": "hoangnova3",
+      "pass": "H0ang1983",
+      "steamid": "76561199087071303",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wanderer377",
+      "pass": "abbatie",
+      "steamid": "76561198075237087",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "timmi1x",
+      "pass": "lums2022@SdSb",
+      "steamid": "76561199001368042",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

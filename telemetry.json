@@ -1,11 +1,11 @@
 {
-  "checked": 3430,
+  "checked": 3602,
   "total": 1358142,
-  "target_hits": 125,
-  "hits": 427,
+  "target_hits": 128,
+  "hits": 431,
   "two_fa": 42,
-  "speed_cpm": 146,
-  "updated_at": "2026-10-27T11:37:06.356667+00:00",
+  "speed_cpm": 155,
+  "updated_at": "2026-10-27T11:37:26.406661+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2821,6 +2821,50 @@
       "wallet": "",
       "games": [
         "Little Nightmares"
+      ]
+    },
+    {
+      "user": "fdgju10598",
+      "pass": "bzzvz53815",
+      "steamid": "76561198751776114",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foasg42779",
+      "pass": "djdts12014",
+      "steamid": "76561199837258966",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 2"
+      ]
+    },
+    {
+      "user": "MlN4whoUIDjM",
+      "pass": "AE7c4592ry09",
+      "steamid": "76561198794236813",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "Y6xyl23G",
+      "pass": "7D4aYVjR",
+      "steamid": "76561198769711235",
+      "vac": "CLEAN",
+      "country": "🌐 Aland Islands",
+      "wallet": "",
+      "games": [
+        "Rust"
       ]
     }
   ]

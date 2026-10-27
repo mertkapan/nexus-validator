@@ -1,11 +1,11 @@
 {
-  "checked": 3921,
+  "checked": 4128,
   "total": 1358142,
   "target_hits": 131,
-  "hits": 444,
+  "hits": 445,
   "two_fa": 45,
-  "speed_cpm": 161,
-  "updated_at": "2026-10-27T11:38:38.435683+00:00",
+  "speed_cpm": 168,
+  "updated_at": "2026-10-27T11:38:59.948901+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2942,6 +2942,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hunxa",
+      "pass": "drishya123",
+      "steamid": "76561198870449182",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "DCS World Steam Editio"
       ]
     }
   ]

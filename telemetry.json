@@ -1,11 +1,11 @@
 {
-  "checked": 4735,
+  "checked": 4853,
   "total": 1358142,
-  "target_hits": 131,
-  "hits": 446,
+  "target_hits": 132,
+  "hits": 447,
   "two_fa": 45,
-  "speed_cpm": 169,
-  "updated_at": "2026-10-27T11:40:36.261061+00:00",
+  "speed_cpm": 172,
+  "updated_at": "2026-10-27T11:41:24.886134+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2953,6 +2953,17 @@
       "wallet": "",
       "games": [
         "DCS World Steam Editio"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
       ]
     }
   ]

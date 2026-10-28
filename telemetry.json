@@ -1,11 +1,11 @@
 {
-  "checked": 1348,
+  "checked": 1404,
   "total": 1358142,
-  "target_hits": 147,
-  "hits": 403,
-  "two_fa": 32,
+  "target_hits": 150,
+  "hits": 414,
+  "two_fa": 36,
   "speed_cpm": 121,
-  "updated_at": "2026-10-28T12:03:59.021888+00:00",
+  "updated_at": "2026-10-28T12:04:25.921762+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2832,6 +2832,61 @@
       "wallet": "",
       "games": [
         "Stardew Valley"
+      ]
+    },
+    {
+      "user": "shayan_naghizadeh",
+      "pass": "SHAYAN1390",
+      "steamid": "76561198853963290",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mabinogi"
+      ]
+    },
+    {
+      "user": "wanderer377",
+      "pass": "abbatie",
+      "steamid": "76561198075237087",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "catut8",
+      "pass": "dianateiubesc",
+      "steamid": "76561198323625708",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

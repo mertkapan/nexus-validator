@@ -1,11 +1,11 @@
 {
-  "checked": 1405,
+  "checked": 1616,
   "total": 1358142,
-  "target_hits": 131,
-  "hits": 422,
-  "two_fa": 38,
-  "speed_cpm": 116,
-  "updated_at": "2026-10-28T03:27:59.832616+00:00",
+  "target_hits": 132,
+  "hits": 459,
+  "two_fa": 45,
+  "speed_cpm": 110,
+  "updated_at": "2026-10-28T03:29:33.257932+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2772,6 +2772,17 @@
       "user": "vtvpn54120",
       "pass": "govm30000W",
       "steamid": "76561199531323370",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "michaela_schugall",
+      "pass": "erkenschwick2016",
+      "steamid": "76561198283725790",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

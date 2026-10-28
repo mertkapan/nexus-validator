@@ -1,11 +1,11 @@
 {
-  "checked": 801,
+  "checked": 829,
   "total": 1358142,
-  "target_hits": 63,
-  "hits": 164,
-  "two_fa": 6,
-  "speed_cpm": 73,
-  "updated_at": "2026-10-28T17:50:51.359520+00:00",
+  "target_hits": 64,
+  "hits": 169,
+  "two_fa": 7,
+  "speed_cpm": 75,
+  "updated_at": "2026-10-28T17:51:20.108560+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1292,6 +1292,39 @@
       "wallet": "",
       "games": [
         "ONE PIECE Bounty Rus"
+      ]
+    },
+    {
+      "user": "walter2008oliver",
+      "pass": "Sillylamp497PF4X54",
+      "steamid": "76561199013027272",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 2"
+      ]
+    },
+    {
+      "user": "kcicu42940",
+      "pass": "ouzjr07605",
+      "steamid": "76561199844962421",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "AR5295waRhWQ",
+      "pass": "HPUAfRXiZalLJ9OcV8v7",
+      "steamid": "76561198903283126",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

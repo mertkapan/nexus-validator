@@ -1,11 +1,11 @@
 {
-  "checked": 1109,
+  "checked": 1203,
   "total": 1358142,
-  "target_hits": 118,
-  "hits": 333,
-  "two_fa": 22,
-  "speed_cpm": 104,
-  "updated_at": "2026-10-28T03:26:31.837655+00:00",
+  "target_hits": 125,
+  "hits": 379,
+  "two_fa": 28,
+  "speed_cpm": 107,
+  "updated_at": "2026-10-28T03:27:06.312519+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2381,6 +2381,182 @@
       "wallet": "",
       "games": [
         "Counter-Strik"
+      ]
+    },
+    {
+      "user": "Aio2t2681",
+      "pass": "iGzAN2082",
+      "steamid": "76561199557835331",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC 2"
+      ]
+    },
+    {
+      "user": "megasonic_0005",
+      "pass": "MegaSonic121_5",
+      "steamid": "76561199377835055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Megalen13",
+      "pass": "09178129979Az",
+      "steamid": "76561199435056186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FUCK PUTI"
+      ]
+    },
+    {
+      "user": "uncertaincattle8885",
+      "pass": "fa4a63a6abef6ce21!aZ",
+      "steamid": "76561199273062954",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin 2"
+      ]
+    },
+    {
+      "user": "lmlbcxqx1ab6",
+      "pass": "Balonas123!",
+      "steamid": "76561199878163759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hdl9wvqef98omyp",
+      "pass": "MIJXFAEWOVP4751",
+      "steamid": "76561199237434070",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "jaydenj217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "fadiw537661",
+      "pass": "QtPdV107673",
+      "steamid": "76561199611062699",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Divinity: Original Sin 2"
+      ]
+    },
+    {
+      "user": "wodxo82613",
+      "pass": "MN12MN12",
+      "steamid": "76561199611689001",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 24"
+      ]
+    },
+    {
+      "user": "kkkk18121994",
+      "pass": "Kkkk112$",
+      "steamid": "76561199118500732",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "IDLE WARRIOR - AUTO GOLD MINE"
+      ]
+    },
+    {
+      "user": "jorge6291",
+      "pass": "as871122cd",
+      "steamid": "76561199117498642",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thepalareis",
+      "pass": "The2290Pala3133.",
+      "steamid": "76561199057743381",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "America's Army: Proving Ground"
+      ]
+    },
+    {
+      "user": "dramaticspicylapwing",
+      "pass": "Giantdoor99",
+      "steamid": "76561198889560530",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FPS Game: Dev Test"
+      ]
+    },
+    {
+      "user": "kociak021",
+      "pass": "grivna24",
+      "steamid": "76561198149593236",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
       ]
     }
   ]

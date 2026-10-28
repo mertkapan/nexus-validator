@@ -1,11 +1,11 @@
 {
-  "checked": 1256,
+  "checked": 1365,
   "total": 1358142,
   "target_hits": 88,
-  "hits": 309,
-  "two_fa": 17,
-  "speed_cpm": 109,
-  "updated_at": "2026-10-28T22:11:06.072681+00:00",
+  "hits": 316,
+  "two_fa": 20,
+  "speed_cpm": 114,
+  "updated_at": "2026-10-28T22:11:38.734300+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -2194,6 +2194,28 @@
       "wallet": "",
       "games": [
         "Garry's Mod"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ehot58steam",
+      "pass": "Domesto66",
+      "steamid": "76561198194182127",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
       ]
     }
   ]

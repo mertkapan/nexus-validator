@@ -1,11 +1,11 @@
 {
-  "checked": 1504,
+  "checked": 1646,
   "total": 1358142,
-  "target_hits": 151,
-  "hits": 435,
-  "two_fa": 40,
-  "speed_cpm": 125,
-  "updated_at": "2026-10-28T12:04:50.982432+00:00",
+  "target_hits": 153,
+  "hits": 456,
+  "two_fa": 48,
+  "speed_cpm": 132,
+  "updated_at": "2026-10-28T12:05:21.393044+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2931,6 +2931,28 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "nzeo5zjgz6aj56hdplgcr",
+      "pass": "SOK1OGEA2K3O821",
+      "steamid": "76561199095307832",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dying Ligh"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
       ]
     }
   ]

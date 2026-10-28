@@ -1,11 +1,11 @@
 {
-  "checked": 1763,
+  "checked": 1883,
   "total": 1358142,
   "target_hits": 156,
-  "hits": 466,
+  "hits": 469,
   "two_fa": 49,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-28T12:05:57.196103+00:00",
+  "speed_cpm": 132,
+  "updated_at": "2026-10-28T12:06:30.251767+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2975,6 +2975,17 @@
       "wallet": "",
       "games": [
         "Little Nightmare"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Game"
       ]
     }
   ]

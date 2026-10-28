@@ -1,11 +1,11 @@
 {
-  "checked": 992,
+  "checked": 1033,
   "total": 1358142,
-  "target_hits": 113,
-  "hits": 290,
-  "two_fa": 17,
-  "speed_cpm": 116,
-  "updated_at": "2026-10-28T12:01:27.864768+00:00",
+  "target_hits": 129,
+  "hits": 323,
+  "two_fa": 20,
+  "speed_cpm": 117,
+  "updated_at": "2026-10-28T12:01:51.515614+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2249,6 +2249,226 @@
       "wallet": "",
       "games": [
         "R.E.P.O."
+      ]
+    },
+    {
+      "user": "um3to9xr3hs8",
+      "pass": "S110620047220tsts#",
+      "steamid": "76561199345854704",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolved"
+      ]
+    },
+    {
+      "user": "ilk57970",
+      "pass": "CjP790552",
+      "steamid": "76561199711444261",
+      "vac": "CLEAN",
+      "country": "🇹🇷 TR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "thirstyeightwasp",
+      "pass": "Sillypanda39",
+      "steamid": "76561198883592811",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vja7riusm",
+      "pass": "7myxsprx6",
+      "steamid": "76561199821237641",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "EA SPORTS FC™ 26"
+      ]
+    },
+    {
+      "user": "abdulatif_12_",
+      "pass": "abdu_776",
+      "steamid": "76561198726241809",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "uSioK18b",
+      "pass": "Zye7sbPL",
+      "steamid": "76561199831205726",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ygxgt29682",
+      "pass": "dgnd23453M",
+      "steamid": "76561199717531992",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "xwsez74818",
+      "pass": "iqavl22253",
+      "steamid": "76561199844118561",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "yohyi20789",
+      "pass": "bzVln1UOmaENvo",
+      "steamid": "76561199843008616",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "zorowashere1",
+      "pass": "raoufazzi",
+      "steamid": "76561199571197328",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "youngspiffyibex",
+      "pass": "Greencave62",
+      "steamid": "76561198883470414",
+      "vac": "BANNED",
+      "country": "🌐 Kazakhstan",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "xqgdw096670",
+      "pass": "MqMgL178110",
+      "steamid": "76561199609962619",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "wbhil99014",
+      "pass": "ysza78105L",
+      "steamid": "76561199721300589",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "yftmb157031",
+      "pass": "ExJiY102991",
+      "steamid": "76561199613787564",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "kacperhudyma",
+      "pass": "marpanov",
+      "steamid": "76561198256610645",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Goat Simulator"
+      ]
+    },
+    {
+      "user": "zfwhg71844",
+      "pass": "umoe85282T",
+      "steamid": "76561199717025988",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "zrezw07651",
+      "pass": "xiya17555U",
+      "steamid": "76561199716563336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "vkin5azafpq2",
+      "pass": "xCMTNUFtZD",
+      "steamid": "76561199851511161",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "vmmpk10496",
+      "pass": "Allah361",
+      "steamid": "76561199566209226",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "victorviegaspibc",
+      "pass": "Viewer123",
+      "steamid": "76561198808120242",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1091,
+  "checked": 1144,
   "total": 1358142,
-  "target_hits": 134,
-  "hits": 333,
-  "two_fa": 23,
-  "speed_cpm": 116,
-  "updated_at": "2026-10-28T12:02:19.326847+00:00",
+  "target_hits": 138,
+  "hits": 352,
+  "two_fa": 29,
+  "speed_cpm": 112,
+  "updated_at": "2026-10-28T12:03:03.145605+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2524,6 +2524,94 @@
       "wallet": "",
       "games": [
         "ELDEN RING"
+      ]
+    },
+    {
+      "user": "Megalen13",
+      "pass": "09178129979Az",
+      "steamid": "76561199435056186",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty®"
+      ]
+    },
+    {
+      "user": "jdalanpl",
+      "pass": "Katarzyna1985",
+      "steamid": "76561199113218750",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FUCK PUTI"
+      ]
+    },
+    {
+      "user": "9427122762",
+      "pass": "4607920401",
+      "steamid": "76561199731705346",
+      "vac": "CLEAN",
+      "country": "🇩🇪 DE",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hoangnova14",
+      "pass": "Nova1983",
+      "steamid": "76561199087046346",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "March of Empires"
+      ]
+    },
+    {
+      "user": "kiep19941218",
+      "pass": "Kiep112$",
+      "steamid": "76561199106541149",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "neefarm5dear",
+      "pass": "71821905oguz",
+      "steamid": "76561199016462431",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Planet Coaster"
+      ]
+    },
+    {
+      "user": "danht2222",
+      "pass": "012952699aA",
+      "steamid": "76561198971651209",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "FPS Game: Dev Tes"
+      ]
+    },
+    {
+      "user": "mysteamstoreirdigikala4",
+      "pass": "MN!#bdCHX2Xt6",
+      "steamid": "76561199069611759",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mortal Kombat 11"
       ]
     }
   ]

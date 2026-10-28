@@ -1,11 +1,11 @@
 {
-  "checked": 1404,
+  "checked": 1504,
   "total": 1358142,
-  "target_hits": 150,
-  "hits": 414,
-  "two_fa": 36,
-  "speed_cpm": 121,
-  "updated_at": "2026-10-28T12:04:25.921762+00:00",
+  "target_hits": 151,
+  "hits": 435,
+  "two_fa": 40,
+  "speed_cpm": 125,
+  "updated_at": "2026-10-28T12:04:50.982432+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2887,6 +2887,50 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "nml53567",
+      "pass": "hdhqo4449",
+      "steamid": "76561199838631352",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "TERA - Action MMORPG"
+      ]
+    },
+    {
+      "user": "smitty091676",
+      "pass": "11101775",
+      "steamid": "76561197999191637",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "QuirkyGruesomeLemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

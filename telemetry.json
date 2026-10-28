@@ -1,11 +1,11 @@
 {
-  "checked": 829,
+  "checked": 910,
   "total": 1358142,
-  "target_hits": 64,
-  "hits": 169,
-  "two_fa": 7,
+  "target_hits": 72,
+  "hits": 211,
+  "two_fa": 9,
   "speed_cpm": 75,
-  "updated_at": "2026-10-28T17:51:20.108560+00:00",
+  "updated_at": "2026-10-28T17:52:02.072722+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1325,6 +1325,182 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "clydecappelletti1994",
+      "pass": "Shinyapple54S2UKA45",
+      "steamid": "76561199011861603",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "veiledcheetos",
+      "pass": "000000000_",
+      "steamid": "76561198916637598",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "gizlimi",
+      "pass": "Canahmetim21",
+      "steamid": "76561198978453223",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "rareheadycurlew97",
+      "pass": "Bravejump32ZS3DE40",
+      "steamid": "76561198997341239",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "jesusshit555",
+      "pass": "sexy555666",
+      "steamid": "76561198385410240",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dirty Bomb"
+      ]
+    },
+    {
+      "user": "makker03",
+      "pass": "csvinger96",
+      "steamid": "76561198103465063",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zgofw11",
+      "pass": "zavosh1388",
+      "steamid": "76561199188110435",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Enclav"
+      ]
+    },
+    {
+      "user": "calop65",
+      "pass": "Lumsmrpdvg",
+      "steamid": "76561199149945747",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Freestyle 2: Street Basketbal"
+      ]
+    },
+    {
+      "user": "rqaqn70055",
+      "pass": "dstwu33302",
+      "steamid": "76561198744698799",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "OBKripZz",
+      "pass": "Tinkabella2017",
+      "steamid": "76561199848095930",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Modern Warfare I"
+      ]
+    },
+    {
+      "user": "Jast091",
+      "pass": "9HNGT9HNGT",
+      "steamid": "76561198043088788",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "UnusedKnownVulture",
+      "pass": "Noisystick86",
+      "steamid": "76561198889691295",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "MlN4whoUIDjM",
+      "pass": "AE7c4592ry09",
+      "steamid": "76561198794236813",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "youiop81",
+      "pass": "ihavesynapsexandudon'tloltrashkids3",
+      "steamid": "76561199217561061",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Marvel Rivals - High-Resolution Pac"
+      ]
+    },
+    {
+      "user": "MMZ_85",
+      "pass": "1385z1385",
+      "steamid": "76561199849142922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pac"
       ]
     }
   ]

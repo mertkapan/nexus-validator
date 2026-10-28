@@ -1,11 +1,11 @@
 {
-  "checked": 1203,
+  "checked": 1304,
   "total": 1358142,
-  "target_hits": 125,
-  "hits": 379,
-  "two_fa": 28,
-  "speed_cpm": 107,
-  "updated_at": "2026-10-28T03:27:06.312519+00:00",
+  "target_hits": 127,
+  "hits": 396,
+  "two_fa": 29,
+  "speed_cpm": 112,
+  "updated_at": "2026-10-28T03:27:32.917297+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2557,6 +2557,94 @@
       "wallet": "",
       "games": [
         "Call of Duty"
+      ]
+    },
+    {
+      "user": "mazinindostu",
+      "pass": "71821905.",
+      "steamid": "76561199016184487",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Hard Light Vecto"
+      ]
+    },
+    {
+      "user": "pocoo18121994",
+      "pass": "Pocoo112$",
+      "steamid": "76561199111581146",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "quirkygruesomelemur",
+      "pass": "Heavyplay38",
+      "steamid": "76561198889314844",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Among Us"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "fedro2720",
+      "pass": "fnm_2720",
+      "steamid": "76561198073664008",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 202"
+      ]
+    },
+    {
+      "user": "heepn8roth1139859",
+      "pass": "Zebra21#",
+      "steamid": "76561199060513927",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "RaceRoom Racing Experience"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

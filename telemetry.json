@@ -1,11 +1,11 @@
 {
-  "checked": 739,
+  "checked": 813,
   "total": 1358142,
-  "target_hits": 71,
-  "hits": 165,
+  "target_hits": 72,
+  "hits": 171,
   "two_fa": 9,
   "speed_cpm": 117,
-  "updated_at": "2026-10-28T22:08:26.379157+00:00",
+  "updated_at": "2026-10-28T22:08:49.383314+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1490,6 +1490,28 @@
       "wallet": "",
       "games": [
         "Inferna"
+      ]
+    },
+    {
+      "user": "idontcare0606",
+      "pass": "hate666",
+      "steamid": "76561197990575507",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Wonders II"
+      ]
+    },
+    {
+      "user": "yraxp1038336678fanton",
+      "pass": "28AX3EICOA2X826",
+      "steamid": "76561199076965408",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

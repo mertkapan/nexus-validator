@@ -1,11 +1,11 @@
 {
-  "checked": 1211,
+  "checked": 1348,
   "total": 1358142,
   "target_hits": 98,
-  "hits": 373,
-  "two_fa": 27,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-28T17:54:02.698256+00:00",
+  "hits": 402,
+  "two_fa": 36,
+  "speed_cpm": 90,
+  "updated_at": "2026-10-28T17:54:49.277520+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -2216,6 +2216,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "scaperdr2",
+      "pass": "rdr2180909scape",
+      "steamid": "76561199051134566",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "RaceRoom Racing Experience"
       ]
     }
   ]

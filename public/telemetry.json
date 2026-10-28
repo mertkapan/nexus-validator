@@ -1,11 +1,11 @@
 {
-  "checked": 1033,
+  "checked": 1091,
   "total": 1358142,
-  "target_hits": 129,
-  "hits": 323,
-  "two_fa": 20,
-  "speed_cpm": 117,
-  "updated_at": "2026-10-28T12:01:51.515614+00:00",
+  "target_hits": 134,
+  "hits": 333,
+  "two_fa": 23,
+  "speed_cpm": 116,
+  "updated_at": "2026-10-28T12:02:19.326847+00:00",
   "accounts": [
     {
       "user": "toxictoxic1231",
@@ -2464,6 +2464,61 @@
       "user": "victorviegaspibc",
       "pass": "Viewer123",
       "steamid": "76561198808120242",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "tln06235637",
+      "pass": "wb868398",
+      "steamid": "76561198759860356",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RIN"
+      ]
+    },
+    {
+      "user": "MlN4whoUIDjM",
+      "pass": "AE7c4592ry09",
+      "steamid": "76561198794236813",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "rainyalligator9326",
+      "pass": "6e1f07903589f2711!aZ",
+      "steamid": "76561199382239734",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ELDEN RING"
+      ]
+    },
+    {
+      "user": "cv0gvl7me",
+      "pass": "M@rrakech199",
+      "steamid": "76561199803081173",
+      "vac": "CLEAN",
+      "country": "🇺🇸 US",
+      "wallet": "",
+      "games": [
+        "Half-Life"
+      ]
+    },
+    {
+      "user": "0146742063",
+      "pass": "9329423195",
+      "steamid": "76561199743690146",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

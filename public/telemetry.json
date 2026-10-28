@@ -1,11 +1,11 @@
 {
-  "checked": 302,
+  "checked": 501,
   "total": 1358142,
-  "target_hits": 55,
-  "hits": 142,
+  "target_hits": 57,
+  "hits": 155,
   "two_fa": 6,
-  "speed_cpm": 43,
-  "updated_at": "2026-10-28T17:47:49.540197+00:00",
+  "speed_cpm": 73,
+  "updated_at": "2026-10-28T17:48:10.800144+00:00",
   "accounts": [
     {
       "user": "Express867",
@@ -1171,6 +1171,50 @@
       "wallet": "",
       "games": [
         "Decei"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
+      ]
+    },
+    {
+      "user": "dismarian5",
+      "pass": "Ro1522269",
+      "steamid": "76561198123499638",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "lqgoo39863",
+      "pass": "Likearock1!",
+      "steamid": "76561199465958093",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
       ]
     }
   ]

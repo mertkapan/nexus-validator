@@ -1,11 +1,11 @@
 {
-  "checked": 1509,
+  "checked": 1789,
   "total": 1358142,
   "target_hits": 99,
-  "hits": 392,
-  "two_fa": 40,
-  "speed_cpm": 123,
-  "updated_at": "2026-10-29T22:24:51.724617+00:00",
+  "hits": 409,
+  "two_fa": 44,
+  "speed_cpm": 145,
+  "updated_at": "2026-10-29T22:25:13.776956+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2035,6 +2035,39 @@
       "user": "EZPZN2K",
       "pass": "raabha40",
       "steamid": "76561199436741780",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "vitoryt2705",
+      "pass": "vitor2705@",
+      "steamid": "76561199404436267",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Century: Age of Ashe"
+      ]
+    },
+    {
+      "user": "06jshzy5ezhte6easionjy",
+      "pass": "OYXGQ86F0CJ3969",
+      "steamid": "76561199238358565",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "StraightEntertainingBeaver",
+      "pass": "Wackypage38",
+      "steamid": "76561198889446745",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

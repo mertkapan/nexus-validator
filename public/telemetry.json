@@ -1,11 +1,11 @@
 {
-  "checked": 704,
+  "checked": 808,
   "total": 1358142,
-  "target_hits": 59,
-  "hits": 165,
+  "target_hits": 60,
+  "hits": 168,
   "two_fa": 7,
-  "speed_cpm": 100,
-  "updated_at": "2026-10-29T03:47:50.623012+00:00",
+  "speed_cpm": 2,
+  "updated_at": "2026-10-29T09:11:22.373128+00:00",
   "accounts": [
     {
       "user": "redjl21138",
@@ -1369,6 +1369,17 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "zznf84462",
+      "pass": "nd3ui9f7q",
+      "steamid": "76561199350136828",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Euro Truck Simulator 2"
       ]
     }
   ]

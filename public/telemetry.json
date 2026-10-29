@@ -1,11 +1,11 @@
 {
-  "checked": 1218,
+  "checked": 1294,
   "total": 1358142,
-  "target_hits": 97,
-  "hits": 360,
-  "two_fa": 27,
-  "speed_cpm": 114,
-  "updated_at": "2026-10-29T22:23:30.106208+00:00",
+  "target_hits": 99,
+  "hits": 367,
+  "two_fa": 29,
+  "speed_cpm": 115,
+  "updated_at": "2026-10-29T22:23:54.239211+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1996,6 +1996,28 @@
       "wallet": "",
       "games": [
         "Rise"
+      ]
+    },
+    {
+      "user": "jaydenj217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1490,
+  "checked": 1561,
   "total": 1358142,
   "target_hits": 91,
-  "hits": 250,
-  "two_fa": 16,
+  "hits": 256,
+  "two_fa": 18,
   "speed_cpm": 63,
-  "updated_at": "2026-10-29T12:14:44.960768+00:00",
+  "updated_at": "2026-10-29T12:15:28.434886+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2013,6 +2013,39 @@
       "user": "Rambunctiousbusycat",
       "pass": "Lumpymonkey29",
       "steamid": "76561198889622922",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jessiecaciolli2015",
+      "pass": "Oliveshow20CFR0166",
+      "steamid": "76561199009091417",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "stablish10",
+      "pass": "#Y&#T6r7352726yu4",
+      "steamid": "76561199438238454",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "VoicelessUnsuitableManatee",
+      "pass": "Whitehair92",
+      "steamid": "76561198890124638",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

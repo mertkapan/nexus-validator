@@ -1,11 +1,11 @@
 {
-  "checked": 1294,
+  "checked": 1407,
   "total": 1358142,
   "target_hits": 99,
-  "hits": 367,
-  "two_fa": 29,
-  "speed_cpm": 115,
-  "updated_at": "2026-10-29T22:23:54.239211+00:00",
+  "hits": 375,
+  "two_fa": 33,
+  "speed_cpm": 118,
+  "updated_at": "2026-10-29T22:24:25.444157+00:00",
   "accounts": [
     {
       "user": "Express5262",

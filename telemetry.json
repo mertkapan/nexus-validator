@@ -1,11 +1,11 @@
 {
-  "checked": 1143,
+  "checked": 1365,
   "total": 1358142,
-  "target_hits": 88,
-  "hits": 222,
-  "two_fa": 13,
-  "speed_cpm": 98,
-  "updated_at": "2026-10-29T12:08:12.688226+00:00",
+  "target_hits": 90,
+  "hits": 236,
+  "two_fa": 14,
+  "speed_cpm": 60,
+  "updated_at": "2026-10-29T12:13:54.810225+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1875,6 +1875,105 @@
       "wallet": "",
       "games": [
         "Garry's Mod"
+      ]
+    },
+    {
+      "user": "jaydenj217",
+      "pass": "Jerome21769",
+      "steamid": "76561198352844178",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "Afyoncu",
+      "pass": "71821905oguzreis",
+      "steamid": "76561198988469301",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "i3mvsiv30zifnpwf",
+      "pass": "TCEPWOWTSIAT511",
+      "steamid": "76561199113483459",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "neefarm3dear",
+      "pass": "71821905.",
+      "steamid": "76561199016351240",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Pirates Vikings & Knights II"
+      ]
+    },
+    {
+      "user": "fabioamaya586",
+      "pass": "Saltarin12",
+      "steamid": "76561199240012893",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
+      ]
+    },
+    {
+      "user": "mgtqg62944",
+      "pass": "gfgmk71035",
+      "steamid": "76561199670825123",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Calibe"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "snohy30147",
+      "pass": "abdulmuhaimin92",
+      "steamid": "76561199563902010",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Age of Conquest I"
       ]
     }
   ]

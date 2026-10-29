@@ -1,11 +1,11 @@
 {
-  "checked": 1618,
+  "checked": 1724,
   "total": 1358142,
-  "target_hits": 96,
-  "hits": 268,
+  "target_hits": 98,
+  "hits": 271,
   "two_fa": 19,
-  "speed_cpm": 65,
-  "updated_at": "2026-10-29T12:15:53.172678+00:00",
+  "speed_cpm": 69,
+  "updated_at": "2026-10-29T12:16:18.810644+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -2101,6 +2101,28 @@
       "user": "erusu3guyot74115522",
       "pass": "baran123baran123",
       "steamid": "76561199072676253",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
+      ]
+    },
+    {
+      "user": "pes2k188",
+      "pass": "pro_evolution_soccer_2018_gra",
+      "steamid": "76561198424734292",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "PRO EVOLUTION SOCCER 2018"
+      ]
+    },
+    {
+      "user": "replace_53373_y2sglsg2",
+      "pass": "MVI3LEEugF",
+      "steamid": "76561198861412023",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

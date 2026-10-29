@@ -1,11 +1,11 @@
 {
-  "checked": 1365,
+  "checked": 1437,
   "total": 1358142,
-  "target_hits": 90,
-  "hits": 236,
-  "two_fa": 14,
-  "speed_cpm": 60,
-  "updated_at": "2026-10-29T12:13:54.810225+00:00",
+  "target_hits": 91,
+  "hits": 242,
+  "two_fa": 15,
+  "speed_cpm": 61,
+  "updated_at": "2026-10-29T12:14:19.293595+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1974,6 +1974,17 @@
       "wallet": "",
       "games": [
         "Age of Conquest I"
+      ]
+    },
+    {
+      "user": "yusuf_malakhov",
+      "pass": "bis32808",
+      "steamid": "76561198019919196",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1115,
+  "checked": 1218,
   "total": 1358142,
-  "target_hits": 95,
-  "hits": 332,
-  "two_fa": 25,
-  "speed_cpm": 116,
-  "updated_at": "2026-10-29T22:22:56.316844+00:00",
+  "target_hits": 97,
+  "hits": 360,
+  "two_fa": 27,
+  "speed_cpm": 114,
+  "updated_at": "2026-10-29T22:23:30.106208+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1974,6 +1974,28 @@
       "wallet": "",
       "games": [
         "March of Empires"
+      ]
+    },
+    {
+      "user": "huri4412",
+      "pass": "6QbuNPnWr",
+      "steamid": "76561199232519287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rise"
+      ]
+    },
+    {
+      "user": "davuttataroglureis",
+      "pass": "71821905davut",
+      "steamid": "76561199057911359",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rise"
       ]
     }
   ]

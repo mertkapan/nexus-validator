@@ -1,11 +1,11 @@
 {
-  "checked": 1534,
+  "checked": 1820,
   "total": 1358142,
-  "target_hits": 106,
-  "hits": 406,
-  "two_fa": 38,
-  "speed_cpm": 139,
-  "updated_at": "2026-10-30T21:59:35.942768+00:00",
+  "target_hits": 107,
+  "hits": 419,
+  "two_fa": 41,
+  "speed_cpm": 163,
+  "updated_at": "2026-10-30T21:59:56.049621+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2612,6 +2612,39 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "foqnz00123",
+      "pass": "qite82731I",
+      "steamid": "76561199406945364",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "thetnaingoo25594",
+      "pass": "mrsimple528",
+      "steamid": "76561198392220223",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Creativerse"
+      ]
+    },
+    {
+      "user": "troyas127",
+      "pass": "venusymarte123",
+      "steamid": "76561198196287055",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Left 4 Dead 2"
       ]
     }
   ]

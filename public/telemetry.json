@@ -1,11 +1,11 @@
 {
-  "checked": 240,
+  "checked": 346,
   "total": 1358142,
-  "target_hits": 49,
-  "hits": 110,
+  "target_hits": 52,
+  "hits": 119,
   "two_fa": 7,
-  "speed_cpm": 21,
-  "updated_at": "2026-10-30T17:37:40.809498+00:00",
+  "speed_cpm": 33,
+  "updated_at": "2026-10-30T17:38:03.116594+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -863,6 +863,61 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "UndesirableShallowTrout",
+      "pass": "Pinkpeach74",
+      "steamid": "76561198889650305",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Knight Online"
+      ]
+    },
+    {
+      "user": "oth9evvn6kj9typls6dz",
+      "pass": "ISW8WUDBTA5J769",
+      "steamid": "76561199142052017",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wangtaguaan005",
+      "pass": "@Admin16",
+      "steamid": "76561199290721209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "selyukaalda1996",
+      "pass": "kate2006414",
+      "steamid": "76561199059937032",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AX:E"
+      ]
+    },
+    {
+      "user": "3brogamersfifa22",
+      "pass": "YPN7LEGKDJ@C",
+      "steamid": "76561199238560586",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Decei"
       ]
     }
   ]

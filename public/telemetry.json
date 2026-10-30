@@ -1,11 +1,11 @@
 {
-  "checked": 256,
+  "checked": 361,
   "total": 1358142,
-  "target_hits": 59,
-  "hits": 135,
+  "target_hits": 61,
+  "hits": 147,
   "two_fa": 6,
-  "speed_cpm": 36,
-  "updated_at": "2026-10-30T21:55:04.465977+00:00",
+  "speed_cpm": 50,
+  "updated_at": "2026-10-30T21:55:30.070359+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1204,6 +1204,83 @@
       "wallet": "",
       "games": [
         "Rust"
+      ]
+    },
+    {
+      "user": "jadalilgarcia",
+      "pass": "sk8erboi8",
+      "steamid": "76561198081854492",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "AdVenture Capitalis"
+      ]
+    },
+    {
+      "user": "2874906864",
+      "pass": "hulboj12",
+      "steamid": "76561199104320287",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "DinosaurIsGod",
+      "pass": "3grzotH8",
+      "steamid": "76561199208619041",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "illustriousmaterialisticaardvark",
+      "pass": "Smallpear91",
+      "steamid": "76561198884569170",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cruellaonelove1",
+      "pass": "20082007Ss",
+      "steamid": "76561199190216669",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infern"
       ]
     }
   ]

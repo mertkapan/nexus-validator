@@ -1,11 +1,11 @@
 {
-  "checked": 1387,
+  "checked": 1437,
   "total": 1358142,
   "target_hits": 105,
-  "hits": 373,
-  "two_fa": 29,
+  "hits": 381,
+  "two_fa": 34,
   "speed_cpm": 134,
-  "updated_at": "2026-10-30T21:58:50.492878+00:00",
+  "updated_at": "2026-10-30T21:59:11.579066+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2546,6 +2546,17 @@
       "wallet": "",
       "games": [
         "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "Konto181294",
+      "pass": "Konto112$",
+      "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

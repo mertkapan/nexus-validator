@@ -1,11 +1,11 @@
 {
-  "checked": 1437,
+  "checked": 1534,
   "total": 1358142,
-  "target_hits": 105,
-  "hits": 381,
-  "two_fa": 34,
-  "speed_cpm": 134,
-  "updated_at": "2026-10-30T21:59:11.579066+00:00",
+  "target_hits": 106,
+  "hits": 406,
+  "two_fa": 38,
+  "speed_cpm": 139,
+  "updated_at": "2026-10-30T21:59:35.942768+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -2552,6 +2552,61 @@
       "user": "Konto181294",
       "pass": "Konto112$",
       "steamid": "76561199110913535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "duyphuck",
+      "pass": "Phucduck2k10$$$x3/w",
+      "steamid": "76561199508600863",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty: Modern Warfare I"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "puffyredhamster",
+      "pass": "Hugestart38",
+      "steamid": "76561198883824257",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "hamzahmz951",
+      "pass": "hamzahamza951",
+      "steamid": "76561198870900842",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

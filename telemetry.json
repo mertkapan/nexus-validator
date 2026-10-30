@@ -1,11 +1,11 @@
 {
-  "checked": 672,
+  "checked": 1317,
   "total": 1358142,
   "target_hits": 67,
-  "hits": 147,
-  "two_fa": 9,
-  "speed_cpm": 89,
-  "updated_at": "2026-10-30T12:01:20.064615+00:00",
+  "hits": 165,
+  "two_fa": 11,
+  "speed_cpm": 91,
+  "updated_at": "2026-10-30T12:02:16.419999+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1204,6 +1204,28 @@
       "wallet": "",
       "games": [
         "Raft"
+      ]
+    },
+    {
+      "user": "skybelongstoheaven2",
+      "pass": "smitegameplay",
+      "steamid": "76561198167084285",
+      "vac": "CLEAN",
+      "country": "🌐 Rijeka, Primorsko-Goranska, Croatia",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "3je6exmse926hazgd3b",
+      "pass": "DZESJ0DUM46L335",
+      "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

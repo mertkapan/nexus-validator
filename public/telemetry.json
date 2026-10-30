@@ -1,11 +1,11 @@
 {
-  "checked": 346,
+  "checked": 601,
   "total": 1358142,
-  "target_hits": 52,
-  "hits": 119,
+  "target_hits": 53,
+  "hits": 122,
   "two_fa": 7,
-  "speed_cpm": 33,
-  "updated_at": "2026-10-30T17:38:03.116594+00:00",
+  "speed_cpm": 64,
+  "updated_at": "2026-10-30T17:38:24.045286+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -918,6 +918,28 @@
       "wallet": "",
       "games": [
         "Decei"
+      ]
+    },
+    {
+      "user": "martinhavel12",
+      "pass": "havlik.12",
+      "steamid": "76561198195118625",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Heroes & General"
+      ]
+    },
+    {
+      "user": "clyde2012grant",
+      "pass": "Greenchess219P9XS22",
+      "steamid": "76561199020655792",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

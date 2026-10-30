@@ -1,11 +1,11 @@
 {
-  "checked": 1317,
+  "checked": 1603,
   "total": 1358142,
   "target_hits": 67,
-  "hits": 165,
-  "two_fa": 11,
-  "speed_cpm": 91,
-  "updated_at": "2026-10-30T12:02:16.419999+00:00",
+  "hits": 172,
+  "two_fa": 15,
+  "speed_cpm": 80,
+  "updated_at": "2026-10-30T12:03:54.529107+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1226,6 +1226,28 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "jokiliman",
+      "pass": "SRBIJA",
+      "steamid": "76561198007656153",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Mabinogi"
+      ]
+    },
+    {
+      "user": "DRAUDE41411",
+      "pass": "A00A00A00",
+      "steamid": "76561199037431870",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "3Cushion Master"
       ]
     }
   ]

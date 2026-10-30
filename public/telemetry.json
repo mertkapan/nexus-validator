@@ -1,11 +1,11 @@
 {
-  "checked": 694,
+  "checked": 846,
   "total": 1358142,
   "target_hits": 62,
-  "hits": 155,
-  "two_fa": 7,
-  "speed_cpm": 103,
-  "updated_at": "2026-10-30T21:55:50.098563+00:00",
+  "hits": 178,
+  "two_fa": 8,
+  "speed_cpm": 115,
+  "updated_at": "2026-10-30T21:56:29.088143+00:00",
   "accounts": [
     {
       "user": "Express6611",
@@ -1342,6 +1342,94 @@
       "user": "3je6exmse926hazgd3b",
       "pass": "DZESJ0DUM46L335",
       "steamid": "76561199142460827",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
+      ]
+    },
+    {
+      "user": "roy50vigiani",
+      "pass": "U8C74NCWNPP793",
+      "steamid": "76561199033892266",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "bpwf68vpm83jahin9r",
+      "pass": "6VUAHJ67VMSG125",
+      "steamid": "76561199090069494",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Kabel18121994",
+      "pass": "Kabel112$",
+      "steamid": "76561199111460512",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "ahmetefe226",
+      "pass": "13579Kskli",
+      "steamid": "76561198978075807",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "7qf8bq3ml6ae8a2x",
+      "pass": "7AWCJZH7U8PM328",
+      "steamid": "76561199155855727",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "cactusbot3",
+      "pass": "bjc^P*N%SHCV<^t",
+      "steamid": "76561198311202511",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensive"
+      ]
+    },
+    {
+      "user": "bavbvz928p816u0q71cuh2p",
+      "pass": "T956WN7AE96E218",
+      "steamid": "76561199141610939",
       "vac": "CLEAN",
       "country": "🌐 Global",
       "wallet": "",

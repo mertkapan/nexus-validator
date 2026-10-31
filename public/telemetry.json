@@ -1,11 +1,11 @@
 {
-  "checked": 1810,
+  "checked": 2063,
   "total": 1358142,
-  "target_hits": 155,
-  "hits": 453,
+  "target_hits": 157,
+  "hits": 460,
   "two_fa": 47,
-  "speed_cpm": 160,
-  "updated_at": "2026-10-31T03:38:37.467852+00:00",
+  "speed_cpm": 156,
+  "updated_at": "2026-10-31T03:39:54.735636+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3261,6 +3261,39 @@
       "wallet": "",
       "games": [
         "Dying Ligh"
+      ]
+    },
+    {
+      "user": "sharkman1168",
+      "pass": "achatz1168",
+      "steamid": "76561198144129202",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Little Nightmare"
+      ]
+    },
+    {
+      "user": "magoursante_",
+      "pass": "Jeremias414#",
+      "steamid": "76561199487314850",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Robsondanilo",
+      "pass": "35878209",
+      "steamid": "76561198802560841",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Faeri"
       ]
     }
   ]

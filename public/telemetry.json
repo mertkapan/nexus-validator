@@ -1,11 +1,11 @@
 {
-  "checked": 547,
+  "checked": 752,
   "total": 1358142,
-  "target_hits": 65,
-  "hits": 159,
-  "two_fa": 6,
-  "speed_cpm": 87,
-  "updated_at": "2026-10-31T11:33:47.423229+00:00",
+  "target_hits": 71,
+  "hits": 169,
+  "two_fa": 7,
+  "speed_cpm": 76,
+  "updated_at": "2026-10-31T11:35:12.714389+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -1292,6 +1292,83 @@
       "wallet": "",
       "games": [
         "eFootball PES 2021 SEASON UPDATE"
+      ]
+    },
+    {
+      "user": "flly850",
+      "pass": "MfUZyOI9ADTE",
+      "steamid": "76561198308156023",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "wangtaguaan005",
+      "pass": "@Admin16",
+      "steamid": "76561199290721209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "myasd16370",
+      "pass": "oMC3ejdijveBZ9",
+      "steamid": "76561199731951728",
+      "vac": "CLEAN",
+      "country": "🌐 Antarctica",
+      "wallet": "",
+      "games": [
+        "Battlefield™"
+      ]
+    },
+    {
+      "user": "3pob8lzb",
+      "pass": "lc9dyqw6pDQUT",
+      "steamid": "76561199530273853",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "legendrygh",
+      "pass": "Amirmasoudgh33computer33",
+      "steamid": "76561199079985639",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Dota Underlord"
+      ]
+    },
+    {
+      "user": "ojasytpro1",
+      "pass": "Oojasytpro01",
+      "steamid": "76561199856592629",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "woshigaoshou97",
+      "pass": "VbHthTyrDv",
+      "steamid": "76561199033467464",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "A Dance of Fire and Ice"
       ]
     }
   ]

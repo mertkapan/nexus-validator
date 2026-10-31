@@ -1,11 +1,11 @@
 {
-  "checked": 3220,
+  "checked": 3560,
   "total": 1358142,
-  "target_hits": 158,
-  "hits": 467,
+  "target_hits": 159,
+  "hits": 468,
   "two_fa": 47,
-  "speed_cpm": 208,
-  "updated_at": "2026-10-31T03:41:42.054416+00:00",
+  "speed_cpm": 218,
+  "updated_at": "2026-10-31T03:42:28.035495+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3316,6 +3316,17 @@
       "wallet": "",
       "games": [
         "10 Second Ninja"
+      ]
+    },
+    {
+      "user": "joziasdumer10",
+      "pass": "@dumer2013",
+      "steamid": "76561199013275137",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
       ]
     }
   ]

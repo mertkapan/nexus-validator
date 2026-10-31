@@ -1,11 +1,11 @@
 {
-  "checked": 93,
+  "checked": 148,
   "total": 1358142,
-  "target_hits": 14,
-  "hits": 33,
-  "two_fa": 2,
-  "speed_cpm": 15,
-  "updated_at": "2026-10-31T11:31:23.747729+00:00",
+  "target_hits": 35,
+  "hits": 69,
+  "two_fa": 4,
+  "speed_cpm": 23,
+  "updated_at": "2026-10-31T11:32:24.019359+00:00",
   "accounts": [
     {
       "user": "Express5262",
@@ -258,6 +258,336 @@
       "wallet": "",
       "games": [
         "Dune: Awakenin"
+      ]
+    },
+    {
+      "user": "liruiok",
+      "pass": "fFpesuibOB",
+      "steamid": "76561198158830805",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Rust"
+      ]
+    },
+    {
+      "user": "dustenscholnick",
+      "pass": "Thepower0",
+      "steamid": "76561199019354705",
+      "vac": "BANNED",
+      "country": "🇵🇱 PL",
+      "wallet": "",
+      "games": [
+        "10 Second Ninja"
+      ]
+    },
+    {
+      "user": "2540000",
+      "pass": "254000w0",
+      "steamid": "76561198357663319",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "POSTAL"
+      ]
+    },
+    {
+      "user": "zcqj56077",
+      "pass": "fb4js1x4p",
+      "steamid": "76561199350564560",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Asphalt Legend"
+      ]
+    },
+    {
+      "user": "kudon93",
+      "pass": "DIEP1996",
+      "steamid": "76561198332563351",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "90 Minute Feve"
+      ]
+    },
+    {
+      "user": "egoros3p41",
+      "pass": "siski33BFa9lCBU7O67483",
+      "steamid": "76561198415609495",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Fallout: A Post Nuclear Role Playing Gam"
+      ]
+    },
+    {
+      "user": "yyq14900",
+      "pass": "Oyaremi.123",
+      "steamid": "76561199296090503",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "mailinhne1206",
+      "pass": "Tranmailin6",
+      "steamid": "76561199775860865",
+      "vac": "CLEAN",
+      "country": "🇨🇦 CA",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "Zc9Ge1Fe7In6",
+      "pass": "Um8Dz1Ac0Qb7",
+      "steamid": "76561199321232302",
+      "vac": "CLEAN",
+      "country": "🌐 Guyana",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "rjsth72035",
+      "pass": "shsw89379N",
+      "steamid": "76561199505571535",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "ARK: Survival Evolve"
+      ]
+    },
+    {
+      "user": "kauazinhu1",
+      "pass": "33462656Kk",
+      "steamid": "76561198797748454",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "Hj0Tj5Wu6Qz4",
+      "pass": "@@092140462@@Ss",
+      "steamid": "76561199321075336",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Battlefield™ 6"
+      ]
+    },
+    {
+      "user": "wbtq1089036",
+      "pass": "steamok3211",
+      "steamid": "76561199388390068",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Banana Shoote"
+      ]
+    },
+    {
+      "user": "asfbbgcmdhek",
+      "pass": "lza20081115",
+      "steamid": "76561199426708785",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike:Global Offensiv"
+      ]
+    },
+    {
+      "user": "joziasdumer10",
+      "pass": "@dumer2013",
+      "steamid": "76561199013275137",
+      "vac": "CLEAN",
+      "country": "🇨🇳 CN",
+      "wallet": "",
+      "games": [
+        "1v1.LO"
+      ]
+    },
+    {
+      "user": "39aanngx",
+      "pass": "DD3272034",
+      "steamid": "76561199317620921",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Atm"
+      ]
+    },
+    {
+      "user": "nomahgawd",
+      "pass": "hbj81228",
+      "steamid": "76561199088215357",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Kill It With Fire: HEATWAVE"
+      ]
+    },
+    {
+      "user": "itnrk87833",
+      "pass": "9DafaT2acWJxYuV",
+      "steamid": "76561199839515059",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Garry's Mod"
+      ]
+    },
+    {
+      "user": "ridsx64949",
+      "pass": "9AKvoJM6iySy",
+      "steamid": "76561199519259038",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "rucel2",
+      "pass": "Adamprice11",
+      "steamid": "76561197965895458",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strik"
+      ]
+    },
+    {
+      "user": "kghv57338",
+      "pass": "Yu2Yg9Rk5Vc46t",
+      "steamid": "76561199376398212",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Stardew Valle"
+      ]
+    },
+    {
+      "user": "ewwtu15078",
+      "pass": "yxls67816Y",
+      "steamid": "76561199676800916",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "vbmco84157",
+      "pass": "fqjem05283",
+      "steamid": "76561199796171575",
+      "vac": "CLEAN",
+      "country": "🇧🇷 BR",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "keilirmine1is",
+      "pass": "vwZUnw3mwf",
+      "steamid": "76561198878967522",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Minecraft: Story Mode - A Telltale Games Series"
+      ]
+    },
+    {
+      "user": "hqy20030213",
+      "pass": "cVIqcbiHaN",
+      "steamid": "76561198974747557",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Trail Breaking"
+      ]
+    },
+    {
+      "user": "hoangnova17",
+      "pass": "H0angN0va83",
+      "steamid": "76561199087071058",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Counter-Strike Nexon"
+      ]
+    },
+    {
+      "user": "saow80741",
+      "pass": "evejj0406",
+      "steamid": "76561199373565654",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Call of Duty"
+      ]
+    },
+    {
+      "user": "sropb25810",
+      "pass": "2BMDYCBB8929",
+      "steamid": "76561199643791000",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "One-armed robbe"
+      ]
+    },
+    {
+      "user": "beepbeepimajeep111",
+      "pass": "passwordforplebs",
+      "steamid": "76561198365473226",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Infestation: The New"
+      ]
+    },
+    {
+      "user": "ozgpedqoxvodmgtpf5ng",
+      "pass": "BHKEUX8NFDS6331",
+      "steamid": "76561199109795268",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "The First Descendant"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 3624,
+  "checked": 3831,
   "total": 1358142,
-  "target_hits": 159,
-  "hits": 469,
+  "target_hits": 160,
+  "hits": 470,
   "two_fa": 47,
-  "speed_cpm": 216,
-  "updated_at": "2026-10-31T03:42:48.936880+00:00",
+  "speed_cpm": 223,
+  "updated_at": "2026-10-31T03:43:16.894511+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3338,6 +3338,17 @@
       "wallet": "",
       "games": [
         "Business Tour - Online Multiplayer Board Gam"
+      ]
+    },
+    {
+      "user": "ridsx64949",
+      "pass": "9AKvoJM6iySy",
+      "steamid": "76561199519259038",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
       ]
     }
   ]

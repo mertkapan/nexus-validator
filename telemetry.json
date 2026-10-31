@@ -1,11 +1,11 @@
 {
-  "checked": 3560,
+  "checked": 3624,
   "total": 1358142,
   "target_hits": 159,
-  "hits": 468,
+  "hits": 469,
   "two_fa": 47,
-  "speed_cpm": 218,
-  "updated_at": "2026-10-31T03:42:28.035495+00:00",
+  "speed_cpm": 216,
+  "updated_at": "2026-10-31T03:42:48.936880+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3327,6 +3327,17 @@
       "wallet": "",
       "games": [
         "1v1.LO"
+      ]
+    },
+    {
+      "user": "jakubikhacker3",
+      "pass": "cechy127",
+      "steamid": "76561199224434081",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Business Tour - Online Multiplayer Board Gam"
       ]
     }
   ]

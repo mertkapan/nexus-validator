@@ -1,11 +1,11 @@
 {
-  "checked": 434,
+  "checked": 795,
   "total": 1358142,
-  "target_hits": 66,
-  "hits": 154,
+  "target_hits": 67,
+  "hits": 161,
   "two_fa": 8,
-  "speed_cpm": 72,
-  "updated_at": "2026-10-31T03:33:33.184897+00:00",
+  "speed_cpm": 125,
+  "updated_at": "2026-10-31T03:34:02.107031+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -1325,6 +1325,50 @@
       "wallet": "",
       "games": [
         "Barr"
+      ]
+    },
+    {
+      "user": "dreemxxz",
+      "pass": "Sacredguard1",
+      "steamid": "76561198312763333",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Robocraft"
+      ]
+    },
+    {
+      "user": "bwkfih0cvhy91zmzb",
+      "pass": "LUG9QWWTP95G720",
+      "steamid": "76561199149478636",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "wangtaguaan005",
+      "pass": "@Admin16",
+      "steamid": "76561199290721209",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Raft"
+      ]
+    },
+    {
+      "user": "kerimmerci",
+      "pass": "kmKMkm2765",
+      "steamid": "76561198197973669",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
       ]
     }
   ]

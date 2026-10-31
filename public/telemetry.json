@@ -1,11 +1,11 @@
 {
-  "checked": 2731,
+  "checked": 3220,
   "total": 1358142,
-  "target_hits": 157,
-  "hits": 466,
+  "target_hits": 158,
+  "hits": 467,
   "two_fa": 47,
-  "speed_cpm": 176,
-  "updated_at": "2026-10-31T03:41:20.908116+00:00",
+  "speed_cpm": 208,
+  "updated_at": "2026-10-31T03:41:42.054416+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3305,6 +3305,17 @@
       "wallet": "",
       "games": [
         "City Car Drivin"
+      ]
+    },
+    {
+      "user": "dustenscholnick",
+      "pass": "Thepower0",
+      "steamid": "76561199019354705",
+      "vac": "BANNED",
+      "country": "🇵🇱 PL",
+      "wallet": "",
+      "games": [
+        "10 Second Ninja"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "checked": 1231,
+  "checked": 1305,
   "total": 1358142,
-  "target_hits": 147,
-  "hits": 385,
-  "two_fa": 29,
-  "speed_cpm": 140,
-  "updated_at": "2026-10-31T03:36:13.342455+00:00",
+  "target_hits": 149,
+  "hits": 396,
+  "two_fa": 32,
+  "speed_cpm": 137,
+  "updated_at": "2026-10-31T03:36:45.959400+00:00",
   "accounts": [
     {
       "user": "keilirmine1is",
@@ -3074,6 +3074,50 @@
       "wallet": "",
       "games": [
         "Metin2 Steam Pac"
+      ]
+    },
+    {
+      "user": "animaexoticossv",
+      "pass": "Sodjamigp",
+      "steamid": "76561198895555460",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Metin2 Steam Pack"
+      ]
+    },
+    {
+      "user": "tijolinho009",
+      "pass": "Nicollas1900",
+      "steamid": "76561198988798819",
+      "vac": "BANNED",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Phantasy Star Online 2 New Genesis"
+      ]
+    },
+    {
+      "user": "RODJA_LOLL",
+      "pass": "Rodion10012011",
+      "steamid": "76561199209915434",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
+      ]
+    },
+    {
+      "user": "simeonmac231",
+      "pass": "September219",
+      "steamid": "76561199382662214",
+      "vac": "CLEAN",
+      "country": "🌐 Global",
+      "wallet": "",
+      "games": [
+        "Tom Clancy's Rainbow Six Siege"
       ]
     }
   ]
